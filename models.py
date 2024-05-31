@@ -149,8 +149,10 @@ class Kit(_Kit):
     @field_validator("pmid")
     def validate_pmid_exists(cls, v: str):
         id_only = v.split(":")[1]
-        resp = requests.get(f"https://pubmed.ncbi.nlm.nih.gov/{id_only}")
-        if resp.status_code != 200:
+        resp = requests.get(
+            f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id={id_only}"
+        )
+        if len(resp.json()["result"]["uids"]) == 0:
             raise ValueError(f"PMID {v} does not exist")
 
 
@@ -167,6 +169,7 @@ class Submission(_Submission):
     categories: list[Category]
     assemblies: list[Assembly]
     submitters: list[Submitter]
+    kit: Kit
 
     def to_template_list(self):
         return [
