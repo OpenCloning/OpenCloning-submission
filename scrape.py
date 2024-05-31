@@ -25,7 +25,7 @@ async def scrape_addgene_kit(url: str) -> str:
 
         # Error if the option "All" is not found
         if not await my_page.query_selector(
-            "label:has-text('Show ') >> select >> option[value='All']"
+            "label:has-text('Show ') >> select >> option[value='-1']"
         ):
             raise Exception(
                 "Problem scraping AddGene website: option 'All' not found in the table of plasmids"

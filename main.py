@@ -1,8 +1,12 @@
 from typing import Optional
-from fastapi import FastAPI, Form, HTTPException
+from fastapi import FastAPI, Form, HTTPException, UploadFile, File
 from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from scrape import scrape_addgene_kit
+import zipfile
+import tempfile
+from io import BytesIO
+import os
 
 app = FastAPI()
 
@@ -19,6 +23,37 @@ async def root_form(blah: str = Form(...)):
     # Get form data
     print(blah)
     return FileResponse("bye.html")
+
+
+@app.post("/validate_addgene_zip")
+async def validate_addgene_zip(file: UploadFile = File(...)):
+    if not file.filename.endswith(".zip"):
+        raise HTTPException(status_code=400, detail="File must be a zip file")
+
+    with tempfile.TemporaryDirectory() as tmpdirname:
+        with zipfile.ZipFile(BytesIO(await file.read()), "r") as zip_ref:
+            zip_ref.extractall(tmpdirname)
+            files_in_zip = [
+                entry.name for entry in os.scandir(tmpdirname) if entry.is_file()
+            ]
+            # The files in the zip should be a single xlsx file and any number of images in
+            # jpeg, png or svg format (or no image)
+            if len(files_in_zip) == 0:
+                raise HTTPException(status_code=400, detail="No files in zip")
+            # Get all file extensions
+            file_extensions = [os.path.splitext(file)[-1] for file in files_in_zip]
+            # There should be only one xlsx
+            if file_extensions.count(".xlsx") != 1:
+                raise HTTPException(
+                    status_code=400, detail="There should be one xlsx file"
+                )
+            # There rest should be images
+            for ext in file_extensions:
+                if ext.lower() not in [".jpeg", ".png", ".svg", ".xlsx"]:
+                    raise HTTPException(
+                        status_code=400,
+                        detail="Only jpeg, png and svg images are allowed",
+                    )
 
 
 @app.get("/get_kit_info")

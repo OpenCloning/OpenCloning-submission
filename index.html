@@ -8,49 +8,114 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
+    <!-- Import style from static/common.css -->
     <link rel="stylesheet" href="/static/common.css">
-    <title>Make collection</title>
+    <title>Submit AddGene cloning kit</title>
 </head>
 
 <body>
     <div class="container mx-auto col-6">
-        <h1>Submit AddGene kit templates</h1>
-        <p>This form allows you </p>
+        <h1>Submit AddGene cloning kit</h1>
+        <p>This form allows you to submit a single zip file to generate a set of ShareYourCloning templates
+            related to a cloning kit in AddGene.</p>
         <h2>How to use this form</h2>
-        <p>
-        <ul>
-            <li>Go to the kit page in AddGene, e.g. <a
-                    href="https://www.addgene.org/kits/moclo-ytk">https://www.addgene.org/kits/moclo-ytk</a> for the
-                MoClo kit</li>
-            <li>Go to the tab "Contents of Kit"</li>
-            <li>In the "Inventory" section, display all items of the list by clicking on the dropdown that initially
-                says "Show 10 entries"
-                and select "All"
+        <ol>
+            <li>Prepare the zip file following
+                <a target="_blank" rel="noopener noreferrer"
+                    href="https://github.com/genestorian/ShareYourCloning-submission/howto_addgene_zip.md">
+                    these instructions.
+                </a>
             </li>
-            <li>In the browser, right-click an empty part of the page, and click on "Save as..." (in Chrome) or "Save
-                page as..." (in Firefox)</li>
-            <li>Select format: "Webpage, HTML Only"</li>
-            <li>Save the file to your computer</li>
-        </ul>
-        </p>
-        <form class="form-group" id="main-form" method="post">
-            <div class="row align-items-center mb-3">
-                <div class="col-auto">
-                    <label for="blah">Html document</label>
-                    <input type="input" class="form-control" id="blah" name="blah">
-                </div>
+            </li>
+            <li>Submit the zip file (if errors are found, you will be notified)</li>
+            <li>If there are no errors, a pull request will be created in GitHub (a pull request is a request to
+                add files to an existing repository in GitHub). You will see the link for the PR after submission.</li>
+            <li>When the pull request is approved, your templates will be available in ShareYourCloning</li>
+            <li>If as part of the submission you have included your GitHub username, you will be assigned to the pull
+                request so that your contribution is acknowledged in the repository.</li>
+        </ol>
+        <form class="form-group row g-3 align-items-center justify-content-center mt-2" id="main-form">
+            <div class="col-auto">
+                <input type="file" class="form-control" name="submitted-file" id="submitted-file" placeholder="aah">
             </div>
-            <button id='submit-button' type="submit" class="btn btn-primary m-2">Submit</button>
+            <div class="col-auto">
+                <input id='submit-button' type="submit" class="btn btn-primary m-2" accept=".zip" />
+            </div>
         </form>
-        <div id="download-button"></div>
-        <div id="table-result">
+        <!-- Loading from server div, initially hidden -->
+        <div id="loading" class="" hidden>
+            </span class="spinner-border" role="status">
+            <span>Loading...</span>
+        </div>
+        <div class="download-button">
+        </div>
+        <div class="alert alert-danger" role="alert" hidden>
+        </div>
+        <div id="success-message">
         </div>
     </div>
     </div>
 </body>
 
 <footer>
+    <script>
+        async function submitFunction(e) {
+            e.preventDefault();
+            console.log('submitting')
+            const loading = document.getElementById('loading')
+            const errorAlert = document.querySelector('.alert-danger')
+            document.getElementById('success-message').innerHTML = ''
+            try {
+                errorAlert.hidden = true
+                await validateZipFile()
+                loading.hidden = false
+            } catch (e) {
+                errorAlert.hidden = false
+                errorAlert.innerText = e
+            }
+            finally {
+                loading.hidden = true
+            }
+        }
+        function constrainInputToZip() {
+            document.getElementById('submitted-file').addEventListener('change', function (e) {
+                const file = this.files[0];
+                const fileType = file.name.split('.').pop().toLowerCase();
+                if (fileType !== 'zip') {
+                    alert('Please select a .zip file');
+                    this.value = '';
+                }
+            });
+        }
 
+        async function validateZipFile() {
+            const file = document.getElementById('submitted-file').files[0];
+            const formData = new FormData();
+            formData.append('file', file);
+            let response;
+            try {
+                console.log('bbb')
+                response = await fetch('/validate_addgene_zip', {
+                    method: 'POST',
+                    body: formData
+                });
+            } catch (e) {
+                throw new Error(e)
+            }
+            if (!response.ok) {
+                const data = await response.json();
+                throw new Error(data.detail);
+            }
+            return data;
+        }
+
+        window.onload = () => {
+            constrainInputToZip()
+            document
+                .getElementById("main-form")
+                .addEventListener("submit", submitFunction);
+        };
+    </script>
 </footer>
 
 </html>
