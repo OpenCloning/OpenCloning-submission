@@ -37,4 +37,4 @@ def read_submission(file) -> Submission:
 
 
 if __name__ == "__main__":
-    submission = read_submission("test_join.xlsx")
+    submission = read_submission("example_submission.xlsx")

@@ -6,11 +6,15 @@ import re
 import sys
 from typing import Any, List, Literal, Dict, Optional, Union
 from pydantic.version import VERSION as PYDANTIC_VERSION
+from pydantic import conlist
+from pydantic import conlist
 
 if int(PYDANTIC_VERSION[0]) >= 2:
     from pydantic import BaseModel, ConfigDict, Field, field_validator
 else:
     from pydantic import BaseModel, Field, validator
+
+from pydantic import conlist
 
 metamodel_version = "None"
 version = "None"
@@ -86,7 +90,7 @@ class Kit(ConfiguredBaseModel):
 
 class Sequence(ConfiguredBaseModel):
     plasmid_name: Optional[str] = Field(None)
-    addgene_id: int = Field(..., description="""The Addgene ID for the plasmid""")
+    addgene_id: str = Field(..., description="""The Addgene ID for the plasmid""")
     category: str = Field(...)
     resistance: Optional[str] = Field(None)
     well: Optional[str] = Field(
@@ -155,11 +159,11 @@ class Assembly(ConfiguredBaseModel):
 
 
 class Submission(ConfiguredBaseModel):
-    submitters: Optional[List[Submitter]] = Field(default_factory=list)
-    kit: Optional[Kit] = Field(None)
-    sequences: Optional[List[Sequence]] = Field(default_factory=list)
-    categories: Optional[List[Category]] = Field(default_factory=list)
-    assemblies: Optional[List[Assembly]] = Field(default_factory=list)
+    submitters: conlist(min_length=1, item_type=Submitter) = Field(default_factory=list)
+    kit: Kit = Field(...)
+    sequences: conlist(min_length=1, item_type=Sequence) = Field(default_factory=list)
+    categories: conlist(min_length=1, item_type=Category) = Field(default_factory=list)
+    assemblies: conlist(min_length=1, item_type=Assembly) = Field(default_factory=list)
 
 
 # Model rebuild

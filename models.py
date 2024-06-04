@@ -6,7 +6,7 @@ from _models import (
     Submitter as _Submitter,
     Kit as _Kit,
 )
-from pydantic import ConfigDict, field_validator, model_validator
+from pydantic import ConfigDict, field_validator, model_validator, conlist, Field
 import requests
 
 # TODO: validation of categories in sequences and assemblies
@@ -165,11 +165,11 @@ class Kit(_Kit):
 class Submission(_Submission):
     """Allow extra fields and custom model dump"""
 
-    sequences: list[Sequence]
-    categories: list[Category]
-    assemblies: list[Assembly]
-    submitters: list[Submitter]
-    kit: Kit
+    submitters: conlist(min_length=1, item_type=Submitter) = Field(default_factory=list)
+    kit: Kit = Field(...)
+    sequences: conlist(min_length=1, item_type=Sequence) = Field(default_factory=list)
+    categories: conlist(min_length=1, item_type=Category) = Field(default_factory=list)
+    assemblies: conlist(min_length=1, item_type=Assembly) = Field(default_factory=list)
 
     def to_template_list(self):
         return [
@@ -192,5 +192,5 @@ class Submission(_Submission):
         for s in self.sequences:
             if s.category not in category_ids:
                 raise ValueError(
-                    f"Error in plasmid {s.plasmid_name} / {s.addgene_id}, {s.category} not in categories"
+                    f'Error in plasmid {s.plasmid_name} / {s.addgene_id}, "{s.category}" not in categories'
                 )
