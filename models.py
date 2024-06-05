@@ -88,6 +88,9 @@ class Category(_Category):
 
 
 class Assembly(_Assembly):
+
+    template_file: str = Field("", description="Path to the assembly file")
+
     def to_template(self, categories: list[Category], sequences: list[Sequence]):
         sources = list()
         dummy_sequences = list()
@@ -220,12 +223,12 @@ class Submission(_Submission):
 
     def validate_images(self, image_list):
         for c in self.categories:
-            if c.image not in image_list:
+            if c.image and c.image not in image_list:
                 raise ValueError(
-                    f"Error in category {c.title}, image {c.image} not included in submission"
+                    f'Error in category "{c.title}", image {c.image} not included in submission'
                 )
         for ima in image_list:
-            if not ima in [c.image for c in self.categories]:
+            if ima not in [c.image for c in self.categories]:
                 raise ValueError(f"Error in image {ima}, not included in any category")
 
 

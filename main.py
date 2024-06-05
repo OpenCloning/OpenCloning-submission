@@ -7,7 +7,7 @@ import zipfile
 import tempfile
 from io import BytesIO
 import os
-from submission_reader import read_submission
+from submission_reader import load_submission_folder
 from models import SuccessResponse
 from submit_to_github import submit_to_github
 
@@ -36,42 +36,18 @@ async def validate_addgene_zip(file: UploadFile = File(...)):
     with tempfile.TemporaryDirectory() as tmpdirname:
         with zipfile.ZipFile(BytesIO(await file.read()), "r") as zip_ref:
             zip_ref.extractall(tmpdirname)
-            files_in_zip = [
-                entry.name for entry in os.scandir(tmpdirname) if entry.is_file()
-            ]
-            # The files in the zip should be a single xlsx file and any number of images in
-            # jpeg, png or svg format (or no image)
-            if len(files_in_zip) == 0:
-                raise HTTPException(status_code=400, detail="No files in zip")
-            # Get all file extensions
-            file_extensions = [os.path.splitext(file)[-1] for file in files_in_zip]
-            # There should be only one xlsx
-            if file_extensions.count(".xlsx") != 1:
-                raise HTTPException(
-                    status_code=400, detail="There should be one xlsx file"
-                )
-            # There rest should be images
-            for ext in file_extensions:
-                if ext.lower() not in [".jpeg", ".png", ".svg", ".xlsx"]:
-                    raise HTTPException(
-                        status_code=400,
-                        detail="Only jpeg, png and svg images are allowed",
-                    )
-            # Get the name of the xlsx file
-            xlsx_file = next(f for f in files_in_zip if f.endswith(".xlsx"))
-            xlsx_file = os.path.join(tmpdirname, xlsx_file)
             try:
-                submission = read_submission(xlsx_file)
-            except ValueError as e:
+                submission = load_submission_folder(tmpdirname)
+            except Exception as e:
                 raise HTTPException(status_code=400, detail=str(e))
 
-            # Create PR
-            # try:
-            pr_url = submit_to_github(submission, tmpdirname)
-            # except Exception as e:
-            #     raise HTTPException(
-            #         status_code=500, detail="Failed to submit to GitHub"
-            #     )
+            try:
+                pr_url = submit_to_github(submission, tmpdirname)
+            except Exception:
+                raise HTTPException(
+                    status_code=500, detail="Failed to submit to GitHub"
+                )
+
             return SuccessResponse(pull_request_url=pr_url)
 
 

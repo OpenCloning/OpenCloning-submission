@@ -1,5 +1,6 @@
 from pandas import read_excel, NA
 from models import Submission
+import os
 
 
 def sheet_reader(file, sheet_name):
@@ -36,5 +37,37 @@ def read_submission(file) -> Submission:
     )
 
 
-if __name__ == "__main__":
-    submission = read_submission("example_submission.xlsx")
+def load_submission_folder(submission_folder):
+
+    if not os.path.exists(submission_folder):
+        raise Exception("Submission folder does not exist")
+    if not os.path.exists(os.path.join(submission_folder, "submission.xlsx")):
+        print(os.listdir(submission_folder))
+        print(os.path.join(submission_folder, "submission.xlsx"))
+        raise Exception("Submission folder does not contain submission.xlsx")
+
+    files_in_folder = [
+        entry.name for entry in os.scandir(submission_folder) if entry.is_file()
+    ]
+    file_extensions = [os.path.splitext(file)[-1] for file in files_in_folder]
+
+    if file_extensions.count(".xlsx") != 1:
+        raise Exception("There should be one xlsx file")
+
+    image_files = list()
+    for ext, image_file in zip(file_extensions, files_in_folder):
+        if image_file == ".DS_Store":
+            continue
+        if ext.lower() not in [".jpeg", ".png", ".svg", ".xlsx"]:
+            raise Exception(
+                f"Error with {image_file}, only jpeg, png and svg images are allowed"
+            )
+        if ext.lower() in [".jpeg", ".png", ".svg"]:
+            image_files.append(image_file)
+    try:
+        submission = read_submission(os.path.join(submission_folder, "submission.xlsx"))
+    except Exception as e:
+        raise e
+
+    submission.validate_images(image_files)
+    return submission
