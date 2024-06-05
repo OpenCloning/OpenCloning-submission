@@ -6,8 +6,17 @@ from _models import (
     Submitter as _Submitter,
     Kit as _Kit,
 )
-from pydantic import ConfigDict, field_validator, model_validator, conlist, Field
+from pydantic import (
+    ConfigDict,
+    field_validator,
+    model_validator,
+    conlist,
+    Field,
+    BaseModel,
+)
 import requests
+import annotated_types
+from typing import Annotated
 
 # TODO: validation of categories in sequences and assemblies
 # TODO: validate images
@@ -22,6 +31,7 @@ class Submitter(_Submitter):
             resp = requests.get(f"https://pub.orcid.org/v3.0/{v}")
             if resp.status_code != 200:
                 raise ValueError(f"ORCID {v} does not exist")
+        return v
 
     @field_validator("github_username")
     def validate_github_username_exists(cls, v):
@@ -29,6 +39,7 @@ class Submitter(_Submitter):
             resp = requests.get(f"https://api.github.com/users/{v}")
             if resp.status_code != 200:
                 raise ValueError(f"Github username {v} does not exist")
+        return v
 
 
 class Sequence(_Sequence):
@@ -145,6 +156,7 @@ class Kit(_Kit):
         resp = requests.get(v)
         if resp.status_code != 200:
             raise ValueError(f"Addgene URL {v} does not exist")
+        return v
 
     @field_validator("pmid")
     def validate_pmid_exists(cls, v: str):
@@ -154,6 +166,7 @@ class Kit(_Kit):
         )
         if len(resp.json()["result"]["uids"]) == 0:
             raise ValueError(f"PMID {v} does not exist")
+        return v
 
 
 # def ref_check(targets, ids, ref, ref_name):
@@ -165,11 +178,19 @@ class Kit(_Kit):
 class Submission(_Submission):
     """Allow extra fields and custom model dump"""
 
-    submitters: conlist(min_length=1, item_type=Submitter) = Field(default_factory=list)
+    submitters: Annotated[list[Submitter], annotated_types.Len(min_length=1)] = Field(
+        default_factory=list
+    )
     kit: Kit = Field(...)
-    sequences: conlist(min_length=1, item_type=Sequence) = Field(default_factory=list)
-    categories: conlist(min_length=1, item_type=Category) = Field(default_factory=list)
-    assemblies: conlist(min_length=1, item_type=Assembly) = Field(default_factory=list)
+    sequences: Annotated[list[Sequence], annotated_types.Len(min_length=1)] = Field(
+        default_factory=list
+    )
+    categories: Annotated[list[Category], annotated_types.Len(min_length=1)] = Field(
+        default_factory=list
+    )
+    assemblies: Annotated[list[Assembly], annotated_types.Len(min_length=1)] = Field(
+        default_factory=list
+    )
 
     def to_template_list(self):
         return [
@@ -194,3 +215,19 @@ class Submission(_Submission):
                 raise ValueError(
                     f'Error in plasmid {s.plasmid_name} / {s.addgene_id}, "{s.category}" not in categories'
                 )
+
+        return self
+
+    def validate_images(self, image_list):
+        for c in self.categories:
+            if c.image not in image_list:
+                raise ValueError(
+                    f"Error in category {c.title}, image {c.image} not included in submission"
+                )
+        for ima in image_list:
+            if not ima in [c.image for c in self.categories]:
+                raise ValueError(f"Error in image {ima}, not included in any category")
+
+
+class SuccessResponse(BaseModel):
+    pull_request_url: str

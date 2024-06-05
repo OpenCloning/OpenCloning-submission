@@ -7,6 +7,9 @@ import zipfile
 import tempfile
 from io import BytesIO
 import os
+from submission_reader import read_submission
+from models import SuccessResponse
+from submit_to_github import submit_to_github
 
 app = FastAPI()
 
@@ -54,6 +57,22 @@ async def validate_addgene_zip(file: UploadFile = File(...)):
                         status_code=400,
                         detail="Only jpeg, png and svg images are allowed",
                     )
+            # Get the name of the xlsx file
+            xlsx_file = next(f for f in files_in_zip if f.endswith(".xlsx"))
+            xlsx_file = os.path.join(tmpdirname, xlsx_file)
+            try:
+                submission = read_submission(xlsx_file)
+            except ValueError as e:
+                raise HTTPException(status_code=400, detail=str(e))
+
+            # Create PR
+            # try:
+            pr_url = submit_to_github(submission, tmpdirname)
+            # except Exception as e:
+            #     raise HTTPException(
+            #         status_code=500, detail="Failed to submit to GitHub"
+            #     )
+            return SuccessResponse(pull_request_url=pr_url)
 
 
 @app.get("/get_kit_info")

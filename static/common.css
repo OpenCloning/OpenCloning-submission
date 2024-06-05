@@ -25,3 +25,7 @@ div.download-button {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+div.alert-success {
+    text-align: center;
+}

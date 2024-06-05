@@ -1,0 +1,18 @@
+## Submission of kit {{ kit.name }}
+
+This is an addgene kit that can be found in this [link]({{kit.addgene_url}}).
+
+### Submitters
+
+{%- for submitter in submitters %}
+- 🎉🎉 **{{submitter.full_name}}** 🎉🎉
+{%- if submitter.orcid %}
+    - ORCID: [{{submitter.orcid}}](https://orcid.org/{{submitter.orcid}})
+{%- endif %}
+{%- if submitter.github_username %}
+    - GitHub: @{{submitter.github_username}}
+{%- endif %}
+{%- endfor %}
+
+cc @manulera
+
