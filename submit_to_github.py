@@ -17,14 +17,17 @@ def submit_to_github(submission: Submission, submission_folder: str):
 
     kit_url = submission.kit.addgene_url
     kit_name = kit_url.replace("https://www.addgene.org/", "")
-    base_branch_name = f"submission-{kit_name.replace("/", "-")}"
+    base_branch_name = f"{kit_name.replace("/", "-")}"
+    # Remove trailing slash if it exists
+    if base_branch_name.endswith("-"):
+        base_branch_name = base_branch_name[:-1]
     new_branch_name = base_branch_name
 
     branches = repo.get_branches()
     existing_branches = [b.name for b in branches]
     i = 1
     while new_branch_name in existing_branches:
-        new_branch_name = f"{base_branch_name}{i}"
+        new_branch_name = f"{base_branch_name}-{i}"
         i += 1
 
     elements = []
@@ -44,7 +47,7 @@ def submit_to_github(submission: Submission, submission_folder: str):
                     output_file_name = entry.name
                 elements.append(
                     InputGitTreeElement(
-                        path=f"submissions/base_branch_name/{output_file_name}",
+                        path=f"submissions/{base_branch_name}/{output_file_name}",
                         mode="100644",
                         type="blob",
                         sha=blob.sha,

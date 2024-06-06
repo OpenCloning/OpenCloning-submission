@@ -11,28 +11,78 @@ jobs:
           fetch-depth: 0
       - id: changed_files
         uses: jitterbit/get-changed-files@v1
-      - name: List changed files
+      - name: Get the name of the folder that contains the changes
+        id: folder_name
+        # All the files should be added to a single folder that should be a subfolder of submissions
         run: |
-          for changed_file in ${{ steps.changed_files.outputs.all }}; do
-            echo "Do something with this ${changed_file}."
-          done
+          # Get the list of changed files
+          changed_files="${{ steps.changed_files.outputs.all }}"
+          echo "Changed files: $changed_files"
 
-    #   - name: Install Python
-    #     uses: actions/setup-python@v1
-    #     with:
-    #       python-version: 3.11
-    #   - name: Install poetry
-    #     run: |
-    #       python -m pip install --upgrade pip
-    #       pip install poetry
-    #   - name: Load cached venv
-    #     id: cached-poetry-dependencies
-    #     uses: actions/cache@v2
-    #     with:
-    #       path: .venv
-    #       key: venv-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
-    #   - name: Install dependencies
-    #     if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
-    #     run: poetry install --with test
-    #   - name: process submission
-    #     run: poetry run python process_submission.py
+          # Initialize a variable to hold the folder name
+          folder_name=""
+
+          # Iterate over the changed files
+          for file in $changed_files; do
+            # Get the directory of the file
+            dir=$(dirname "$file")
+            # Check if the directory is under submissions
+            if [[ "$dir" == submissions/* ]]; then
+              # If folder_name is empty, set it to the current directory
+              if [[ -z "$folder_name" ]]; then
+                folder_name="$dir"
+              else
+                # If folder_name is not the same as the current directory, set it to an empty string
+                # and exit without error
+                if [[ "$folder_name" != "$dir" ]]; then
+                  echo "::set-output name=folder_name::"
+                  exit 0
+                fi
+              fi
+            else
+              echo "::set-output name=folder_name::"
+              exit 0
+            fi
+          done
+          echo "::set-output name=folder_name::$folder_name"
+        shell: bash
+      #   If not a submission
+      - name: Add comment to PR if not a submission
+        if: ${{ steps.folder_name.outputs.folder_name == ''}}
+        uses: mshick/add-pr-comment@v2
+        with:
+          message: This PR does not seem to be submission, so it will not be processed.
+      - name: Add comment to PR if it is a submission
+        if: ${{ steps.folder_name.outputs.folder_name != ''}}
+        uses: mshick/add-pr-comment@v2
+        with:
+          message: This PR seems to be a kit submission, so it will be processed. Tagging @manulera for review.
+      - name: Install Python
+        if: ${{ steps.folder_name.outputs.folder_name != ''}}
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.11
+      - name: Install poetry
+        if: ${{ steps.folder_name.outputs.folder_name != ''}}
+        run: |
+          python -m pip install --upgrade pip
+          pip install poetry
+      - name: Load cached venv
+        if: ${{ steps.folder_name.outputs.folder_name != ''}}
+        id: cached-poetry-dependencies
+        uses: actions/cache@v2
+        with:
+          path: .venv
+          key: venv-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
+      - name: Install dependencies
+        if: (steps.cached-poetry-dependencies.outputs.cache-hit != 'true') && (steps.folder_name.outputs.folder_name != '')
+        run: poetry install --with test
+      - name: process submission
+        if: ${{ steps.folder_name.outputs.folder_name != ''}}
+        run: poetry run python process_submission.py ${{ steps.folder_name.outputs.folder_name}}
+      - name: Commit changes
+        if: ${{ steps.folder_name.outputs.folder_name != ''}}
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: processed submission
+          file_pattern: "*.json"
