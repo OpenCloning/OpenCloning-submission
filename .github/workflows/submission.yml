@@ -36,18 +36,15 @@ jobs:
                 # and exit without error
                 if [[ "$folder_name" != "$dir" ]]; then
                   echo "::set-output name=folder_name::"
-                  break
+                  exit 0
                 fi
               fi
             else
               echo "::set-output name=folder_name::"
-              break
+              exit 0
             fi
           done
-          # If the folder name is not empty, set the output to the folder name
-          if [[ -n "$folder_name" ]]; then
-            echo "::set-output name=folder_name::$folder_name"
-          fi
+          echo "::set-output name=folder_name::$folder_name"
         shell: bash
       #   If not a submission
       - name: Add comment to PR if not a submission
@@ -55,30 +52,32 @@ jobs:
         uses: mshick/add-pr-comment@v2
         with:
           message: This PR does not seem to be submission, so it will not be processed.
-      - name: Stop if not a submission
-        if: ${{ steps.folder_name.outputs.folder_name == ''}}
-        run: exit 0
 
       - name: Install Python
+        if: ${{ steps.folder_name.outputs.folder_name != ''}}
         uses: actions/setup-python@v1
         with:
           python-version: 3.11
       - name: Install poetry
+        if: ${{ steps.folder_name.outputs.folder_name != ''}}
         run: |
           python -m pip install --upgrade pip
           pip install poetry
       - name: Load cached venv
+        if: ${{ steps.folder_name.outputs.folder_name != ''}}
         id: cached-poetry-dependencies
         uses: actions/cache@v2
         with:
           path: .venv
           key: venv-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
       - name: Install dependencies
-        if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
+        if: (steps.cached-poetry-dependencies.outputs.cache-hit != 'true') && (steps.folder_name.outputs.folder_name != '')
         run: poetry install --with test
       - name: process submission
+        if: ${{ steps.folder_name.outputs.folder_name != ''}}
         run: poetry run python process_submission.py ${{ steps.folder_name.outputs.folder_name}}
       - name: Commit changes
+        if: ${{ steps.folder_name.outputs.folder_name != ''}}
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: processed submission
