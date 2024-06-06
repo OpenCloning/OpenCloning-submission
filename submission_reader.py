@@ -42,13 +42,19 @@ def load_submission_folder(submission_folder):
     if not os.path.exists(submission_folder):
         raise Exception("Submission folder does not exist")
     if not os.path.exists(os.path.join(submission_folder, "submission.xlsx")):
-        print(os.listdir(submission_folder))
-        print(os.path.join(submission_folder, "submission.xlsx"))
         raise Exception("Submission folder does not contain submission.xlsx")
 
     files_in_folder = [
         entry.name for entry in os.scandir(submission_folder) if entry.is_file()
     ]
+
+    # Exclude .DS_Store and temp ~$ files
+    files_in_folder = [
+        file
+        for file in files_in_folder
+        if (not file.startswith("~$") and file != ".DS_Store")
+    ]
+
     file_extensions = [os.path.splitext(file)[-1] for file in files_in_folder]
 
     if file_extensions.count(".xlsx") != 1:
@@ -56,8 +62,6 @@ def load_submission_folder(submission_folder):
 
     image_files = list()
     for ext, image_file in zip(file_extensions, files_in_folder):
-        if image_file == ".DS_Store":
-            continue
         if ext.lower() not in [".jpeg", ".png", ".svg", ".xlsx"]:
             raise Exception(
                 f"Error with {image_file}, only jpeg, png and svg images are allowed"

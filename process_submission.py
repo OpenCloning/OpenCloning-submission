@@ -14,8 +14,10 @@ if __name__ == "__main__":
 
     # Get the last part of the submission folder
     submission_name = os.path.basename(submission_folder)
-    output_folder = os.path.join("processed", submission_name)
 
+    output_folder = os.path.join("processed", submission_name)
+    if not os.path.exists("processed"):
+        os.mkdir("processed")
     if os.path.exists(output_folder):
         raise Exception("Output folder already exists")
     os.mkdir(output_folder)

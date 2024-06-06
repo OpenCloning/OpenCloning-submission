@@ -59,9 +59,11 @@ class Category(ConfiguredBaseModel):
 
 class Kit(ConfiguredBaseModel):
     pmid: str = Field(..., description="""The PubMed ID for the object""")
-    addgene_url: Optional[str] = Field(
-        None, description="""The Addgene URL for the kit"""
+    addgene_url: str = Field(..., description="""The Addgene URL for the kit""")
+    title: str = Field(
+        ..., description="""A title for the representation of the object"""
     )
+    description: str = Field(..., description="""A description of the object""")
 
     @field_validator("pmid")
     def pattern_pmid(cls, v):
@@ -156,6 +158,19 @@ class Assembly(ConfiguredBaseModel):
         None, description="""A description of the object"""
     )
     fragment_order: Optional[List[str]] = Field(default_factory=list)
+    template_file: Optional[str] = Field(None)
+
+    @field_validator("template_file")
+    def pattern_template_file(cls, v):
+        pattern = re.compile(r"^.*.json$")
+        if isinstance(v, list):
+            for element in v:
+                if not pattern.match(element):
+                    raise ValueError(f"Invalid template_file format: {element}")
+        elif isinstance(v, str):
+            if not pattern.match(v):
+                raise ValueError(f"Invalid template_file format: {v}")
+        return v
 
 
 class Submission(ConfiguredBaseModel):

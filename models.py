@@ -89,8 +89,6 @@ class Category(_Category):
 
 class Assembly(_Assembly):
 
-    template_file: str = Field("", description="Path to the assembly file")
-
     def to_template(self, categories: list[Category], sequences: list[Sequence]):
         sources = list()
         dummy_sequences = list()
