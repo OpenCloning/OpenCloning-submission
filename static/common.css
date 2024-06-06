@@ -1,0 +1,31 @@
+#loading span {
+    margin-left: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+div#loading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.download-button {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.alert-success {
+    text-align: center;
+}

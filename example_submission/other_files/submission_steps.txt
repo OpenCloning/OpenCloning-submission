@@ -1,0 +1,19 @@
+For me:
+- Re-order fields
+
+compulsory: plasmid_name, addgene_id, category
+optional: well, resistance, type, description
+
+(rename type to category)
+
+- Download addgene page as html -> only html
+- Get data from Addgene using web app
+- Get extra fields from paper 
+	- https://www.adobe.com/uk/acrobat/online/pdf-to-excel.html
+	- incognito mode
+- Join table? =VLOOKUP(B2,extra_info!A:B,2,FALSE)
+- Put them in excel and do join if necessary
+- 
+
+
+- delete entry vector and cassette only after unique columns are seen
