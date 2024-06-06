@@ -118,8 +118,12 @@ class TestSubmissionReader(TestCase):
                     "manuleramanuleramanulera",
                 ),
             )
-            with self.assertRaises(Exception):
+            with self.assertRaises(ValueError) as context:
                 read_submission(temp_file.name)
+            self.assertIn(
+                "Github username manuleramanuleramanulera does not exist",
+                str(context.exception),
+            )
 
     def test_wrong_orcid(self):
         with tempfile.NamedTemporaryFile(suffix=".xlsx") as temp_file:
