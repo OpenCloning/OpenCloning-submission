@@ -56,7 +56,7 @@ jobs:
         if: ${{ steps.folder_name.outputs.folder_name != ''}}
         uses: mshick/add-pr-comment@v2
         with:
-          message: This PR seems to be a kit submission, so it will be processed.
+          message: This PR seems to be a kit submission, so it will be processed. Tagging @manulera for review.
       - name: Install Python
         if: ${{ steps.folder_name.outputs.folder_name != ''}}
         uses: actions/setup-python@v1
