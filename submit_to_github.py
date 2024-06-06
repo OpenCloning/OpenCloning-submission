@@ -60,7 +60,7 @@ def submit_to_github(submission: Submission, submission_folder: str):
     tree = repo.create_git_tree(elements, base_tree)
     parent_commit = repo.get_git_commit(sb.commit.sha)
 
-    commit_message = "submission of kit X"
+    commit_message = f"submission of kit {kit_name}"
     commit = repo.create_git_commit(commit_message, tree, [parent_commit])
     ref.edit(commit.sha)
 
