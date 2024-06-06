@@ -1,0 +1,891 @@
+{
+  "submitters": [
+    {
+      "full_name": "Manuel Lera-Ramirez",
+      "orcid": "0000-0002-8666-9746",
+      "github_username": "manulera"
+    }
+  ],
+  "kit": {
+    "pmid": "PMID:25871405",
+    "addgene_url": "https://www.addgene.org/kits/moclo-ytk/",
+    "title": "MoClo YTK",
+    "description": "Golden-gate based modular cloning kit for yeast."
+  },
+  "sequences": [
+    {
+      "plasmid_name": "pYTK002",
+      "addgene_id": "65109",
+      "category": "1",
+      "resistance": "Chloramphenicol",
+      "well": "A / 2",
+      "description": "ConLS"
+    },
+    {
+      "plasmid_name": "pYTK003",
+      "addgene_id": "65110",
+      "category": "1",
+      "resistance": "Chloramphenicol",
+      "well": "A / 3",
+      "description": "ConL1"
+    },
+    {
+      "plasmid_name": "pYTK004",
+      "addgene_id": "65111",
+      "category": "1",
+      "resistance": "Chloramphenicol",
+      "well": "A / 4",
+      "description": "ConL2"
+    },
+    {
+      "plasmid_name": "pYTK005",
+      "addgene_id": "65112",
+      "category": "1",
+      "resistance": "Chloramphenicol",
+      "well": "A / 5",
+      "description": "ConL3"
+    },
+    {
+      "plasmid_name": "pYTK006",
+      "addgene_id": "65113",
+      "category": "1",
+      "resistance": "Chloramphenicol",
+      "well": "A / 6",
+      "description": "ConL4"
+    },
+    {
+      "plasmid_name": "pYTK007",
+      "addgene_id": "65114",
+      "category": "1",
+      "resistance": "Chloramphenicol",
+      "well": "A / 7",
+      "description": "ConL5"
+    },
+    {
+      "plasmid_name": "pYTK008",
+      "addgene_id": "65115",
+      "category": "1",
+      "resistance": "Chloramphenicol",
+      "well": "A / 8",
+      "description": "ConLS'"
+    },
+    {
+      "plasmid_name": "pYTK009",
+      "addgene_id": "65116",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "A / 9",
+      "description": "pTDH3"
+    },
+    {
+      "plasmid_name": "pYTK010",
+      "addgene_id": "65117",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "A / 10",
+      "description": "pCCW12"
+    },
+    {
+      "plasmid_name": "pYTK011",
+      "addgene_id": "65118",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "A / 11",
+      "description": "pPGK1"
+    },
+    {
+      "plasmid_name": "pYTK012",
+      "addgene_id": "65119",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "A / 12",
+      "description": "pHHF2"
+    },
+    {
+      "plasmid_name": "pYTK013",
+      "addgene_id": "65120",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "B / 1",
+      "description": "pTEF1"
+    },
+    {
+      "plasmid_name": "pYTK014",
+      "addgene_id": "65121",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "B / 2",
+      "description": "pTEF2"
+    },
+    {
+      "plasmid_name": "pYTK015",
+      "addgene_id": "65122",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "B / 3",
+      "description": "pHHF1"
+    },
+    {
+      "plasmid_name": "pYTK016",
+      "addgene_id": "65123",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "B / 4",
+      "description": "pHTB2"
+    },
+    {
+      "plasmid_name": "pYTK017",
+      "addgene_id": "65124",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "B / 5",
+      "description": "pRPL18B"
+    },
+    {
+      "plasmid_name": "pYTK018",
+      "addgene_id": "65125",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "B / 6",
+      "description": "pALD6"
+    },
+    {
+      "plasmid_name": "pYTK019",
+      "addgene_id": "65126",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "B / 7",
+      "description": "pPAB1"
+    },
+    {
+      "plasmid_name": "pYTK020",
+      "addgene_id": "65127",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "B / 8",
+      "description": "pRET2"
+    },
+    {
+      "plasmid_name": "pYTK021",
+      "addgene_id": "65128",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "B / 9",
+      "description": "pRNR1"
+    },
+    {
+      "plasmid_name": "pYTK022",
+      "addgene_id": "65129",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "B / 10",
+      "description": "pSAC6"
+    },
+    {
+      "plasmid_name": "pYTK023",
+      "addgene_id": "65130",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "B / 11",
+      "description": "pRNR2"
+    },
+    {
+      "plasmid_name": "pYTK024",
+      "addgene_id": "65131",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "B / 12",
+      "description": "pPOP6"
+    },
+    {
+      "plasmid_name": "pYTK025",
+      "addgene_id": "65132",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "C / 1",
+      "description": "pRAD27"
+    },
+    {
+      "plasmid_name": "pYTK026",
+      "addgene_id": "65133",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "C / 2",
+      "description": "pPSP2"
+    },
+    {
+      "plasmid_name": "pYTK027",
+      "addgene_id": "65134",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "C / 3",
+      "description": "pREV1"
+    },
+    {
+      "plasmid_name": "pYTK028",
+      "addgene_id": "65135",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "C / 4",
+      "description": "pMFA1"
+    },
+    {
+      "plasmid_name": "pYTK029",
+      "addgene_id": "65136",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "C / 5",
+      "description": "pMF\u03b12"
+    },
+    {
+      "plasmid_name": "pYTK030",
+      "addgene_id": "65137",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "C / 6",
+      "description": "pGAL1"
+    },
+    {
+      "plasmid_name": "pYTK031",
+      "addgene_id": "65138",
+      "category": "2",
+      "resistance": "Chloramphenicol",
+      "well": "C / 7",
+      "description": "pCUP1"
+    },
+    {
+      "plasmid_name": "pYTK032",
+      "addgene_id": "65139",
+      "category": "3",
+      "resistance": "Chloramphenicol",
+      "well": "C / 8",
+      "description": "mTurquoise2"
+    },
+    {
+      "plasmid_name": "pYTK033",
+      "addgene_id": "65140",
+      "category": "3",
+      "resistance": "Chloramphenicol",
+      "well": "C / 9",
+      "description": "Venus"
+    },
+    {
+      "plasmid_name": "pYTK034",
+      "addgene_id": "65141",
+      "category": "3",
+      "resistance": "Chloramphenicol",
+      "well": "C / 10",
+      "description": "mRuby2"
+    },
+    {
+      "plasmid_name": "pYTK035",
+      "addgene_id": "65142",
+      "category": "3",
+      "resistance": "Chloramphenicol",
+      "well": "C / 11",
+      "description": "I-SceI (ORF)"
+    },
+    {
+      "plasmid_name": "pYTK036",
+      "addgene_id": "65143",
+      "category": "3",
+      "resistance": "Chloramphenicol",
+      "well": "C / 12",
+      "description": "Cas9"
+    },
+    {
+      "plasmid_name": "pYTK037",
+      "addgene_id": "65144",
+      "category": "3a",
+      "resistance": "Chloramphenicol",
+      "well": "D / 1",
+      "description": "mTurquoise2"
+    },
+    {
+      "plasmid_name": "pYTK038",
+      "addgene_id": "65145",
+      "category": "3a",
+      "resistance": "Chloramphenicol",
+      "well": "D / 2",
+      "description": "Venus"
+    },
+    {
+      "plasmid_name": "pYTK039",
+      "addgene_id": "65146",
+      "category": "3a",
+      "resistance": "Chloramphenicol",
+      "well": "D / 3",
+      "description": "mRuby2"
+    },
+    {
+      "plasmid_name": "pYTK040",
+      "addgene_id": "65147",
+      "category": "3a",
+      "resistance": "Chloramphenicol",
+      "well": "D / 4",
+      "description": "3XFLAG-6XHis"
+    },
+    {
+      "plasmid_name": "pYTK041",
+      "addgene_id": "65148",
+      "category": "3a",
+      "resistance": "Chloramphenicol",
+      "well": "D / 5",
+      "description": "Ubi-M"
+    },
+    {
+      "plasmid_name": "pYTK042",
+      "addgene_id": "65149",
+      "category": "3a",
+      "resistance": "Chloramphenicol",
+      "well": "D / 6",
+      "description": "Ubi-Y"
+    },
+    {
+      "plasmid_name": "pYTK043",
+      "addgene_id": "65150",
+      "category": "3a",
+      "resistance": "Chloramphenicol",
+      "well": "D / 7",
+      "description": "Ubi-R"
+    },
+    {
+      "plasmid_name": "pYTK044",
+      "addgene_id": "65151",
+      "category": "3b",
+      "resistance": "Chloramphenicol",
+      "well": "D / 8",
+      "description": "mTurquoise2"
+    },
+    {
+      "plasmid_name": "pYTK045",
+      "addgene_id": "65152",
+      "category": "3b",
+      "resistance": "Chloramphenicol",
+      "well": "D / 9",
+      "description": "Venus"
+    },
+    {
+      "plasmid_name": "pYTK046",
+      "addgene_id": "65153",
+      "category": "3b",
+      "resistance": "Chloramphenicol",
+      "well": "D / 10",
+      "description": "mRuby2"
+    },
+    {
+      "plasmid_name": "pYTK047",
+      "addgene_id": "65154",
+      "category": "234r",
+      "resistance": "Chloramphenicol",
+      "well": "D / 11",
+      "description": "GFP dropout"
+    },
+    {
+      "plasmid_name": "pYTK048",
+      "addgene_id": "65155",
+      "category": "234",
+      "resistance": "Chloramphenicol",
+      "well": "D / 12",
+      "description": "Spacer"
+    },
+    {
+      "plasmid_name": "pYTK049",
+      "addgene_id": "65156",
+      "category": "234",
+      "resistance": "Chloramphenicol",
+      "well": "E / 1",
+      "description": "I-SceI recognition site"
+    },
+    {
+      "plasmid_name": "pYTK050",
+      "addgene_id": "65157",
+      "category": "234",
+      "resistance": "Chloramphenicol",
+      "well": "E / 2",
+      "description": "sgRNA Dropout"
+    },
+    {
+      "plasmid_name": "pYTK051",
+      "addgene_id": "65158",
+      "category": "4",
+      "resistance": "Chloramphenicol",
+      "well": "E / 3",
+      "description": "tENO1"
+    },
+    {
+      "plasmid_name": "pYTK052",
+      "addgene_id": "65159",
+      "category": "4",
+      "resistance": "Chloramphenicol",
+      "well": "E / 4",
+      "description": "tSSA1"
+    },
+    {
+      "plasmid_name": "pYTK053",
+      "addgene_id": "65160",
+      "category": "4",
+      "resistance": "Chloramphenicol",
+      "well": "E / 5",
+      "description": "tADH1"
+    },
+    {
+      "plasmid_name": "pYTK054",
+      "addgene_id": "65161",
+      "category": "4",
+      "resistance": "Chloramphenicol",
+      "well": "E / 6",
+      "description": "tPGK1"
+    },
+    {
+      "plasmid_name": "pYTK055",
+      "addgene_id": "65162",
+      "category": "4",
+      "resistance": "Chloramphenicol",
+      "well": "E / 7",
+      "description": "tENO2"
+    },
+    {
+      "plasmid_name": "pYTK056",
+      "addgene_id": "65163",
+      "category": "4",
+      "resistance": "Chloramphenicol",
+      "well": "E / 8",
+      "description": "tTDH1"
+    },
+    {
+      "plasmid_name": "pYTK057",
+      "addgene_id": "65164",
+      "category": "4a",
+      "resistance": "Chloramphenicol",
+      "well": "E / 9",
+      "description": "mTurquoise2"
+    },
+    {
+      "plasmid_name": "pYTK058",
+      "addgene_id": "65165",
+      "category": "4a",
+      "resistance": "Chloramphenicol",
+      "well": "E / 10",
+      "description": "Venus"
+    },
+    {
+      "plasmid_name": "pYTK059",
+      "addgene_id": "65166",
+      "category": "4a",
+      "resistance": "Chloramphenicol",
+      "well": "E / 11",
+      "description": "mRuby2"
+    },
+    {
+      "plasmid_name": "pYTK060",
+      "addgene_id": "65167",
+      "category": "4a",
+      "resistance": "Chloramphenicol",
+      "well": "E / 12",
+      "description": "3XFLAG-6XHis"
+    },
+    {
+      "plasmid_name": "pYTK061",
+      "addgene_id": "65168",
+      "category": "4b",
+      "resistance": "Chloramphenicol",
+      "well": "F / 1",
+      "description": "tENO1"
+    },
+    {
+      "plasmid_name": "pYTK062",
+      "addgene_id": "65169",
+      "category": "4b",
+      "resistance": "Chloramphenicol",
+      "well": "F / 2",
+      "description": "tSSA1"
+    },
+    {
+      "plasmid_name": "pYTK063",
+      "addgene_id": "65170",
+      "category": "4b",
+      "resistance": "Chloramphenicol",
+      "well": "F / 3",
+      "description": "tADH1"
+    },
+    {
+      "plasmid_name": "pYTK064",
+      "addgene_id": "65171",
+      "category": "4b",
+      "resistance": "Chloramphenicol",
+      "well": "F / 4",
+      "description": "tPGK1"
+    },
+    {
+      "plasmid_name": "pYTK065",
+      "addgene_id": "65172",
+      "category": "4b",
+      "resistance": "Chloramphenicol",
+      "well": "F / 5",
+      "description": "tENO2"
+    },
+    {
+      "plasmid_name": "pYTK066",
+      "addgene_id": "65173",
+      "category": "4b",
+      "resistance": "Chloramphenicol",
+      "well": "F / 6",
+      "description": "tTDH1"
+    },
+    {
+      "plasmid_name": "pYTK067",
+      "addgene_id": "65174",
+      "category": "5",
+      "resistance": "Chloramphenicol",
+      "well": "F / 7",
+      "description": "ConR1"
+    },
+    {
+      "plasmid_name": "pYTK068",
+      "addgene_id": "65175",
+      "category": "5",
+      "resistance": "Chloramphenicol",
+      "well": "F / 8",
+      "description": "ConR2"
+    },
+    {
+      "plasmid_name": "pYTK069",
+      "addgene_id": "65176",
+      "category": "5",
+      "resistance": "Chloramphenicol",
+      "well": "F / 9",
+      "description": "ConR3"
+    },
+    {
+      "plasmid_name": "pYTK070",
+      "addgene_id": "65177",
+      "category": "5",
+      "resistance": "Chloramphenicol",
+      "well": "F / 10",
+      "description": "ConR4"
+    },
+    {
+      "plasmid_name": "pYTK071",
+      "addgene_id": "65178",
+      "category": "5",
+      "resistance": "Chloramphenicol",
+      "well": "F / 11",
+      "description": "ConR5"
+    },
+    {
+      "plasmid_name": "pYTK072",
+      "addgene_id": "65179",
+      "category": "5",
+      "resistance": "Chloramphenicol",
+      "well": "F / 12",
+      "description": "ConRE"
+    },
+    {
+      "plasmid_name": "pYTK073",
+      "addgene_id": "65180",
+      "category": "5",
+      "resistance": "Chloramphenicol",
+      "well": "G / 1",
+      "description": "ConRE'"
+    },
+    {
+      "plasmid_name": "pYTK074",
+      "addgene_id": "65181",
+      "category": "6",
+      "resistance": "Chloramphenicol",
+      "well": "G / 2",
+      "description": "URA3"
+    },
+    {
+      "plasmid_name": "pYTK075",
+      "addgene_id": "65182",
+      "category": "6",
+      "resistance": "Chloramphenicol",
+      "well": "G / 3",
+      "description": "LEU2"
+    },
+    {
+      "plasmid_name": "pYTK076",
+      "addgene_id": "65183",
+      "category": "6",
+      "resistance": "Chloramphenicol",
+      "well": "G / 4",
+      "description": "HIS3"
+    },
+    {
+      "plasmid_name": "pYTK077",
+      "addgene_id": "65184",
+      "category": "6",
+      "resistance": "Chloramphenicol",
+      "well": "G / 5",
+      "description": "KanamycinR"
+    },
+    {
+      "plasmid_name": "pYTK078",
+      "addgene_id": "65185",
+      "category": "6",
+      "resistance": "Chloramphenicol",
+      "well": "G / 6",
+      "description": "NourseothricinR"
+    },
+    {
+      "plasmid_name": "pYTK079",
+      "addgene_id": "65186",
+      "category": "6",
+      "resistance": "Chloramphenicol",
+      "well": "G / 7",
+      "description": "HygromycinR"
+    },
+    {
+      "plasmid_name": "pYTK080",
+      "addgene_id": "65187",
+      "category": "6",
+      "resistance": "Chloramphenicol",
+      "well": "G / 8",
+      "description": "ZeocinR"
+    },
+    {
+      "plasmid_name": "pYTK081",
+      "addgene_id": "65188",
+      "category": "7",
+      "resistance": "Chloramphenicol",
+      "well": "G / 9",
+      "description": "CEN6/ARS4"
+    },
+    {
+      "plasmid_name": "pYTK082",
+      "addgene_id": "65189",
+      "category": "7",
+      "resistance": "Chloramphenicol",
+      "well": "G / 10",
+      "description": "2micron"
+    },
+    {
+      "plasmid_name": "pYTK083",
+      "addgene_id": "65190",
+      "category": "8",
+      "resistance": "Ampicillin",
+      "well": "G / 11",
+      "description": "AmpR-ColE1"
+    },
+    {
+      "plasmid_name": "pYTK084",
+      "addgene_id": "65191",
+      "category": "8",
+      "resistance": "Kanamycin",
+      "well": "G / 12",
+      "description": "KanR-ColE1"
+    },
+    {
+      "plasmid_name": "pYTK085",
+      "addgene_id": "65192",
+      "category": "8",
+      "resistance": "Spectinomycin",
+      "well": "H / 1",
+      "description": "SpecR-ColE1"
+    },
+    {
+      "plasmid_name": "pYTK086",
+      "addgene_id": "65193",
+      "category": "7",
+      "resistance": "Chloramphenicol",
+      "well": "H / 2",
+      "description": "URA3 3' Homology"
+    },
+    {
+      "plasmid_name": "pYTK087",
+      "addgene_id": "65194",
+      "category": "7",
+      "resistance": "Chloramphenicol",
+      "well": "H / 3",
+      "description": "LEU2 3' Homology"
+    },
+    {
+      "plasmid_name": "pYTK088",
+      "addgene_id": "65195",
+      "category": "7",
+      "resistance": "Chloramphenicol",
+      "well": "H / 4",
+      "description": "HO 3' Homology"
+    },
+    {
+      "plasmid_name": "pYTK089",
+      "addgene_id": "65196",
+      "category": "8a",
+      "resistance": "Ampicillin",
+      "well": "H / 5",
+      "description": "AmpR-ColE1"
+    },
+    {
+      "plasmid_name": "pYTK090",
+      "addgene_id": "65197",
+      "category": "8a",
+      "resistance": "Kanamycin",
+      "well": "H / 6",
+      "description": "KanR-ColE1"
+    },
+    {
+      "plasmid_name": "pYTK091",
+      "addgene_id": "65198",
+      "category": "8a",
+      "resistance": "Spectinomycin",
+      "well": "H / 7",
+      "description": "SpecR-ColE1"
+    },
+    {
+      "plasmid_name": "pYTK092",
+      "addgene_id": "65199",
+      "category": "8b",
+      "resistance": "Chloramphenicol",
+      "well": "H / 8",
+      "description": "URA3 5' Homology"
+    },
+    {
+      "plasmid_name": "pYTK093",
+      "addgene_id": "65200",
+      "category": "8b",
+      "resistance": "Chloramphenicol",
+      "well": "H / 9",
+      "description": "LEU2 5' Homology"
+    },
+    {
+      "plasmid_name": "pYTK094",
+      "addgene_id": "65201",
+      "category": "8b",
+      "resistance": "Chloramphenicol",
+      "well": "H / 10",
+      "description": "HO 5' Homology"
+    },
+    {
+      "plasmid_name": "pYTK095",
+      "addgene_id": "65202",
+      "category": "678",
+      "resistance": "Ampicillin",
+      "well": "H / 11",
+      "description": "AmpR-ColE1"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "title": "Assembly connector",
+      "description": null,
+      "image": "glyph_1.png"
+    },
+    {
+      "id": "2",
+      "title": "Promoter",
+      "description": null,
+      "image": "glyph_2.png"
+    },
+    {
+      "id": "3",
+      "title": "Coding sequence",
+      "description": null,
+      "image": "glyph_3.png"
+    },
+    {
+      "id": "3a",
+      "title": "N-term tag",
+      "description": "???",
+      "image": "glyph_3.png"
+    },
+    {
+      "id": "3b",
+      "title": "C-term tag",
+      "description": "???",
+      "image": "glyph_3.png"
+    },
+    {
+      "id": "234r",
+      "title": "Assembled something",
+      "description": null,
+      "image": null
+    },
+    {
+      "id": "234",
+      "title": "Assembled something 2",
+      "description": null,
+      "image": null
+    },
+    {
+      "id": "4",
+      "title": "Terminator",
+      "description": null,
+      "image": "glyph_4.png"
+    },
+    {
+      "id": "4a",
+      "title": "Terminator-a",
+      "description": "???",
+      "image": "glyph_4.png"
+    },
+    {
+      "id": "4b",
+      "title": "Terminator-b",
+      "description": "???",
+      "image": "glyph_4.png"
+    },
+    {
+      "id": "5",
+      "title": "Assembly connector",
+      "description": null,
+      "image": "glyph_5.png"
+    },
+    {
+      "id": "6",
+      "title": "Yeast marker",
+      "description": null,
+      "image": "glyph_6.png"
+    },
+    {
+      "id": "7",
+      "title": "Yeast origin",
+      "description": null,
+      "image": "glyph_7.png"
+    },
+    {
+      "id": "8",
+      "title": "Bacterial marker and origin",
+      "description": null,
+      "image": "glyph_8.png"
+    },
+    {
+      "id": "8a",
+      "title": "Something-else1",
+      "description": "??",
+      "image": "glyph_8.png"
+    },
+    {
+      "id": "8b",
+      "title": "Something-else2",
+      "description": "??",
+      "image": "glyph_8.png"
+    },
+    {
+      "id": "678",
+      "title": "Something-else3",
+      "description": "??",
+      "image": null
+    }
+  ],
+  "assemblies": [
+    {
+      "title": "N-term tag plasmid",
+      "description": "A plasmid with N-term tagged CDS",
+      "fragment_order": [
+        "1",
+        "2",
+        "3a",
+        "",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "template_file": "assembly_template_001.json"
+    }
+  ]
+}
