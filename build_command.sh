@@ -1,2 +1,2 @@
 poetry install
-playwright install chromium
+poetry run playwright install chromium
