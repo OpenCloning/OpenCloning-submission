@@ -17,7 +17,7 @@ def submit_to_github(submission: Submission, submission_folder: str):
 
     kit_url = submission.kit.addgene_url
     kit_name = kit_url.replace("https://www.addgene.org/", "")
-    base_branch_name = f"{kit_name.replace("/", "-")}"
+    base_branch_name = f"{kit_name.replace('/', '-')}"
     # Remove trailing slash if it exists
     if base_branch_name.endswith("-"):
         base_branch_name = base_branch_name[:-1]
