@@ -17,10 +17,10 @@ def submit_to_github(submission: Submission, submission_folder: str):
 
     kit_url = submission.kit.addgene_url
     kit_name = kit_url.replace("https://www.addgene.org/", "")
-    base_branch_name = f"{kit_name.replace("/", "-")}"
     # Remove trailing slash if it exists
-    if base_branch_name.endswith("-"):
-        base_branch_name = base_branch_name[:-1]
+    if kit_name.endswith("/"):
+        kit_name = kit_name[:-1]
+    base_branch_name = f"{kit_name.replace('/', '-')}"
     new_branch_name = base_branch_name
 
     branches = repo.get_branches()
@@ -60,7 +60,7 @@ def submit_to_github(submission: Submission, submission_folder: str):
     tree = repo.create_git_tree(elements, base_tree)
     parent_commit = repo.get_git_commit(sb.commit.sha)
 
-    commit_message = "submission of kit X"
+    commit_message = f"submission of kit {kit_name}"
     commit = repo.create_git_commit(commit_message, tree, [parent_commit])
     ref.edit(commit.sha)
 
@@ -73,7 +73,7 @@ def submit_to_github(submission: Submission, submission_folder: str):
     pr = repo.create_pull(
         base=repo.default_branch,
         head=new_branch_name,
-        title="Submission of kit X'",
+        title=f"Submission of kit {kit_name}",
         body=body,
     )
 

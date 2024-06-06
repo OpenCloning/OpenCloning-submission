@@ -17,6 +17,9 @@ from pydantic import (
 import requests
 import annotated_types
 from typing import Annotated
+from github import Github, Auth
+import os
+
 
 # TODO: validation of categories in sequences and assemblies
 # TODO: validate images
@@ -30,14 +33,19 @@ class Submitter(_Submitter):
         if v is not None:
             resp = requests.get(f"https://pub.orcid.org/v3.0/{v}")
             if resp.status_code != 200:
+                print(resp.json())
                 raise ValueError(f"ORCID {v} does not exist")
         return v
 
     @field_validator("github_username")
     def validate_github_username_exists(cls, v):
         if v is not None:
-            resp = requests.get(f"https://api.github.com/users/{v}")
-            if resp.status_code != 200:
+            auth = Auth.Token(os.environ.get("GITHUB_TOKEN"))
+            g = Github(auth=auth)
+            try:
+                g.get_user(v)
+            except Exception as e:
+                print(e)
                 raise ValueError(f"Github username {v} does not exist")
         return v
 
@@ -156,6 +164,7 @@ class Kit(_Kit):
     def validate_addgene_url(cls, v: str):
         resp = requests.get(v)
         if resp.status_code != 200:
+            print(resp)
             raise ValueError(f"Addgene URL {v} does not exist")
         return v
 
@@ -166,6 +175,7 @@ class Kit(_Kit):
             f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id={id_only}"
         )
         if len(resp.json()["result"]["uids"]) == 0:
+            print(resp.json())
             raise ValueError(f"PMID {v} does not exist")
         return v
 
