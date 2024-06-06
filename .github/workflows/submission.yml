@@ -9,23 +9,13 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: Fetch main
-        run: git fetch origin main:main
-      - name: Get changed files
-        id: changed-files
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const { execSync } = require('child_process');
-            const base = process.env.GITHUB_BASE_REF || 'origin/main';
-            const head = process.env.GITHUB_SHA;
-            const diff = execSync(`git diff --name-only ${base} ${head}`).toString().trim().split('\n');
-            return diff;
-
-      - name: Output changed files
+      - id: changed_files
+        uses: jitterbit/get-changed-files@v1
+      - name: List changed files
         run: |
-          echo "Changed files:"
-          echo "${{ steps.changed-files.outputs.result }}"
+          for changed_file in ${{ steps.changed_files.outputs.all }}; do
+            echo "Do something with this ${changed_file}."
+          done
 
     #   - name: Install Python
     #     uses: actions/setup-python@v1
