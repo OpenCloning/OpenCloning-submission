@@ -37,6 +37,7 @@ class Submitter(_Submitter):
     def validate_github_username_exists(cls, v):
         if v is not None:
             resp = requests.get(f"https://api.github.com/users/{v}")
+            print(resp.json())
             if resp.status_code != 200:
                 raise ValueError(f"Github username {v} does not exist")
         return v
