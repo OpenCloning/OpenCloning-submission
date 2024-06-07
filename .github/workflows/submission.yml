@@ -82,6 +82,8 @@ jobs:
         run: poetry install --with test
       - name: process submission
         if: ${{ steps.folder_name.outputs.folder_name != ''}}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           poetry run python process_submission.py ${{ steps.folder_name.outputs.folder_name}}
           poetry run python update_index.py

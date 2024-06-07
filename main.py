@@ -1,11 +1,10 @@
 from typing import Optional
-from fastapi import FastAPI, Form, HTTPException, UploadFile, File
+from fastapi import FastAPI, Form, HTTPException, UploadFile
 from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from scrape import scrape_addgene_kit
-import zipfile
+import shutil
 import tempfile
-from io import BytesIO
 import os
 from submission_reader import load_submission_folder
 from models import SuccessResponse
@@ -29,26 +28,25 @@ async def root_form(blah: str = Form(...)):
 
 
 @app.post("/validate_addgene_zip")
-async def validate_addgene_zip(file: UploadFile = File(...)):
-    if not file.filename.endswith(".zip"):
-        raise HTTPException(status_code=400, detail="File must be a zip file")
+async def validate_addgene_zip(files: list[UploadFile]):
 
     with tempfile.TemporaryDirectory() as tmpdirname:
-        with zipfile.ZipFile(BytesIO(await file.read()), "r") as zip_ref:
-            zip_ref.extractall(tmpdirname)
-            try:
-                submission = load_submission_folder(tmpdirname)
-            except Exception as e:
-                raise HTTPException(status_code=400, detail=str(e))
+        # Store the files in a temporary directory
+        for file in files:
+            file_path = os.path.join(tmpdirname, file.filename)
+            with open(file_path, "wb") as f:
+                shutil.copyfileobj(file.file, f)
+        try:
+            submission = load_submission_folder(tmpdirname)
+        except Exception as e:
+            raise HTTPException(status_code=400, detail=str(e))
 
-            try:
-                pr_url = submit_to_github(submission, tmpdirname)
-            except Exception:
-                raise HTTPException(
-                    status_code=500, detail="Failed to submit to GitHub"
-                )
+        try:
+            pr_url = submit_to_github(submission, tmpdirname)
+        except Exception:
+            raise HTTPException(status_code=500, detail="Failed to submit to GitHub")
 
-            return SuccessResponse(pull_request_url=pr_url)
+        return SuccessResponse(pull_request_url=pr_url)
 
 
 @app.get("/get_kit_info")

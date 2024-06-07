@@ -44,21 +44,34 @@ async function submitFunction(e) {
         loading.hidden = true
     }
 }
-function constrainInputToZip() {
+function constrainInputFiles() {
     document.getElementById('submitted-file').addEventListener('change', function (e) {
-        const file = this.files[0];
-        const fileType = file.name.split('.').pop().toLowerCase();
-        if (fileType !== 'zip') {
-            alert('Please select a .zip file');
+        const files = Array.from(this.files);
+        // Among the files, there should be one xlsx file and the rest should be images
+        const fileExtensions = Array.from(files).map(file => file.name.split('.').pop().toLowerCase());
+        const imageExtensions = ['png', 'jpg', 'jpeg', 'svg'];
+        const alertMessage = `Please submit only images in format ${imageExtensions.join(', ')} and a single .xlsx file named submission.xlsx`
+        if (
+            // Make sure submission.xlsx is in the list
+            (!files.map(f => f.name).includes('submission.xlsx')) ||
+            // Make sure there is only one xlsx file
+            (fileExtensions.filter(ext => ext === 'xlsx').length !== 1) ||
+            // Make sure there are no other file types
+            (fileExtensions.filter(ext => ext !== 'xlsx' && !imageExtensions.includes(ext)).length > 0)
+        ) {
+            alert(alertMessage);
             this.value = '';
         }
     });
 }
 
 async function validateZipFile() {
-    const file = document.getElementById('submitted-file').files[0];
+    const files = Array.from(document.getElementById('submitted-file').files);
     const formData = new FormData();
-    formData.append('file', file);
+    files.forEach(file => {
+        formData.append('files', file);
+    });
+    console.log(formData)
     let response;
     try {
         response = await fetch('/validate_addgene_zip', {
@@ -84,7 +97,7 @@ async function validateZipFile() {
 }
 
 window.onload = () => {
-    constrainInputToZip()
+    constrainInputFiles()
     document
         .getElementById("main-form")
         .addEventListener("submit", submitFunction);
