@@ -71,7 +71,7 @@ async function validateZipFile() {
     files.forEach(file => {
         formData.append('files', file);
     });
-    console.log(formData)
+
     let response;
     try {
         response = await fetch('/validate_addgene_zip', {
