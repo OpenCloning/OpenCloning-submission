@@ -138,7 +138,7 @@ You need a table from a publication in which either of the columns `plasmid_name
 | pYTK002 | 1            | ConLS                     | Chloramphenicol           | ...              |
 | pYTK003 | 1            | ConL1                     | Chloramphenicol           | ...              |
 
-> **NOTE**: If the table is in a pdf, you can use [adobe's pdf-to-excel](https://www.adobe.com/uk/acrobat/online/pdf-to-excel.html) to convert it to a spreadsheet online (it's better to edit the pdf to keep only the pages that include the table). They may ask you to create an account if you try more than once, but you can use incognito mode 🕵️‍♂️. You can also use [tabula](https://tabula.technology/).
+> **NOTE**: If the table is in a pdf, you can use [adobe's pdf-to-excel](https://www.adobe.com/uk/acrobat/online/pdf-to-excel.html) to convert it to a spreadsheet online (it's better to edit the pdf to keep only the pages that include the table). They may ask you to create an account if you try more than once, but you can use incognito mode 🕵️. You can also use [tabula](https://tabula.technology/).
 
 In google sheets you can easily merge the two tables by using the `VLOOKUP` function. In the [example submission](https://docs.google.com/spreadsheets/d/1u54WUnWq99lchTnQEmboktpDHeiILHor4ZA0gnr8yik/edit?usp=sharing) you can see how to use this formula.
 
@@ -157,7 +157,7 @@ You can do the same thing for your submission:
 
 ### Filling the category sheet 📂
 
-1. Go to the `Category` sheet. What? 😮 Someone has pre-filled the category ids you! 🪄. The `id` column contains all unique values in the `category` column of the `Sequence` sheet.
+1. Go to the `Category` sheet. What? 😮 Someone has pre-filled the category ids you! ✨✨. The `id` column contains all unique values in the `category` column of the `Sequence` sheet.
 2. Fill the sheet. Only the `title` is necessary, but `description` can be useful for parts that need further explanation.
 3. If you are submitting images for the categories, make sure the image file names match what you write in the `image` column. You will have to upload the images in the submission pipeline.
 
@@ -165,6 +165,7 @@ You can do the same thing for your submission:
 
 1. Go to the `assembly_grid` sheet. Each row represents a type of assembly that can be performed with the kit.
 1. In each row, you can select the categories that constitute a certain type of assembly. This will be used to fill the `fragment_order` column in the `Assembly` sheet.
+
     Select the categories in the dropdowns in the order they will be assembled. If there is a place in the assembly where you will have to insert a part that is not defined in the kit, you can leave an empty cell (see the example [above](#assembly-)).
 2. Do a row for each type of assembly you want to generate.
 3. Go back to the `Assembly` sheet.
