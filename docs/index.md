@@ -18,7 +18,7 @@ Open the [example submission google sheet](https://docs.google.com/spreadsheets/
 
 ### Category 📂
 
-In MoClo kits, plasmids are grouped into categories according to the type of part they contain. The table in the example lists the ones in MoClo YTK kit (top rows shown below).
+In MoClo kits, plasmids are grouped into categories according to the type of part they contain (promoters, terminators, CDS, etc.). The table below shows some categories of the MoClo YTK kit.
 
 | id  | title              | description | image       |
 | --- | ------------------ | ----------- | ----------- |
@@ -48,17 +48,17 @@ This table contains the info of the plasmids that are part of the kit (😮‍�
 
 * `plasmid_name`: The name of the plasmid in AddGene.
 * `addgene_id`: The AddGene ID of the plasmid (it's in the url of the addgene page, for instance 65109 for [pYTK002](https://www.addgene.org/65109/)).
-* `category`: The category of the plasmid. This is the `id` of the category in the `Category` sheet.
+* `category`: The category of the plasmid. This matches an `id` from the `Category` sheet.
 * `description`: A description of what the plasmid contains.
-* Other categories: You can add more columns to this table to include more information about the plasmids.
+* Other categories: You can add more columns to this table to include more information about the plasmids. They will be displayed in the info table, like `well` in the example below.
 
-This is how these columns map to what you see in the cloning template (select a sequence from the dropdown in the website to see this). Note how the value in dropdown is composed of the `description` and the `plasmid_name`:
+This is how these columns map to what you see in the cloning template (select a sequence from the dropdown in the website to see this). Note how the options of the dropdown are composed of the `description` and the `plasmid_name`:
 
 <img src="images/sequence_fields.png" alt="loaded template" height="200">
 
 ### Assembly 🧩
 
-Each row in this table represents a possible type of assembly that can be performed with the kit. Each row will be turned into a cloning template. Below we see the row corresponding row of the `N-term tag plasmid` assembly that we loaded in the example:
+Each row in this table represents a possible type of assembly that can be performed with the kit and will be turned into a cloning template. Below we see the row corresponding to the `N-term tag plasmid` assembly that we loaded in the example:
 
 | fragment_order            | title              | description                      |
 | ------------------------- | ------------------ | -------------------------------- |
@@ -66,9 +66,9 @@ Each row in this table represents a possible type of assembly that can be perfor
 
 * `fragment_order`: The order in which the type of parts are assembled. Each part is separated by a `|`. The parts are the `id` of the categories in the `Category` sheet (😮‍💨 don't worry, you will not have to type this yourself!).
 
-    In this example, we have a an assembly that starts with `1` (Assembly connector), followed by `2` (Promoter), `3a` (N-term tag), etc. Note that there is an empty `||` in the middle, that represents a "free lane" (see the 4th lane in the image below).
-* `title`: The title of the assembly.
-* `description`: A description of the assembly, can be a bit longer than the title.
+    In this example, we have a an assembly that starts with `1` (Assembly connector), followed by `2` (Promoter), `3a` (N-term tag), etc. Note that there is an empty `||` in the middle, that represents a part that is not defined in the kit and that the user will provide (see the 4th lane in the image below).
+* `title`: The title of the assembly. Will be shown in the `Description` tab of ShareYourCloning.
+* `description`: More details about this type of assembly.
 
 <img src="images/assembly_fields.png" alt="loaded template" height="300">
 
@@ -80,14 +80,14 @@ Contains info of the kit.
 | ------------- | --------------------------------------- | --------- | ------------------------------------------------ |
 | PMID:25871405 | https://www.addgene.org/kits/moclo-ytk/ | MoClo YTK | Golden-gate based modular cloning kit for yeast. |
 
-* `pmid`: The PMID (pubmed unique identifier) of the publication associated with the kit. You can get this by searching the publication in pubmed and copying the number from the url. For example, https://pubmed.ncbi.nlm.nih.gov/25871405/ has a corresponding `PMID:25871405`.
+* `pmid`: The PMID (PubMed unique identifier) of the publication associated with the kit. You can get this by searching the publication in PubMed and copying the number from the url. For example, https://pubmed.ncbi.nlm.nih.gov/25871405/ has a corresponding `PMID:25871405`.
 * `addgene_url`: The url of the kit in AddGene.
 * `title`: The title of the kit.
 * `description`: A description of the kit.
 
 ### Submitter 🙋
 
-Contains info of the submitters of this spreadsheet (you!). You can add several lanes. Only the `full_name` is required, but you can add the other fields to get credit for your submission.
+Contains info of the submitters of this spreadsheet (you!). You can add several rows. Only the `full_name` is required, but you can add the other fields to get further credit for your submission.
 
 | full_name           | orcid               | github_username |
 | ------------------- | ------------------- | --------------- |
@@ -98,11 +98,14 @@ Contains info of the submitters of this spreadsheet (you!). You can add several 
 
 > **NOTE:** the submission site is hosted in a free service, so the first time you access it, it might take a while to load (around a minute 😴). Once it loads for the first time, it should be faster. You can start waking it up by [opening it already](https://shareyourcloning-submission.onrender.com/).
 
-In the submission template, compulsory fields have bold headers. You won't be able to submit the form if you don't fill them. The rest of the fields are optional, but the more information you provide, the better the templates will be!
+Start by making a copy of the [submission template](https://docs.google.com/spreadsheets/d/1Oooxchf1NBEnNgzqXbsoeTGa1fzuU0AsPR56HB5zBEo/edit?usp=sharing)📋. You will fill up the info about your submission there.
 
-### Getting the AddGene data 🧬
+Compulsory fields have bold headers. You won't be able to submit the form if you don't fill them. The rest of the fields are optional, but the more information you provide, the better the templates will be!
 
-1. Copy the url of the addgene kit you want to submit, paste it in [this form](https://shareyourcloning-submission.onrender.com/get_kit_info), submit and download the resulting tsv file. The file looks like the table below:
+### Getting the AddGene kit info 🧬
+
+1. Copy the url of the addgene kit you want to submit
+2. Paste it in [this form](https://shareyourcloning-submission.onrender.com/get_kit_info), submit and download the resulting tsv file. The file looks like the table below:
 
     | plasmid_name | addgene_id | category | resistance      | well  | description |
     |--------------|------------|----------|-----------------|-------|-------------|
@@ -110,9 +113,7 @@ In the submission template, compulsory fields have bold headers. You won't be ab
     | pYTK002      |      65109 |          | Chloramphenicol | A / 2 |             |
     | pYTK003      |      65110 |          | Chloramphenicol | A / 3 |             |
 
-    > Note how the columns `category` (see above what category represents) and `description` (the relevant that the plasmid contains) are empty. We cannot get this information from AddGene 😢, and you may have to fill those by hand, but we can sometimes get this information from the publication, see the example below.
-
-2. Make a copy of the [submission template](https://docs.google.com/spreadsheets/d/1Oooxchf1NBEnNgzqXbsoeTGa1fzuU0AsPR56HB5zBEo/edit?usp=sharing)📋.
+    > Note how the columns `category` (see above what category represents) and `description` (the name of the part that the plasmid contains) are empty. We cannot get this information from AddGene 😢, and you may have to fill those by hand, but we can sometimes get this information from the publication, see next section.
 
 3. Load the tsv file you downloaded into the submission template:
    * Go to the `Sequence` sheet in the example submission, select the cell `A2`.
@@ -129,7 +130,7 @@ In the submission template, compulsory fields have bold headers. You won't be ab
 
 #### Getting the category and description from the publication 📖
 
-You need a table from a publication in which either of the columns `plasmid_name`, `addgene_id`, or `well` are present (even if under different name). For the [MoClo YTK publication](https://pubs.acs.org/doi/10.1021/sb500366v), the supplementary material contains a spreadsheet with information of the plasmids, the table looks like this:
+You need a table from a publication in which either of the columns `plasmid_name`, `addgene_id`, or `well` are present (even if the column name does not match). For the [MoClo YTK publication](https://pubs.acs.org/doi/10.1021/sb500366v), the supplementary material contains a spreadsheet with information of the plasmids, the table looks like this:
 
 | Plasmid | Part Type    | Part Description          | E. coli Antibiotic Marker | Plasmid Sequence |
 |---------|--------------|---------------------------|---------------------------|------------------|
@@ -137,7 +138,7 @@ You need a table from a publication in which either of the columns `plasmid_name
 | pYTK002 | 1            | ConLS                     | Chloramphenicol           | ...              |
 | pYTK003 | 1            | ConL1                     | Chloramphenicol           | ...              |
 
-> **NOTE**: If the table is in a pdf, you can use [adobe's pdf-to-excel](https://www.adobe.com/uk/acrobat/online/pdf-to-excel.html) to convert it to a spreadsheet online (it's better to first keep only the pages of the pdf that include the table). They may ask you to create an account if you try more than once, but you can use incognito mode 🕵️‍♂️. You can also use [tabula](https://tabula.technology/).
+> **NOTE**: If the table is in a pdf, you can use [adobe's pdf-to-excel](https://www.adobe.com/uk/acrobat/online/pdf-to-excel.html) to convert it to a spreadsheet online (it's better to edit the pdf to keep only the pages that include the table). They may ask you to create an account if you try more than once, but you can use incognito mode 🕵️‍♂️. You can also use [tabula](https://tabula.technology/).
 
 In google sheets you can easily merge the two tables by using the `VLOOKUP` function. In the [example submission](https://docs.google.com/spreadsheets/d/1u54WUnWq99lchTnQEmboktpDHeiILHor4ZA0gnr8yik/edit?usp=sharing) you can see how to use this formula.
 
@@ -148,7 +149,11 @@ Go to the sheet `extra_info` in the example. It contains the supplementary table
 * `VLOOKUP` will look for the value in `A2` in the table in `extra_info`, and return the value in the second column of the table in `extra_info`.
 * The same is done for the `description` column, but with `=VLOOKUP(A2,extra_info!A:D,3)` instead.
 
-You can do the same thing for your submission. Create an `extra_info` sheet in your submission template, paste the table from the publication in there, and use the `VLOOKUP` function to fill the `category` and `description` columns in the `Sequence` sheet.
+You can do the same thing for your submission:
+1. Create an `extra_info` sheet in your submission template
+2. Paste the table from the publication in there
+3. Use the `VLOOKUP` function to fill the `category` and `description` columns in the `Sequence` sheet.
+4. Drag the formula down to fill all the rows.
 
 ### Filling the category sheet 📂
 
@@ -158,13 +163,13 @@ You can do the same thing for your submission. Create an `extra_info` sheet in y
 
 ### Filling the assembly sheet 🧩
 
-1. Go to the `assembly_grid` sheet.
-2. Here, for each row you can select the categories that constitute a certain type of assembly in order. This will be used to fill the `fragment_order` column in the `Assembly` sheet.
-3. For a row, select the categories in the dropdowns in the order they will be assembled. If there is a place in the assembly where you will have to insert a part that is not defined in the kit, you can leave an empty cell (see the example [above](#assembly-)).
-4. Do a row for each type of assembly you want to generate.
-5. Go back to the `Assembly` sheet.
-6. Verify that the `fragment_order` column looks ok.
-7. Fill the `title` and `description` columns.
+1. Go to the `assembly_grid` sheet. Each row represents a type of assembly that can be performed with the kit.
+1. In each row, you can select the categories that constitute a certain type of assembly. This will be used to fill the `fragment_order` column in the `Assembly` sheet.
+    Select the categories in the dropdowns in the order they will be assembled. If there is a place in the assembly where you will have to insert a part that is not defined in the kit, you can leave an empty cell (see the example [above](#assembly-)).
+2. Do a row for each type of assembly you want to generate.
+3. Go back to the `Assembly` sheet.
+4. Verify that the `fragment_order` column looks ok.
+5. Fill the `title` and `description` columns.
 
 ### Filling the kit and submitter sheets 🧰🙋
 
@@ -174,7 +179,7 @@ Fill the `Kit` and `Submitter` sheets with the information of the kit and the su
 
 🎉 You did it 🎉. Go to the [submission site](https://shareyourcloning-submission.onrender.com/) and upload your submission template.
 
-
+> **NOTE:** the submission site is hosted in a free service, so the first time you access it, it might take a while to load (around a minute 😴). Once it loads for the first time, it should be faster.
 
 
 
