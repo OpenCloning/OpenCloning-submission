@@ -8,6 +8,10 @@ You can submit an AddGene kit to generate a series of templates in [ShareYourClo
 
 By submitting a simple spreadsheet and optionally some images, the submission pipeline 🤖 will generate equivalent [cloning templates](https://github.com/genestorian/ShareYourCloning-submission/tree/main/processed/kits-moclo-ytk/templates) for the submitted kit. 🧬
 
+Submitting a kit is very easy 📦, you just need to fill a google sheet 📋 with the information of the kit 🧰, and upload through a form 🚀.
+
+Below we explain what an example submission spreadsheet looks like and how to prepare your submission.
+
 ## Understanding the submission spreadsheet 📊
 
 Open the [example submission google sheet](https://docs.google.com/spreadsheets/d/1u54WUnWq99lchTnQEmboktpDHeiILHor4ZA0gnr8yik/edit?usp=sharing). Each sheet represents different aspects of the kit submission, each sheet is described below:
@@ -92,7 +96,7 @@ Contains info of the submitters of this spreadsheet (you!). You can add several 
 
 ## Preparing your submission 🛠️
 
-> **NOTE:** the submission site is hosted in a free service, so the first time you access it, it might take a while to load (around a minute). Once it loads for the first time, it should be faster. You can start waking it up by [opening it already](https://shareyourcloning-submission.onrender.com/).
+> **NOTE:** the submission site is hosted in a free service, so the first time you access it, it might take a while to load (around a minute 😴). Once it loads for the first time, it should be faster. You can start waking it up by [opening it already](https://shareyourcloning-submission.onrender.com/).
 
 In the submission template, compulsory fields have bold headers. You won't be able to submit the form if you don't fill them. The rest of the fields are optional, but the more information you provide, the better the templates will be!
 
