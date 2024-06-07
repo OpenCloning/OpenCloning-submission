@@ -40,7 +40,12 @@ class Submitter(_Submitter):
     @field_validator("github_username")
     def validate_github_username_exists(cls, v):
         if v is not None:
-            auth = Auth.Token(os.environ.get("GITHUB_TOKEN"))
+            token = os.getenv("GITHUB_TOKEN")
+            if token is None:
+                raise ValueError(
+                    "Backend github authentication not working, contact admin"
+                )
+            auth = Auth.Token(token)
             g = Github(auth=auth)
             try:
                 g.get_user(v)
