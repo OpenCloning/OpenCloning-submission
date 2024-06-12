@@ -10,6 +10,9 @@ if __name__ == "__main__":
         sys.exit(0)
 
     submission_folder = sys.argv[1]
+    # Remove trailing slash if it exists
+    if submission_folder.endswith("/"):
+        submission_folder = submission_folder[:-1]
     submission = load_submission_folder(submission_folder)
 
     # Get the last part of the submission folder
@@ -19,7 +22,7 @@ if __name__ == "__main__":
     if not os.path.exists("processed"):
         os.mkdir("processed")
     if os.path.exists(output_folder):
-        raise Exception("Output folder already exists")
+        raise Exception(f"Output folder {output_folder} already exists")
     os.mkdir(output_folder)
 
     template_dir = os.path.join(output_folder, "templates")
