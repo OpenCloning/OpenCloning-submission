@@ -90,7 +90,6 @@ class Category(_Category):
             "id": source_id,
             "input": [],
             "output": source_id + 1,
-            "is_template": True,
             "type": "CollectionSource",
             "category_id": self.id,
             "title": self.title,
@@ -120,20 +119,6 @@ class Assembly(_Assembly):
                         "id": source_id,
                         "input": [],
                         "output": source_id + 1,
-                        "is_template": True,
-                    }
-                )
-                dummy_sequences.append(
-                    {"id": source_id + 1, "type": "TemplateSequence"}
-                )
-                source_id += 2
-                sources.append(
-                    {
-                        "id": source_id,
-                        "input": [source_id - 1],
-                        "output": source_id + 1,
-                        "is_template": True,
-                        "type": "PCRSource",
                     }
                 )
             final_assembly_inputs.append(source_id + 1)
@@ -145,7 +130,6 @@ class Assembly(_Assembly):
                 "id": source_id,
                 "input": final_assembly_inputs,
                 "output": source_id + 1,
-                "is_template": True,
                 "type": "RestrictionAndLigationSource",
             }
         )

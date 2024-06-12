@@ -4,7 +4,6 @@
       "id": 1,
       "input": [],
       "output": 2,
-      "is_template": true,
       "type": "CollectionSource",
       "category_id": "1",
       "title": "Assembly connector",
@@ -115,7 +114,6 @@
       "id": 3,
       "input": [],
       "output": 4,
-      "is_template": true,
       "type": "CollectionSource",
       "category_id": "2",
       "title": "Promoter",
@@ -450,7 +448,6 @@
       "id": 5,
       "input": [],
       "output": 6,
-      "is_template": true,
       "type": "CollectionSource",
       "category_id": "3a",
       "title": "N-term tag",
@@ -560,23 +557,12 @@
     {
       "id": 7,
       "input": [],
-      "output": 8,
-      "is_template": true
+      "output": 8
     },
     {
       "id": 9,
-      "input": [
-        8
-      ],
-      "output": 10,
-      "is_template": true,
-      "type": "PCRSource"
-    },
-    {
-      "id": 11,
       "input": [],
-      "output": 12,
-      "is_template": true,
+      "output": 10,
       "type": "CollectionSource",
       "category_id": "4",
       "title": "Terminator",
@@ -670,10 +656,9 @@
       ]
     },
     {
-      "id": 13,
+      "id": 11,
       "input": [],
-      "output": 14,
-      "is_template": true,
+      "output": 12,
       "type": "CollectionSource",
       "category_id": "5",
       "title": "Assembly connector",
@@ -781,10 +766,9 @@
       ]
     },
     {
-      "id": 15,
+      "id": 13,
       "input": [],
-      "output": 16,
-      "is_template": true,
+      "output": 14,
       "type": "CollectionSource",
       "category_id": "6",
       "title": "Yeast marker",
@@ -892,10 +876,9 @@
       ]
     },
     {
-      "id": 17,
+      "id": 15,
       "input": [],
-      "output": 18,
-      "is_template": true,
+      "output": 16,
       "type": "CollectionSource",
       "category_id": "7",
       "title": "Yeast origin",
@@ -975,10 +958,9 @@
       ]
     },
     {
-      "id": 19,
+      "id": 17,
       "input": [],
-      "output": 20,
-      "is_template": true,
+      "output": 18,
       "type": "CollectionSource",
       "category_id": "8",
       "title": "Bacterial marker and origin",
@@ -1030,20 +1012,19 @@
       ]
     },
     {
-      "id": 21,
+      "id": 19,
       "input": [
         2,
         4,
         6,
+        8,
         10,
         12,
         14,
         16,
-        18,
-        20
+        18
       ],
-      "output": 22,
-      "is_template": true,
+      "output": 20,
       "type": "RestrictionAndLigationSource"
     }
   ],
@@ -1086,10 +1067,6 @@
     },
     {
       "id": 20,
-      "type": "TemplateSequence"
-    },
-    {
-      "id": 22,
       "type": "TemplateSequence"
     }
   ],
