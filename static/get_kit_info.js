@@ -1,4 +1,11 @@
 
+function sanitizeString(str) {
+    return str
+        .trim()
+        .replace(/[\r\n]+/g, ' ')
+        .replace(/\s+/g, ' ')
+}
+
 async function makeHtmlTable(plasmids) {
     const table = document.createElement('table')
     table.classList.add('table')
@@ -65,10 +72,10 @@ async function scrape() {
         // be false if there is no trailing slash
         const addgene_id = idHref.pop() || idHref.pop()
         return {
-            well: cells[0].innerText.trim(),
-            name: cells[1].innerText.trim(),
+            well: sanitizeString(cells[0].innerText),
+            name: sanitizeString(cells[1].innerText),
             addgene_id,
-            resistance: cells[2].innerText.trim()
+            resistance: sanitizeString(cells[2].innerText),
         }
     })
     // Make an html table
