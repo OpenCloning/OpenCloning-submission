@@ -1,0 +1,481 @@
+{
+  "sources": [
+    {
+      "id": 1,
+      "input": [],
+      "output": 2,
+      "type": "CollectionSource",
+      "category_id": "promoter_EB",
+      "title": "Promoter",
+      "description": "Left fusion site is E (GCTT)",
+      "image": "promoter.png",
+      "options": [
+        {
+          "name": "Strong constitutive promoter (2,547x J23112 strength) - J23100_EB",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65981"
+          },
+          "info": {
+            "plasmid_name": "J23100_EB",
+            "resistance": "Ampicillin",
+            "well": "A / 2",
+            "description": "Strong constitutive promoter (2,547x J23112 strength)"
+          }
+        },
+        {
+          "name": "Strong constitutive promoter (2,179x J23112 strength) - J23102_EB",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65985"
+          },
+          "info": {
+            "plasmid_name": "J23102_EB",
+            "resistance": "Ampicillin",
+            "well": "A / 6",
+            "description": "Strong constitutive promoter (2,179x J23112 strength)"
+          }
+        },
+        {
+          "name": "Weak constitutive promoter (17x J23112 strength) - J23103_EB",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65989"
+          },
+          "info": {
+            "plasmid_name": "J23103_EB",
+            "resistance": "Ampicillin",
+            "well": "A / 10",
+            "description": "Weak constitutive promoter (17x J23112 strength)"
+          }
+        },
+        {
+          "name": "Medium-strength constitutive promoter (1,185x J23112 strength) - J23106_EB",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65993"
+          },
+          "info": {
+            "plasmid_name": "J23106_EB",
+            "resistance": "Ampicillin",
+            "well": "B / 2",
+            "description": "Medium-strength constitutive promoter (1,185x J23112 strength)"
+          }
+        },
+        {
+          "name": "Medium-strength constitutive promoter (908x J23112 strength) - J23107_EB",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65997"
+          },
+          "info": {
+            "plasmid_name": "J23107_EB",
+            "resistance": "Ampicillin",
+            "well": "B / 6",
+            "description": "Medium-strength constitutive promoter (908x J23112 strength)"
+          }
+        },
+        {
+          "name": "Weak-medium constitutive promoter (396x J23112 strength) - J23116_EB",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66001"
+          },
+          "info": {
+            "plasmid_name": "J23116_EB",
+            "resistance": "Ampicillin",
+            "well": "B / 10",
+            "description": "Weak-medium constitutive promoter (396x J23112 strength)"
+          }
+        },
+        {
+          "name": "pLacI - R0010 (pLacI)_EB",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66005"
+          },
+          "info": {
+            "plasmid_name": "R0010 (pLacI)_EB",
+            "resistance": "Ampicillin",
+            "well": "C / 2",
+            "description": "pLacI"
+          }
+        },
+        {
+          "name": "pTet - R0040 (pTet)_EB",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66009"
+          },
+          "info": {
+            "plasmid_name": "R0040 (pTet)_EB",
+            "resistance": "Ampicillin",
+            "well": "C / 6",
+            "description": "pTet"
+          }
+        },
+        {
+          "name": "PLuxR-pL - R0063 (pLuxR-pR)_EB",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66013"
+          },
+          "info": {
+            "plasmid_name": "R0063 (pLuxR-pR)_EB",
+            "resistance": "Ampicillin",
+            "well": "C / 10",
+            "description": "PLuxR-pL"
+          }
+        },
+        {
+          "name": "pBad - I13453 (pBAD)_EB",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66017"
+          },
+          "info": {
+            "plasmid_name": "I13453 (pBAD)_EB",
+            "resistance": "Ampicillin",
+            "well": "D / 2",
+            "description": "pBad"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "input": [],
+      "output": 4,
+      "type": "CollectionSource",
+      "category_id": "RBS_BC",
+      "title": "RBS",
+      "description": null,
+      "image": "rbs.png",
+      "options": [
+        {
+          "name": "Medium Weiss RBS - B0032m_BC",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66020"
+          },
+          "info": {
+            "plasmid_name": "B0032m_BC",
+            "resistance": "Ampicillin",
+            "well": "D / 5",
+            "description": "Medium Weiss RBS"
+          }
+        },
+        {
+          "name": "Weak Weiss RBS - B0033m_BC",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66021"
+          },
+          "info": {
+            "plasmid_name": "B0033m_BC",
+            "resistance": "Ampicillin",
+            "well": "D / 6",
+            "description": "Weak Weiss RBS"
+          }
+        },
+        {
+          "name": "Strong Weiss RBS - B0034m_BC",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66022"
+          },
+          "info": {
+            "plasmid_name": "B0034m_BC",
+            "resistance": "Ampicillin",
+            "well": "D / 7",
+            "description": "Strong Weiss RBS"
+          }
+        },
+        {
+          "name": "Strongest BCD RBS - BCD12_BC",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66023"
+          },
+          "info": {
+            "plasmid_name": "BCD12_BC",
+            "resistance": "Ampicillin",
+            "well": "D / 8",
+            "description": "Strongest BCD RBS"
+          }
+        },
+        {
+          "name": "Extremely weak BCD RBS - BCD2_BC",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66024"
+          },
+          "info": {
+            "plasmid_name": "BCD2_BC",
+            "resistance": "Ampicillin",
+            "well": "D / 9",
+            "description": "Extremely weak BCD RBS"
+          }
+        },
+        {
+          "name": "Medium-strength BCD RBS - BCD8_BC",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66025"
+          },
+          "info": {
+            "plasmid_name": "BCD8_BC",
+            "resistance": "Ampicillin",
+            "well": "D / 10",
+            "description": "Medium-strength BCD RBS"
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "input": [],
+      "output": 6,
+      "type": "CollectionSource",
+      "category_id": "CDS_CD",
+      "title": "CDS",
+      "description": null,
+      "image": "cds.png",
+      "options": [
+        {
+          "name": "LacI-ssrA - C0012m (lacI)_CD",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66026"
+          },
+          "info": {
+            "plasmid_name": "C0012m (lacI)_CD",
+            "resistance": "Ampicillin",
+            "well": "D / 11",
+            "description": "LacI-ssrA"
+          }
+        },
+        {
+          "name": "TetR-ssrA - C0040 (tetR)_CD",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66027"
+          },
+          "info": {
+            "plasmid_name": "C0040 (tetR)_CD",
+            "resistance": "Ampicillin",
+            "well": "D / 12",
+            "description": "TetR-ssrA"
+          }
+        },
+        {
+          "name": "LuxR - C0062 (luxR)_CD",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66028"
+          },
+          "info": {
+            "plasmid_name": "C0062 (luxR)_CD",
+            "resistance": "Ampicillin",
+            "well": "E / 1",
+            "description": "LuxR"
+          }
+        },
+        {
+          "name": "AraC-ssrA - C0080 (araC)_CD",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66029"
+          },
+          "info": {
+            "plasmid_name": "C0080 (araC)_CD",
+            "resistance": "Ampicillin",
+            "well": "E / 2",
+            "description": "AraC-ssrA"
+          }
+        },
+        {
+          "name": "Cre recombinase - cre_CD",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66030"
+          },
+          "info": {
+            "plasmid_name": "cre_CD",
+            "resistance": "Ampicillin",
+            "well": "E / 3",
+            "description": "Cre recombinase"
+          }
+        },
+        {
+          "name": "YFP - E0030 (YFP)_CD",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66031"
+          },
+          "info": {
+            "plasmid_name": "E0030 (YFP)_CD",
+            "resistance": "Ampicillin",
+            "well": "E / 4",
+            "description": "YFP"
+          }
+        },
+        {
+          "name": "GFP - E0040m (GFP)_CD",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66032"
+          },
+          "info": {
+            "plasmid_name": "E0040m (GFP)_CD",
+            "resistance": "Ampicillin",
+            "well": "E / 5",
+            "description": "GFP"
+          }
+        },
+        {
+          "name": "RFP - E1010m (RFP)_CD",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66033"
+          },
+          "info": {
+            "plasmid_name": "E1010m (RFP)_CD",
+            "resistance": "Ampicillin",
+            "well": "E / 6",
+            "description": "RFP"
+          }
+        },
+        {
+          "name": "eBFP2 - eBFP2 (eBFP2)_CD",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66034"
+          },
+          "info": {
+            "plasmid_name": "eBFP2 (eBFP2)_CD",
+            "resistance": "Ampicillin",
+            "well": "E / 7",
+            "description": "eBFP2"
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "input": [],
+      "output": 8,
+      "type": "CollectionSource",
+      "category_id": "terminator_DF",
+      "title": "Terminator",
+      "description": "Right fusion site is F (CGCT)",
+      "image": "terminator.png",
+      "options": [
+        {
+          "name": "Terminator - B0015_DF",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66036"
+          },
+          "info": {
+            "plasmid_name": "B0015_DF",
+            "resistance": "Ampicillin",
+            "well": "E / 9",
+            "description": "Terminator"
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "input": [],
+      "output": 10,
+      "type": "CollectionSource",
+      "category_id": "backbone_EF",
+      "title": "Backbone",
+      "description": null,
+      "image": "backbone.png",
+      "options": [
+        {
+          "name": "Plasmid backbone (Amp) - DVA_EF",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66051"
+          },
+          "info": {
+            "plasmid_name": "DVA_EF",
+            "resistance": "Ampicillin",
+            "well": "F / 12",
+            "description": "Plasmid backbone (Amp)"
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "input": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "output": 12,
+      "type": "RestrictionAndLigationSource"
+    }
+  ],
+  "sequences": [
+    {
+      "id": 2,
+      "type": "TemplateSequence"
+    },
+    {
+      "id": 4,
+      "type": "TemplateSequence"
+    },
+    {
+      "id": 6,
+      "type": "TemplateSequence"
+    },
+    {
+      "id": 8,
+      "type": "TemplateSequence"
+    },
+    {
+      "id": 10,
+      "type": "TemplateSequence"
+    },
+    {
+      "id": 12,
+      "type": "TemplateSequence"
+    }
+  ],
+  "description": "Transcriptional Unit EF\n\nPlasmid with a transcriptional unit starting and ending with fusion sites E (GCTT) and F (CGCT)"
+}
