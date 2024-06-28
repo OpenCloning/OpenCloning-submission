@@ -37,5 +37,63 @@
         "template_file": "assembly_template_001.json"
       }
     ]
+  },
+  "kits-densmore-cidar-moclo": {
+    "kit": {
+      "pmid": "PMID:26479688",
+      "addgene_url": "https://www.addgene.org/kits/densmore-cidar-moclo",
+      "title": "CIDAR MoClo Parts Kit",
+      "description": "Golden-gate based modular cloning kit for E. coli"
+    },
+    "assemblies": [
+      {
+        "title": "Transcriptional Unit AE",
+        "description": "Plasmid with a transcriptional unit starting and ending with fusion sites A (GGAG) and E (GCTT)",
+        "fragment_order": [
+          "promoter_AB",
+          "RBS_BC",
+          "CDS_CD",
+          "terminator_DE",
+          "backbone_AE"
+        ],
+        "template_file": "assembly_template_001.json"
+      },
+      {
+        "title": "Transcriptional Unit EF",
+        "description": "Plasmid with a transcriptional unit starting and ending with fusion sites E (GCTT) and F (CGCT)",
+        "fragment_order": [
+          "promoter_EB",
+          "RBS_BC",
+          "CDS_CD",
+          "terminator_DF",
+          "backbone_EF"
+        ],
+        "template_file": "assembly_template_002.json"
+      },
+      {
+        "title": "Transcriptional Unit FG",
+        "description": "Plasmid with a transcriptional unit starting and ending with fusion sites F (CGCT) and G (TGCC)",
+        "fragment_order": [
+          "promoter_FB",
+          "RBS_BC",
+          "CDS_CD",
+          "terminator_DG",
+          "backbone_FG"
+        ],
+        "template_file": "assembly_template_003.json"
+      },
+      {
+        "title": "Transcriptional Unit GH",
+        "description": "Plasmid with a transcriptional unit starting and ending with fusion sites G (TGCC) and H (ACTA)",
+        "fragment_order": [
+          "promoter_GB",
+          "RBS_BC",
+          "CDS_CD",
+          "terminator_DH",
+          "backbone_GH"
+        ],
+        "template_file": "assembly_template_004.json"
+      }
+    ]
   }
 }
