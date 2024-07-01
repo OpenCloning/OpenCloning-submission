@@ -142,12 +142,12 @@ You need a table from a publication in which either of the columns `plasmid_name
 
 In google sheets you can easily merge the two tables by using the `VLOOKUP` function. In the [example submission](https://docs.google.com/spreadsheets/d/1u54WUnWq99lchTnQEmboktpDHeiILHor4ZA0gnr8yik/edit?usp=sharing) you can see how to use this formula.
 
-Go to the sheet `extra_info` in the example. It contains the supplementary table from the publication. To fill the `category` and `description` columns in the `Sequence` sheet, see the formula in the `category` column of the `Sequence` sheet. In the first cell, it contains `=VLOOKUP(A2,extra_info!A:D,2)`:
+Go to the sheet `extra_info` in the example. It contains the supplementary table from the publication. To fill the `category` and `description` columns in the `Sequence` sheet, see the formula in the `category` column of the `Sequence` sheet. In the first cell, it contains `=VLOOKUP(A2,extra_info!A:D,2,FALSE)`:
 * `A2` is the `plasmid_name` cell in the first row of the `Sequence` sheet.
 * `extra_info!A:C` specifies the columns of the table in sheet `extra_info` that we want to get information from.
 * Finally, `2` specifies that we want to get the information from the second column of the table in `extra_info`.
 * `VLOOKUP` will look for the value in `A2` in the table in `extra_info`, and return the value in the second column of the table in `extra_info`.
-* The same is done for the `description` column, but with `=VLOOKUP(A2,extra_info!A:D,3)` instead.
+* The same is done for the `description` column, but with `=VLOOKUP(A2,extra_info!A:D,3,FALSE)` instead.
 
 You can do the same thing for your submission:
 1. Create an `extra_info` sheet in your submission template
