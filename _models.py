@@ -58,7 +58,7 @@ class Category(ConfiguredBaseModel):
 
 
 class Kit(ConfiguredBaseModel):
-    pmid: str = Field(..., description="""The PubMed ID for the object""")
+    pmid: Optional[str] = Field(None, description="""The PubMed ID for the object""")
     addgene_url: str = Field(..., description="""The Addgene URL for the kit""")
     title: str = Field(
         ..., description="""A title for the representation of the object"""
@@ -150,6 +150,18 @@ class Submitter(ConfiguredBaseModel):
         return v
 
 
+class Primer(ConfiguredBaseModel):
+    name: str = Field(...)
+    sequence: str = Field(...)
+
+
+class PrimerPair(ConfiguredBaseModel):
+    category: str = Field(...)
+    forward_primer: str = Field(...)
+    reverse_primer: str = Field(...)
+    name: str = Field(...)
+
+
 class Assembly(ConfiguredBaseModel):
     title: str = Field(
         ..., description="""A title for the representation of the object"""
@@ -179,6 +191,8 @@ class Submission(ConfiguredBaseModel):
     sequences: conlist(min_length=1, item_type=Sequence) = Field(default_factory=list)
     categories: conlist(min_length=1, item_type=Category) = Field(default_factory=list)
     assemblies: conlist(min_length=1, item_type=Assembly) = Field(default_factory=list)
+    primers: Optional[List[Primer]] = Field(default_factory=list)
+    primer_pairs: Optional[List[PrimerPair]] = Field(default_factory=list)
 
 
 # Model rebuild
@@ -187,5 +201,7 @@ Category.model_rebuild()
 Kit.model_rebuild()
 Sequence.model_rebuild()
 Submitter.model_rebuild()
+Primer.model_rebuild()
+PrimerPair.model_rebuild()
 Assembly.model_rebuild()
 Submission.model_rebuild()

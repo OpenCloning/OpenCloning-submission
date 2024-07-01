@@ -159,6 +159,8 @@ class Kit(_Kit):
 
     @field_validator("pmid")
     def validate_pmid_exists(cls, v: str):
+        if v is None:
+            return v
         id_only = v.split(":")[1]
         resp = requests.get(
             f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id={id_only}"
