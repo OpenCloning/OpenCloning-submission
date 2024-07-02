@@ -19,7 +19,7 @@ from pydantic import (
 )
 import requests
 import annotated_types
-from typing import Annotated
+from typing import Annotated, Union
 from github import Github, Auth
 import os
 from pydna.dseq import Dseq
@@ -68,7 +68,7 @@ class Sequence(_Sequence):
         pass
 
 
-class OligoPair(Sequence, _OligoPair):
+class OligoPair(_OligoPair, Sequence):
 
     def to_source_option(self, submission: "Submission"):
         info = dict()
@@ -109,7 +109,7 @@ class OligoPair(Sequence, _OligoPair):
         }
 
 
-class AddGenePlasmid(Sequence, _AddGenePlasmid):
+class AddGenePlasmid(_AddGenePlasmid, Sequence):
 
     def to_source_option(self, submission: "Submission"):
         info = dict()
@@ -202,6 +202,7 @@ class Assembly(_Assembly):
             "sources": sources,
             "sequences": dummy_sequences,
             "description": f"{self.title}\n\n{self.description}",
+            "primers": [oligo.model_dump() for oligo in submission.oligos],
         }
 
 
@@ -242,9 +243,9 @@ class Submission(_Submission):
         default_factory=list
     )
     kit: Kit = Field(...)
-    sequences: Annotated[list[Sequence], annotated_types.Len(min_length=1)] = Field(
-        default_factory=list
-    )
+    sequences: Annotated[
+        list[Sequence | AddGenePlasmid | OligoPair], annotated_types.Len(min_length=1)
+    ] = Field(default_factory=list)
     categories: Annotated[list[Category], annotated_types.Len(min_length=1)] = Field(
         default_factory=list
     )

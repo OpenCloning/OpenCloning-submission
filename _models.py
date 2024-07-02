@@ -96,6 +96,9 @@ class Sequence(ConfiguredBaseModel):
     description: Optional[str] = Field(
         None, description="""A description of the object"""
     )
+    type: Literal["Sequence"] = Field(
+        "Sequence", description="""The type of sequence"""
+    )
 
 
 class AddGenePlasmid(Sequence):
@@ -109,6 +112,9 @@ class AddGenePlasmid(Sequence):
     )
     name: str = Field(..., description="""The name of a thing""")
     category: str = Field(...)
+    type: Literal["AddGenePlasmid"] = Field(
+        "AddGenePlasmid", description="""The type of sequence"""
+    )
 
     @field_validator("addgene_id")
     def pattern_addgene_id(cls, v):
@@ -172,6 +178,9 @@ class OligoPair(Sequence):
     description: Optional[str] = Field(
         None, description="""A description of the object"""
     )
+    type: Literal["OligoPair"] = Field(
+        "OligoPair", description="""The type of sequence"""
+    )
 
 
 class Assembly(ConfiguredBaseModel):
@@ -200,7 +209,9 @@ class Assembly(ConfiguredBaseModel):
 class Submission(ConfiguredBaseModel):
     submitters: conlist(min_length=1, item_type=Submitter) = Field(default_factory=list)
     kit: Kit = Field(...)
-    sequences: conlist(min_length=1, item_type=Sequence) = Field(default_factory=list)
+    sequences: conlist(
+        min_length=1, item_type=Union[Sequence, AddGenePlasmid, OligoPair]
+    ) = Field(default_factory=list)
     categories: conlist(min_length=1, item_type=Category) = Field(default_factory=list)
     assemblies: conlist(min_length=1, item_type=Assembly) = Field(default_factory=list)
     oligos: Optional[List[Oligo]] = Field(default_factory=list)

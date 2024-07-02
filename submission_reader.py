@@ -13,10 +13,12 @@ def sheet_reader(file, sheet_name):
 
 def read_submission(file) -> Submission:
     plasmids = sheet_reader(file, "Sequence")
+    plasmids["type"] = "AddGenePlasmid"
     categories = sheet_reader(file, "Category")
     kits = sheet_reader(file, "Kit")
     oligos = sheet_reader(file, "Oligo")
     oligo_pairs = sheet_reader(file, "OligoPair")
+    oligo_pairs["type"] = "OligoPair"
 
     if len(kits) != 1:
         raise ValueError("There should be only one kit")
