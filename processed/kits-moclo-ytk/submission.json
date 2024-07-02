@@ -14,7 +14,7 @@
   },
   "sequences": [
     {
-      "plasmid_name": "pYTK002",
+      "name": "pYTK002",
       "addgene_id": "65109",
       "category": "1",
       "resistance": "Chloramphenicol",
@@ -22,7 +22,7 @@
       "description": "ConLS"
     },
     {
-      "plasmid_name": "pYTK003",
+      "name": "pYTK003",
       "addgene_id": "65110",
       "category": "1",
       "resistance": "Chloramphenicol",
@@ -30,7 +30,7 @@
       "description": "ConL1"
     },
     {
-      "plasmid_name": "pYTK004",
+      "name": "pYTK004",
       "addgene_id": "65111",
       "category": "1",
       "resistance": "Chloramphenicol",
@@ -38,7 +38,7 @@
       "description": "ConL2"
     },
     {
-      "plasmid_name": "pYTK005",
+      "name": "pYTK005",
       "addgene_id": "65112",
       "category": "1",
       "resistance": "Chloramphenicol",
@@ -46,7 +46,7 @@
       "description": "ConL3"
     },
     {
-      "plasmid_name": "pYTK006",
+      "name": "pYTK006",
       "addgene_id": "65113",
       "category": "1",
       "resistance": "Chloramphenicol",
@@ -54,7 +54,7 @@
       "description": "ConL4"
     },
     {
-      "plasmid_name": "pYTK007",
+      "name": "pYTK007",
       "addgene_id": "65114",
       "category": "1",
       "resistance": "Chloramphenicol",
@@ -62,7 +62,7 @@
       "description": "ConL5"
     },
     {
-      "plasmid_name": "pYTK008",
+      "name": "pYTK008",
       "addgene_id": "65115",
       "category": "1",
       "resistance": "Chloramphenicol",
@@ -70,7 +70,7 @@
       "description": "ConLS'"
     },
     {
-      "plasmid_name": "pYTK009",
+      "name": "pYTK009",
       "addgene_id": "65116",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -78,7 +78,7 @@
       "description": "pTDH3"
     },
     {
-      "plasmid_name": "pYTK010",
+      "name": "pYTK010",
       "addgene_id": "65117",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -86,7 +86,7 @@
       "description": "pCCW12"
     },
     {
-      "plasmid_name": "pYTK011",
+      "name": "pYTK011",
       "addgene_id": "65118",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -94,7 +94,7 @@
       "description": "pPGK1"
     },
     {
-      "plasmid_name": "pYTK012",
+      "name": "pYTK012",
       "addgene_id": "65119",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -102,7 +102,7 @@
       "description": "pHHF2"
     },
     {
-      "plasmid_name": "pYTK013",
+      "name": "pYTK013",
       "addgene_id": "65120",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -110,7 +110,7 @@
       "description": "pTEF1"
     },
     {
-      "plasmid_name": "pYTK014",
+      "name": "pYTK014",
       "addgene_id": "65121",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -118,7 +118,7 @@
       "description": "pTEF2"
     },
     {
-      "plasmid_name": "pYTK015",
+      "name": "pYTK015",
       "addgene_id": "65122",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -126,7 +126,7 @@
       "description": "pHHF1"
     },
     {
-      "plasmid_name": "pYTK016",
+      "name": "pYTK016",
       "addgene_id": "65123",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -134,7 +134,7 @@
       "description": "pHTB2"
     },
     {
-      "plasmid_name": "pYTK017",
+      "name": "pYTK017",
       "addgene_id": "65124",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -142,7 +142,7 @@
       "description": "pRPL18B"
     },
     {
-      "plasmid_name": "pYTK018",
+      "name": "pYTK018",
       "addgene_id": "65125",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -150,7 +150,7 @@
       "description": "pALD6"
     },
     {
-      "plasmid_name": "pYTK019",
+      "name": "pYTK019",
       "addgene_id": "65126",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -158,7 +158,7 @@
       "description": "pPAB1"
     },
     {
-      "plasmid_name": "pYTK020",
+      "name": "pYTK020",
       "addgene_id": "65127",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -166,7 +166,7 @@
       "description": "pRET2"
     },
     {
-      "plasmid_name": "pYTK021",
+      "name": "pYTK021",
       "addgene_id": "65128",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -174,7 +174,7 @@
       "description": "pRNR1"
     },
     {
-      "plasmid_name": "pYTK022",
+      "name": "pYTK022",
       "addgene_id": "65129",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -182,7 +182,7 @@
       "description": "pSAC6"
     },
     {
-      "plasmid_name": "pYTK023",
+      "name": "pYTK023",
       "addgene_id": "65130",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -190,7 +190,7 @@
       "description": "pRNR2"
     },
     {
-      "plasmid_name": "pYTK024",
+      "name": "pYTK024",
       "addgene_id": "65131",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -198,7 +198,7 @@
       "description": "pPOP6"
     },
     {
-      "plasmid_name": "pYTK025",
+      "name": "pYTK025",
       "addgene_id": "65132",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -206,7 +206,7 @@
       "description": "pRAD27"
     },
     {
-      "plasmid_name": "pYTK026",
+      "name": "pYTK026",
       "addgene_id": "65133",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -214,7 +214,7 @@
       "description": "pPSP2"
     },
     {
-      "plasmid_name": "pYTK027",
+      "name": "pYTK027",
       "addgene_id": "65134",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -222,7 +222,7 @@
       "description": "pREV1"
     },
     {
-      "plasmid_name": "pYTK028",
+      "name": "pYTK028",
       "addgene_id": "65135",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -230,7 +230,7 @@
       "description": "pMFA1"
     },
     {
-      "plasmid_name": "pYTK029",
+      "name": "pYTK029",
       "addgene_id": "65136",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -238,7 +238,7 @@
       "description": "pMF\u03b12"
     },
     {
-      "plasmid_name": "pYTK030",
+      "name": "pYTK030",
       "addgene_id": "65137",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -246,7 +246,7 @@
       "description": "pGAL1"
     },
     {
-      "plasmid_name": "pYTK031",
+      "name": "pYTK031",
       "addgene_id": "65138",
       "category": "2",
       "resistance": "Chloramphenicol",
@@ -254,7 +254,7 @@
       "description": "pCUP1"
     },
     {
-      "plasmid_name": "pYTK032",
+      "name": "pYTK032",
       "addgene_id": "65139",
       "category": "3",
       "resistance": "Chloramphenicol",
@@ -262,7 +262,7 @@
       "description": "mTurquoise2"
     },
     {
-      "plasmid_name": "pYTK033",
+      "name": "pYTK033",
       "addgene_id": "65140",
       "category": "3",
       "resistance": "Chloramphenicol",
@@ -270,7 +270,7 @@
       "description": "Venus"
     },
     {
-      "plasmid_name": "pYTK034",
+      "name": "pYTK034",
       "addgene_id": "65141",
       "category": "3",
       "resistance": "Chloramphenicol",
@@ -278,7 +278,7 @@
       "description": "mRuby2"
     },
     {
-      "plasmid_name": "pYTK035",
+      "name": "pYTK035",
       "addgene_id": "65142",
       "category": "3",
       "resistance": "Chloramphenicol",
@@ -286,7 +286,7 @@
       "description": "I-SceI (ORF)"
     },
     {
-      "plasmid_name": "pYTK036",
+      "name": "pYTK036",
       "addgene_id": "65143",
       "category": "3",
       "resistance": "Chloramphenicol",
@@ -294,7 +294,7 @@
       "description": "Cas9"
     },
     {
-      "plasmid_name": "pYTK037",
+      "name": "pYTK037",
       "addgene_id": "65144",
       "category": "3a",
       "resistance": "Chloramphenicol",
@@ -302,7 +302,7 @@
       "description": "mTurquoise2"
     },
     {
-      "plasmid_name": "pYTK038",
+      "name": "pYTK038",
       "addgene_id": "65145",
       "category": "3a",
       "resistance": "Chloramphenicol",
@@ -310,7 +310,7 @@
       "description": "Venus"
     },
     {
-      "plasmid_name": "pYTK039",
+      "name": "pYTK039",
       "addgene_id": "65146",
       "category": "3a",
       "resistance": "Chloramphenicol",
@@ -318,7 +318,7 @@
       "description": "mRuby2"
     },
     {
-      "plasmid_name": "pYTK040",
+      "name": "pYTK040",
       "addgene_id": "65147",
       "category": "3a",
       "resistance": "Chloramphenicol",
@@ -326,7 +326,7 @@
       "description": "3XFLAG-6XHis"
     },
     {
-      "plasmid_name": "pYTK041",
+      "name": "pYTK041",
       "addgene_id": "65148",
       "category": "3a",
       "resistance": "Chloramphenicol",
@@ -334,7 +334,7 @@
       "description": "Ubi-M"
     },
     {
-      "plasmid_name": "pYTK042",
+      "name": "pYTK042",
       "addgene_id": "65149",
       "category": "3a",
       "resistance": "Chloramphenicol",
@@ -342,7 +342,7 @@
       "description": "Ubi-Y"
     },
     {
-      "plasmid_name": "pYTK043",
+      "name": "pYTK043",
       "addgene_id": "65150",
       "category": "3a",
       "resistance": "Chloramphenicol",
@@ -350,7 +350,7 @@
       "description": "Ubi-R"
     },
     {
-      "plasmid_name": "pYTK044",
+      "name": "pYTK044",
       "addgene_id": "65151",
       "category": "3b",
       "resistance": "Chloramphenicol",
@@ -358,7 +358,7 @@
       "description": "mTurquoise2"
     },
     {
-      "plasmid_name": "pYTK045",
+      "name": "pYTK045",
       "addgene_id": "65152",
       "category": "3b",
       "resistance": "Chloramphenicol",
@@ -366,7 +366,7 @@
       "description": "Venus"
     },
     {
-      "plasmid_name": "pYTK046",
+      "name": "pYTK046",
       "addgene_id": "65153",
       "category": "3b",
       "resistance": "Chloramphenicol",
@@ -374,7 +374,7 @@
       "description": "mRuby2"
     },
     {
-      "plasmid_name": "pYTK047",
+      "name": "pYTK047",
       "addgene_id": "65154",
       "category": "234r",
       "resistance": "Chloramphenicol",
@@ -382,7 +382,7 @@
       "description": "GFP dropout"
     },
     {
-      "plasmid_name": "pYTK048",
+      "name": "pYTK048",
       "addgene_id": "65155",
       "category": "234",
       "resistance": "Chloramphenicol",
@@ -390,7 +390,7 @@
       "description": "Spacer"
     },
     {
-      "plasmid_name": "pYTK049",
+      "name": "pYTK049",
       "addgene_id": "65156",
       "category": "234",
       "resistance": "Chloramphenicol",
@@ -398,7 +398,7 @@
       "description": "I-SceI recognition site"
     },
     {
-      "plasmid_name": "pYTK050",
+      "name": "pYTK050",
       "addgene_id": "65157",
       "category": "234",
       "resistance": "Chloramphenicol",
@@ -406,7 +406,7 @@
       "description": "sgRNA Dropout"
     },
     {
-      "plasmid_name": "pYTK051",
+      "name": "pYTK051",
       "addgene_id": "65158",
       "category": "4",
       "resistance": "Chloramphenicol",
@@ -414,7 +414,7 @@
       "description": "tENO1"
     },
     {
-      "plasmid_name": "pYTK052",
+      "name": "pYTK052",
       "addgene_id": "65159",
       "category": "4",
       "resistance": "Chloramphenicol",
@@ -422,7 +422,7 @@
       "description": "tSSA1"
     },
     {
-      "plasmid_name": "pYTK053",
+      "name": "pYTK053",
       "addgene_id": "65160",
       "category": "4",
       "resistance": "Chloramphenicol",
@@ -430,7 +430,7 @@
       "description": "tADH1"
     },
     {
-      "plasmid_name": "pYTK054",
+      "name": "pYTK054",
       "addgene_id": "65161",
       "category": "4",
       "resistance": "Chloramphenicol",
@@ -438,7 +438,7 @@
       "description": "tPGK1"
     },
     {
-      "plasmid_name": "pYTK055",
+      "name": "pYTK055",
       "addgene_id": "65162",
       "category": "4",
       "resistance": "Chloramphenicol",
@@ -446,7 +446,7 @@
       "description": "tENO2"
     },
     {
-      "plasmid_name": "pYTK056",
+      "name": "pYTK056",
       "addgene_id": "65163",
       "category": "4",
       "resistance": "Chloramphenicol",
@@ -454,7 +454,7 @@
       "description": "tTDH1"
     },
     {
-      "plasmid_name": "pYTK057",
+      "name": "pYTK057",
       "addgene_id": "65164",
       "category": "4a",
       "resistance": "Chloramphenicol",
@@ -462,7 +462,7 @@
       "description": "mTurquoise2"
     },
     {
-      "plasmid_name": "pYTK058",
+      "name": "pYTK058",
       "addgene_id": "65165",
       "category": "4a",
       "resistance": "Chloramphenicol",
@@ -470,7 +470,7 @@
       "description": "Venus"
     },
     {
-      "plasmid_name": "pYTK059",
+      "name": "pYTK059",
       "addgene_id": "65166",
       "category": "4a",
       "resistance": "Chloramphenicol",
@@ -478,7 +478,7 @@
       "description": "mRuby2"
     },
     {
-      "plasmid_name": "pYTK060",
+      "name": "pYTK060",
       "addgene_id": "65167",
       "category": "4a",
       "resistance": "Chloramphenicol",
@@ -486,7 +486,7 @@
       "description": "3XFLAG-6XHis"
     },
     {
-      "plasmid_name": "pYTK061",
+      "name": "pYTK061",
       "addgene_id": "65168",
       "category": "4b",
       "resistance": "Chloramphenicol",
@@ -494,7 +494,7 @@
       "description": "tENO1"
     },
     {
-      "plasmid_name": "pYTK062",
+      "name": "pYTK062",
       "addgene_id": "65169",
       "category": "4b",
       "resistance": "Chloramphenicol",
@@ -502,7 +502,7 @@
       "description": "tSSA1"
     },
     {
-      "plasmid_name": "pYTK063",
+      "name": "pYTK063",
       "addgene_id": "65170",
       "category": "4b",
       "resistance": "Chloramphenicol",
@@ -510,7 +510,7 @@
       "description": "tADH1"
     },
     {
-      "plasmid_name": "pYTK064",
+      "name": "pYTK064",
       "addgene_id": "65171",
       "category": "4b",
       "resistance": "Chloramphenicol",
@@ -518,7 +518,7 @@
       "description": "tPGK1"
     },
     {
-      "plasmid_name": "pYTK065",
+      "name": "pYTK065",
       "addgene_id": "65172",
       "category": "4b",
       "resistance": "Chloramphenicol",
@@ -526,7 +526,7 @@
       "description": "tENO2"
     },
     {
-      "plasmid_name": "pYTK066",
+      "name": "pYTK066",
       "addgene_id": "65173",
       "category": "4b",
       "resistance": "Chloramphenicol",
@@ -534,7 +534,7 @@
       "description": "tTDH1"
     },
     {
-      "plasmid_name": "pYTK067",
+      "name": "pYTK067",
       "addgene_id": "65174",
       "category": "5",
       "resistance": "Chloramphenicol",
@@ -542,7 +542,7 @@
       "description": "ConR1"
     },
     {
-      "plasmid_name": "pYTK068",
+      "name": "pYTK068",
       "addgene_id": "65175",
       "category": "5",
       "resistance": "Chloramphenicol",
@@ -550,7 +550,7 @@
       "description": "ConR2"
     },
     {
-      "plasmid_name": "pYTK069",
+      "name": "pYTK069",
       "addgene_id": "65176",
       "category": "5",
       "resistance": "Chloramphenicol",
@@ -558,7 +558,7 @@
       "description": "ConR3"
     },
     {
-      "plasmid_name": "pYTK070",
+      "name": "pYTK070",
       "addgene_id": "65177",
       "category": "5",
       "resistance": "Chloramphenicol",
@@ -566,7 +566,7 @@
       "description": "ConR4"
     },
     {
-      "plasmid_name": "pYTK071",
+      "name": "pYTK071",
       "addgene_id": "65178",
       "category": "5",
       "resistance": "Chloramphenicol",
@@ -574,7 +574,7 @@
       "description": "ConR5"
     },
     {
-      "plasmid_name": "pYTK072",
+      "name": "pYTK072",
       "addgene_id": "65179",
       "category": "5",
       "resistance": "Chloramphenicol",
@@ -582,7 +582,7 @@
       "description": "ConRE"
     },
     {
-      "plasmid_name": "pYTK073",
+      "name": "pYTK073",
       "addgene_id": "65180",
       "category": "5",
       "resistance": "Chloramphenicol",
@@ -590,7 +590,7 @@
       "description": "ConRE'"
     },
     {
-      "plasmid_name": "pYTK074",
+      "name": "pYTK074",
       "addgene_id": "65181",
       "category": "6",
       "resistance": "Chloramphenicol",
@@ -598,7 +598,7 @@
       "description": "URA3"
     },
     {
-      "plasmid_name": "pYTK075",
+      "name": "pYTK075",
       "addgene_id": "65182",
       "category": "6",
       "resistance": "Chloramphenicol",
@@ -606,7 +606,7 @@
       "description": "LEU2"
     },
     {
-      "plasmid_name": "pYTK076",
+      "name": "pYTK076",
       "addgene_id": "65183",
       "category": "6",
       "resistance": "Chloramphenicol",
@@ -614,7 +614,7 @@
       "description": "HIS3"
     },
     {
-      "plasmid_name": "pYTK077",
+      "name": "pYTK077",
       "addgene_id": "65184",
       "category": "6",
       "resistance": "Chloramphenicol",
@@ -622,7 +622,7 @@
       "description": "KanamycinR"
     },
     {
-      "plasmid_name": "pYTK078",
+      "name": "pYTK078",
       "addgene_id": "65185",
       "category": "6",
       "resistance": "Chloramphenicol",
@@ -630,7 +630,7 @@
       "description": "NourseothricinR"
     },
     {
-      "plasmid_name": "pYTK079",
+      "name": "pYTK079",
       "addgene_id": "65186",
       "category": "6",
       "resistance": "Chloramphenicol",
@@ -638,7 +638,7 @@
       "description": "HygromycinR"
     },
     {
-      "plasmid_name": "pYTK080",
+      "name": "pYTK080",
       "addgene_id": "65187",
       "category": "6",
       "resistance": "Chloramphenicol",
@@ -646,7 +646,7 @@
       "description": "ZeocinR"
     },
     {
-      "plasmid_name": "pYTK081",
+      "name": "pYTK081",
       "addgene_id": "65188",
       "category": "7",
       "resistance": "Chloramphenicol",
@@ -654,7 +654,7 @@
       "description": "CEN6/ARS4"
     },
     {
-      "plasmid_name": "pYTK082",
+      "name": "pYTK082",
       "addgene_id": "65189",
       "category": "7",
       "resistance": "Chloramphenicol",
@@ -662,7 +662,7 @@
       "description": "2micron"
     },
     {
-      "plasmid_name": "pYTK083",
+      "name": "pYTK083",
       "addgene_id": "65190",
       "category": "8",
       "resistance": "Ampicillin",
@@ -670,7 +670,7 @@
       "description": "AmpR-ColE1"
     },
     {
-      "plasmid_name": "pYTK084",
+      "name": "pYTK084",
       "addgene_id": "65191",
       "category": "8",
       "resistance": "Kanamycin",
@@ -678,7 +678,7 @@
       "description": "KanR-ColE1"
     },
     {
-      "plasmid_name": "pYTK085",
+      "name": "pYTK085",
       "addgene_id": "65192",
       "category": "8",
       "resistance": "Spectinomycin",
@@ -686,7 +686,7 @@
       "description": "SpecR-ColE1"
     },
     {
-      "plasmid_name": "pYTK086",
+      "name": "pYTK086",
       "addgene_id": "65193",
       "category": "7",
       "resistance": "Chloramphenicol",
@@ -694,7 +694,7 @@
       "description": "URA3 3' Homology"
     },
     {
-      "plasmid_name": "pYTK087",
+      "name": "pYTK087",
       "addgene_id": "65194",
       "category": "7",
       "resistance": "Chloramphenicol",
@@ -702,7 +702,7 @@
       "description": "LEU2 3' Homology"
     },
     {
-      "plasmid_name": "pYTK088",
+      "name": "pYTK088",
       "addgene_id": "65195",
       "category": "7",
       "resistance": "Chloramphenicol",
@@ -710,7 +710,7 @@
       "description": "HO 3' Homology"
     },
     {
-      "plasmid_name": "pYTK089",
+      "name": "pYTK089",
       "addgene_id": "65196",
       "category": "8a",
       "resistance": "Ampicillin",
@@ -718,7 +718,7 @@
       "description": "AmpR-ColE1"
     },
     {
-      "plasmid_name": "pYTK090",
+      "name": "pYTK090",
       "addgene_id": "65197",
       "category": "8a",
       "resistance": "Kanamycin",
@@ -726,7 +726,7 @@
       "description": "KanR-ColE1"
     },
     {
-      "plasmid_name": "pYTK091",
+      "name": "pYTK091",
       "addgene_id": "65198",
       "category": "8a",
       "resistance": "Spectinomycin",
@@ -734,7 +734,7 @@
       "description": "SpecR-ColE1"
     },
     {
-      "plasmid_name": "pYTK092",
+      "name": "pYTK092",
       "addgene_id": "65199",
       "category": "8b",
       "resistance": "Chloramphenicol",
@@ -742,7 +742,7 @@
       "description": "URA3 5' Homology"
     },
     {
-      "plasmid_name": "pYTK093",
+      "name": "pYTK093",
       "addgene_id": "65200",
       "category": "8b",
       "resistance": "Chloramphenicol",
@@ -750,7 +750,7 @@
       "description": "LEU2 5' Homology"
     },
     {
-      "plasmid_name": "pYTK094",
+      "name": "pYTK094",
       "addgene_id": "65201",
       "category": "8b",
       "resistance": "Chloramphenicol",
@@ -758,7 +758,7 @@
       "description": "HO 5' Homology"
     },
     {
-      "plasmid_name": "pYTK095",
+      "name": "pYTK095",
       "addgene_id": "65202",
       "category": "678",
       "resistance": "Ampicillin",

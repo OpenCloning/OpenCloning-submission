@@ -14,7 +14,7 @@
   },
   "sequences": [
     {
-      "plasmid_name": "J23100_AB",
+      "name": "J23100_AB",
       "addgene_id": "65980",
       "category": "promoter_AB",
       "resistance": "Ampicillin",
@@ -22,7 +22,7 @@
       "description": "Strong constitutive promoter (2,547x J23112 strength)"
     },
     {
-      "plasmid_name": "J23100_EB",
+      "name": "J23100_EB",
       "addgene_id": "65981",
       "category": "promoter_EB",
       "resistance": "Ampicillin",
@@ -30,7 +30,7 @@
       "description": "Strong constitutive promoter (2,547x J23112 strength)"
     },
     {
-      "plasmid_name": "J23100_FB",
+      "name": "J23100_FB",
       "addgene_id": "65982",
       "category": "promoter_FB",
       "resistance": "Ampicillin",
@@ -38,7 +38,7 @@
       "description": "Strong constitutive promoter (2,547x J23112 strength)"
     },
     {
-      "plasmid_name": "J23100_GB",
+      "name": "J23100_GB",
       "addgene_id": "65983",
       "category": "promoter_GB",
       "resistance": "Ampicillin",
@@ -46,7 +46,7 @@
       "description": "Strong constitutive promoter (2,547x J23112 strength)"
     },
     {
-      "plasmid_name": "J23102_AB",
+      "name": "J23102_AB",
       "addgene_id": "65984",
       "category": "promoter_AB",
       "resistance": "Ampicillin",
@@ -54,7 +54,7 @@
       "description": "Strong constitutive promoter (2,179x J23112 strength)"
     },
     {
-      "plasmid_name": "J23102_EB",
+      "name": "J23102_EB",
       "addgene_id": "65985",
       "category": "promoter_EB",
       "resistance": "Ampicillin",
@@ -62,7 +62,7 @@
       "description": "Strong constitutive promoter (2,179x J23112 strength)"
     },
     {
-      "plasmid_name": "J23102_FB",
+      "name": "J23102_FB",
       "addgene_id": "65986",
       "category": "promoter_FB",
       "resistance": "Ampicillin",
@@ -70,7 +70,7 @@
       "description": "Strong constitutive promoter (2,179x J23112 strength)"
     },
     {
-      "plasmid_name": "J23102_GB",
+      "name": "J23102_GB",
       "addgene_id": "65987",
       "category": "promoter_GB",
       "resistance": "Ampicillin",
@@ -78,7 +78,7 @@
       "description": "Strong constitutive promoter (2,179x J23112 strength)"
     },
     {
-      "plasmid_name": "J23103_AB",
+      "name": "J23103_AB",
       "addgene_id": "65988",
       "category": "promoter_AB",
       "resistance": "Ampicillin",
@@ -86,7 +86,7 @@
       "description": "Weak constitutive promoter (17x J23112 strength)"
     },
     {
-      "plasmid_name": "J23103_EB",
+      "name": "J23103_EB",
       "addgene_id": "65989",
       "category": "promoter_EB",
       "resistance": "Ampicillin",
@@ -94,7 +94,7 @@
       "description": "Weak constitutive promoter (17x J23112 strength)"
     },
     {
-      "plasmid_name": "J23103_FB",
+      "name": "J23103_FB",
       "addgene_id": "65990",
       "category": "promoter_FB",
       "resistance": "Ampicillin",
@@ -102,7 +102,7 @@
       "description": "Weak constitutive promoter (17x J23112 strength)"
     },
     {
-      "plasmid_name": "J23103_GB",
+      "name": "J23103_GB",
       "addgene_id": "65991",
       "category": "promoter_GB",
       "resistance": "Ampicillin",
@@ -110,7 +110,7 @@
       "description": "Weak constitutive promoter (17x J23112 strength)"
     },
     {
-      "plasmid_name": "J23106_AB",
+      "name": "J23106_AB",
       "addgene_id": "65992",
       "category": "promoter_AB",
       "resistance": "Ampicillin",
@@ -118,7 +118,7 @@
       "description": "Medium-strength constitutive promoter (1,185x J23112 strength)"
     },
     {
-      "plasmid_name": "J23106_EB",
+      "name": "J23106_EB",
       "addgene_id": "65993",
       "category": "promoter_EB",
       "resistance": "Ampicillin",
@@ -126,7 +126,7 @@
       "description": "Medium-strength constitutive promoter (1,185x J23112 strength)"
     },
     {
-      "plasmid_name": "J23106_FB",
+      "name": "J23106_FB",
       "addgene_id": "65994",
       "category": "promoter_FB",
       "resistance": "Ampicillin",
@@ -134,7 +134,7 @@
       "description": "Medium-strength constitutive promoter (1,185x J23112 strength)"
     },
     {
-      "plasmid_name": "J23106_GB",
+      "name": "J23106_GB",
       "addgene_id": "65995",
       "category": "promoter_GB",
       "resistance": "Ampicillin",
@@ -142,7 +142,7 @@
       "description": "Medium-strength constitutive promoter (1,185x J23112 strength)"
     },
     {
-      "plasmid_name": "J23107_AB",
+      "name": "J23107_AB",
       "addgene_id": "65996",
       "category": "promoter_AB",
       "resistance": "Ampicillin",
@@ -150,7 +150,7 @@
       "description": "Medium-strength constitutive promoter (908x J23112 strength)"
     },
     {
-      "plasmid_name": "J23107_EB",
+      "name": "J23107_EB",
       "addgene_id": "65997",
       "category": "promoter_EB",
       "resistance": "Ampicillin",
@@ -158,7 +158,7 @@
       "description": "Medium-strength constitutive promoter (908x J23112 strength)"
     },
     {
-      "plasmid_name": "J23107_FB",
+      "name": "J23107_FB",
       "addgene_id": "65998",
       "category": "promoter_FB",
       "resistance": "Ampicillin",
@@ -166,7 +166,7 @@
       "description": "Medium-strength constitutive promoter (908x J23112 strength)"
     },
     {
-      "plasmid_name": "J23107_GB",
+      "name": "J23107_GB",
       "addgene_id": "65999",
       "category": "promoter_GB",
       "resistance": "Ampicillin",
@@ -174,7 +174,7 @@
       "description": "Medium-strength constitutive promoter (908x J23112 strength)"
     },
     {
-      "plasmid_name": "J23116_AB",
+      "name": "J23116_AB",
       "addgene_id": "66000",
       "category": "promoter_AB",
       "resistance": "Ampicillin",
@@ -182,7 +182,7 @@
       "description": "Weak-medium constitutive promoter (396x J23112 strength)"
     },
     {
-      "plasmid_name": "J23116_EB",
+      "name": "J23116_EB",
       "addgene_id": "66001",
       "category": "promoter_EB",
       "resistance": "Ampicillin",
@@ -190,7 +190,7 @@
       "description": "Weak-medium constitutive promoter (396x J23112 strength)"
     },
     {
-      "plasmid_name": "J23116_FB",
+      "name": "J23116_FB",
       "addgene_id": "66002",
       "category": "promoter_FB",
       "resistance": "Ampicillin",
@@ -198,7 +198,7 @@
       "description": "Weak-medium constitutive promoter (396x J23112 strength)"
     },
     {
-      "plasmid_name": "J23116_GB",
+      "name": "J23116_GB",
       "addgene_id": "66003",
       "category": "promoter_GB",
       "resistance": "Ampicillin",
@@ -206,7 +206,7 @@
       "description": "Weak-medium constitutive promoter (396x J23112 strength)"
     },
     {
-      "plasmid_name": "R0010 (pLacI)_AB",
+      "name": "R0010 (pLacI)_AB",
       "addgene_id": "66004",
       "category": "promoter_AB",
       "resistance": "Ampicillin",
@@ -214,7 +214,7 @@
       "description": "pLacI"
     },
     {
-      "plasmid_name": "R0010 (pLacI)_EB",
+      "name": "R0010 (pLacI)_EB",
       "addgene_id": "66005",
       "category": "promoter_EB",
       "resistance": "Ampicillin",
@@ -222,7 +222,7 @@
       "description": "pLacI"
     },
     {
-      "plasmid_name": "R0010 (pLacI)_FB",
+      "name": "R0010 (pLacI)_FB",
       "addgene_id": "66006",
       "category": "promoter_FB",
       "resistance": "Ampicillin",
@@ -230,7 +230,7 @@
       "description": "pLacI"
     },
     {
-      "plasmid_name": "R0010 (pLacI)_GB",
+      "name": "R0010 (pLacI)_GB",
       "addgene_id": "66007",
       "category": "promoter_GB",
       "resistance": "Ampicillin",
@@ -238,7 +238,7 @@
       "description": "pLacI"
     },
     {
-      "plasmid_name": "R0040 (pTet)_AB",
+      "name": "R0040 (pTet)_AB",
       "addgene_id": "66008",
       "category": "promoter_AB",
       "resistance": "Ampicillin",
@@ -246,7 +246,7 @@
       "description": "pTet"
     },
     {
-      "plasmid_name": "R0040 (pTet)_EB",
+      "name": "R0040 (pTet)_EB",
       "addgene_id": "66009",
       "category": "promoter_EB",
       "resistance": "Ampicillin",
@@ -254,7 +254,7 @@
       "description": "pTet"
     },
     {
-      "plasmid_name": "R0040 (pTet)_FB",
+      "name": "R0040 (pTet)_FB",
       "addgene_id": "66010",
       "category": "promoter_FB",
       "resistance": "Ampicillin",
@@ -262,7 +262,7 @@
       "description": "pTet"
     },
     {
-      "plasmid_name": "R0040 (pTet)_GB",
+      "name": "R0040 (pTet)_GB",
       "addgene_id": "66011",
       "category": "promoter_GB",
       "resistance": "Ampicillin",
@@ -270,7 +270,7 @@
       "description": "pTet"
     },
     {
-      "plasmid_name": "R0063 (pLuxR-pR)_AB",
+      "name": "R0063 (pLuxR-pR)_AB",
       "addgene_id": "66012",
       "category": "promoter_AB",
       "resistance": "Ampicillin",
@@ -278,7 +278,7 @@
       "description": "PLuxR-pL"
     },
     {
-      "plasmid_name": "R0063 (pLuxR-pR)_EB",
+      "name": "R0063 (pLuxR-pR)_EB",
       "addgene_id": "66013",
       "category": "promoter_EB",
       "resistance": "Ampicillin",
@@ -286,7 +286,7 @@
       "description": "PLuxR-pL"
     },
     {
-      "plasmid_name": "R0063 (pLuxR-pR)_FB",
+      "name": "R0063 (pLuxR-pR)_FB",
       "addgene_id": "66014",
       "category": "promoter_FB",
       "resistance": "Ampicillin",
@@ -294,7 +294,7 @@
       "description": "PLuxR-pL"
     },
     {
-      "plasmid_name": "R0063 (pLuxR-pR)_GB",
+      "name": "R0063 (pLuxR-pR)_GB",
       "addgene_id": "66015",
       "category": "promoter_GB",
       "resistance": "Ampicillin",
@@ -302,7 +302,7 @@
       "description": "PLuxR-pL"
     },
     {
-      "plasmid_name": "I13453 (pBAD)_AB",
+      "name": "I13453 (pBAD)_AB",
       "addgene_id": "66016",
       "category": "promoter_AB",
       "resistance": "Ampicillin",
@@ -310,7 +310,7 @@
       "description": "pBad"
     },
     {
-      "plasmid_name": "I13453 (pBAD)_EB",
+      "name": "I13453 (pBAD)_EB",
       "addgene_id": "66017",
       "category": "promoter_EB",
       "resistance": "Ampicillin",
@@ -318,7 +318,7 @@
       "description": "pBad"
     },
     {
-      "plasmid_name": "I13453 (pBAD)_FB",
+      "name": "I13453 (pBAD)_FB",
       "addgene_id": "66018",
       "category": "promoter_FB",
       "resistance": "Ampicillin",
@@ -326,7 +326,7 @@
       "description": "pBad"
     },
     {
-      "plasmid_name": "I13453 (pBAD)_GB",
+      "name": "I13453 (pBAD)_GB",
       "addgene_id": "66019",
       "category": "promoter_GB",
       "resistance": "Ampicillin",
@@ -334,7 +334,7 @@
       "description": "pBad"
     },
     {
-      "plasmid_name": "B0032m_BC",
+      "name": "B0032m_BC",
       "addgene_id": "66020",
       "category": "RBS_BC",
       "resistance": "Ampicillin",
@@ -342,7 +342,7 @@
       "description": "Medium Weiss RBS"
     },
     {
-      "plasmid_name": "B0033m_BC",
+      "name": "B0033m_BC",
       "addgene_id": "66021",
       "category": "RBS_BC",
       "resistance": "Ampicillin",
@@ -350,7 +350,7 @@
       "description": "Weak Weiss RBS"
     },
     {
-      "plasmid_name": "B0034m_BC",
+      "name": "B0034m_BC",
       "addgene_id": "66022",
       "category": "RBS_BC",
       "resistance": "Ampicillin",
@@ -358,7 +358,7 @@
       "description": "Strong Weiss RBS"
     },
     {
-      "plasmid_name": "BCD12_BC",
+      "name": "BCD12_BC",
       "addgene_id": "66023",
       "category": "RBS_BC",
       "resistance": "Ampicillin",
@@ -366,7 +366,7 @@
       "description": "Strongest BCD RBS"
     },
     {
-      "plasmid_name": "BCD2_BC",
+      "name": "BCD2_BC",
       "addgene_id": "66024",
       "category": "RBS_BC",
       "resistance": "Ampicillin",
@@ -374,7 +374,7 @@
       "description": "Extremely weak BCD RBS"
     },
     {
-      "plasmid_name": "BCD8_BC",
+      "name": "BCD8_BC",
       "addgene_id": "66025",
       "category": "RBS_BC",
       "resistance": "Ampicillin",
@@ -382,7 +382,7 @@
       "description": "Medium-strength BCD RBS"
     },
     {
-      "plasmid_name": "C0012m (lacI)_CD",
+      "name": "C0012m (lacI)_CD",
       "addgene_id": "66026",
       "category": "CDS_CD",
       "resistance": "Ampicillin",
@@ -390,7 +390,7 @@
       "description": "LacI-ssrA"
     },
     {
-      "plasmid_name": "C0040 (tetR)_CD",
+      "name": "C0040 (tetR)_CD",
       "addgene_id": "66027",
       "category": "CDS_CD",
       "resistance": "Ampicillin",
@@ -398,7 +398,7 @@
       "description": "TetR-ssrA"
     },
     {
-      "plasmid_name": "C0062 (luxR)_CD",
+      "name": "C0062 (luxR)_CD",
       "addgene_id": "66028",
       "category": "CDS_CD",
       "resistance": "Ampicillin",
@@ -406,7 +406,7 @@
       "description": "LuxR"
     },
     {
-      "plasmid_name": "C0080 (araC)_CD",
+      "name": "C0080 (araC)_CD",
       "addgene_id": "66029",
       "category": "CDS_CD",
       "resistance": "Ampicillin",
@@ -414,7 +414,7 @@
       "description": "AraC-ssrA"
     },
     {
-      "plasmid_name": "cre_CD",
+      "name": "cre_CD",
       "addgene_id": "66030",
       "category": "CDS_CD",
       "resistance": "Ampicillin",
@@ -422,7 +422,7 @@
       "description": "Cre recombinase"
     },
     {
-      "plasmid_name": "E0030 (YFP)_CD",
+      "name": "E0030 (YFP)_CD",
       "addgene_id": "66031",
       "category": "CDS_CD",
       "resistance": "Ampicillin",
@@ -430,7 +430,7 @@
       "description": "YFP"
     },
     {
-      "plasmid_name": "E0040m (GFP)_CD",
+      "name": "E0040m (GFP)_CD",
       "addgene_id": "66032",
       "category": "CDS_CD",
       "resistance": "Ampicillin",
@@ -438,7 +438,7 @@
       "description": "GFP"
     },
     {
-      "plasmid_name": "E1010m (RFP)_CD",
+      "name": "E1010m (RFP)_CD",
       "addgene_id": "66033",
       "category": "CDS_CD",
       "resistance": "Ampicillin",
@@ -446,7 +446,7 @@
       "description": "RFP"
     },
     {
-      "plasmid_name": "eBFP2 (eBFP2)_CD",
+      "name": "eBFP2 (eBFP2)_CD",
       "addgene_id": "66034",
       "category": "CDS_CD",
       "resistance": "Ampicillin",
@@ -454,7 +454,7 @@
       "description": "eBFP2"
     },
     {
-      "plasmid_name": "B0015_DE",
+      "name": "B0015_DE",
       "addgene_id": "66035",
       "category": "terminator_DE",
       "resistance": "Ampicillin",
@@ -462,7 +462,7 @@
       "description": "Terminator"
     },
     {
-      "plasmid_name": "B0015_DF",
+      "name": "B0015_DF",
       "addgene_id": "66036",
       "category": "terminator_DF",
       "resistance": "Ampicillin",
@@ -470,7 +470,7 @@
       "description": "Terminator"
     },
     {
-      "plasmid_name": "B0015_DG",
+      "name": "B0015_DG",
       "addgene_id": "66037",
       "category": "terminator_DG",
       "resistance": "Ampicillin",
@@ -478,7 +478,7 @@
       "description": "Terminator"
     },
     {
-      "plasmid_name": "B0015_DH",
+      "name": "B0015_DH",
       "addgene_id": "66038",
       "category": "terminator_DH",
       "resistance": "Ampicillin",
@@ -486,7 +486,7 @@
       "description": "Terminator"
     },
     {
-      "plasmid_name": "DVA_AB",
+      "name": "DVA_AB",
       "addgene_id": "66039",
       "category": "backbone_AB",
       "resistance": "Ampicillin",
@@ -494,7 +494,7 @@
       "description": "Plasmid backbone (Amp)"
     },
     {
-      "plasmid_name": "DVA_AE",
+      "name": "DVA_AE",
       "addgene_id": "66040",
       "category": "backbone_AE",
       "resistance": "Ampicillin",
@@ -502,7 +502,7 @@
       "description": "Plasmid backbone (Amp)"
     },
     {
-      "plasmid_name": "DVA_AF",
+      "name": "DVA_AF",
       "addgene_id": "66041",
       "category": "backbone_AF",
       "resistance": "Ampicillin",
@@ -510,7 +510,7 @@
       "description": "Plasmid backbone (Amp)"
     },
     {
-      "plasmid_name": "DVA_AG",
+      "name": "DVA_AG",
       "addgene_id": "66042",
       "category": "backbone_AG",
       "resistance": "Ampicillin",
@@ -518,7 +518,7 @@
       "description": "Plasmid backbone (Amp)"
     },
     {
-      "plasmid_name": "DVA_AH",
+      "name": "DVA_AH",
       "addgene_id": "66043",
       "category": "backbone_AH",
       "resistance": "Ampicillin",
@@ -526,7 +526,7 @@
       "description": "Plasmid backbone (Amp)"
     },
     {
-      "plasmid_name": "DVA_BC",
+      "name": "DVA_BC",
       "addgene_id": "66044",
       "category": "backbone_BC",
       "resistance": "Ampicillin",
@@ -534,7 +534,7 @@
       "description": "Plasmid backbone (Amp)"
     },
     {
-      "plasmid_name": "DVA_CD",
+      "name": "DVA_CD",
       "addgene_id": "66045",
       "category": "backbone_CD",
       "resistance": "Ampicillin",
@@ -542,7 +542,7 @@
       "description": "Plasmid backbone (Amp)"
     },
     {
-      "plasmid_name": "DVA_DE",
+      "name": "DVA_DE",
       "addgene_id": "66046",
       "category": "backbone_DE",
       "resistance": "Ampicillin",
@@ -550,7 +550,7 @@
       "description": "Plasmid backbone (Amp)"
     },
     {
-      "plasmid_name": "DVA_DF",
+      "name": "DVA_DF",
       "addgene_id": "66047",
       "category": "backbone_DF",
       "resistance": "Ampicillin",
@@ -558,7 +558,7 @@
       "description": "Plasmid backbone (Amp)"
     },
     {
-      "plasmid_name": "DVA_DG",
+      "name": "DVA_DG",
       "addgene_id": "66048",
       "category": "backbone_DG",
       "resistance": "Ampicillin",
@@ -566,7 +566,7 @@
       "description": "Plasmid backbone (Amp)"
     },
     {
-      "plasmid_name": "DVA_DH",
+      "name": "DVA_DH",
       "addgene_id": "66049",
       "category": "backbone_DH",
       "resistance": "Ampicillin",
@@ -574,7 +574,7 @@
       "description": "Plasmid backbone (Amp)"
     },
     {
-      "plasmid_name": "DVA_EB",
+      "name": "DVA_EB",
       "addgene_id": "66050",
       "category": "backbone_EB",
       "resistance": "Ampicillin",
@@ -582,7 +582,7 @@
       "description": "Plasmid backbone (Amp)"
     },
     {
-      "plasmid_name": "DVA_EF",
+      "name": "DVA_EF",
       "addgene_id": "66051",
       "category": "backbone_EF",
       "resistance": "Ampicillin",
@@ -590,7 +590,7 @@
       "description": "Plasmid backbone (Amp)"
     },
     {
-      "plasmid_name": "DVA_EG",
+      "name": "DVA_EG",
       "addgene_id": "66052",
       "category": "backbone_EG",
       "resistance": "Ampicillin",
@@ -598,7 +598,7 @@
       "description": "Plasmid backbone (Amp)"
     },
     {
-      "plasmid_name": "DVA_EH",
+      "name": "DVA_EH",
       "addgene_id": "66053",
       "category": "backbone_EH",
       "resistance": "Ampicillin",
@@ -606,7 +606,7 @@
       "description": "Plasmid backbone (Amp)"
     },
     {
-      "plasmid_name": "DVA_FB",
+      "name": "DVA_FB",
       "addgene_id": "66054",
       "category": "backbone_FB",
       "resistance": "Ampicillin",
@@ -614,7 +614,7 @@
       "description": "Plasmid backbone (Amp)"
     },
     {
-      "plasmid_name": "DVA_GB",
+      "name": "DVA_GB",
       "addgene_id": "66055",
       "category": "backbone_GB",
       "resistance": "Ampicillin",
@@ -622,7 +622,7 @@
       "description": "Plasmid backbone (Amp)"
     },
     {
-      "plasmid_name": "DVK_AF",
+      "name": "DVK_AF",
       "addgene_id": "66068",
       "category": "backbone_AF",
       "resistance": "Kanamycin",
@@ -630,7 +630,7 @@
       "description": "Plasmid backbone (Kanamycin)"
     },
     {
-      "plasmid_name": "DVK_FG",
+      "name": "DVK_FG",
       "addgene_id": "66070",
       "category": "backbone_FG",
       "resistance": "Kanamycin",
@@ -638,7 +638,7 @@
       "description": "Plasmid backbone (Kanamycin)"
     },
     {
-      "plasmid_name": "DVK_GH",
+      "name": "DVK_GH",
       "addgene_id": "66071",
       "category": "backbone_GH",
       "resistance": "Kanamycin",

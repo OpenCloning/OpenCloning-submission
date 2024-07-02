@@ -40,19 +40,19 @@ This is how these columns map to what you see in the cloning template:
 
 This table contains the info of the plasmids that are part of the kit (😮‍💨 don't worry, you won't have to type it yourself!). It looks like this:
 
-| plasmid_name | addgene_id | category | resistance      | well  | description |
+| name | addgene_id | category | resistance      | well  | description |
 | ------------ | ---------- | -------- | --------------- | ----- | ----------- |
 | pYTK002      | 65109      | 1        | Chloramphenicol | A / 2 | ConLS       |
 | pYTK003      | 65110      | 1        | Chloramphenicol | A / 3 | ConL1       |
 
 
-* `plasmid_name`: The name of the plasmid in AddGene.
+* `name`: The name of the plasmid in AddGene.
 * `addgene_id`: The AddGene ID of the plasmid (it's in the url of the addgene page, for instance 65109 for [pYTK002](https://www.addgene.org/65109/)).
 * `category`: The category of the plasmid. This matches an `id` from the `Category` sheet.
 * `description`: A description of what the plasmid contains.
 * Other categories: You can add more columns to this table to include more information about the plasmids. They will be displayed in the info table, like `well` in the example below.
 
-This is how these columns map to what you see in the cloning template (select a sequence from the dropdown in the website to see this). Note how the options of the dropdown are composed of the `description` and the `plasmid_name`:
+This is how these columns map to what you see in the cloning template (select a sequence from the dropdown in the website to see this). Note how the options of the dropdown are composed of the `description` and the `name`:
 
 <img src="images/sequence_fields.png" alt="loaded template" height="200">
 
@@ -107,7 +107,7 @@ Compulsory fields have bold headers. You won't be able to submit the form if you
 1. Copy the url of the addgene kit you want to submit
 2. Paste it in [this form](https://shareyourcloning-submission.onrender.com/get_kit_info), submit and download the resulting tsv file. The file looks like the table below:
 
-    | plasmid_name | addgene_id | category | resistance      | well  | description |
+    | name | addgene_id | category | resistance      | well  | description |
     |--------------|------------|----------|-----------------|-------|-------------|
     | pYTK001      |      65108 |          | Chloramphenicol | A / 1 |             |
     | pYTK002      |      65109 |          | Chloramphenicol | A / 2 |             |
@@ -130,7 +130,7 @@ Compulsory fields have bold headers. You won't be able to submit the form if you
 
 #### Getting the category and description from the publication 📖
 
-You need a table from a publication in which either of the columns `plasmid_name`, `addgene_id`, or `well` are present (even if the column name does not match). For the [MoClo YTK publication](https://pubs.acs.org/doi/10.1021/sb500366v), the supplementary material contains a spreadsheet with information of the plasmids, the table looks like this:
+You need a table from a publication in which either of the columns `name`, `addgene_id`, or `well` are present (even if the column name does not match). For the [MoClo YTK publication](https://pubs.acs.org/doi/10.1021/sb500366v), the supplementary material contains a spreadsheet with information of the plasmids, the table looks like this:
 
 | Plasmid | Part Type    | Part Description          | E. coli Antibiotic Marker | Plasmid Sequence |
 |---------|--------------|---------------------------|---------------------------|------------------|
@@ -142,12 +142,12 @@ You need a table from a publication in which either of the columns `plasmid_name
 
 In google sheets you can easily merge the two tables by using the `VLOOKUP` function. In the [example submission](https://docs.google.com/spreadsheets/d/1u54WUnWq99lchTnQEmboktpDHeiILHor4ZA0gnr8yik/edit?usp=sharing) you can see how to use this formula.
 
-Go to the sheet `extra_info` in the example. It contains the supplementary table from the publication. To fill the `category` and `description` columns in the `Sequence` sheet, see the formula in the `category` column of the `Sequence` sheet. In the first cell, it contains `=VLOOKUP(A2,extra_info!A:D,2)`:
-* `A2` is the `plasmid_name` cell in the first row of the `Sequence` sheet.
+Go to the sheet `extra_info` in the example. It contains the supplementary table from the publication. To fill the `category` and `description` columns in the `Sequence` sheet, see the formula in the `category` column of the `Sequence` sheet. In the first cell, it contains `=VLOOKUP(A2,extra_info!A:D,2,FALSE)`:
+* `A2` is the `name` cell in the first row of the `Sequence` sheet.
 * `extra_info!A:C` specifies the columns of the table in sheet `extra_info` that we want to get information from.
 * Finally, `2` specifies that we want to get the information from the second column of the table in `extra_info`.
 * `VLOOKUP` will look for the value in `A2` in the table in `extra_info`, and return the value in the second column of the table in `extra_info`.
-* The same is done for the `description` column, but with `=VLOOKUP(A2,extra_info!A:D,3)` instead.
+* The same is done for the `description` column, but with `=VLOOKUP(A2,extra_info!A:D,3,FALSE)` instead.
 
 You can do the same thing for your submission:
 1. Create an `extra_info` sheet in your submission template

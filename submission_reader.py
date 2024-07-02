@@ -4,7 +4,6 @@ import os
 
 
 def sheet_reader(file, sheet_name):
-
     return (
         read_excel(file, sheet_name=sheet_name, dtype=str)
         .fillna(NA)
@@ -13,9 +12,13 @@ def sheet_reader(file, sheet_name):
 
 
 def read_submission(file) -> Submission:
-    sequences = sheet_reader(file, "Sequence")
+    plasmids = sheet_reader(file, "Sequence")
+    plasmids["type"] = "AddGenePlasmid"
     categories = sheet_reader(file, "Category")
     kits = sheet_reader(file, "Kit")
+    oligos = sheet_reader(file, "Oligo")
+    oligo_pairs = sheet_reader(file, "OligoPair")
+    oligo_pairs["type"] = "OligoPair"
 
     if len(kits) != 1:
         raise ValueError("There should be only one kit")
@@ -28,11 +31,12 @@ def read_submission(file) -> Submission:
 
     return Submission.model_validate(
         {
-            "sequences": sequences.to_dict("records"),
+            "sequences": plasmids.to_dict("records") + oligo_pairs.to_dict("records"),
             "categories": categories.to_dict("records"),
             "kit": kits.to_dict("records")[0],
             "submitters": submitters.to_dict("records"),
             "assemblies": assemblies.to_dict("records"),
+            "oligos": oligos.to_dict("records"),
         }
     )
 

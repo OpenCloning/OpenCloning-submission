@@ -18,7 +18,7 @@
             "repository_id": "65109"
           },
           "info": {
-            "plasmid_name": "pYTK002",
+            "name": "pYTK002",
             "resistance": "Chloramphenicol",
             "well": "A / 2",
             "description": "ConLS"
@@ -32,7 +32,7 @@
             "repository_id": "65110"
           },
           "info": {
-            "plasmid_name": "pYTK003",
+            "name": "pYTK003",
             "resistance": "Chloramphenicol",
             "well": "A / 3",
             "description": "ConL1"
@@ -46,7 +46,7 @@
             "repository_id": "65111"
           },
           "info": {
-            "plasmid_name": "pYTK004",
+            "name": "pYTK004",
             "resistance": "Chloramphenicol",
             "well": "A / 4",
             "description": "ConL2"
@@ -60,7 +60,7 @@
             "repository_id": "65112"
           },
           "info": {
-            "plasmid_name": "pYTK005",
+            "name": "pYTK005",
             "resistance": "Chloramphenicol",
             "well": "A / 5",
             "description": "ConL3"
@@ -74,7 +74,7 @@
             "repository_id": "65113"
           },
           "info": {
-            "plasmid_name": "pYTK006",
+            "name": "pYTK006",
             "resistance": "Chloramphenicol",
             "well": "A / 6",
             "description": "ConL4"
@@ -88,7 +88,7 @@
             "repository_id": "65114"
           },
           "info": {
-            "plasmid_name": "pYTK007",
+            "name": "pYTK007",
             "resistance": "Chloramphenicol",
             "well": "A / 7",
             "description": "ConL5"
@@ -102,7 +102,7 @@
             "repository_id": "65115"
           },
           "info": {
-            "plasmid_name": "pYTK008",
+            "name": "pYTK008",
             "resistance": "Chloramphenicol",
             "well": "A / 8",
             "description": "ConLS'"
@@ -128,7 +128,7 @@
             "repository_id": "65116"
           },
           "info": {
-            "plasmid_name": "pYTK009",
+            "name": "pYTK009",
             "resistance": "Chloramphenicol",
             "well": "A / 9",
             "description": "pTDH3"
@@ -142,7 +142,7 @@
             "repository_id": "65117"
           },
           "info": {
-            "plasmid_name": "pYTK010",
+            "name": "pYTK010",
             "resistance": "Chloramphenicol",
             "well": "A / 10",
             "description": "pCCW12"
@@ -156,7 +156,7 @@
             "repository_id": "65118"
           },
           "info": {
-            "plasmid_name": "pYTK011",
+            "name": "pYTK011",
             "resistance": "Chloramphenicol",
             "well": "A / 11",
             "description": "pPGK1"
@@ -170,7 +170,7 @@
             "repository_id": "65119"
           },
           "info": {
-            "plasmid_name": "pYTK012",
+            "name": "pYTK012",
             "resistance": "Chloramphenicol",
             "well": "A / 12",
             "description": "pHHF2"
@@ -184,7 +184,7 @@
             "repository_id": "65120"
           },
           "info": {
-            "plasmid_name": "pYTK013",
+            "name": "pYTK013",
             "resistance": "Chloramphenicol",
             "well": "B / 1",
             "description": "pTEF1"
@@ -198,7 +198,7 @@
             "repository_id": "65121"
           },
           "info": {
-            "plasmid_name": "pYTK014",
+            "name": "pYTK014",
             "resistance": "Chloramphenicol",
             "well": "B / 2",
             "description": "pTEF2"
@@ -212,7 +212,7 @@
             "repository_id": "65122"
           },
           "info": {
-            "plasmid_name": "pYTK015",
+            "name": "pYTK015",
             "resistance": "Chloramphenicol",
             "well": "B / 3",
             "description": "pHHF1"
@@ -226,7 +226,7 @@
             "repository_id": "65123"
           },
           "info": {
-            "plasmid_name": "pYTK016",
+            "name": "pYTK016",
             "resistance": "Chloramphenicol",
             "well": "B / 4",
             "description": "pHTB2"
@@ -240,7 +240,7 @@
             "repository_id": "65124"
           },
           "info": {
-            "plasmid_name": "pYTK017",
+            "name": "pYTK017",
             "resistance": "Chloramphenicol",
             "well": "B / 5",
             "description": "pRPL18B"
@@ -254,7 +254,7 @@
             "repository_id": "65125"
           },
           "info": {
-            "plasmid_name": "pYTK018",
+            "name": "pYTK018",
             "resistance": "Chloramphenicol",
             "well": "B / 6",
             "description": "pALD6"
@@ -268,7 +268,7 @@
             "repository_id": "65126"
           },
           "info": {
-            "plasmid_name": "pYTK019",
+            "name": "pYTK019",
             "resistance": "Chloramphenicol",
             "well": "B / 7",
             "description": "pPAB1"
@@ -282,7 +282,7 @@
             "repository_id": "65127"
           },
           "info": {
-            "plasmid_name": "pYTK020",
+            "name": "pYTK020",
             "resistance": "Chloramphenicol",
             "well": "B / 8",
             "description": "pRET2"
@@ -296,7 +296,7 @@
             "repository_id": "65128"
           },
           "info": {
-            "plasmid_name": "pYTK021",
+            "name": "pYTK021",
             "resistance": "Chloramphenicol",
             "well": "B / 9",
             "description": "pRNR1"
@@ -310,7 +310,7 @@
             "repository_id": "65129"
           },
           "info": {
-            "plasmid_name": "pYTK022",
+            "name": "pYTK022",
             "resistance": "Chloramphenicol",
             "well": "B / 10",
             "description": "pSAC6"
@@ -324,7 +324,7 @@
             "repository_id": "65130"
           },
           "info": {
-            "plasmid_name": "pYTK023",
+            "name": "pYTK023",
             "resistance": "Chloramphenicol",
             "well": "B / 11",
             "description": "pRNR2"
@@ -338,7 +338,7 @@
             "repository_id": "65131"
           },
           "info": {
-            "plasmid_name": "pYTK024",
+            "name": "pYTK024",
             "resistance": "Chloramphenicol",
             "well": "B / 12",
             "description": "pPOP6"
@@ -352,7 +352,7 @@
             "repository_id": "65132"
           },
           "info": {
-            "plasmid_name": "pYTK025",
+            "name": "pYTK025",
             "resistance": "Chloramphenicol",
             "well": "C / 1",
             "description": "pRAD27"
@@ -366,7 +366,7 @@
             "repository_id": "65133"
           },
           "info": {
-            "plasmid_name": "pYTK026",
+            "name": "pYTK026",
             "resistance": "Chloramphenicol",
             "well": "C / 2",
             "description": "pPSP2"
@@ -380,7 +380,7 @@
             "repository_id": "65134"
           },
           "info": {
-            "plasmid_name": "pYTK027",
+            "name": "pYTK027",
             "resistance": "Chloramphenicol",
             "well": "C / 3",
             "description": "pREV1"
@@ -394,7 +394,7 @@
             "repository_id": "65135"
           },
           "info": {
-            "plasmid_name": "pYTK028",
+            "name": "pYTK028",
             "resistance": "Chloramphenicol",
             "well": "C / 4",
             "description": "pMFA1"
@@ -408,7 +408,7 @@
             "repository_id": "65136"
           },
           "info": {
-            "plasmid_name": "pYTK029",
+            "name": "pYTK029",
             "resistance": "Chloramphenicol",
             "well": "C / 5",
             "description": "pMF\u03b12"
@@ -422,7 +422,7 @@
             "repository_id": "65137"
           },
           "info": {
-            "plasmid_name": "pYTK030",
+            "name": "pYTK030",
             "resistance": "Chloramphenicol",
             "well": "C / 6",
             "description": "pGAL1"
@@ -436,7 +436,7 @@
             "repository_id": "65138"
           },
           "info": {
-            "plasmid_name": "pYTK031",
+            "name": "pYTK031",
             "resistance": "Chloramphenicol",
             "well": "C / 7",
             "description": "pCUP1"
@@ -462,7 +462,7 @@
             "repository_id": "65144"
           },
           "info": {
-            "plasmid_name": "pYTK037",
+            "name": "pYTK037",
             "resistance": "Chloramphenicol",
             "well": "D / 1",
             "description": "mTurquoise2"
@@ -476,7 +476,7 @@
             "repository_id": "65145"
           },
           "info": {
-            "plasmid_name": "pYTK038",
+            "name": "pYTK038",
             "resistance": "Chloramphenicol",
             "well": "D / 2",
             "description": "Venus"
@@ -490,7 +490,7 @@
             "repository_id": "65146"
           },
           "info": {
-            "plasmid_name": "pYTK039",
+            "name": "pYTK039",
             "resistance": "Chloramphenicol",
             "well": "D / 3",
             "description": "mRuby2"
@@ -504,7 +504,7 @@
             "repository_id": "65147"
           },
           "info": {
-            "plasmid_name": "pYTK040",
+            "name": "pYTK040",
             "resistance": "Chloramphenicol",
             "well": "D / 4",
             "description": "3XFLAG-6XHis"
@@ -518,7 +518,7 @@
             "repository_id": "65148"
           },
           "info": {
-            "plasmid_name": "pYTK041",
+            "name": "pYTK041",
             "resistance": "Chloramphenicol",
             "well": "D / 5",
             "description": "Ubi-M"
@@ -532,7 +532,7 @@
             "repository_id": "65149"
           },
           "info": {
-            "plasmid_name": "pYTK042",
+            "name": "pYTK042",
             "resistance": "Chloramphenicol",
             "well": "D / 6",
             "description": "Ubi-Y"
@@ -546,7 +546,7 @@
             "repository_id": "65150"
           },
           "info": {
-            "plasmid_name": "pYTK043",
+            "name": "pYTK043",
             "resistance": "Chloramphenicol",
             "well": "D / 7",
             "description": "Ubi-R"
@@ -577,7 +577,7 @@
             "repository_id": "65158"
           },
           "info": {
-            "plasmid_name": "pYTK051",
+            "name": "pYTK051",
             "resistance": "Chloramphenicol",
             "well": "E / 3",
             "description": "tENO1"
@@ -591,7 +591,7 @@
             "repository_id": "65159"
           },
           "info": {
-            "plasmid_name": "pYTK052",
+            "name": "pYTK052",
             "resistance": "Chloramphenicol",
             "well": "E / 4",
             "description": "tSSA1"
@@ -605,7 +605,7 @@
             "repository_id": "65160"
           },
           "info": {
-            "plasmid_name": "pYTK053",
+            "name": "pYTK053",
             "resistance": "Chloramphenicol",
             "well": "E / 5",
             "description": "tADH1"
@@ -619,7 +619,7 @@
             "repository_id": "65161"
           },
           "info": {
-            "plasmid_name": "pYTK054",
+            "name": "pYTK054",
             "resistance": "Chloramphenicol",
             "well": "E / 6",
             "description": "tPGK1"
@@ -633,7 +633,7 @@
             "repository_id": "65162"
           },
           "info": {
-            "plasmid_name": "pYTK055",
+            "name": "pYTK055",
             "resistance": "Chloramphenicol",
             "well": "E / 7",
             "description": "tENO2"
@@ -647,7 +647,7 @@
             "repository_id": "65163"
           },
           "info": {
-            "plasmid_name": "pYTK056",
+            "name": "pYTK056",
             "resistance": "Chloramphenicol",
             "well": "E / 8",
             "description": "tTDH1"
@@ -673,7 +673,7 @@
             "repository_id": "65174"
           },
           "info": {
-            "plasmid_name": "pYTK067",
+            "name": "pYTK067",
             "resistance": "Chloramphenicol",
             "well": "F / 7",
             "description": "ConR1"
@@ -687,7 +687,7 @@
             "repository_id": "65175"
           },
           "info": {
-            "plasmid_name": "pYTK068",
+            "name": "pYTK068",
             "resistance": "Chloramphenicol",
             "well": "F / 8",
             "description": "ConR2"
@@ -701,7 +701,7 @@
             "repository_id": "65176"
           },
           "info": {
-            "plasmid_name": "pYTK069",
+            "name": "pYTK069",
             "resistance": "Chloramphenicol",
             "well": "F / 9",
             "description": "ConR3"
@@ -715,7 +715,7 @@
             "repository_id": "65177"
           },
           "info": {
-            "plasmid_name": "pYTK070",
+            "name": "pYTK070",
             "resistance": "Chloramphenicol",
             "well": "F / 10",
             "description": "ConR4"
@@ -729,7 +729,7 @@
             "repository_id": "65178"
           },
           "info": {
-            "plasmid_name": "pYTK071",
+            "name": "pYTK071",
             "resistance": "Chloramphenicol",
             "well": "F / 11",
             "description": "ConR5"
@@ -743,7 +743,7 @@
             "repository_id": "65179"
           },
           "info": {
-            "plasmid_name": "pYTK072",
+            "name": "pYTK072",
             "resistance": "Chloramphenicol",
             "well": "F / 12",
             "description": "ConRE"
@@ -757,7 +757,7 @@
             "repository_id": "65180"
           },
           "info": {
-            "plasmid_name": "pYTK073",
+            "name": "pYTK073",
             "resistance": "Chloramphenicol",
             "well": "G / 1",
             "description": "ConRE'"
@@ -783,7 +783,7 @@
             "repository_id": "65181"
           },
           "info": {
-            "plasmid_name": "pYTK074",
+            "name": "pYTK074",
             "resistance": "Chloramphenicol",
             "well": "G / 2",
             "description": "URA3"
@@ -797,7 +797,7 @@
             "repository_id": "65182"
           },
           "info": {
-            "plasmid_name": "pYTK075",
+            "name": "pYTK075",
             "resistance": "Chloramphenicol",
             "well": "G / 3",
             "description": "LEU2"
@@ -811,7 +811,7 @@
             "repository_id": "65183"
           },
           "info": {
-            "plasmid_name": "pYTK076",
+            "name": "pYTK076",
             "resistance": "Chloramphenicol",
             "well": "G / 4",
             "description": "HIS3"
@@ -825,7 +825,7 @@
             "repository_id": "65184"
           },
           "info": {
-            "plasmid_name": "pYTK077",
+            "name": "pYTK077",
             "resistance": "Chloramphenicol",
             "well": "G / 5",
             "description": "KanamycinR"
@@ -839,7 +839,7 @@
             "repository_id": "65185"
           },
           "info": {
-            "plasmid_name": "pYTK078",
+            "name": "pYTK078",
             "resistance": "Chloramphenicol",
             "well": "G / 6",
             "description": "NourseothricinR"
@@ -853,7 +853,7 @@
             "repository_id": "65186"
           },
           "info": {
-            "plasmid_name": "pYTK079",
+            "name": "pYTK079",
             "resistance": "Chloramphenicol",
             "well": "G / 7",
             "description": "HygromycinR"
@@ -867,7 +867,7 @@
             "repository_id": "65187"
           },
           "info": {
-            "plasmid_name": "pYTK080",
+            "name": "pYTK080",
             "resistance": "Chloramphenicol",
             "well": "G / 8",
             "description": "ZeocinR"
@@ -893,7 +893,7 @@
             "repository_id": "65188"
           },
           "info": {
-            "plasmid_name": "pYTK081",
+            "name": "pYTK081",
             "resistance": "Chloramphenicol",
             "well": "G / 9",
             "description": "CEN6/ARS4"
@@ -907,7 +907,7 @@
             "repository_id": "65189"
           },
           "info": {
-            "plasmid_name": "pYTK082",
+            "name": "pYTK082",
             "resistance": "Chloramphenicol",
             "well": "G / 10",
             "description": "2micron"
@@ -921,7 +921,7 @@
             "repository_id": "65193"
           },
           "info": {
-            "plasmid_name": "pYTK086",
+            "name": "pYTK086",
             "resistance": "Chloramphenicol",
             "well": "H / 2",
             "description": "URA3 3' Homology"
@@ -935,7 +935,7 @@
             "repository_id": "65194"
           },
           "info": {
-            "plasmid_name": "pYTK087",
+            "name": "pYTK087",
             "resistance": "Chloramphenicol",
             "well": "H / 3",
             "description": "LEU2 3' Homology"
@@ -949,7 +949,7 @@
             "repository_id": "65195"
           },
           "info": {
-            "plasmid_name": "pYTK088",
+            "name": "pYTK088",
             "resistance": "Chloramphenicol",
             "well": "H / 4",
             "description": "HO 3' Homology"
@@ -975,7 +975,7 @@
             "repository_id": "65190"
           },
           "info": {
-            "plasmid_name": "pYTK083",
+            "name": "pYTK083",
             "resistance": "Ampicillin",
             "well": "G / 11",
             "description": "AmpR-ColE1"
@@ -989,7 +989,7 @@
             "repository_id": "65191"
           },
           "info": {
-            "plasmid_name": "pYTK084",
+            "name": "pYTK084",
             "resistance": "Kanamycin",
             "well": "G / 12",
             "description": "KanR-ColE1"
@@ -1003,7 +1003,7 @@
             "repository_id": "65192"
           },
           "info": {
-            "plasmid_name": "pYTK085",
+            "name": "pYTK085",
             "resistance": "Spectinomycin",
             "well": "H / 1",
             "description": "SpecR-ColE1"

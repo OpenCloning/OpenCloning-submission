@@ -5,6 +5,9 @@ from _models import (
     Assembly as _Assembly,
     Submitter as _Submitter,
     Kit as _Kit,
+    OligoPair as _OligoPair,
+    AddGenePlasmid as _AddGenePlasmid,
+    Oligo as _Oligo,
 )
 from pydantic import (
     ConfigDict,
@@ -16,9 +19,10 @@ from pydantic import (
 )
 import requests
 import annotated_types
-from typing import Annotated
+from typing import Annotated, Union
 from github import Github, Auth
 import os
+from pydna.dseq import Dseq
 
 
 # TODO: validation of categories in sequences and assemblies
@@ -60,7 +64,54 @@ class Sequence(_Sequence):
 
     model_config = ConfigDict(extra="allow")
 
-    def to_source_option(self):
+    def to_source_option(self, submission: "Submission"):
+        pass
+
+
+class OligoPair(_OligoPair, Sequence):
+
+    def to_source_option(self, submission: "Submission"):
+        info = dict()
+        # All fields that are not part of the source
+        for k, v in self.model_dump().items():
+            # Drop category
+            if k == "category":
+                continue
+            if k not in ["forward_oligo", "reverse_oligo"]:
+                info[k] = v
+        if self.description:
+            option_name = f"{self.description} - {self.name}"
+        else:
+            option_name = self.name
+
+        forward_oligo, forward_seq = next(
+            (oligo.id, oligo.sequence)
+            for oligo in submission.oligos
+            if oligo.name == self.forward_oligo
+        )
+        reverse_oligo, reverse_seq = next(
+            (oligo.id, oligo.sequence)
+            for oligo in submission.oligos
+            if oligo.name == self.reverse_oligo
+        )
+
+        ovhg = Dseq(forward_seq, reverse_seq).ovhg
+
+        return {
+            "name": option_name,
+            "source": {
+                "type": "OligoHybridizationSource",
+                "forward_oligo": forward_oligo,
+                "reverse_oligo": reverse_oligo,
+                "overhang_crick_3prime": ovhg,
+            },
+            "info": info,
+        }
+
+
+class AddGenePlasmid(_AddGenePlasmid, Sequence):
+
+    def to_source_option(self, submission: "Submission"):
         info = dict()
         # All fields that are not part of the source
         for k, v in self.model_dump().items():
@@ -70,9 +121,9 @@ class Sequence(_Sequence):
             if k not in ["addgene_id"]:
                 info[k] = v
         if self.description:
-            option_name = f"{self.description} - {self.plasmid_name}"
+            option_name = f"{self.description} - {self.name}"
         else:
-            option_name = self.plasmid_name
+            option_name = self.name
         return {
             "name": option_name,
             "source": {
@@ -85,7 +136,7 @@ class Sequence(_Sequence):
 
 
 class Category(_Category):
-    def to_source(self, source_id: int, options: list[Sequence]):
+    def to_source(self, source_id: int, submission: "Submission"):
         return {
             "id": source_id,
             "input": [],
@@ -95,13 +146,20 @@ class Category(_Category):
             "title": self.title,
             "description": self.description,
             "image": self.image,
-            "options": [s.to_source_option() for s in options if s.category == self.id],
+            "options": [
+                s.to_source_option(submission)
+                for s in submission.sequences
+                if s.category == self.id
+            ],
         }
 
 
 class Assembly(_Assembly):
 
-    def to_template(self, categories: list[Category], sequences: list[Sequence]):
+    def to_template(
+        self,
+        submission: "Submission",
+    ):
         sources = list()
         dummy_sequences = list()
         source_id = 1
@@ -110,8 +168,8 @@ class Assembly(_Assembly):
 
             # A category-derived source
             if category_id:
-                category = next(c for c in categories if c.id == category_id)
-                sources.append(category.to_source(source_id, sequences))
+                category = next(c for c in submission.categories if c.id == category_id)
+                sources.append(category.to_source(source_id, submission))
             # An empty slot
             else:
                 sources.append(
@@ -144,6 +202,7 @@ class Assembly(_Assembly):
             "sources": sources,
             "sequences": dummy_sequences,
             "description": f"{self.title}\n\n{self.description}",
+            "primers": [oligo.model_dump() for oligo in submission.oligos],
         }
 
 
@@ -159,6 +218,8 @@ class Kit(_Kit):
 
     @field_validator("pmid")
     def validate_pmid_exists(cls, v: str):
+        if v is None:
+            return v
         id_only = v.split(":")[1]
         resp = requests.get(
             f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id={id_only}"
@@ -182,9 +243,9 @@ class Submission(_Submission):
         default_factory=list
     )
     kit: Kit = Field(...)
-    sequences: Annotated[list[Sequence], annotated_types.Len(min_length=1)] = Field(
-        default_factory=list
-    )
+    sequences: Annotated[
+        list[Sequence | AddGenePlasmid | OligoPair], annotated_types.Len(min_length=1)
+    ] = Field(default_factory=list)
     categories: Annotated[list[Category], annotated_types.Len(min_length=1)] = Field(
         default_factory=list
     )
@@ -193,10 +254,10 @@ class Submission(_Submission):
     )
 
     def to_template_list(self):
-        return [
-            a.to_template(self.categories, self.sequences)
-            for i, a in enumerate(self.assemblies)
-        ]
+        # Assign ids to priemrs
+        for i, p in enumerate(self.oligos):
+            p.id = len(self.sequences) * 2 + i + 1
+        return [a.to_template(self) for i, a in enumerate(self.assemblies)]
 
     @model_validator(mode="after")
     def validate_referencial_integrity(self):
@@ -210,11 +271,21 @@ class Submission(_Submission):
                         f'Error in assembly "{a.title}", category "{c}" not in categories'
                     )
 
+        oligo_names = [o.name for o in self.oligos]
         for s in self.sequences:
             if s.category not in category_ids:
                 raise ValueError(
-                    f'Error in plasmid {s.plasmid_name} / {s.addgene_id}, "{s.category}" not in categories'
+                    f'Error in plasmid {s.name} / {s.addgene_id}, "{s.category}" not in categories'
                 )
+            if isinstance(s, OligoPair):
+                if s.forward_oligo not in oligo_names:
+                    raise ValueError(
+                        f'Error in oligo pair "{s.name}", forward oligo "{s.forward_oligo}" not in oligos'
+                    )
+                if s.reverse_oligo not in oligo_names:
+                    raise ValueError(
+                        f'Error in oligo pair "{s.name}", reverse oligo "{s.reverse_oligo}" not in oligos'
+                    )
 
         return self
 
