@@ -8,7 +8,10 @@
       "category_id": "upstream_adapter",
       "title": "Left adapter",
       "description": "Gibson adapter to be joined via an A fusion site (GGAG)",
-      "image": "left_adapter.png",
+      "image": [
+        "left_adapter.png",
+        "100%"
+      ],
       "options": [
         {
           "name": "UNS1_left",
@@ -132,10 +135,13 @@
       "category_id": "five_utr",
       "title": "5' UTR",
       "description": null,
-      "image": "5utr.png",
+      "image": [
+        "5utr.png",
+        "100%"
+      ],
       "options": [
         {
-          "name": "BCD11 - U2m",
+          "name": "U2m - BCD11",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -150,7 +156,7 @@
           }
         },
         {
-          "name": "BCD13 - U3m",
+          "name": "U3m - BCD13",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -165,7 +171,7 @@
           }
         },
         {
-          "name": "UTR1 - U4m",
+          "name": "U4m - UTR1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -180,7 +186,7 @@
           }
         },
         {
-          "name": "BCD14 - U5m",
+          "name": "U5m - BCD14",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -195,7 +201,7 @@
           }
         },
         {
-          "name": "BCD20 - U6m",
+          "name": "U6m - BCD20",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -210,7 +216,7 @@
           }
         },
         {
-          "name": "BCD16 - U7m",
+          "name": "U7m - BCD16",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -225,7 +231,7 @@
           }
         },
         {
-          "name": "BCD24 - U8m",
+          "name": "U8m - BCD24",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -240,7 +246,7 @@
           }
         },
         {
-          "name": "BCD22 - U9m",
+          "name": "U9m - BCD22",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -255,7 +261,7 @@
           }
         },
         {
-          "name": "Bujard RBS - U17m",
+          "name": "U17m - Bujard RBS",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -270,7 +276,7 @@
           }
         },
         {
-          "name": "MG-apt - U19m",
+          "name": "U19m - MG-apt",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -285,7 +291,7 @@
           }
         },
         {
-          "name": "BCD6 - U22m",
+          "name": "U22m - BCD6",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -300,7 +306,7 @@
           }
         },
         {
-          "name": "RiboJ + BCD2 - U24m",
+          "name": "U24m - RiboJ + BCD2",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -315,7 +321,7 @@
           }
         },
         {
-          "name": "RiboJ + UTR1 - U25m",
+          "name": "U25m - RiboJ + UTR1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -328,6 +334,96 @@
             "resistance": "Ampicillin",
             "well": "Plate 1 / H / 10"
           }
+        },
+        {
+          "name": "B0032m_BC - Medium Weiss RBS",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66020"
+          },
+          "info": {
+            "name": "B0032m_BC",
+            "description": "Medium Weiss RBS",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 5"
+          }
+        },
+        {
+          "name": "B0033m_BC - Weak Weiss RBS",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66021"
+          },
+          "info": {
+            "name": "B0033m_BC",
+            "description": "Weak Weiss RBS",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 6"
+          }
+        },
+        {
+          "name": "B0034m_BC - Strong Weiss RBS",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66022"
+          },
+          "info": {
+            "name": "B0034m_BC",
+            "description": "Strong Weiss RBS",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 7"
+          }
+        },
+        {
+          "name": "BCD12_BC - Strongest BCD RBS",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66023"
+          },
+          "info": {
+            "name": "BCD12_BC",
+            "description": "Strongest BCD RBS",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 8"
+          }
+        },
+        {
+          "name": "BCD2_BC - Extremely weak BCD RBS",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66024"
+          },
+          "info": {
+            "name": "BCD2_BC",
+            "description": "Extremely weak BCD RBS",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 9"
+          }
+        },
+        {
+          "name": "BCD8_BC - Medium-strength BCD RBS",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66025"
+          },
+          "info": {
+            "name": "BCD8_BC",
+            "description": "Medium-strength BCD RBS",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 10"
+          }
         }
       ]
     },
@@ -339,10 +435,13 @@
       "category_id": "promoter",
       "title": "Promoter",
       "description": null,
-      "image": "promoter.png",
+      "image": [
+        "promoter.png",
+        "100%"
+      ],
       "options": [
         {
-          "name": "J23101 strong constitutive promoter (1,791x J23112, 0.7x J23119) - P1m",
+          "name": "P1m - J23101 strong constitutive promoter (1,791x J23112, 0.7x J23119)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -357,7 +456,7 @@
           }
         },
         {
-          "name": "J23150 medium-strong constitutive promoter (620x J23112, 0.25x J23119) - p3m",
+          "name": "p3m - J23150 medium-strong constitutive promoter (620x J23112, 0.25x J23119)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -372,7 +471,7 @@
           }
         },
         {
-          "name": "J23151 strong constitutive promoter (1,245x J23112, 0.49x J23119) - p4m",
+          "name": "p4m - J23151 strong constitutive promoter (1,245x J23112, 0.49x J23119)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -387,7 +486,7 @@
           }
         },
         {
-          "name": "Pr-OR1-OR2 - P9m",
+          "name": "P9m - Pr-OR1-OR2",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -402,7 +501,7 @@
           }
         },
         {
-          "name": "PLasTetO - P12m",
+          "name": "P12m - PLasTetO",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -417,7 +516,7 @@
           }
         },
         {
-          "name": "PCinTetO - P15m",
+          "name": "P15m - PCinTetO",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -432,7 +531,7 @@
           }
         },
         {
-          "name": "PCinLacO-m - P16m",
+          "name": "P16m - PCinLacO-m",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -447,7 +546,7 @@
           }
         },
         {
-          "name": "Weak T7 - P18m",
+          "name": "P18m - Weak T7",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -462,7 +561,7 @@
           }
         },
         {
-          "name": "PL-lacO1 - P30m",
+          "name": "P30m - PL-lacO1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -477,7 +576,7 @@
           }
         },
         {
-          "name": "PlacO - P32m",
+          "name": "P32m - PlacO",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -492,7 +591,7 @@
           }
         },
         {
-          "name": "P11 - P33m",
+          "name": "P33m - P11",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -507,7 +606,7 @@
           }
         },
         {
-          "name": "P13 - P34m",
+          "name": "P34m - P13",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -522,7 +621,7 @@
           }
         },
         {
-          "name": "PLbda-CasRQi - P35m",
+          "name": "P35m - PLbda-CasRQi",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -537,7 +636,7 @@
           }
         },
         {
-          "name": "PRpa - P37m",
+          "name": "P37m - PRpa",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -552,7 +651,7 @@
           }
         },
         {
-          "name": "PTra* - P38m",
+          "name": "P38m - PTra*",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -567,7 +666,7 @@
           }
         },
         {
-          "name": "PCin - P57m",
+          "name": "P57m - PCin",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -582,7 +681,7 @@
           }
         },
         {
-          "name": "PLas-M - P58m",
+          "name": "P58m - PLas-M",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -597,7 +696,7 @@
           }
         },
         {
-          "name": "PLux76B - P59m",
+          "name": "P59m - PLux76B",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -612,7 +711,7 @@
           }
         },
         {
-          "name": "PSal-M - P60m",
+          "name": "P60m - PSal-M",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -627,7 +726,7 @@
           }
         },
         {
-          "name": "PTac - P61m",
+          "name": "P61m - PTac",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -642,7 +741,7 @@
           }
         },
         {
-          "name": "PRpa-M - P66m",
+          "name": "P66m - PRpa-M",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -655,6 +754,156 @@
             "resistance": "Ampicillin",
             "well": "Plate 1 / B / 9"
           }
+        },
+        {
+          "name": "J23100_AB - Strong constitutive promoter (2,547x J23112 strength)",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65980"
+          },
+          "info": {
+            "name": "J23100_AB",
+            "description": "Strong constitutive promoter (2,547x J23112 strength)",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit A / 1"
+          }
+        },
+        {
+          "name": "J23102_AB - Strong constitutive promoter (2,179x J23112 strength)",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65984"
+          },
+          "info": {
+            "name": "J23102_AB",
+            "description": "Strong constitutive promoter (2,179x J23112 strength)",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit A / 5"
+          }
+        },
+        {
+          "name": "J23103_AB - Weak constitutive promoter (17x J23112 strength)",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65988"
+          },
+          "info": {
+            "name": "J23103_AB",
+            "description": "Weak constitutive promoter (17x J23112 strength)",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit A / 9"
+          }
+        },
+        {
+          "name": "J23106_AB - Medium-strength constitutive promoter (1,185x J23112 strength)",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65992"
+          },
+          "info": {
+            "name": "J23106_AB",
+            "description": "Medium-strength constitutive promoter (1,185x J23112 strength)",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit B / 1"
+          }
+        },
+        {
+          "name": "J23107_AB - Medium-strength constitutive promoter (908x J23112 strength)",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65996"
+          },
+          "info": {
+            "name": "J23107_AB",
+            "description": "Medium-strength constitutive promoter (908x J23112 strength)",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit B / 5"
+          }
+        },
+        {
+          "name": "J23116_AB - Weak-medium constitutive promoter (396x J23112 strength)",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66000"
+          },
+          "info": {
+            "name": "J23116_AB",
+            "description": "Weak-medium constitutive promoter (396x J23112 strength)",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit B / 9"
+          }
+        },
+        {
+          "name": "R0010 (pLacI)_AB - pLacI",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66004"
+          },
+          "info": {
+            "name": "R0010 (pLacI)_AB",
+            "description": "pLacI",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit C / 1"
+          }
+        },
+        {
+          "name": "R0040 (pTet)_AB - pTet",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66008"
+          },
+          "info": {
+            "name": "R0040 (pTet)_AB",
+            "description": "pTet",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit C / 5"
+          }
+        },
+        {
+          "name": "R0063 (pLuxR-pR)_AB - PLuxR-pL",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66012"
+          },
+          "info": {
+            "name": "R0063 (pLuxR-pR)_AB",
+            "description": "PLuxR-pL",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit C / 9"
+          }
+        },
+        {
+          "name": "I13453 (pBAD)_AB - pBad",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66016"
+          },
+          "info": {
+            "name": "I13453 (pBAD)_AB",
+            "description": "pBad",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 1"
+          }
         }
       ]
     },
@@ -666,10 +915,13 @@
       "category_id": "cds",
       "title": "CDS",
       "description": null,
-      "image": "cds.png",
+      "image": [
+        "cds.png",
+        "100%"
+      ],
       "options": [
         {
-          "name": "deGFP - C1m",
+          "name": "C1m - deGFP",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -684,7 +936,7 @@
           }
         },
         {
-          "name": "sfGFP - C3m",
+          "name": "C3m - sfGFP",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -699,7 +951,7 @@
           }
         },
         {
-          "name": "mRFP - C5m",
+          "name": "C5m - mRFP",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -714,7 +966,7 @@
           }
         },
         {
-          "name": "deCFP - C9m",
+          "name": "C9m - deCFP",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -729,7 +981,7 @@
           }
         },
         {
-          "name": "Citrine - C11m",
+          "name": "C11m - Citrine",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -744,7 +996,7 @@
           }
         },
         {
-          "name": "Cerulean - C13m",
+          "name": "C13m - Cerulean",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -759,7 +1011,7 @@
           }
         },
         {
-          "name": "sfYFP-ssrA - C20m",
+          "name": "C20m - sfYFP-ssrA",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -774,7 +1026,7 @@
           }
         },
         {
-          "name": "MG-apt - C21m",
+          "name": "C21m - MG-apt",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -789,7 +1041,7 @@
           }
         },
         {
-          "name": "mSpinach - C22m",
+          "name": "C22m - mSpinach",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -804,7 +1056,7 @@
           }
         },
         {
-          "name": "lambda-cI - C24m",
+          "name": "C24m - lambda-cI",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -819,7 +1071,7 @@
           }
         },
         {
-          "name": "TetR - C27m",
+          "name": "C27m - TetR",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -834,7 +1086,7 @@
           }
         },
         {
-          "name": "bxb1 integrase - C31m",
+          "name": "C31m - bxb1 integrase",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -849,7 +1101,7 @@
           }
         },
         {
-          "name": "CinR - C32m",
+          "name": "C32m - CinR",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -864,7 +1116,7 @@
           }
         },
         {
-          "name": "AiiA degradase - C33m",
+          "name": "C33m - AiiA degradase",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -879,7 +1131,7 @@
           }
         },
         {
-          "name": "RhlR - C35m",
+          "name": "C35m - RhlR",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -894,7 +1146,7 @@
           }
         },
         {
-          "name": "RhlI - C36m",
+          "name": "C36m - RhlI",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -909,7 +1161,7 @@
           }
         },
         {
-          "name": "Sigma38 (RpoS) - C38m",
+          "name": "C38m - Sigma38 (RpoS)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -924,7 +1176,7 @@
           }
         },
         {
-          "name": "ccdB toxin - C39m",
+          "name": "C39m - ccdB toxin",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -939,7 +1191,7 @@
           }
         },
         {
-          "name": "50 bp Blank - C40m",
+          "name": "C40m - 50 bp Blank",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -954,7 +1206,7 @@
           }
         },
         {
-          "name": "dCas9 - C41m",
+          "name": "C41m - dCas9",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -969,7 +1221,7 @@
           }
         },
         {
-          "name": "sfYFP - C51m",
+          "name": "C51m - sfYFP",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -984,7 +1236,7 @@
           }
         },
         {
-          "name": "mScarlet - C59m",
+          "name": "C59m - mScarlet",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -999,7 +1251,7 @@
           }
         },
         {
-          "name": "RpaR - C61m",
+          "name": "C61m - RpaR",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1014,7 +1266,7 @@
           }
         },
         {
-          "name": "TraR(W) - C62m",
+          "name": "C62m - TraR(W)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1029,7 +1281,7 @@
           }
         },
         {
-          "name": "LacI - C63m",
+          "name": "C63m - LacI",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1044,7 +1296,7 @@
           }
         },
         {
-          "name": "temperature sensitive lambda repressor (cI857) - C64m",
+          "name": "C64m - temperature sensitive lambda repressor (cI857)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1059,7 +1311,7 @@
           }
         },
         {
-          "name": "Bxb1 integrase - mScarlet-i-LAA - C67m",
+          "name": "C67m - Bxb1 integrase - mScarlet-i-LAA",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1074,7 +1326,7 @@
           }
         },
         {
-          "name": "RpaR-TYQEVV - C70m",
+          "name": "C70m - RpaR-TYQEVV",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1089,7 +1341,7 @@
           }
         },
         {
-          "name": "CinR-CIDDHYRTC n-2v - C71m",
+          "name": "C71m - CinR-CIDDHYRTC n-2v",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1104,7 +1356,7 @@
           }
         },
         {
-          "name": "LacI-M - C72m",
+          "name": "C72m - LacI-M",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1119,7 +1371,7 @@
           }
         },
         {
-          "name": "LasR-LSTPLVMI - C73m",
+          "name": "C73m - LasR-LSTPLVMI",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1134,7 +1386,7 @@
           }
         },
         {
-          "name": "LuxRQ FMY - C74m",
+          "name": "C74m - LuxRQ FMY",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1149,7 +1401,7 @@
           }
         },
         {
-          "name": "NahR-M - C75m",
+          "name": "C75m - NahR-M",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1164,7 +1416,7 @@
           }
         },
         {
-          "name": "KanR - C76m",
+          "name": "C76m - KanR",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1179,7 +1431,7 @@
           }
         },
         {
-          "name": "AmpR - C77m",
+          "name": "C77m - AmpR",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1194,7 +1446,7 @@
           }
         },
         {
-          "name": "ChlorR - C78m",
+          "name": "C78m - ChlorR",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1209,7 +1461,7 @@
           }
         },
         {
-          "name": "ccdA antitoxin - C79m",
+          "name": "C79m - ccdA antitoxin",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1224,7 +1476,7 @@
           }
         },
         {
-          "name": "mfLon protease - C80m",
+          "name": "C80m - mfLon protease",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1239,7 +1491,7 @@
           }
         },
         {
-          "name": "Rpa Synthase (RpaI) - C82m",
+          "name": "C82m - Rpa Synthase (RpaI)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1254,7 +1506,7 @@
           }
         },
         {
-          "name": "pir protein - C83m",
+          "name": "C83m - pir protein",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1269,7 +1521,7 @@
           }
         },
         {
-          "name": "Sigma28 - C84m",
+          "name": "C84m - Sigma28",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1284,7 +1536,7 @@
           }
         },
         {
-          "name": "SigmaX (ECF20_992) - C85m",
+          "name": "C85m - SigmaX (ECF20_992)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1299,7 +1551,7 @@
           }
         },
         {
-          "name": "\u03c6X174 Lysis Protein (X174E) - C86m",
+          "name": "C86m - \u03c6X174 Lysis Protein (X174E)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1314,7 +1566,7 @@
           }
         },
         {
-          "name": "NahR-sfGFP fusion - C90m",
+          "name": "C90m - NahR-sfGFP fusion",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1329,7 +1581,7 @@
           }
         },
         {
-          "name": "sfCFP - C91m",
+          "name": "C91m - sfCFP",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1344,7 +1596,7 @@
           }
         },
         {
-          "name": "sfCFPpdt3 - C92m",
+          "name": "C92m - sfCFPpdt3",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1359,7 +1611,7 @@
           }
         },
         {
-          "name": "T7 RNA polymerase - C95m",
+          "name": "C95m - T7 RNA polymerase",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1374,7 +1626,7 @@
           }
         },
         {
-          "name": "Gp2 toxin - C98m",
+          "name": "C98m - Gp2 toxin",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1389,7 +1641,7 @@
           }
         },
         {
-          "name": "mScarlet-I codon optimized - C99m",
+          "name": "C99m - mScarlet-I codon optimized",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1419,7 +1671,7 @@
           }
         },
         {
-          "name": "sfCFP-LAA - C101m",
+          "name": "C101m - sfCFP-LAA",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1434,7 +1686,7 @@
           }
         },
         {
-          "name": "treRT-LAA - C102m",
+          "name": "C102m - treRT-LAA",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1449,7 +1701,7 @@
           }
         },
         {
-          "name": "mScarlet-I-LAA - C103m",
+          "name": "C103m - mScarlet-I-LAA",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1464,7 +1716,7 @@
           }
         },
         {
-          "name": "sfYFP-AAV-ssrA - C105m",
+          "name": "C105m - sfYFP-AAV-ssrA",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1479,7 +1731,7 @@
           }
         },
         {
-          "name": "sfYFP-DAS-ssrA - C106m",
+          "name": "C106m - sfYFP-DAS-ssrA",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1494,7 +1746,7 @@
           }
         },
         {
-          "name": "mScarlet-I-pdt3 - C108m",
+          "name": "C108m - mScarlet-I-pdt3",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1509,7 +1761,7 @@
           }
         },
         {
-          "name": "mfLon-pdt3 tag - C109m",
+          "name": "C109m - mfLon-pdt3 tag",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1524,7 +1776,7 @@
           }
         },
         {
-          "name": "Cas9 - C113m",
+          "name": "C113m - Cas9",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1539,7 +1791,7 @@
           }
         },
         {
-          "name": "dCas9, BbsI-safe - C114m",
+          "name": "C114m - dCas9, BbsI-safe",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1554,7 +1806,7 @@
           }
         },
         {
-          "name": "TP901 integrase - C115m",
+          "name": "C115m - TP901 integrase",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1567,6 +1819,141 @@
             "resistance": "Ampicillin",
             "well": "Plate 1 / G / 9"
           }
+        },
+        {
+          "name": "C0012m (lacI)_CD - LacI-ssrA",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66026"
+          },
+          "info": {
+            "name": "C0012m (lacI)_CD",
+            "description": "LacI-ssrA",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 11"
+          }
+        },
+        {
+          "name": "C0040 (tetR)_CD - TetR-ssrA",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66027"
+          },
+          "info": {
+            "name": "C0040 (tetR)_CD",
+            "description": "TetR-ssrA",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 12"
+          }
+        },
+        {
+          "name": "C0062 (luxR)_CD - LuxR",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66028"
+          },
+          "info": {
+            "name": "C0062 (luxR)_CD",
+            "description": "LuxR",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit E / 1"
+          }
+        },
+        {
+          "name": "C0080 (araC)_CD - AraC-ssrA",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66029"
+          },
+          "info": {
+            "name": "C0080 (araC)_CD",
+            "description": "AraC-ssrA",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit E / 2"
+          }
+        },
+        {
+          "name": "cre_CD - Cre recombinase",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66030"
+          },
+          "info": {
+            "name": "cre_CD",
+            "description": "Cre recombinase",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit E / 3"
+          }
+        },
+        {
+          "name": "E0030 (YFP)_CD - YFP",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66031"
+          },
+          "info": {
+            "name": "E0030 (YFP)_CD",
+            "description": "YFP",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit E / 4"
+          }
+        },
+        {
+          "name": "E0040m (GFP)_CD - GFP",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66032"
+          },
+          "info": {
+            "name": "E0040m (GFP)_CD",
+            "description": "GFP",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit E / 5"
+          }
+        },
+        {
+          "name": "E1010m (RFP)_CD - RFP",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66033"
+          },
+          "info": {
+            "name": "E1010m (RFP)_CD",
+            "description": "RFP",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit E / 6"
+          }
+        },
+        {
+          "name": "eBFP2 (eBFP2)_CD - eBFP2",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66034"
+          },
+          "info": {
+            "name": "eBFP2 (eBFP2)_CD",
+            "description": "eBFP2",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit E / 7"
+          }
         }
       ]
     },
@@ -1578,10 +1965,13 @@
       "category_id": "terminator",
       "title": "Terminator",
       "description": null,
-      "image": "terminator.png",
+      "image": [
+        "terminator.png",
+        "100%"
+      ],
       "options": [
         {
-          "name": "T500_noGap, short attachment (T11) - T1m",
+          "name": "T1m - T500_noGap, short attachment (T11)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1596,7 +1986,7 @@
           }
         },
         {
-          "name": "ECK120033736, modified - T2m",
+          "name": "T2m - ECK120033736, modified",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1611,7 +2001,7 @@
           }
         },
         {
-          "name": "S. pyogenes tracrRNA terminator - T7m",
+          "name": "T7m - S. pyogenes tracrRNA terminator",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1626,7 +2016,7 @@
           }
         },
         {
-          "name": "ECK120029600 - T12m",
+          "name": "T12m - ECK120029600",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1641,7 +2031,7 @@
           }
         },
         {
-          "name": "ECK120033737 - T13m",
+          "name": "T13m - ECK120033737",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1656,7 +2046,7 @@
           }
         },
         {
-          "name": "L3S1P13 - T14m",
+          "name": "T14m - L3S1P13",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1671,7 +2061,7 @@
           }
         },
         {
-          "name": "modified L3S3P11 - T15m",
+          "name": "T15m - modified L3S3P11",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1686,7 +2076,7 @@
           }
         },
         {
-          "name": "L3S2P55 - T16m",
+          "name": "T16m - L3S2P55",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1701,7 +2091,7 @@
           }
         },
         {
-          "name": "L3S2P11 - T17m",
+          "name": "T17m - L3S2P11",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1716,7 +2106,7 @@
           }
         },
         {
-          "name": "modified L3S2P21 - T18m",
+          "name": "T18m - modified L3S2P21",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1729,6 +2119,21 @@
             "resistance": "Ampicillin",
             "well": "Plate 2 / A / 8"
           }
+        },
+        {
+          "name": "B0015_DE - Terminator",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66035"
+          },
+          "info": {
+            "name": "B0015_DE",
+            "description": "Terminator",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit E / 8"
+          }
         }
       ]
     },
@@ -1740,7 +2145,10 @@
       "category_id": "downstream_adapter",
       "title": "Right adapter",
       "description": "Gibson adapter to be joined via an E fusion site (GCTT)",
-      "image": "right_adapter.png",
+      "image": [
+        "right_adapter.png",
+        "100%"
+      ],
       "options": [
         {
           "name": "UNS3_right",

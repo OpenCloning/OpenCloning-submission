@@ -8,10 +8,13 @@
       "category_id": "promoter_GB",
       "title": "Promoter",
       "description": "Left fusion site is G (TGCC)",
-      "image": "promoter.png",
+      "image": [
+        "promoter.png",
+        "60%"
+      ],
       "options": [
         {
-          "name": "Strong constitutive promoter (2,547x J23112 strength) - J23100_GB",
+          "name": "J23100_GB - Strong constitutive promoter (2,547x J23112 strength)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -19,13 +22,14 @@
           },
           "info": {
             "name": "J23100_GB",
+            "description": "Strong constitutive promoter (2,547x J23112 strength)",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "A / 4",
-            "description": "Strong constitutive promoter (2,547x J23112 strength)"
+            "well": "A / 4"
           }
         },
         {
-          "name": "Strong constitutive promoter (2,179x J23112 strength) - J23102_GB",
+          "name": "J23102_GB - Strong constitutive promoter (2,179x J23112 strength)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -33,13 +37,14 @@
           },
           "info": {
             "name": "J23102_GB",
+            "description": "Strong constitutive promoter (2,179x J23112 strength)",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "A / 8",
-            "description": "Strong constitutive promoter (2,179x J23112 strength)"
+            "well": "A / 8"
           }
         },
         {
-          "name": "Weak constitutive promoter (17x J23112 strength) - J23103_GB",
+          "name": "J23103_GB - Weak constitutive promoter (17x J23112 strength)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -47,13 +52,14 @@
           },
           "info": {
             "name": "J23103_GB",
+            "description": "Weak constitutive promoter (17x J23112 strength)",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "A / 12",
-            "description": "Weak constitutive promoter (17x J23112 strength)"
+            "well": "A / 12"
           }
         },
         {
-          "name": "Medium-strength constitutive promoter (1,185x J23112 strength) - J23106_GB",
+          "name": "J23106_GB - Medium-strength constitutive promoter (1,185x J23112 strength)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -61,13 +67,14 @@
           },
           "info": {
             "name": "J23106_GB",
+            "description": "Medium-strength constitutive promoter (1,185x J23112 strength)",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "B / 4",
-            "description": "Medium-strength constitutive promoter (1,185x J23112 strength)"
+            "well": "B / 4"
           }
         },
         {
-          "name": "Medium-strength constitutive promoter (908x J23112 strength) - J23107_GB",
+          "name": "J23107_GB - Medium-strength constitutive promoter (908x J23112 strength)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -75,13 +82,14 @@
           },
           "info": {
             "name": "J23107_GB",
+            "description": "Medium-strength constitutive promoter (908x J23112 strength)",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "B / 8",
-            "description": "Medium-strength constitutive promoter (908x J23112 strength)"
+            "well": "B / 8"
           }
         },
         {
-          "name": "Weak-medium constitutive promoter (396x J23112 strength) - J23116_GB",
+          "name": "J23116_GB - Weak-medium constitutive promoter (396x J23112 strength)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -89,13 +97,14 @@
           },
           "info": {
             "name": "J23116_GB",
+            "description": "Weak-medium constitutive promoter (396x J23112 strength)",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "B / 12",
-            "description": "Weak-medium constitutive promoter (396x J23112 strength)"
+            "well": "B / 12"
           }
         },
         {
-          "name": "pLacI - R0010 (pLacI)_GB",
+          "name": "R0010 (pLacI)_GB - pLacI",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -103,13 +112,14 @@
           },
           "info": {
             "name": "R0010 (pLacI)_GB",
+            "description": "pLacI",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "C / 4",
-            "description": "pLacI"
+            "well": "C / 4"
           }
         },
         {
-          "name": "pTet - R0040 (pTet)_GB",
+          "name": "R0040 (pTet)_GB - pTet",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -117,13 +127,14 @@
           },
           "info": {
             "name": "R0040 (pTet)_GB",
+            "description": "pTet",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "C / 8",
-            "description": "pTet"
+            "well": "C / 8"
           }
         },
         {
-          "name": "PLuxR-pL - R0063 (pLuxR-pR)_GB",
+          "name": "R0063 (pLuxR-pR)_GB - PLuxR-pL",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -131,13 +142,14 @@
           },
           "info": {
             "name": "R0063 (pLuxR-pR)_GB",
+            "description": "PLuxR-pL",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "C / 12",
-            "description": "PLuxR-pL"
+            "well": "C / 12"
           }
         },
         {
-          "name": "pBad - I13453 (pBAD)_GB",
+          "name": "I13453 (pBAD)_GB - pBad",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -145,9 +157,10 @@
           },
           "info": {
             "name": "I13453 (pBAD)_GB",
+            "description": "pBad",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "D / 4",
-            "description": "pBad"
+            "well": "D / 4"
           }
         }
       ]
@@ -160,10 +173,13 @@
       "category_id": "RBS_BC",
       "title": "RBS",
       "description": null,
-      "image": "rbs.png",
+      "image": [
+        "rbs.png",
+        "60%"
+      ],
       "options": [
         {
-          "name": "Medium Weiss RBS - B0032m_BC",
+          "name": "B0032m_BC - Medium Weiss RBS",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -171,13 +187,14 @@
           },
           "info": {
             "name": "B0032m_BC",
+            "description": "Medium Weiss RBS",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "D / 5",
-            "description": "Medium Weiss RBS"
+            "well": "D / 5"
           }
         },
         {
-          "name": "Weak Weiss RBS - B0033m_BC",
+          "name": "B0033m_BC - Weak Weiss RBS",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -185,13 +202,14 @@
           },
           "info": {
             "name": "B0033m_BC",
+            "description": "Weak Weiss RBS",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "D / 6",
-            "description": "Weak Weiss RBS"
+            "well": "D / 6"
           }
         },
         {
-          "name": "Strong Weiss RBS - B0034m_BC",
+          "name": "B0034m_BC - Strong Weiss RBS",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -199,13 +217,14 @@
           },
           "info": {
             "name": "B0034m_BC",
+            "description": "Strong Weiss RBS",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "D / 7",
-            "description": "Strong Weiss RBS"
+            "well": "D / 7"
           }
         },
         {
-          "name": "Strongest BCD RBS - BCD12_BC",
+          "name": "BCD12_BC - Strongest BCD RBS",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -213,13 +232,14 @@
           },
           "info": {
             "name": "BCD12_BC",
+            "description": "Strongest BCD RBS",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "D / 8",
-            "description": "Strongest BCD RBS"
+            "well": "D / 8"
           }
         },
         {
-          "name": "Extremely weak BCD RBS - BCD2_BC",
+          "name": "BCD2_BC - Extremely weak BCD RBS",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -227,13 +247,14 @@
           },
           "info": {
             "name": "BCD2_BC",
+            "description": "Extremely weak BCD RBS",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "D / 9",
-            "description": "Extremely weak BCD RBS"
+            "well": "D / 9"
           }
         },
         {
-          "name": "Medium-strength BCD RBS - BCD8_BC",
+          "name": "BCD8_BC - Medium-strength BCD RBS",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -241,9 +262,10 @@
           },
           "info": {
             "name": "BCD8_BC",
+            "description": "Medium-strength BCD RBS",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "D / 10",
-            "description": "Medium-strength BCD RBS"
+            "well": "D / 10"
           }
         }
       ]
@@ -256,10 +278,13 @@
       "category_id": "CDS_CD",
       "title": "CDS",
       "description": null,
-      "image": "cds.png",
+      "image": [
+        "cds.png",
+        "60%"
+      ],
       "options": [
         {
-          "name": "LacI-ssrA - C0012m (lacI)_CD",
+          "name": "C0012m (lacI)_CD - LacI-ssrA",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -267,13 +292,14 @@
           },
           "info": {
             "name": "C0012m (lacI)_CD",
+            "description": "LacI-ssrA",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "D / 11",
-            "description": "LacI-ssrA"
+            "well": "D / 11"
           }
         },
         {
-          "name": "TetR-ssrA - C0040 (tetR)_CD",
+          "name": "C0040 (tetR)_CD - TetR-ssrA",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -281,13 +307,14 @@
           },
           "info": {
             "name": "C0040 (tetR)_CD",
+            "description": "TetR-ssrA",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "D / 12",
-            "description": "TetR-ssrA"
+            "well": "D / 12"
           }
         },
         {
-          "name": "LuxR - C0062 (luxR)_CD",
+          "name": "C0062 (luxR)_CD - LuxR",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -295,13 +322,14 @@
           },
           "info": {
             "name": "C0062 (luxR)_CD",
+            "description": "LuxR",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "E / 1",
-            "description": "LuxR"
+            "well": "E / 1"
           }
         },
         {
-          "name": "AraC-ssrA - C0080 (araC)_CD",
+          "name": "C0080 (araC)_CD - AraC-ssrA",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -309,13 +337,14 @@
           },
           "info": {
             "name": "C0080 (araC)_CD",
+            "description": "AraC-ssrA",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "E / 2",
-            "description": "AraC-ssrA"
+            "well": "E / 2"
           }
         },
         {
-          "name": "Cre recombinase - cre_CD",
+          "name": "cre_CD - Cre recombinase",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -323,13 +352,14 @@
           },
           "info": {
             "name": "cre_CD",
+            "description": "Cre recombinase",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "E / 3",
-            "description": "Cre recombinase"
+            "well": "E / 3"
           }
         },
         {
-          "name": "YFP - E0030 (YFP)_CD",
+          "name": "E0030 (YFP)_CD - YFP",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -337,13 +367,14 @@
           },
           "info": {
             "name": "E0030 (YFP)_CD",
+            "description": "YFP",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "E / 4",
-            "description": "YFP"
+            "well": "E / 4"
           }
         },
         {
-          "name": "GFP - E0040m (GFP)_CD",
+          "name": "E0040m (GFP)_CD - GFP",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -351,13 +382,14 @@
           },
           "info": {
             "name": "E0040m (GFP)_CD",
+            "description": "GFP",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "E / 5",
-            "description": "GFP"
+            "well": "E / 5"
           }
         },
         {
-          "name": "RFP - E1010m (RFP)_CD",
+          "name": "E1010m (RFP)_CD - RFP",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -365,13 +397,14 @@
           },
           "info": {
             "name": "E1010m (RFP)_CD",
+            "description": "RFP",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "E / 6",
-            "description": "RFP"
+            "well": "E / 6"
           }
         },
         {
-          "name": "eBFP2 - eBFP2 (eBFP2)_CD",
+          "name": "eBFP2 (eBFP2)_CD - eBFP2",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -379,9 +412,10 @@
           },
           "info": {
             "name": "eBFP2 (eBFP2)_CD",
+            "description": "eBFP2",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "E / 7",
-            "description": "eBFP2"
+            "well": "E / 7"
           }
         }
       ]
@@ -394,10 +428,13 @@
       "category_id": "terminator_DH",
       "title": "Terminator",
       "description": "Right fusion site is H (ACTA)",
-      "image": "terminator.png",
+      "image": [
+        "terminator.png",
+        "60%"
+      ],
       "options": [
         {
-          "name": "Terminator - B0015_DH",
+          "name": "B0015_DH - Terminator",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -405,9 +442,10 @@
           },
           "info": {
             "name": "B0015_DH",
+            "description": "Terminator",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "E / 11",
-            "description": "Terminator"
+            "well": "E / 11"
           }
         }
       ]
@@ -420,10 +458,13 @@
       "category_id": "backbone_GH",
       "title": "Backbone",
       "description": "Fusion sites G (TGCC) and H (ACTA)",
-      "image": "backbone.png",
+      "image": [
+        "backbone.png",
+        "60%"
+      ],
       "options": [
         {
-          "name": "Plasmid backbone (Kanamycin) - DVK_GH",
+          "name": "DVK_GH - Plasmid backbone (Kanamycin)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -431,9 +472,10 @@
           },
           "info": {
             "name": "DVK_GH",
+            "description": "Plasmid backbone (Kanamycin)",
+            "type": "AddGenePlasmid",
             "resistance": "Kanamycin",
-            "well": "H / 8",
-            "description": "Plasmid backbone (Kanamycin)"
+            "well": "H / 8"
           }
         }
       ]
@@ -477,5 +519,6 @@
       "type": "TemplateSequence"
     }
   ],
-  "description": "Transcriptional Unit GH\n\nPlasmid with a transcriptional unit starting and ending with fusion sites G (TGCC) and H (ACTA)"
+  "description": "Transcriptional Unit GH\n\nPlasmid with a transcriptional unit starting and ending with fusion sites G (TGCC) and H (ACTA)",
+  "primers": []
 }

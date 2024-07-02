@@ -80,7 +80,7 @@ class OligoPair(_OligoPair, Sequence):
             if k not in ["forward_oligo", "reverse_oligo"]:
                 info[k] = v
         if self.description:
-            option_name = f"{self.description} - {self.name}"
+            option_name = f"{self.name} - {self.description}"
         else:
             option_name = self.name
 
@@ -121,7 +121,7 @@ class AddGenePlasmid(_AddGenePlasmid, Sequence):
             if k not in ["addgene_id"]:
                 info[k] = v
         if self.description:
-            option_name = f"{self.description} - {self.name}"
+            option_name = f"{self.name} - {self.description}"
         else:
             option_name = self.name
         return {

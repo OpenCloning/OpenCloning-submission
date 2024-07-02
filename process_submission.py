@@ -3,13 +3,9 @@ from submission_reader import load_submission_folder
 import json
 import os
 
-if __name__ == "__main__":
-    # Get first argument, else give error
-    if len(sys.argv) != 2:
-        print("Usage python process_submission.py <submission_folder>")
-        sys.exit(0)
 
-    submission_folder = sys.argv[1]
+def main(submission_folder):
+
     # Remove trailing slash if it exists
     if submission_folder.endswith("/"):
         submission_folder = submission_folder[:-1]
@@ -17,6 +13,15 @@ if __name__ == "__main__":
 
     # Get the last part of the submission folder
     submission_name = os.path.basename(submission_folder)
+
+    with open("settings.json") as f:
+        extra_settings = json.load(f)
+
+    settings = {
+        "image_width": "60%",
+    }
+    if submission_name in extra_settings:
+        settings.update(extra_settings[submission_name])
 
     output_folder = os.path.join("processed", submission_name)
     if not os.path.exists("processed"):
@@ -29,6 +34,9 @@ if __name__ == "__main__":
     os.mkdir(template_dir)
 
     for i, template in enumerate(submission.to_template_list()):
+        for source in template["sources"]:
+            if "image" in source:
+                source["image"] = [source["image"], settings["image_width"]]
         # Format i as 001, etc.
         ii = str(i + 1).zfill(3)
         assembly_file_name = f"assembly_template_{ii}.json"
@@ -40,3 +48,13 @@ if __name__ == "__main__":
 
     with open(os.path.join(output_folder, "submission.json"), "w") as f:
         json.dump(submission.model_dump(), f, indent=2)
+
+
+if __name__ == "__main__":
+    # Get first argument, else give error
+    if len(sys.argv) != 2:
+        print("Usage python process_submission.py <submission_folder>")
+        sys.exit(0)
+
+    submission_folder = sys.argv[1]
+    main(submission_folder)

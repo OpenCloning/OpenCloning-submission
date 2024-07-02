@@ -15,635 +15,714 @@
   "sequences": [
     {
       "name": "J23100_AB",
-      "addgene_id": "65980",
       "category": "promoter_AB",
+      "description": "Strong constitutive promoter (2,547x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "65980",
       "resistance": "Ampicillin",
-      "well": "A / 1",
-      "description": "Strong constitutive promoter (2,547x J23112 strength)"
+      "well": "A / 1"
     },
     {
       "name": "J23100_EB",
-      "addgene_id": "65981",
       "category": "promoter_EB",
+      "description": "Strong constitutive promoter (2,547x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "65981",
       "resistance": "Ampicillin",
-      "well": "A / 2",
-      "description": "Strong constitutive promoter (2,547x J23112 strength)"
+      "well": "A / 2"
     },
     {
       "name": "J23100_FB",
-      "addgene_id": "65982",
       "category": "promoter_FB",
+      "description": "Strong constitutive promoter (2,547x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "65982",
       "resistance": "Ampicillin",
-      "well": "A / 3",
-      "description": "Strong constitutive promoter (2,547x J23112 strength)"
+      "well": "A / 3"
     },
     {
       "name": "J23100_GB",
-      "addgene_id": "65983",
       "category": "promoter_GB",
+      "description": "Strong constitutive promoter (2,547x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "65983",
       "resistance": "Ampicillin",
-      "well": "A / 4",
-      "description": "Strong constitutive promoter (2,547x J23112 strength)"
+      "well": "A / 4"
     },
     {
       "name": "J23102_AB",
-      "addgene_id": "65984",
       "category": "promoter_AB",
+      "description": "Strong constitutive promoter (2,179x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "65984",
       "resistance": "Ampicillin",
-      "well": "A / 5",
-      "description": "Strong constitutive promoter (2,179x J23112 strength)"
+      "well": "A / 5"
     },
     {
       "name": "J23102_EB",
-      "addgene_id": "65985",
       "category": "promoter_EB",
+      "description": "Strong constitutive promoter (2,179x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "65985",
       "resistance": "Ampicillin",
-      "well": "A / 6",
-      "description": "Strong constitutive promoter (2,179x J23112 strength)"
+      "well": "A / 6"
     },
     {
       "name": "J23102_FB",
-      "addgene_id": "65986",
       "category": "promoter_FB",
+      "description": "Strong constitutive promoter (2,179x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "65986",
       "resistance": "Ampicillin",
-      "well": "A / 7",
-      "description": "Strong constitutive promoter (2,179x J23112 strength)"
+      "well": "A / 7"
     },
     {
       "name": "J23102_GB",
-      "addgene_id": "65987",
       "category": "promoter_GB",
+      "description": "Strong constitutive promoter (2,179x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "65987",
       "resistance": "Ampicillin",
-      "well": "A / 8",
-      "description": "Strong constitutive promoter (2,179x J23112 strength)"
+      "well": "A / 8"
     },
     {
       "name": "J23103_AB",
-      "addgene_id": "65988",
       "category": "promoter_AB",
+      "description": "Weak constitutive promoter (17x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "65988",
       "resistance": "Ampicillin",
-      "well": "A / 9",
-      "description": "Weak constitutive promoter (17x J23112 strength)"
+      "well": "A / 9"
     },
     {
       "name": "J23103_EB",
-      "addgene_id": "65989",
       "category": "promoter_EB",
+      "description": "Weak constitutive promoter (17x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "65989",
       "resistance": "Ampicillin",
-      "well": "A / 10",
-      "description": "Weak constitutive promoter (17x J23112 strength)"
+      "well": "A / 10"
     },
     {
       "name": "J23103_FB",
-      "addgene_id": "65990",
       "category": "promoter_FB",
+      "description": "Weak constitutive promoter (17x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "65990",
       "resistance": "Ampicillin",
-      "well": "A / 11",
-      "description": "Weak constitutive promoter (17x J23112 strength)"
+      "well": "A / 11"
     },
     {
       "name": "J23103_GB",
-      "addgene_id": "65991",
       "category": "promoter_GB",
+      "description": "Weak constitutive promoter (17x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "65991",
       "resistance": "Ampicillin",
-      "well": "A / 12",
-      "description": "Weak constitutive promoter (17x J23112 strength)"
+      "well": "A / 12"
     },
     {
       "name": "J23106_AB",
-      "addgene_id": "65992",
       "category": "promoter_AB",
+      "description": "Medium-strength constitutive promoter (1,185x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "65992",
       "resistance": "Ampicillin",
-      "well": "B / 1",
-      "description": "Medium-strength constitutive promoter (1,185x J23112 strength)"
+      "well": "B / 1"
     },
     {
       "name": "J23106_EB",
-      "addgene_id": "65993",
       "category": "promoter_EB",
+      "description": "Medium-strength constitutive promoter (1,185x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "65993",
       "resistance": "Ampicillin",
-      "well": "B / 2",
-      "description": "Medium-strength constitutive promoter (1,185x J23112 strength)"
+      "well": "B / 2"
     },
     {
       "name": "J23106_FB",
-      "addgene_id": "65994",
       "category": "promoter_FB",
+      "description": "Medium-strength constitutive promoter (1,185x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "65994",
       "resistance": "Ampicillin",
-      "well": "B / 3",
-      "description": "Medium-strength constitutive promoter (1,185x J23112 strength)"
+      "well": "B / 3"
     },
     {
       "name": "J23106_GB",
-      "addgene_id": "65995",
       "category": "promoter_GB",
+      "description": "Medium-strength constitutive promoter (1,185x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "65995",
       "resistance": "Ampicillin",
-      "well": "B / 4",
-      "description": "Medium-strength constitutive promoter (1,185x J23112 strength)"
+      "well": "B / 4"
     },
     {
       "name": "J23107_AB",
-      "addgene_id": "65996",
       "category": "promoter_AB",
+      "description": "Medium-strength constitutive promoter (908x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "65996",
       "resistance": "Ampicillin",
-      "well": "B / 5",
-      "description": "Medium-strength constitutive promoter (908x J23112 strength)"
+      "well": "B / 5"
     },
     {
       "name": "J23107_EB",
-      "addgene_id": "65997",
       "category": "promoter_EB",
+      "description": "Medium-strength constitutive promoter (908x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "65997",
       "resistance": "Ampicillin",
-      "well": "B / 6",
-      "description": "Medium-strength constitutive promoter (908x J23112 strength)"
+      "well": "B / 6"
     },
     {
       "name": "J23107_FB",
-      "addgene_id": "65998",
       "category": "promoter_FB",
+      "description": "Medium-strength constitutive promoter (908x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "65998",
       "resistance": "Ampicillin",
-      "well": "B / 7",
-      "description": "Medium-strength constitutive promoter (908x J23112 strength)"
+      "well": "B / 7"
     },
     {
       "name": "J23107_GB",
-      "addgene_id": "65999",
       "category": "promoter_GB",
+      "description": "Medium-strength constitutive promoter (908x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "65999",
       "resistance": "Ampicillin",
-      "well": "B / 8",
-      "description": "Medium-strength constitutive promoter (908x J23112 strength)"
+      "well": "B / 8"
     },
     {
       "name": "J23116_AB",
-      "addgene_id": "66000",
       "category": "promoter_AB",
+      "description": "Weak-medium constitutive promoter (396x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66000",
       "resistance": "Ampicillin",
-      "well": "B / 9",
-      "description": "Weak-medium constitutive promoter (396x J23112 strength)"
+      "well": "B / 9"
     },
     {
       "name": "J23116_EB",
-      "addgene_id": "66001",
       "category": "promoter_EB",
+      "description": "Weak-medium constitutive promoter (396x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66001",
       "resistance": "Ampicillin",
-      "well": "B / 10",
-      "description": "Weak-medium constitutive promoter (396x J23112 strength)"
+      "well": "B / 10"
     },
     {
       "name": "J23116_FB",
-      "addgene_id": "66002",
       "category": "promoter_FB",
+      "description": "Weak-medium constitutive promoter (396x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66002",
       "resistance": "Ampicillin",
-      "well": "B / 11",
-      "description": "Weak-medium constitutive promoter (396x J23112 strength)"
+      "well": "B / 11"
     },
     {
       "name": "J23116_GB",
-      "addgene_id": "66003",
       "category": "promoter_GB",
+      "description": "Weak-medium constitutive promoter (396x J23112 strength)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66003",
       "resistance": "Ampicillin",
-      "well": "B / 12",
-      "description": "Weak-medium constitutive promoter (396x J23112 strength)"
+      "well": "B / 12"
     },
     {
       "name": "R0010 (pLacI)_AB",
-      "addgene_id": "66004",
       "category": "promoter_AB",
+      "description": "pLacI",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66004",
       "resistance": "Ampicillin",
-      "well": "C / 1",
-      "description": "pLacI"
+      "well": "C / 1"
     },
     {
       "name": "R0010 (pLacI)_EB",
-      "addgene_id": "66005",
       "category": "promoter_EB",
+      "description": "pLacI",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66005",
       "resistance": "Ampicillin",
-      "well": "C / 2",
-      "description": "pLacI"
+      "well": "C / 2"
     },
     {
       "name": "R0010 (pLacI)_FB",
-      "addgene_id": "66006",
       "category": "promoter_FB",
+      "description": "pLacI",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66006",
       "resistance": "Ampicillin",
-      "well": "C / 3",
-      "description": "pLacI"
+      "well": "C / 3"
     },
     {
       "name": "R0010 (pLacI)_GB",
-      "addgene_id": "66007",
       "category": "promoter_GB",
+      "description": "pLacI",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66007",
       "resistance": "Ampicillin",
-      "well": "C / 4",
-      "description": "pLacI"
+      "well": "C / 4"
     },
     {
       "name": "R0040 (pTet)_AB",
-      "addgene_id": "66008",
       "category": "promoter_AB",
+      "description": "pTet",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66008",
       "resistance": "Ampicillin",
-      "well": "C / 5",
-      "description": "pTet"
+      "well": "C / 5"
     },
     {
       "name": "R0040 (pTet)_EB",
-      "addgene_id": "66009",
       "category": "promoter_EB",
+      "description": "pTet",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66009",
       "resistance": "Ampicillin",
-      "well": "C / 6",
-      "description": "pTet"
+      "well": "C / 6"
     },
     {
       "name": "R0040 (pTet)_FB",
-      "addgene_id": "66010",
       "category": "promoter_FB",
+      "description": "pTet",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66010",
       "resistance": "Ampicillin",
-      "well": "C / 7",
-      "description": "pTet"
+      "well": "C / 7"
     },
     {
       "name": "R0040 (pTet)_GB",
-      "addgene_id": "66011",
       "category": "promoter_GB",
+      "description": "pTet",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66011",
       "resistance": "Ampicillin",
-      "well": "C / 8",
-      "description": "pTet"
+      "well": "C / 8"
     },
     {
       "name": "R0063 (pLuxR-pR)_AB",
-      "addgene_id": "66012",
       "category": "promoter_AB",
+      "description": "PLuxR-pL",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66012",
       "resistance": "Ampicillin",
-      "well": "C / 9",
-      "description": "PLuxR-pL"
+      "well": "C / 9"
     },
     {
       "name": "R0063 (pLuxR-pR)_EB",
-      "addgene_id": "66013",
       "category": "promoter_EB",
+      "description": "PLuxR-pL",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66013",
       "resistance": "Ampicillin",
-      "well": "C / 10",
-      "description": "PLuxR-pL"
+      "well": "C / 10"
     },
     {
       "name": "R0063 (pLuxR-pR)_FB",
-      "addgene_id": "66014",
       "category": "promoter_FB",
+      "description": "PLuxR-pL",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66014",
       "resistance": "Ampicillin",
-      "well": "C / 11",
-      "description": "PLuxR-pL"
+      "well": "C / 11"
     },
     {
       "name": "R0063 (pLuxR-pR)_GB",
-      "addgene_id": "66015",
       "category": "promoter_GB",
+      "description": "PLuxR-pL",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66015",
       "resistance": "Ampicillin",
-      "well": "C / 12",
-      "description": "PLuxR-pL"
+      "well": "C / 12"
     },
     {
       "name": "I13453 (pBAD)_AB",
-      "addgene_id": "66016",
       "category": "promoter_AB",
+      "description": "pBad",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66016",
       "resistance": "Ampicillin",
-      "well": "D / 1",
-      "description": "pBad"
+      "well": "D / 1"
     },
     {
       "name": "I13453 (pBAD)_EB",
-      "addgene_id": "66017",
       "category": "promoter_EB",
+      "description": "pBad",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66017",
       "resistance": "Ampicillin",
-      "well": "D / 2",
-      "description": "pBad"
+      "well": "D / 2"
     },
     {
       "name": "I13453 (pBAD)_FB",
-      "addgene_id": "66018",
       "category": "promoter_FB",
+      "description": "pBad",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66018",
       "resistance": "Ampicillin",
-      "well": "D / 3",
-      "description": "pBad"
+      "well": "D / 3"
     },
     {
       "name": "I13453 (pBAD)_GB",
-      "addgene_id": "66019",
       "category": "promoter_GB",
+      "description": "pBad",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66019",
       "resistance": "Ampicillin",
-      "well": "D / 4",
-      "description": "pBad"
+      "well": "D / 4"
     },
     {
       "name": "B0032m_BC",
-      "addgene_id": "66020",
       "category": "RBS_BC",
+      "description": "Medium Weiss RBS",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66020",
       "resistance": "Ampicillin",
-      "well": "D / 5",
-      "description": "Medium Weiss RBS"
+      "well": "D / 5"
     },
     {
       "name": "B0033m_BC",
-      "addgene_id": "66021",
       "category": "RBS_BC",
+      "description": "Weak Weiss RBS",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66021",
       "resistance": "Ampicillin",
-      "well": "D / 6",
-      "description": "Weak Weiss RBS"
+      "well": "D / 6"
     },
     {
       "name": "B0034m_BC",
-      "addgene_id": "66022",
       "category": "RBS_BC",
+      "description": "Strong Weiss RBS",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66022",
       "resistance": "Ampicillin",
-      "well": "D / 7",
-      "description": "Strong Weiss RBS"
+      "well": "D / 7"
     },
     {
       "name": "BCD12_BC",
-      "addgene_id": "66023",
       "category": "RBS_BC",
+      "description": "Strongest BCD RBS",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66023",
       "resistance": "Ampicillin",
-      "well": "D / 8",
-      "description": "Strongest BCD RBS"
+      "well": "D / 8"
     },
     {
       "name": "BCD2_BC",
-      "addgene_id": "66024",
       "category": "RBS_BC",
+      "description": "Extremely weak BCD RBS",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66024",
       "resistance": "Ampicillin",
-      "well": "D / 9",
-      "description": "Extremely weak BCD RBS"
+      "well": "D / 9"
     },
     {
       "name": "BCD8_BC",
-      "addgene_id": "66025",
       "category": "RBS_BC",
+      "description": "Medium-strength BCD RBS",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66025",
       "resistance": "Ampicillin",
-      "well": "D / 10",
-      "description": "Medium-strength BCD RBS"
+      "well": "D / 10"
     },
     {
       "name": "C0012m (lacI)_CD",
-      "addgene_id": "66026",
       "category": "CDS_CD",
+      "description": "LacI-ssrA",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66026",
       "resistance": "Ampicillin",
-      "well": "D / 11",
-      "description": "LacI-ssrA"
+      "well": "D / 11"
     },
     {
       "name": "C0040 (tetR)_CD",
-      "addgene_id": "66027",
       "category": "CDS_CD",
+      "description": "TetR-ssrA",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66027",
       "resistance": "Ampicillin",
-      "well": "D / 12",
-      "description": "TetR-ssrA"
+      "well": "D / 12"
     },
     {
       "name": "C0062 (luxR)_CD",
-      "addgene_id": "66028",
       "category": "CDS_CD",
+      "description": "LuxR",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66028",
       "resistance": "Ampicillin",
-      "well": "E / 1",
-      "description": "LuxR"
+      "well": "E / 1"
     },
     {
       "name": "C0080 (araC)_CD",
-      "addgene_id": "66029",
       "category": "CDS_CD",
+      "description": "AraC-ssrA",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66029",
       "resistance": "Ampicillin",
-      "well": "E / 2",
-      "description": "AraC-ssrA"
+      "well": "E / 2"
     },
     {
       "name": "cre_CD",
-      "addgene_id": "66030",
       "category": "CDS_CD",
+      "description": "Cre recombinase",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66030",
       "resistance": "Ampicillin",
-      "well": "E / 3",
-      "description": "Cre recombinase"
+      "well": "E / 3"
     },
     {
       "name": "E0030 (YFP)_CD",
-      "addgene_id": "66031",
       "category": "CDS_CD",
+      "description": "YFP",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66031",
       "resistance": "Ampicillin",
-      "well": "E / 4",
-      "description": "YFP"
+      "well": "E / 4"
     },
     {
       "name": "E0040m (GFP)_CD",
-      "addgene_id": "66032",
       "category": "CDS_CD",
+      "description": "GFP",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66032",
       "resistance": "Ampicillin",
-      "well": "E / 5",
-      "description": "GFP"
+      "well": "E / 5"
     },
     {
       "name": "E1010m (RFP)_CD",
-      "addgene_id": "66033",
       "category": "CDS_CD",
+      "description": "RFP",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66033",
       "resistance": "Ampicillin",
-      "well": "E / 6",
-      "description": "RFP"
+      "well": "E / 6"
     },
     {
       "name": "eBFP2 (eBFP2)_CD",
-      "addgene_id": "66034",
       "category": "CDS_CD",
+      "description": "eBFP2",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66034",
       "resistance": "Ampicillin",
-      "well": "E / 7",
-      "description": "eBFP2"
+      "well": "E / 7"
     },
     {
       "name": "B0015_DE",
-      "addgene_id": "66035",
       "category": "terminator_DE",
+      "description": "Terminator",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66035",
       "resistance": "Ampicillin",
-      "well": "E / 8",
-      "description": "Terminator"
+      "well": "E / 8"
     },
     {
       "name": "B0015_DF",
-      "addgene_id": "66036",
       "category": "terminator_DF",
+      "description": "Terminator",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66036",
       "resistance": "Ampicillin",
-      "well": "E / 9",
-      "description": "Terminator"
+      "well": "E / 9"
     },
     {
       "name": "B0015_DG",
-      "addgene_id": "66037",
       "category": "terminator_DG",
+      "description": "Terminator",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66037",
       "resistance": "Ampicillin",
-      "well": "E / 10",
-      "description": "Terminator"
+      "well": "E / 10"
     },
     {
       "name": "B0015_DH",
-      "addgene_id": "66038",
       "category": "terminator_DH",
+      "description": "Terminator",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66038",
       "resistance": "Ampicillin",
-      "well": "E / 11",
-      "description": "Terminator"
+      "well": "E / 11"
     },
     {
       "name": "DVA_AB",
-      "addgene_id": "66039",
       "category": "backbone_AB",
+      "description": "Plasmid backbone (Amp)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66039",
       "resistance": "Ampicillin",
-      "well": "E / 12",
-      "description": "Plasmid backbone (Amp)"
+      "well": "E / 12"
     },
     {
       "name": "DVA_AE",
-      "addgene_id": "66040",
       "category": "backbone_AE",
+      "description": "Plasmid backbone (Amp)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66040",
       "resistance": "Ampicillin",
-      "well": "F / 1",
-      "description": "Plasmid backbone (Amp)"
+      "well": "F / 1"
     },
     {
       "name": "DVA_AF",
-      "addgene_id": "66041",
       "category": "backbone_AF",
+      "description": "Plasmid backbone (Amp)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66041",
       "resistance": "Ampicillin",
-      "well": "F / 2",
-      "description": "Plasmid backbone (Amp)"
+      "well": "F / 2"
     },
     {
       "name": "DVA_AG",
-      "addgene_id": "66042",
       "category": "backbone_AG",
+      "description": "Plasmid backbone (Amp)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66042",
       "resistance": "Ampicillin",
-      "well": "F / 3",
-      "description": "Plasmid backbone (Amp)"
+      "well": "F / 3"
     },
     {
       "name": "DVA_AH",
-      "addgene_id": "66043",
       "category": "backbone_AH",
+      "description": "Plasmid backbone (Amp)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66043",
       "resistance": "Ampicillin",
-      "well": "F / 4",
-      "description": "Plasmid backbone (Amp)"
+      "well": "F / 4"
     },
     {
       "name": "DVA_BC",
-      "addgene_id": "66044",
       "category": "backbone_BC",
+      "description": "Plasmid backbone (Amp)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66044",
       "resistance": "Ampicillin",
-      "well": "F / 5",
-      "description": "Plasmid backbone (Amp)"
+      "well": "F / 5"
     },
     {
       "name": "DVA_CD",
-      "addgene_id": "66045",
       "category": "backbone_CD",
+      "description": "Plasmid backbone (Amp)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66045",
       "resistance": "Ampicillin",
-      "well": "F / 6",
-      "description": "Plasmid backbone (Amp)"
+      "well": "F / 6"
     },
     {
       "name": "DVA_DE",
-      "addgene_id": "66046",
       "category": "backbone_DE",
+      "description": "Plasmid backbone (Amp)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66046",
       "resistance": "Ampicillin",
-      "well": "F / 7",
-      "description": "Plasmid backbone (Amp)"
+      "well": "F / 7"
     },
     {
       "name": "DVA_DF",
-      "addgene_id": "66047",
       "category": "backbone_DF",
+      "description": "Plasmid backbone (Amp)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66047",
       "resistance": "Ampicillin",
-      "well": "F / 8",
-      "description": "Plasmid backbone (Amp)"
+      "well": "F / 8"
     },
     {
       "name": "DVA_DG",
-      "addgene_id": "66048",
       "category": "backbone_DG",
+      "description": "Plasmid backbone (Amp)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66048",
       "resistance": "Ampicillin",
-      "well": "F / 9",
-      "description": "Plasmid backbone (Amp)"
+      "well": "F / 9"
     },
     {
       "name": "DVA_DH",
-      "addgene_id": "66049",
       "category": "backbone_DH",
+      "description": "Plasmid backbone (Amp)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66049",
       "resistance": "Ampicillin",
-      "well": "F / 10",
-      "description": "Plasmid backbone (Amp)"
+      "well": "F / 10"
     },
     {
       "name": "DVA_EB",
-      "addgene_id": "66050",
       "category": "backbone_EB",
+      "description": "Plasmid backbone (Amp)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66050",
       "resistance": "Ampicillin",
-      "well": "F / 11",
-      "description": "Plasmid backbone (Amp)"
+      "well": "F / 11"
     },
     {
       "name": "DVA_EF",
-      "addgene_id": "66051",
       "category": "backbone_EF",
+      "description": "Plasmid backbone (Amp)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66051",
       "resistance": "Ampicillin",
-      "well": "F / 12",
-      "description": "Plasmid backbone (Amp)"
+      "well": "F / 12"
     },
     {
       "name": "DVA_EG",
-      "addgene_id": "66052",
       "category": "backbone_EG",
+      "description": "Plasmid backbone (Amp)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66052",
       "resistance": "Ampicillin",
-      "well": "G / 1",
-      "description": "Plasmid backbone (Amp)"
+      "well": "G / 1"
     },
     {
       "name": "DVA_EH",
-      "addgene_id": "66053",
       "category": "backbone_EH",
+      "description": "Plasmid backbone (Amp)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66053",
       "resistance": "Ampicillin",
-      "well": "G / 2",
-      "description": "Plasmid backbone (Amp)"
+      "well": "G / 2"
     },
     {
       "name": "DVA_FB",
-      "addgene_id": "66054",
       "category": "backbone_FB",
+      "description": "Plasmid backbone (Amp)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66054",
       "resistance": "Ampicillin",
-      "well": "G / 3",
-      "description": "Plasmid backbone (Amp)"
+      "well": "G / 3"
     },
     {
       "name": "DVA_GB",
-      "addgene_id": "66055",
       "category": "backbone_GB",
+      "description": "Plasmid backbone (Amp)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66055",
       "resistance": "Ampicillin",
-      "well": "G / 4",
-      "description": "Plasmid backbone (Amp)"
+      "well": "G / 4"
     },
     {
       "name": "DVK_AF",
-      "addgene_id": "66068",
       "category": "backbone_AF",
+      "description": "Plasmid backbone (Kanamycin)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66068",
       "resistance": "Kanamycin",
-      "well": "H / 5",
-      "description": "Plasmid backbone (Kanamycin)"
+      "well": "H / 5"
     },
     {
       "name": "DVK_FG",
-      "addgene_id": "66070",
       "category": "backbone_FG",
+      "description": "Plasmid backbone (Kanamycin)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66070",
       "resistance": "Kanamycin",
-      "well": "H / 7",
-      "description": "Plasmid backbone (Kanamycin)"
+      "well": "H / 7"
     },
     {
       "name": "DVK_GH",
-      "addgene_id": "66071",
       "category": "backbone_GH",
+      "description": "Plasmid backbone (Kanamycin)",
+      "type": "AddGenePlasmid",
+      "addgene_id": "66071",
       "resistance": "Kanamycin",
-      "well": "H / 8",
-      "description": "Plasmid backbone (Kanamycin)"
+      "well": "H / 8"
     }
   ],
   "categories": [
@@ -871,5 +950,6 @@
       ],
       "template_file": "assembly_template_004.json"
     }
-  ]
+  ],
+  "oligos": []
 }
