@@ -485,87 +485,117 @@
       "input": [],
       "output": 6,
       "type": "CollectionSource",
-      "category_id": "3",
-      "title": "Coding sequence",
-      "description": "You can use the ATG from the fusion site as translation start. If possible omit STOP codon and make your protein in frame with the Ser.",
+      "category_id": "3a",
+      "title": "N-term part",
+      "description": "You can use the ATG from the fusion site as translation start. Omit STOP codon and make your protein in frame with the Ser for fusion.",
       "image": [
-        "glyph_3.png",
+        "glyph_3a.png",
         "80%"
       ],
       "options": [
         {
-          "name": "pYTK032 - mTurquoise2",
+          "name": "pYTK037 - mTurquoise2",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
-            "repository_id": "65139"
+            "repository_id": "65144"
           },
           "info": {
-            "name": "pYTK032",
+            "name": "pYTK037",
             "description": "mTurquoise2",
             "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "C / 8"
+            "well": "D / 1"
           }
         },
         {
-          "name": "pYTK033 - Venus",
+          "name": "pYTK038 - Venus",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
-            "repository_id": "65140"
+            "repository_id": "65145"
           },
           "info": {
-            "name": "pYTK033",
+            "name": "pYTK038",
             "description": "Venus",
             "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "C / 9"
+            "well": "D / 2"
           }
         },
         {
-          "name": "pYTK034 - mRuby2",
+          "name": "pYTK039 - mRuby2",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
-            "repository_id": "65141"
+            "repository_id": "65146"
           },
           "info": {
-            "name": "pYTK034",
+            "name": "pYTK039",
             "description": "mRuby2",
             "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "C / 10"
+            "well": "D / 3"
           }
         },
         {
-          "name": "pYTK035 - I-SceI (ORF)",
+          "name": "pYTK040 - 3XFLAG-6XHis",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
-            "repository_id": "65142"
+            "repository_id": "65147"
           },
           "info": {
-            "name": "pYTK035",
-            "description": "I-SceI (ORF)",
+            "name": "pYTK040",
+            "description": "3XFLAG-6XHis",
             "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "C / 11"
+            "well": "D / 4"
           }
         },
         {
-          "name": "pYTK036 - Cas9",
+          "name": "pYTK041 - Ubi-M",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
-            "repository_id": "65143"
+            "repository_id": "65148"
           },
           "info": {
-            "name": "pYTK036",
-            "description": "Cas9",
+            "name": "pYTK041",
+            "description": "Ubi-M",
             "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "C / 12"
+            "well": "D / 5"
+          }
+        },
+        {
+          "name": "pYTK042 - Ubi-Y",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65149"
+          },
+          "info": {
+            "name": "pYTK042",
+            "description": "Ubi-Y",
+            "type": "AddGenePlasmid",
+            "resistance": "Chloramphenicol",
+            "well": "D / 6"
+          }
+        },
+        {
+          "name": "pYTK043 - Ubi-R",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65150"
+          },
+          "info": {
+            "name": "pYTK043",
+            "description": "Ubi-R",
+            "type": "AddGenePlasmid",
+            "resistance": "Chloramphenicol",
+            "well": "D / 7"
           }
         }
       ]
@@ -575,102 +605,57 @@
       "input": [],
       "output": 8,
       "type": "CollectionSource",
-      "category_id": "4",
-      "title": "Terminator",
-      "description": null,
+      "category_id": "3b",
+      "title": "C-term part",
+      "description": "Left Ser should be in frame with previous CDS. If possible omit STOP codon and make your protein in frame with the right Ser for fusion.",
       "image": [
-        "glyph_4.png",
+        "glyph_3b.png",
         "80%"
       ],
       "options": [
         {
-          "name": "pYTK051 - tENO1",
+          "name": "pYTK044 - mTurquoise2",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
-            "repository_id": "65158"
+            "repository_id": "65151"
           },
           "info": {
-            "name": "pYTK051",
-            "description": "tENO1",
+            "name": "pYTK044",
+            "description": "mTurquoise2",
             "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "E / 3"
+            "well": "D / 8"
           }
         },
         {
-          "name": "pYTK052 - tSSA1",
+          "name": "pYTK045 - Venus",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
-            "repository_id": "65159"
+            "repository_id": "65152"
           },
           "info": {
-            "name": "pYTK052",
-            "description": "tSSA1",
+            "name": "pYTK045",
+            "description": "Venus",
             "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "E / 4"
+            "well": "D / 9"
           }
         },
         {
-          "name": "pYTK053 - tADH1",
+          "name": "pYTK046 - mRuby2",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
-            "repository_id": "65160"
+            "repository_id": "65153"
           },
           "info": {
-            "name": "pYTK053",
-            "description": "tADH1",
+            "name": "pYTK046",
+            "description": "mRuby2",
             "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "E / 5"
-          }
-        },
-        {
-          "name": "pYTK054 - tPGK1",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "65161"
-          },
-          "info": {
-            "name": "pYTK054",
-            "description": "tPGK1",
-            "type": "AddGenePlasmid",
-            "resistance": "Chloramphenicol",
-            "well": "E / 6"
-          }
-        },
-        {
-          "name": "pYTK055 - tENO2",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "65162"
-          },
-          "info": {
-            "name": "pYTK055",
-            "description": "tENO2",
-            "type": "AddGenePlasmid",
-            "resistance": "Chloramphenicol",
-            "well": "E / 7"
-          }
-        },
-        {
-          "name": "pYTK056 - tTDH1",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "65163"
-          },
-          "info": {
-            "name": "pYTK056",
-            "description": "tTDH1",
-            "type": "AddGenePlasmid",
-            "resistance": "Chloramphenicol",
-            "well": "E / 8"
+            "well": "D / 10"
           }
         }
       ]
@@ -679,6 +664,186 @@
       "id": 9,
       "input": [],
       "output": 10,
+      "type": "CollectionSource",
+      "category_id": "4a",
+      "title": "C-term (extra)",
+      "description": "Left Ser should be in frame with previous CDS. Warning: You must include a STOP in your CDS!",
+      "image": [
+        "glyph_4a.png",
+        "80%"
+      ],
+      "options": [
+        {
+          "name": "pYTK057 - mTurquoise2",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65164"
+          },
+          "info": {
+            "name": "pYTK057",
+            "description": "mTurquoise2",
+            "type": "AddGenePlasmid",
+            "resistance": "Chloramphenicol",
+            "well": "E / 9"
+          }
+        },
+        {
+          "name": "pYTK058 - Venus",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65165"
+          },
+          "info": {
+            "name": "pYTK058",
+            "description": "Venus",
+            "type": "AddGenePlasmid",
+            "resistance": "Chloramphenicol",
+            "well": "E / 10"
+          }
+        },
+        {
+          "name": "pYTK059 - mRuby2",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65166"
+          },
+          "info": {
+            "name": "pYTK059",
+            "description": "mRuby2",
+            "type": "AddGenePlasmid",
+            "resistance": "Chloramphenicol",
+            "well": "E / 11"
+          }
+        },
+        {
+          "name": "pYTK060 - 3XFLAG-6XHis",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65167"
+          },
+          "info": {
+            "name": "pYTK060",
+            "description": "3XFLAG-6XHis",
+            "type": "AddGenePlasmid",
+            "resistance": "Chloramphenicol",
+            "well": "E / 12"
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "input": [],
+      "output": 12,
+      "type": "CollectionSource",
+      "category_id": "4b",
+      "title": "Terminator",
+      "description": null,
+      "image": [
+        "glyph_4.png",
+        "80%"
+      ],
+      "options": [
+        {
+          "name": "pYTK061 - tENO1",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65168"
+          },
+          "info": {
+            "name": "pYTK061",
+            "description": "tENO1",
+            "type": "AddGenePlasmid",
+            "resistance": "Chloramphenicol",
+            "well": "F / 1"
+          }
+        },
+        {
+          "name": "pYTK062 - tSSA1",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65169"
+          },
+          "info": {
+            "name": "pYTK062",
+            "description": "tSSA1",
+            "type": "AddGenePlasmid",
+            "resistance": "Chloramphenicol",
+            "well": "F / 2"
+          }
+        },
+        {
+          "name": "pYTK063 - tADH1",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65170"
+          },
+          "info": {
+            "name": "pYTK063",
+            "description": "tADH1",
+            "type": "AddGenePlasmid",
+            "resistance": "Chloramphenicol",
+            "well": "F / 3"
+          }
+        },
+        {
+          "name": "pYTK064 - tPGK1",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65171"
+          },
+          "info": {
+            "name": "pYTK064",
+            "description": "tPGK1",
+            "type": "AddGenePlasmid",
+            "resistance": "Chloramphenicol",
+            "well": "F / 4"
+          }
+        },
+        {
+          "name": "pYTK065 - tENO2",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65172"
+          },
+          "info": {
+            "name": "pYTK065",
+            "description": "tENO2",
+            "type": "AddGenePlasmid",
+            "resistance": "Chloramphenicol",
+            "well": "F / 5"
+          }
+        },
+        {
+          "name": "pYTK066 - tTDH1",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65173"
+          },
+          "info": {
+            "name": "pYTK066",
+            "description": "tTDH1",
+            "type": "AddGenePlasmid",
+            "resistance": "Chloramphenicol",
+            "well": "F / 6"
+          }
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "input": [],
+      "output": 14,
       "type": "CollectionSource",
       "category_id": "5",
       "title": "Assembly connector",
@@ -796,9 +961,9 @@
       ]
     },
     {
-      "id": 11,
+      "id": 15,
       "input": [],
-      "output": 12,
+      "output": 16,
       "type": "CollectionSource",
       "category_id": "6",
       "title": "Yeast marker",
@@ -916,9 +1081,9 @@
       ]
     },
     {
-      "id": 13,
+      "id": 17,
       "input": [],
-      "output": 14,
+      "output": 18,
       "type": "CollectionSource",
       "category_id": "7",
       "title": "Yeast plasmid origin of replication",
@@ -961,9 +1126,9 @@
       ]
     },
     {
-      "id": 15,
+      "id": 19,
       "input": [],
-      "output": 16,
+      "output": 20,
       "type": "CollectionSource",
       "category_id": "8",
       "title": "Bacterial marker and origin",
@@ -1021,7 +1186,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 21,
       "input": [
         2,
         4,
@@ -1030,9 +1195,11 @@
         10,
         12,
         14,
-        16
+        16,
+        18,
+        20
       ],
-      "output": 18,
+      "output": 22,
       "type": "RestrictionAndLigationSource"
     }
   ],
@@ -1072,8 +1239,16 @@
     {
       "id": 18,
       "type": "TemplateSequence"
+    },
+    {
+      "id": 20,
+      "type": "TemplateSequence"
+    },
+    {
+      "id": 22,
+      "type": "TemplateSequence"
     }
   ],
-  "description": "CDS self-replicating plasmid\n\nA plasmid with a yeast ORI containing a CDS",
+  "description": "3xCDS fusion self-replicating plasmid\n\nA plasmid with a yeast ORI with three CDS fused together",
   "primers": []
 }

@@ -771,7 +771,7 @@
     },
     {
       "name": "pYTK086",
-      "category": "7",
+      "category": "7h",
       "description": "URA3 3' Homology",
       "type": "AddGenePlasmid",
       "addgene_id": "65193",
@@ -780,7 +780,7 @@
     },
     {
       "name": "pYTK087",
-      "category": "7",
+      "category": "7h",
       "description": "LEU2 3' Homology",
       "type": "AddGenePlasmid",
       "addgene_id": "65194",
@@ -789,7 +789,7 @@
     },
     {
       "name": "pYTK088",
-      "category": "7",
+      "category": "7h",
       "description": "HO 3' Homology",
       "type": "AddGenePlasmid",
       "addgene_id": "65195",
@@ -876,20 +876,20 @@
     {
       "id": "3",
       "title": "Coding sequence",
-      "description": null,
+      "description": "You can use the ATG from the fusion site as translation start. If possible omit STOP codon and make your protein in frame with the Ser.",
       "image": "glyph_3.png"
     },
     {
       "id": "3a",
-      "title": "N-term tag",
-      "description": null,
-      "image": "glyph_3.png"
+      "title": "N-term part",
+      "description": "You can use the ATG from the fusion site as translation start. Omit STOP codon and make your protein in frame with the Ser for fusion.",
+      "image": "glyph_3a.png"
     },
     {
       "id": "3b",
-      "title": "C-term tag",
-      "description": null,
-      "image": "glyph_3.png"
+      "title": "C-term part",
+      "description": "Left Ser should be in frame with previous CDS. If possible omit STOP codon and make your protein in frame with the right Ser for fusion.",
+      "image": "glyph_3b.png"
     },
     {
       "id": "234r",
@@ -911,13 +911,13 @@
     },
     {
       "id": "4a",
-      "title": "Terminator-a",
-      "description": null,
-      "image": "glyph_4.png"
+      "title": "C-term (extra)",
+      "description": "Left Ser should be in frame with previous CDS. Warning: You must include a STOP in your CDS!",
+      "image": "glyph_4a.png"
     },
     {
       "id": "4b",
-      "title": "Terminator-b",
+      "title": "Terminator",
       "description": null,
       "image": "glyph_4.png"
     },
@@ -935,7 +935,13 @@
     },
     {
       "id": "7",
-      "title": "Yeast origin",
+      "title": "Yeast plasmid origin of replication",
+      "description": null,
+      "image": "glyph_7.png"
+    },
+    {
+      "id": "7h",
+      "title": "Yeast 5' homology arm",
       "description": null,
       "image": "glyph_7.png"
     },
@@ -947,13 +953,13 @@
     },
     {
       "id": "8a",
-      "title": "Something-else1",
+      "title": "Bacterial marker and origin",
       "description": null,
       "image": "glyph_8.png"
     },
     {
       "id": "8b",
-      "title": "Something-else2",
+      "title": "Yeast 3' homology arm",
       "description": null,
       "image": "glyph_8.png"
     },
@@ -966,13 +972,12 @@
   ],
   "assemblies": [
     {
-      "title": "N-term tag plasmid",
-      "description": "A plasmid with N-term tagged CDS",
+      "title": "CDS self-replicating plasmid",
+      "description": "A plasmid with a yeast ORI containing a CDS",
       "fragment_order": [
         "1",
         "2",
-        "3a",
-        "",
+        "3",
         "4",
         "5",
         "6",
@@ -980,6 +985,90 @@
         "8"
       ],
       "template_file": "assembly_template_001.json"
+    },
+    {
+      "title": "2xCDS fusion self-replicating plasmid",
+      "description": "A plasmid with a yeast ORI with two CDS fused together",
+      "fragment_order": [
+        "1",
+        "2",
+        "3a",
+        "3b",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "template_file": "assembly_template_002.json"
+    },
+    {
+      "title": "3xCDS fusion self-replicating plasmid",
+      "description": "A plasmid with a yeast ORI with three CDS fused together",
+      "fragment_order": [
+        "1",
+        "2",
+        "3a",
+        "3b",
+        "4a",
+        "4b",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "template_file": "assembly_template_003.json"
+    },
+    {
+      "title": "CDS integration plasmid",
+      "description": "A plasmid containing a CDS that can be integrated in the genome via recombination",
+      "fragment_order": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7h",
+        "8a",
+        "8b"
+      ],
+      "template_file": "assembly_template_004.json"
+    },
+    {
+      "title": "2xCDS integration plasmid",
+      "description": "A plasmid containing a 2xCDS fusion protein that can be integrated in the genome via recombination",
+      "fragment_order": [
+        "1",
+        "2",
+        "3a",
+        "3b",
+        "4",
+        "5",
+        "6",
+        "7h",
+        "8a",
+        "8b"
+      ],
+      "template_file": "assembly_template_005.json"
+    },
+    {
+      "title": "3xCDS integration plasmid",
+      "description": "A plasmid containing a 3xCDS fusion protein that can be integrated in the genome via recombination",
+      "fragment_order": [
+        "1",
+        "2",
+        "3a",
+        "3b",
+        "4a",
+        "4b",
+        "5",
+        "6",
+        "7h",
+        "8a",
+        "8b"
+      ],
+      "template_file": "assembly_template_006.json"
     }
   ],
   "oligos": []

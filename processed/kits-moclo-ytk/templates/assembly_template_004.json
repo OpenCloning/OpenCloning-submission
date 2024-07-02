@@ -920,8 +920,8 @@
       "input": [],
       "output": 14,
       "type": "CollectionSource",
-      "category_id": "7",
-      "title": "Yeast plasmid origin of replication",
+      "category_id": "7h",
+      "title": "Yeast 5' homology arm",
       "description": null,
       "image": [
         "glyph_7.png",
@@ -929,33 +929,48 @@
       ],
       "options": [
         {
-          "name": "pYTK081 - CEN6/ARS4",
+          "name": "pYTK086 - URA3 3' Homology",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
-            "repository_id": "65188"
+            "repository_id": "65193"
           },
           "info": {
-            "name": "pYTK081",
-            "description": "CEN6/ARS4",
+            "name": "pYTK086",
+            "description": "URA3 3' Homology",
             "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "G / 9"
+            "well": "H / 2"
           }
         },
         {
-          "name": "pYTK082 - 2micron",
+          "name": "pYTK087 - LEU2 3' Homology",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
-            "repository_id": "65189"
+            "repository_id": "65194"
           },
           "info": {
-            "name": "pYTK082",
-            "description": "2micron",
+            "name": "pYTK087",
+            "description": "LEU2 3' Homology",
             "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "G / 10"
+            "well": "H / 3"
+          }
+        },
+        {
+          "name": "pYTK088 - HO 3' Homology",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65195"
+          },
+          "info": {
+            "name": "pYTK088",
+            "description": "HO 3' Homology",
+            "type": "AddGenePlasmid",
+            "resistance": "Chloramphenicol",
+            "well": "H / 4"
           }
         }
       ]
@@ -965,7 +980,7 @@
       "input": [],
       "output": 16,
       "type": "CollectionSource",
-      "category_id": "8",
+      "category_id": "8a",
       "title": "Bacterial marker and origin",
       "description": null,
       "image": [
@@ -974,54 +989,114 @@
       ],
       "options": [
         {
-          "name": "pYTK083 - AmpR-ColE1",
+          "name": "pYTK089 - AmpR-ColE1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
-            "repository_id": "65190"
+            "repository_id": "65196"
           },
           "info": {
-            "name": "pYTK083",
+            "name": "pYTK089",
             "description": "AmpR-ColE1",
             "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "G / 11"
+            "well": "H / 5"
           }
         },
         {
-          "name": "pYTK084 - KanR-ColE1",
+          "name": "pYTK090 - KanR-ColE1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
-            "repository_id": "65191"
+            "repository_id": "65197"
           },
           "info": {
-            "name": "pYTK084",
+            "name": "pYTK090",
             "description": "KanR-ColE1",
             "type": "AddGenePlasmid",
             "resistance": "Kanamycin",
-            "well": "G / 12"
+            "well": "H / 6"
           }
         },
         {
-          "name": "pYTK085 - SpecR-ColE1",
+          "name": "pYTK091 - SpecR-ColE1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
-            "repository_id": "65192"
+            "repository_id": "65198"
           },
           "info": {
-            "name": "pYTK085",
+            "name": "pYTK091",
             "description": "SpecR-ColE1",
             "type": "AddGenePlasmid",
             "resistance": "Spectinomycin",
-            "well": "H / 1"
+            "well": "H / 7"
           }
         }
       ]
     },
     {
       "id": 17,
+      "input": [],
+      "output": 18,
+      "type": "CollectionSource",
+      "category_id": "8b",
+      "title": "Yeast 3' homology arm",
+      "description": null,
+      "image": [
+        "glyph_8.png",
+        "80%"
+      ],
+      "options": [
+        {
+          "name": "pYTK092 - URA3 5' Homology",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65199"
+          },
+          "info": {
+            "name": "pYTK092",
+            "description": "URA3 5' Homology",
+            "type": "AddGenePlasmid",
+            "resistance": "Chloramphenicol",
+            "well": "H / 8"
+          }
+        },
+        {
+          "name": "pYTK093 - LEU2 5' Homology",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65200"
+          },
+          "info": {
+            "name": "pYTK093",
+            "description": "LEU2 5' Homology",
+            "type": "AddGenePlasmid",
+            "resistance": "Chloramphenicol",
+            "well": "H / 9"
+          }
+        },
+        {
+          "name": "pYTK094 - HO 5' Homology",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65201"
+          },
+          "info": {
+            "name": "pYTK094",
+            "description": "HO 5' Homology",
+            "type": "AddGenePlasmid",
+            "resistance": "Chloramphenicol",
+            "well": "H / 10"
+          }
+        }
+      ]
+    },
+    {
+      "id": 19,
       "input": [
         2,
         4,
@@ -1030,9 +1105,10 @@
         10,
         12,
         14,
-        16
+        16,
+        18
       ],
-      "output": 18,
+      "output": 20,
       "type": "RestrictionAndLigationSource"
     }
   ],
@@ -1072,8 +1148,12 @@
     {
       "id": 18,
       "type": "TemplateSequence"
+    },
+    {
+      "id": 20,
+      "type": "TemplateSequence"
     }
   ],
-  "description": "CDS self-replicating plasmid\n\nA plasmid with a yeast ORI containing a CDS",
+  "description": "CDS integration plasmid\n\nA plasmid containing a CDS that can be integrated in the genome via recombination",
   "primers": []
 }
