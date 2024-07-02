@@ -132,306 +132,6 @@
       "input": [],
       "output": 4,
       "type": "CollectionSource",
-      "category_id": "five_utr",
-      "title": "5' UTR",
-      "description": null,
-      "image": [
-        "5utr.png",
-        "100%"
-      ],
-      "options": [
-        {
-          "name": "U2m - BCD11",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "121015"
-          },
-          "info": {
-            "name": "U2m",
-            "description": "BCD11",
-            "type": "AddGenePlasmid",
-            "resistance": "Ampicillin",
-            "well": "Plate 1 / G / 10"
-          }
-        },
-        {
-          "name": "U3m - BCD13",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "121016"
-          },
-          "info": {
-            "name": "U3m",
-            "description": "BCD13",
-            "type": "AddGenePlasmid",
-            "resistance": "Ampicillin",
-            "well": "Plate 1 / G / 11"
-          }
-        },
-        {
-          "name": "U4m - UTR1",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "121017"
-          },
-          "info": {
-            "name": "U4m",
-            "description": "UTR1",
-            "type": "AddGenePlasmid",
-            "resistance": "Ampicillin",
-            "well": "Plate 1 / G / 12"
-          }
-        },
-        {
-          "name": "U5m - BCD14",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "121018"
-          },
-          "info": {
-            "name": "U5m",
-            "description": "BCD14",
-            "type": "AddGenePlasmid",
-            "resistance": "Ampicillin",
-            "well": "Plate 1 / H / 1"
-          }
-        },
-        {
-          "name": "U6m - BCD20",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "121019"
-          },
-          "info": {
-            "name": "U6m",
-            "description": "BCD20",
-            "type": "AddGenePlasmid",
-            "resistance": "Ampicillin",
-            "well": "Plate 1 / H / 2"
-          }
-        },
-        {
-          "name": "U7m - BCD16",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "121020"
-          },
-          "info": {
-            "name": "U7m",
-            "description": "BCD16",
-            "type": "AddGenePlasmid",
-            "resistance": "Ampicillin",
-            "well": "Plate 1 / H / 3"
-          }
-        },
-        {
-          "name": "U8m - BCD24",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "121021"
-          },
-          "info": {
-            "name": "U8m",
-            "description": "BCD24",
-            "type": "AddGenePlasmid",
-            "resistance": "Ampicillin",
-            "well": "Plate 1 / H / 4"
-          }
-        },
-        {
-          "name": "U9m - BCD22",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "121022"
-          },
-          "info": {
-            "name": "U9m",
-            "description": "BCD22",
-            "type": "AddGenePlasmid",
-            "resistance": "Ampicillin",
-            "well": "Plate 1 / H / 5"
-          }
-        },
-        {
-          "name": "U17m - Bujard RBS",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "121023"
-          },
-          "info": {
-            "name": "U17m",
-            "description": "Bujard RBS",
-            "type": "AddGenePlasmid",
-            "resistance": "Ampicillin",
-            "well": "Plate 1 / H / 6"
-          }
-        },
-        {
-          "name": "U19m - MG-apt",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "121024"
-          },
-          "info": {
-            "name": "U19m",
-            "description": "MG-apt",
-            "type": "AddGenePlasmid",
-            "resistance": "Ampicillin",
-            "well": "Plate 1 / H / 7"
-          }
-        },
-        {
-          "name": "U22m - BCD6",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "121025"
-          },
-          "info": {
-            "name": "U22m",
-            "description": "BCD6",
-            "type": "AddGenePlasmid",
-            "resistance": "Ampicillin",
-            "well": "Plate 1 / H / 8"
-          }
-        },
-        {
-          "name": "U24m - RiboJ + BCD2",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "121026"
-          },
-          "info": {
-            "name": "U24m",
-            "description": "RiboJ + BCD2",
-            "type": "AddGenePlasmid",
-            "resistance": "Ampicillin",
-            "well": "Plate 1 / H / 9"
-          }
-        },
-        {
-          "name": "U25m - RiboJ + UTR1",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "121027"
-          },
-          "info": {
-            "name": "U25m",
-            "description": "RiboJ + UTR1",
-            "type": "AddGenePlasmid",
-            "resistance": "Ampicillin",
-            "well": "Plate 1 / H / 10"
-          }
-        },
-        {
-          "name": "B0032m_BC - Medium Weiss RBS",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "66020"
-          },
-          "info": {
-            "name": "B0032m_BC",
-            "description": "Medium Weiss RBS",
-            "type": "AddGenePlasmid",
-            "resistance": "Ampicillin",
-            "well": "Base CIDAR Kit D / 5"
-          }
-        },
-        {
-          "name": "B0033m_BC - Weak Weiss RBS",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "66021"
-          },
-          "info": {
-            "name": "B0033m_BC",
-            "description": "Weak Weiss RBS",
-            "type": "AddGenePlasmid",
-            "resistance": "Ampicillin",
-            "well": "Base CIDAR Kit D / 6"
-          }
-        },
-        {
-          "name": "B0034m_BC - Strong Weiss RBS",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "66022"
-          },
-          "info": {
-            "name": "B0034m_BC",
-            "description": "Strong Weiss RBS",
-            "type": "AddGenePlasmid",
-            "resistance": "Ampicillin",
-            "well": "Base CIDAR Kit D / 7"
-          }
-        },
-        {
-          "name": "BCD12_BC - Strongest BCD RBS",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "66023"
-          },
-          "info": {
-            "name": "BCD12_BC",
-            "description": "Strongest BCD RBS",
-            "type": "AddGenePlasmid",
-            "resistance": "Ampicillin",
-            "well": "Base CIDAR Kit D / 8"
-          }
-        },
-        {
-          "name": "BCD2_BC - Extremely weak BCD RBS",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "66024"
-          },
-          "info": {
-            "name": "BCD2_BC",
-            "description": "Extremely weak BCD RBS",
-            "type": "AddGenePlasmid",
-            "resistance": "Ampicillin",
-            "well": "Base CIDAR Kit D / 9"
-          }
-        },
-        {
-          "name": "BCD8_BC - Medium-strength BCD RBS",
-          "source": {
-            "type": "AddGeneIdSource",
-            "repository_name": "addgene",
-            "repository_id": "66025"
-          },
-          "info": {
-            "name": "BCD8_BC",
-            "description": "Medium-strength BCD RBS",
-            "type": "AddGenePlasmid",
-            "resistance": "Ampicillin",
-            "well": "Base CIDAR Kit D / 10"
-          }
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "input": [],
-      "output": 6,
-      "type": "CollectionSource",
       "category_id": "promoter",
       "title": "Promoter",
       "description": null,
@@ -903,6 +603,306 @@
             "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
             "well": "Base CIDAR Kit D / 1"
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "input": [],
+      "output": 6,
+      "type": "CollectionSource",
+      "category_id": "five_utr",
+      "title": "5' UTR",
+      "description": null,
+      "image": [
+        "5utr.png",
+        "100%"
+      ],
+      "options": [
+        {
+          "name": "U2m - BCD11",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "121015"
+          },
+          "info": {
+            "name": "U2m",
+            "description": "BCD11",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Plate 1 / G / 10"
+          }
+        },
+        {
+          "name": "U3m - BCD13",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "121016"
+          },
+          "info": {
+            "name": "U3m",
+            "description": "BCD13",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Plate 1 / G / 11"
+          }
+        },
+        {
+          "name": "U4m - UTR1",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "121017"
+          },
+          "info": {
+            "name": "U4m",
+            "description": "UTR1",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Plate 1 / G / 12"
+          }
+        },
+        {
+          "name": "U5m - BCD14",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "121018"
+          },
+          "info": {
+            "name": "U5m",
+            "description": "BCD14",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Plate 1 / H / 1"
+          }
+        },
+        {
+          "name": "U6m - BCD20",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "121019"
+          },
+          "info": {
+            "name": "U6m",
+            "description": "BCD20",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Plate 1 / H / 2"
+          }
+        },
+        {
+          "name": "U7m - BCD16",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "121020"
+          },
+          "info": {
+            "name": "U7m",
+            "description": "BCD16",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Plate 1 / H / 3"
+          }
+        },
+        {
+          "name": "U8m - BCD24",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "121021"
+          },
+          "info": {
+            "name": "U8m",
+            "description": "BCD24",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Plate 1 / H / 4"
+          }
+        },
+        {
+          "name": "U9m - BCD22",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "121022"
+          },
+          "info": {
+            "name": "U9m",
+            "description": "BCD22",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Plate 1 / H / 5"
+          }
+        },
+        {
+          "name": "U17m - Bujard RBS",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "121023"
+          },
+          "info": {
+            "name": "U17m",
+            "description": "Bujard RBS",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Plate 1 / H / 6"
+          }
+        },
+        {
+          "name": "U19m - MG-apt",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "121024"
+          },
+          "info": {
+            "name": "U19m",
+            "description": "MG-apt",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Plate 1 / H / 7"
+          }
+        },
+        {
+          "name": "U22m - BCD6",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "121025"
+          },
+          "info": {
+            "name": "U22m",
+            "description": "BCD6",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Plate 1 / H / 8"
+          }
+        },
+        {
+          "name": "U24m - RiboJ + BCD2",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "121026"
+          },
+          "info": {
+            "name": "U24m",
+            "description": "RiboJ + BCD2",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Plate 1 / H / 9"
+          }
+        },
+        {
+          "name": "U25m - RiboJ + UTR1",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "121027"
+          },
+          "info": {
+            "name": "U25m",
+            "description": "RiboJ + UTR1",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Plate 1 / H / 10"
+          }
+        },
+        {
+          "name": "B0032m_BC - Medium Weiss RBS",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66020"
+          },
+          "info": {
+            "name": "B0032m_BC",
+            "description": "Medium Weiss RBS",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 5"
+          }
+        },
+        {
+          "name": "B0033m_BC - Weak Weiss RBS",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66021"
+          },
+          "info": {
+            "name": "B0033m_BC",
+            "description": "Weak Weiss RBS",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 6"
+          }
+        },
+        {
+          "name": "B0034m_BC - Strong Weiss RBS",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66022"
+          },
+          "info": {
+            "name": "B0034m_BC",
+            "description": "Strong Weiss RBS",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 7"
+          }
+        },
+        {
+          "name": "BCD12_BC - Strongest BCD RBS",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66023"
+          },
+          "info": {
+            "name": "BCD12_BC",
+            "description": "Strongest BCD RBS",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 8"
+          }
+        },
+        {
+          "name": "BCD2_BC - Extremely weak BCD RBS",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66024"
+          },
+          "info": {
+            "name": "BCD2_BC",
+            "description": "Extremely weak BCD RBS",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 9"
+          }
+        },
+        {
+          "name": "BCD8_BC - Medium-strength BCD RBS",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66025"
+          },
+          "info": {
+            "name": "BCD8_BC",
+            "description": "Medium-strength BCD RBS",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 10"
           }
         }
       ]

@@ -1164,8 +1164,8 @@
       "description": "5'UTR (with RBS) + promoter + CDS + terminator flanked by Golden Gate adapters",
       "fragment_order": [
         "upstream_adapter",
-        "five_utr",
         "promoter",
+        "five_utr",
         "cds",
         "terminator",
         "downstream_adapter"
