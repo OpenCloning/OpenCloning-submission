@@ -1,4 +1,38 @@
 {
+  "kits-murray-cidar-moclo-v1": {
+    "kit": {
+      "pmid": null,
+      "addgene_url": "https://www.addgene.org/kits/murray-cidar-moclo-v1/",
+      "title": "CIDAR MoClo Extension ",
+      "description": "110 extra parts for CIDAR"
+    },
+    "assemblies": [
+      {
+        "title": "Transcriptional unit",
+        "description": "5'UTR (with RBS) + promoter + CDS + terminator flanked by Golden Gate adapters",
+        "fragment_order": [
+          "upstream_adapter",
+          "five_utr",
+          "promoter",
+          "cds",
+          "terminator",
+          "downstream_adapter"
+        ],
+        "template_file": "assembly_template_001.json"
+      },
+      {
+        "title": "Pre-composed 5'UTR + promoter + CDS",
+        "description": "A level 0 plasmid contains a precomposed 5'UTR + promoter + CDS",
+        "fragment_order": [
+          "upstream_adapter",
+          "five_utr_gRna",
+          "terminator",
+          "downstream_adapter"
+        ],
+        "template_file": "assembly_template_002.json"
+      }
+    ]
+  },
   "allele-engineering-templates": {
     "kit": {
       "title": "Allele engineering",
