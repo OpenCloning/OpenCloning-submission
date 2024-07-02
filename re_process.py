@@ -37,16 +37,15 @@ mappings = (
 
 for old_category, new_category in mappings:
     source_old = next(
-        s
-        for s in template_base["sources"][old_category]
-        if s.category_id == old_category
+        s for s in template_base["sources"] if s["category_id"] == old_category
     )
     source_new = next(
-        s
-        for s in template_extension["sources"][new_category]
-        if s.category_id == new_category
+        s for s in template_extension["sources"] if s["category_id"] == new_category
     )
     old_options = deepcopy(source_old["options"])
     for option in old_options:
-        option["well"] = "Original Kit " + option["well"]
+        option["info"]["well"] = "Base CIDAR Kit " + option["info"]["well"]
     source_new["options"].extend(old_options)
+
+with open(extension_path, "w") as f:
+    json.dump(template_extension, f, indent=2)

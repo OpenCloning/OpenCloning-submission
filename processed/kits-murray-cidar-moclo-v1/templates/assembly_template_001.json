@@ -328,6 +328,96 @@
             "resistance": "Ampicillin",
             "well": "Plate 1 / H / 10"
           }
+        },
+        {
+          "name": "Medium Weiss RBS - B0032m_BC",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66020"
+          },
+          "info": {
+            "name": "B0032m_BC",
+            "description": "Medium Weiss RBS",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 5"
+          }
+        },
+        {
+          "name": "Weak Weiss RBS - B0033m_BC",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66021"
+          },
+          "info": {
+            "name": "B0033m_BC",
+            "description": "Weak Weiss RBS",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 6"
+          }
+        },
+        {
+          "name": "Strong Weiss RBS - B0034m_BC",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66022"
+          },
+          "info": {
+            "name": "B0034m_BC",
+            "description": "Strong Weiss RBS",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 7"
+          }
+        },
+        {
+          "name": "Strongest BCD RBS - BCD12_BC",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66023"
+          },
+          "info": {
+            "name": "BCD12_BC",
+            "description": "Strongest BCD RBS",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 8"
+          }
+        },
+        {
+          "name": "Extremely weak BCD RBS - BCD2_BC",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66024"
+          },
+          "info": {
+            "name": "BCD2_BC",
+            "description": "Extremely weak BCD RBS",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 9"
+          }
+        },
+        {
+          "name": "Medium-strength BCD RBS - BCD8_BC",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66025"
+          },
+          "info": {
+            "name": "BCD8_BC",
+            "description": "Medium-strength BCD RBS",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 10"
+          }
         }
       ]
     },
@@ -654,6 +744,156 @@
             "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
             "well": "Plate 1 / B / 9"
+          }
+        },
+        {
+          "name": "Strong constitutive promoter (2,547x J23112 strength) - J23100_AB",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65980"
+          },
+          "info": {
+            "name": "J23100_AB",
+            "description": "Strong constitutive promoter (2,547x J23112 strength)",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit A / 1"
+          }
+        },
+        {
+          "name": "Strong constitutive promoter (2,179x J23112 strength) - J23102_AB",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65984"
+          },
+          "info": {
+            "name": "J23102_AB",
+            "description": "Strong constitutive promoter (2,179x J23112 strength)",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit A / 5"
+          }
+        },
+        {
+          "name": "Weak constitutive promoter (17x J23112 strength) - J23103_AB",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65988"
+          },
+          "info": {
+            "name": "J23103_AB",
+            "description": "Weak constitutive promoter (17x J23112 strength)",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit A / 9"
+          }
+        },
+        {
+          "name": "Medium-strength constitutive promoter (1,185x J23112 strength) - J23106_AB",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65992"
+          },
+          "info": {
+            "name": "J23106_AB",
+            "description": "Medium-strength constitutive promoter (1,185x J23112 strength)",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit B / 1"
+          }
+        },
+        {
+          "name": "Medium-strength constitutive promoter (908x J23112 strength) - J23107_AB",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "65996"
+          },
+          "info": {
+            "name": "J23107_AB",
+            "description": "Medium-strength constitutive promoter (908x J23112 strength)",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit B / 5"
+          }
+        },
+        {
+          "name": "Weak-medium constitutive promoter (396x J23112 strength) - J23116_AB",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66000"
+          },
+          "info": {
+            "name": "J23116_AB",
+            "description": "Weak-medium constitutive promoter (396x J23112 strength)",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit B / 9"
+          }
+        },
+        {
+          "name": "pLacI - R0010 (pLacI)_AB",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66004"
+          },
+          "info": {
+            "name": "R0010 (pLacI)_AB",
+            "description": "pLacI",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit C / 1"
+          }
+        },
+        {
+          "name": "pTet - R0040 (pTet)_AB",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66008"
+          },
+          "info": {
+            "name": "R0040 (pTet)_AB",
+            "description": "pTet",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit C / 5"
+          }
+        },
+        {
+          "name": "PLuxR-pL - R0063 (pLuxR-pR)_AB",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66012"
+          },
+          "info": {
+            "name": "R0063 (pLuxR-pR)_AB",
+            "description": "PLuxR-pL",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit C / 9"
+          }
+        },
+        {
+          "name": "pBad - I13453 (pBAD)_AB",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66016"
+          },
+          "info": {
+            "name": "I13453 (pBAD)_AB",
+            "description": "pBad",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 1"
           }
         }
       ]
@@ -1567,6 +1807,141 @@
             "resistance": "Ampicillin",
             "well": "Plate 1 / G / 9"
           }
+        },
+        {
+          "name": "LacI-ssrA - C0012m (lacI)_CD",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66026"
+          },
+          "info": {
+            "name": "C0012m (lacI)_CD",
+            "description": "LacI-ssrA",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 11"
+          }
+        },
+        {
+          "name": "TetR-ssrA - C0040 (tetR)_CD",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66027"
+          },
+          "info": {
+            "name": "C0040 (tetR)_CD",
+            "description": "TetR-ssrA",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit D / 12"
+          }
+        },
+        {
+          "name": "LuxR - C0062 (luxR)_CD",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66028"
+          },
+          "info": {
+            "name": "C0062 (luxR)_CD",
+            "description": "LuxR",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit E / 1"
+          }
+        },
+        {
+          "name": "AraC-ssrA - C0080 (araC)_CD",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66029"
+          },
+          "info": {
+            "name": "C0080 (araC)_CD",
+            "description": "AraC-ssrA",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit E / 2"
+          }
+        },
+        {
+          "name": "Cre recombinase - cre_CD",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66030"
+          },
+          "info": {
+            "name": "cre_CD",
+            "description": "Cre recombinase",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit E / 3"
+          }
+        },
+        {
+          "name": "YFP - E0030 (YFP)_CD",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66031"
+          },
+          "info": {
+            "name": "E0030 (YFP)_CD",
+            "description": "YFP",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit E / 4"
+          }
+        },
+        {
+          "name": "GFP - E0040m (GFP)_CD",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66032"
+          },
+          "info": {
+            "name": "E0040m (GFP)_CD",
+            "description": "GFP",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit E / 5"
+          }
+        },
+        {
+          "name": "RFP - E1010m (RFP)_CD",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66033"
+          },
+          "info": {
+            "name": "E1010m (RFP)_CD",
+            "description": "RFP",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit E / 6"
+          }
+        },
+        {
+          "name": "eBFP2 - eBFP2 (eBFP2)_CD",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66034"
+          },
+          "info": {
+            "name": "eBFP2 (eBFP2)_CD",
+            "description": "eBFP2",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit E / 7"
+          }
         }
       ]
     },
@@ -1728,6 +2103,21 @@
             "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
             "well": "Plate 2 / A / 8"
+          }
+        },
+        {
+          "name": "Terminator - B0015_DE",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "66035"
+          },
+          "info": {
+            "name": "B0015_DE",
+            "description": "Terminator",
+            "type": "AddGenePlasmid",
+            "resistance": "Ampicillin",
+            "well": "Base CIDAR Kit E / 8"
           }
         }
       ]
