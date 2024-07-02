@@ -113,13 +113,12 @@
     },
     "assemblies": [
       {
-        "title": "N-term tag plasmid",
-        "description": "A plasmid with N-term tagged CDS",
+        "title": "CDS self-replicating plasmid",
+        "description": "A plasmid with a yeast ORI containing a CDS",
         "fragment_order": [
           "1",
           "2",
-          "3a",
-          "",
+          "3",
           "4",
           "5",
           "6",
@@ -127,6 +126,90 @@
           "8"
         ],
         "template_file": "assembly_template_001.json"
+      },
+      {
+        "title": "2xCDS fusion self-replicating plasmid",
+        "description": "A plasmid with a yeast ORI with two CDS fused together",
+        "fragment_order": [
+          "1",
+          "2",
+          "3a",
+          "3b",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "template_file": "assembly_template_002.json"
+      },
+      {
+        "title": "3xCDS fusion self-replicating plasmid",
+        "description": "A plasmid with a yeast ORI with three CDS fused together",
+        "fragment_order": [
+          "1",
+          "2",
+          "3a",
+          "3b",
+          "4a",
+          "4b",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "template_file": "assembly_template_003.json"
+      },
+      {
+        "title": "CDS integration plasmid",
+        "description": "A plasmid containing a CDS that can be integrated in the genome via recombination",
+        "fragment_order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7h",
+          "8a",
+          "8b"
+        ],
+        "template_file": "assembly_template_004.json"
+      },
+      {
+        "title": "2xCDS integration plasmid",
+        "description": "A plasmid containing a 2xCDS fusion protein that can be integrated in the genome via recombination",
+        "fragment_order": [
+          "1",
+          "2",
+          "3a",
+          "3b",
+          "4",
+          "5",
+          "6",
+          "7h",
+          "8a",
+          "8b"
+        ],
+        "template_file": "assembly_template_005.json"
+      },
+      {
+        "title": "3xCDS integration plasmid",
+        "description": "A plasmid containing a 3xCDS fusion protein that can be integrated in the genome via recombination",
+        "fragment_order": [
+          "1",
+          "2",
+          "3a",
+          "3b",
+          "4a",
+          "4b",
+          "5",
+          "6",
+          "7h",
+          "8a",
+          "8b"
+        ],
+        "template_file": "assembly_template_006.json"
       }
     ]
   }
