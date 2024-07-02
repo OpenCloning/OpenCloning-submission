@@ -32,6 +32,54 @@ test = ["anyio[trio]", "coverage[toml] (>=7)", "exceptiongroup (>=1.2.0)", "hypo
 trio = ["trio (>=0.23)"]
 
 [[package]]
+name = "appdirs"
+version = "1.4.4"
+description = "A small Python module for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
+optional = false
+python-versions = "*"
+files = [
+    {file = "appdirs-1.4.4-py2.py3-none-any.whl", hash = "sha256:a841dacd6b99318a741b166adb07e19ee71a274450e68237b4650ca1055ab128"},
+    {file = "appdirs-1.4.4.tar.gz", hash = "sha256:7d5d0167b2b1ba821647616af46a749d1c653740dd0d2415100fe26e27afdf41"},
+]
+
+[[package]]
+name = "biopython"
+version = "1.84"
+description = "Freely available tools for computational molecular biology."
+optional = false
+python-versions = ">=3.9"
+files = [
+    {file = "biopython-1.84-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:3c8beded38884abae4c74cb6ce54142da670273fd0b2919bd0f84f6e34d3056b"},
+    {file = "biopython-1.84-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:b51ef31bfb79872a182a85b4113625e1b553c024bb1586c72ac98b479f8d8fe4"},
+    {file = "biopython-1.84-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:ca8d6a88b9a9718074b3f5b450f9ea5adf7112a7dbaed55d82d5b623f5859a01"},
+    {file = "biopython-1.84-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:2dc2e77490725060330003f73b6b7d5172f8bc160f180de5877a2e899ad999d4"},
+    {file = "biopython-1.84-cp310-cp310-win32.whl", hash = "sha256:4f39b38e7625c33384954130d90f19984e91cb5af64e2fb128603359f86884ad"},
+    {file = "biopython-1.84-cp310-cp310-win_amd64.whl", hash = "sha256:9e3f7476fd81f31e048965d7be2826f018686e870d96870f440b609002953954"},
+    {file = "biopython-1.84-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:2d4ed30aebd96b4aadeb1f04adce92795c696f5bd56d1fd45517b89059918dd4"},
+    {file = "biopython-1.84-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:c792508988fc3ccf18eaae2a826c9cd97f1c27fb55bb87bdce6a101fee9f5a0c"},
+    {file = "biopython-1.84-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:507ac3956f3107e77fee362ecb048dafb5f97cbcf110012d091418430c3227c7"},
+    {file = "biopython-1.84-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:894ee7533cca7f5f9769e2595fbe7b0dba5018f39a2170753d101a13e7585ff4"},
+    {file = "biopython-1.84-cp311-cp311-win32.whl", hash = "sha256:7f4c746825721ec367c2f2d6a8cda3bc6495a1e084e5b2fbab26e9467706603f"},
+    {file = "biopython-1.84-cp311-cp311-win_amd64.whl", hash = "sha256:2cb8e839ab472244b6082635ad1df67c94c05df0bd02a023103ed00ea66c4d20"},
+    {file = "biopython-1.84-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:ba58a6d76288333c5f178a426116953fa68204bd0cfc401694087dd4f96d0059"},
+    {file = "biopython-1.84-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:ee3566f6dc3acf20e238540daf896f0af20cff531521bf41fdf5143f73e209ae"},
+    {file = "biopython-1.84-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:89ef3967f5a88b5bb6344bef75ae83386de53fed3966d5c8c334ad885f8db08a"},
+    {file = "biopython-1.84-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:61765b71f84814a1eeb55ab222f43330aa7ad3e55ab91e8b444706149c67a281"},
+    {file = "biopython-1.84-cp312-cp312-win32.whl", hash = "sha256:52b6098f47d6b90fc8a5e8579b81ee50047e9108f0976e69c891ae0c4817e42d"},
+    {file = "biopython-1.84-cp312-cp312-win_amd64.whl", hash = "sha256:ecff2fcf5da29b600474c0bfcdbbac0f98b25e22fe60a853d0ee798c00f7396c"},
+    {file = "biopython-1.84-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:f4c1c9ad7da9eaf8d8f4515bf931a7f6548a468e7ef29b8429e31aaff2d95f4c"},
+    {file = "biopython-1.84-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:9fbd4b67d3e71b0d716a1712ab8b4e57981c6549ba17ce5626ffa8976d170da7"},
+    {file = "biopython-1.84-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:0c425a39871f652598f502671aa5f6b5125475a91333a368a47f9c611ca96db1"},
+    {file = "biopython-1.84-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:7b69d59f9a762c5bb5f77ed03f197dad05ebd702c34d2cae7be98f1f30e04089"},
+    {file = "biopython-1.84-cp39-cp39-win32.whl", hash = "sha256:25f4ef193a307e403eb532e8f060b818e2d75f65803a2b0f4e645b0cae131b4e"},
+    {file = "biopython-1.84-cp39-cp39-win_amd64.whl", hash = "sha256:b64575363bb2344073c949fd69a0bf3ea015b447aa1494e4813376855b479118"},
+    {file = "biopython-1.84.tar.gz", hash = "sha256:60fbe6f996e8a6866a42698c17e552127d99a9aab3259d6249fbaabd0e0cc7b4"},
+]
+
+[package.dependencies]
+numpy = "*"
+
+[[package]]
 name = "certifi"
 version = "2024.2.2"
 description = "Python package for providing Mozilla's CA Bundle."
@@ -710,6 +758,24 @@ files = [
 ]
 
 [[package]]
+name = "networkx"
+version = "3.3"
+description = "Python package for creating and manipulating graphs and networks"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "networkx-3.3-py3-none-any.whl", hash = "sha256:28575580c6ebdaf4505b22c6256a2b9de86b316dc63ba9e93abde3d78dfdbcf2"},
+    {file = "networkx-3.3.tar.gz", hash = "sha256:0c127d8b2f4865f59ae9cb8aafcd60b5c70f3241ebd66f7defad7c4ab90126c9"},
+]
+
+[package.extras]
+default = ["matplotlib (>=3.6)", "numpy (>=1.23)", "pandas (>=1.4)", "scipy (>=1.9,!=1.11.0,!=1.11.1)"]
+developer = ["changelist (==0.5)", "mypy (>=1.1)", "pre-commit (>=3.2)", "rtoml"]
+doc = ["myst-nb (>=1.0)", "numpydoc (>=1.7)", "pillow (>=9.4)", "pydata-sphinx-theme (>=0.14)", "sphinx (>=7)", "sphinx-gallery (>=0.14)", "texext (>=0.6.7)"]
+extra = ["lxml (>=4.6)", "pydot (>=2.0)", "pygraphviz (>=1.12)", "sympy (>=1.10)"]
+test = ["pytest (>=7.2)", "pytest-cov (>=4.0)"]
+
+[[package]]
 name = "numpy"
 version = "1.26.4"
 description = "Fundamental package for array computing in Python"
@@ -942,6 +1008,23 @@ dev = ["pre-commit", "tox"]
 testing = ["pytest", "pytest-benchmark"]
 
 [[package]]
+name = "prettytable"
+version = "3.10.0"
+description = "A simple Python library for easily displaying tabular data in a visually appealing ASCII table format"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "prettytable-3.10.0-py3-none-any.whl", hash = "sha256:6536efaf0757fdaa7d22e78b3aac3b69ea1b7200538c2c6995d649365bddab92"},
+    {file = "prettytable-3.10.0.tar.gz", hash = "sha256:9665594d137fb08a1117518c25551e0ede1687197cf353a4fdc78d27e1073568"},
+]
+
+[package.dependencies]
+wcwidth = "*"
+
+[package.extras]
+tests = ["pytest", "pytest-cov", "pytest-lazy-fixtures"]
+
+[[package]]
 name = "pycparser"
 version = "2.22"
 description = "C parser in Python"
@@ -1063,6 +1146,31 @@ files = [
 typing-extensions = ">=4.6.0,<4.7.0 || >4.7.0"
 
 [[package]]
+name = "pydna"
+version = "5.2.0"
+description = "Representing double stranded DNA and functions for simulating cloning and homologous recombination between DNA molecules."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "pydna-5.2.0-py3-none-any.whl", hash = "sha256:b715c8753065f16339dc105781c0836233b8f8789ba3ea983db252aab70857ee"},
+    {file = "pydna-5.2.0.tar.gz", hash = "sha256:211ccc1329758657b925ab806931060a96c6eca711e278ae2f19fd0e186971bd"},
+]
+
+[package.dependencies]
+appdirs = ">=1.4.4"
+biopython = ">=1.80"
+networkx = ">=2.8.8"
+prettytable = ">=3.5.0"
+pyfiglet = ">=0.8.post1"
+pyperclip = ">=1.8.2"
+
+[package.extras]
+download = ["pyparsing (>=2.4.7)", "requests (>=2.26.0)"]
+express = ["cai2 (>=1.0.5)"]
+gel = ["matplotlib (>=3.4.3)", "pillow (>=8.4.0)", "scipy (>=1.8.0)"]
+gui = ["pyqt5 (>=5.15.0)"]
+
+[[package]]
 name = "pyee"
 version = "11.1.0"
 description = "A rough port of Node.js's EventEmitter to Python with a few tricks of its own"
@@ -1078,6 +1186,17 @@ typing-extensions = "*"
 
 [package.extras]
 dev = ["black", "build", "flake8", "flake8-black", "isort", "jupyter-console", "mkdocs", "mkdocs-include-markdown-plugin", "mkdocstrings[python]", "pytest", "pytest-asyncio", "pytest-trio", "sphinx", "toml", "tox", "trio", "trio", "trio-typing", "twine", "twisted", "validate-pyproject[all]"]
+
+[[package]]
+name = "pyfiglet"
+version = "1.0.2"
+description = "Pure-python FIGlet implementation"
+optional = false
+python-versions = ">=3.9"
+files = [
+    {file = "pyfiglet-1.0.2-py3-none-any.whl", hash = "sha256:889b351d79c99e50a3f619c8f8e6ffdb27fd8c939fc43ecbd7559bd57d5f93ea"},
+    {file = "pyfiglet-1.0.2.tar.gz", hash = "sha256:758788018ab8faaddc0984e1ea05ff330d3c64be663c513cc1f105f6a3066dab"},
+]
 
 [[package]]
 name = "pygithub"
@@ -1157,6 +1276,16 @@ cffi = ">=1.4.1"
 [package.extras]
 docs = ["sphinx (>=1.6.5)", "sphinx-rtd-theme"]
 tests = ["hypothesis (>=3.27.0)", "pytest (>=3.2.1,!=3.3.0)"]
+
+[[package]]
+name = "pyperclip"
+version = "1.9.0"
+description = "A cross-platform clipboard module for Python. (Only handles plain text for now.)"
+optional = false
+python-versions = "*"
+files = [
+    {file = "pyperclip-1.9.0.tar.gz", hash = "sha256:b7de0142ddc81bfc5c7507eea19da920b92252b548b96186caf94a5e2527d310"},
+]
 
 [[package]]
 name = "pytest"
@@ -1680,6 +1809,17 @@ files = [
 anyio = ">=3.0.0"
 
 [[package]]
+name = "wcwidth"
+version = "0.2.13"
+description = "Measures the displayed width of unicode strings in a terminal"
+optional = false
+python-versions = "*"
+files = [
+    {file = "wcwidth-0.2.13-py2.py3-none-any.whl", hash = "sha256:3da69048e4540d84af32131829ff948f1e022c1c6bdb8d6102117aac784f6859"},
+    {file = "wcwidth-0.2.13.tar.gz", hash = "sha256:72ea0c06399eb286d978fdedb6923a9eb47e1c486ce63e9b4e64fc18303972b5"},
+]
+
+[[package]]
 name = "websockets"
 version = "12.0"
 description = "An implementation of the WebSocket Protocol (RFC 6455 & 7692)"
@@ -1842,4 +1982,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "ed44286bc84247cc3b1cad93015518700e32e15decd81799940389d3a92ffded"
+content-hash = "b89eabe64006252d47f81c55bf4dff4f1efff06b1afa9eb9668223804adf3604"

@@ -1,7 +1,7 @@
 For me:
 - Re-order fields
 
-compulsory: plasmid_name, addgene_id, category
+compulsory: name, addgene_id, category
 optional: well, resistance, type, description
 
 (rename type to category)

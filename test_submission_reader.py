@@ -44,7 +44,7 @@ class TestSubmissionReader(TestCase):
             modify_excel_file(
                 "example_submission/submission.xlsx",
                 temp_file.name,
-                ("Sequence", "plasmid_name", "pYTK003", "blah"),
+                ("Sequence", "name", "pYTK003", "blah"),
             )
             read_submission(temp_file.name)
 

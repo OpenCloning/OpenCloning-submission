@@ -10,7 +10,7 @@ async function makeHtmlTable(plasmids) {
     const table = document.createElement('table')
     table.classList.add('table')
     const headerRow = document.createElement('tr')
-    const tableHeaders = ['well', 'plasmid_name', 'addgene_id', 'resistance']
+    const tableHeaders = ['well', 'name', 'addgene_id', 'resistance']
     tableHeaders.forEach(header => {
         const th = document.createElement('th')
         th.innerText = header
@@ -85,7 +85,7 @@ async function scrape() {
     // Allow the user to download the table as tsv
     const downloadButton = document.getElementById('download-button')
     downloadButton.onclick = () => {
-        let tsv = 'plasmid_name\taddgene_id\tcategory\tresistance\twell\tdescription\n'
+        let tsv = 'name\taddgene_id\tcategory\tresistance\twell\tdescription\n'
         tsv += plasmids.map(plasmid => {
             const { well, name, addgene_id, resistance } = plasmid
             return [name, addgene_id, '', resistance, well, ''].join('\t')

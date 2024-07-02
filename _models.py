@@ -91,9 +91,15 @@ class Kit(ConfiguredBaseModel):
 
 
 class Sequence(ConfiguredBaseModel):
-    plasmid_name: Optional[str] = Field(None)
-    addgene_id: str = Field(..., description="""The Addgene ID for the plasmid""")
+    name: str = Field(..., description="""The name of a thing""")
     category: str = Field(...)
+    description: Optional[str] = Field(
+        None, description="""A description of the object"""
+    )
+
+
+class AddGenePlasmid(Sequence):
+    addgene_id: str = Field(..., description="""The Addgene ID for the plasmid""")
     resistance: Optional[str] = Field(None)
     well: Optional[str] = Field(
         None, description="""The well where a plasmid is located in a plate"""
@@ -101,6 +107,8 @@ class Sequence(ConfiguredBaseModel):
     description: Optional[str] = Field(
         None, description="""A description of the object"""
     )
+    name: str = Field(..., description="""The name of a thing""")
+    category: str = Field(...)
 
     @field_validator("addgene_id")
     def pattern_addgene_id(cls, v):
@@ -150,16 +158,20 @@ class Submitter(ConfiguredBaseModel):
         return v
 
 
-class Primer(ConfiguredBaseModel):
-    name: str = Field(...)
+class Oligo(ConfiguredBaseModel):
+    name: str = Field(..., description="""The name of a thing""")
+    id: Optional[int] = Field(None)
     sequence: str = Field(...)
 
 
-class PrimerPair(ConfiguredBaseModel):
+class OligoPair(Sequence):
+    forward_oligo: str = Field(...)
+    reverse_oligo: str = Field(...)
+    name: str = Field(..., description="""The name of a thing""")
     category: str = Field(...)
-    forward_primer: str = Field(...)
-    reverse_primer: str = Field(...)
-    name: str = Field(...)
+    description: Optional[str] = Field(
+        None, description="""A description of the object"""
+    )
 
 
 class Assembly(ConfiguredBaseModel):
@@ -191,8 +203,7 @@ class Submission(ConfiguredBaseModel):
     sequences: conlist(min_length=1, item_type=Sequence) = Field(default_factory=list)
     categories: conlist(min_length=1, item_type=Category) = Field(default_factory=list)
     assemblies: conlist(min_length=1, item_type=Assembly) = Field(default_factory=list)
-    primers: Optional[List[Primer]] = Field(default_factory=list)
-    primer_pairs: Optional[List[PrimerPair]] = Field(default_factory=list)
+    oligos: Optional[List[Oligo]] = Field(default_factory=list)
 
 
 # Model rebuild
@@ -200,8 +211,9 @@ class Submission(ConfiguredBaseModel):
 Category.model_rebuild()
 Kit.model_rebuild()
 Sequence.model_rebuild()
+AddGenePlasmid.model_rebuild()
 Submitter.model_rebuild()
-Primer.model_rebuild()
-PrimerPair.model_rebuild()
+Oligo.model_rebuild()
+OligoPair.model_rebuild()
 Assembly.model_rebuild()
 Submission.model_rebuild()
