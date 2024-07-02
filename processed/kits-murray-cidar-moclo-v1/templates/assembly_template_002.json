@@ -8,7 +8,10 @@
       "category_id": "upstream_adapter",
       "title": "Left adapter",
       "description": "Gibson adapter to be joined via an A fusion site (GGAG)",
-      "image": "left_adapter.png",
+      "image": [
+        "left_adapter.png",
+        "100%"
+      ],
       "options": [
         {
           "name": "UNS1_left",
@@ -132,10 +135,13 @@
       "category_id": "five_utr_gRna",
       "title": "5' UTR + gRNA",
       "description": null,
-      "image": null,
+      "image": [
+        null,
+        "100%"
+      ],
       "options": [
         {
-          "name": "gQi Cas9 gRNA - UC16m",
+          "name": "UC16m - gQi Cas9 gRNA",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -150,7 +156,7 @@
           }
         },
         {
-          "name": "gV1 Cas9 gRNA - UC17m",
+          "name": "UC17m - gV1 Cas9 gRNA",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -165,7 +171,7 @@
           }
         },
         {
-          "name": "gN2 gRNA - UC20m",
+          "name": "UC20m - gN2 gRNA",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -180,7 +186,7 @@
           }
         },
         {
-          "name": "gQi gRNA - UCT1m",
+          "name": "UCT1m - gQi gRNA",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -204,10 +210,13 @@
       "category_id": "terminator",
       "title": "Terminator",
       "description": null,
-      "image": "terminator.png",
+      "image": [
+        "terminator.png",
+        "100%"
+      ],
       "options": [
         {
-          "name": "T500_noGap, short attachment (T11) - T1m",
+          "name": "T1m - T500_noGap, short attachment (T11)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -222,7 +231,7 @@
           }
         },
         {
-          "name": "ECK120033736, modified - T2m",
+          "name": "T2m - ECK120033736, modified",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -237,7 +246,7 @@
           }
         },
         {
-          "name": "S. pyogenes tracrRNA terminator - T7m",
+          "name": "T7m - S. pyogenes tracrRNA terminator",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -252,7 +261,7 @@
           }
         },
         {
-          "name": "ECK120029600 - T12m",
+          "name": "T12m - ECK120029600",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -267,7 +276,7 @@
           }
         },
         {
-          "name": "ECK120033737 - T13m",
+          "name": "T13m - ECK120033737",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -282,7 +291,7 @@
           }
         },
         {
-          "name": "L3S1P13 - T14m",
+          "name": "T14m - L3S1P13",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -297,7 +306,7 @@
           }
         },
         {
-          "name": "modified L3S3P11 - T15m",
+          "name": "T15m - modified L3S3P11",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -312,7 +321,7 @@
           }
         },
         {
-          "name": "L3S2P55 - T16m",
+          "name": "T16m - L3S2P55",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -327,7 +336,7 @@
           }
         },
         {
-          "name": "L3S2P11 - T17m",
+          "name": "T17m - L3S2P11",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -342,7 +351,7 @@
           }
         },
         {
-          "name": "modified L3S2P21 - T18m",
+          "name": "T18m - modified L3S2P21",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -366,7 +375,10 @@
       "category_id": "downstream_adapter",
       "title": "Right adapter",
       "description": "Gibson adapter to be joined via an E fusion site (GCTT)",
-      "image": "right_adapter.png",
+      "image": [
+        "right_adapter.png",
+        "100%"
+      ],
       "options": [
         {
           "name": "UNS3_right",

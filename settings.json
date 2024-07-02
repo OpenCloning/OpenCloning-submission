@@ -1,0 +1,11 @@
+{
+    "kits-murray-cidar-moclo-v1": {
+        "image_width": "100%"
+    },
+    "kits-densmore-cidar-moclo": {
+        "image_width": "60%"
+    },
+    "kits-moclo-ytk": {
+        "image_width": "40%"
+    }
+}

@@ -8,10 +8,13 @@
       "category_id": "promoter_FB",
       "title": "Promoter",
       "description": "Left fusion site is F (CGCT)",
-      "image": "promoter.png",
+      "image": [
+        "promoter.png",
+        "60%"
+      ],
       "options": [
         {
-          "name": "Strong constitutive promoter (2,547x J23112 strength) - J23100_FB",
+          "name": "J23100_FB - Strong constitutive promoter (2,547x J23112 strength)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -26,7 +29,7 @@
           }
         },
         {
-          "name": "Strong constitutive promoter (2,179x J23112 strength) - J23102_FB",
+          "name": "J23102_FB - Strong constitutive promoter (2,179x J23112 strength)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -41,7 +44,7 @@
           }
         },
         {
-          "name": "Weak constitutive promoter (17x J23112 strength) - J23103_FB",
+          "name": "J23103_FB - Weak constitutive promoter (17x J23112 strength)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -56,7 +59,7 @@
           }
         },
         {
-          "name": "Medium-strength constitutive promoter (1,185x J23112 strength) - J23106_FB",
+          "name": "J23106_FB - Medium-strength constitutive promoter (1,185x J23112 strength)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -71,7 +74,7 @@
           }
         },
         {
-          "name": "Medium-strength constitutive promoter (908x J23112 strength) - J23107_FB",
+          "name": "J23107_FB - Medium-strength constitutive promoter (908x J23112 strength)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -86,7 +89,7 @@
           }
         },
         {
-          "name": "Weak-medium constitutive promoter (396x J23112 strength) - J23116_FB",
+          "name": "J23116_FB - Weak-medium constitutive promoter (396x J23112 strength)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -101,7 +104,7 @@
           }
         },
         {
-          "name": "pLacI - R0010 (pLacI)_FB",
+          "name": "R0010 (pLacI)_FB - pLacI",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -116,7 +119,7 @@
           }
         },
         {
-          "name": "pTet - R0040 (pTet)_FB",
+          "name": "R0040 (pTet)_FB - pTet",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -131,7 +134,7 @@
           }
         },
         {
-          "name": "PLuxR-pL - R0063 (pLuxR-pR)_FB",
+          "name": "R0063 (pLuxR-pR)_FB - PLuxR-pL",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -146,7 +149,7 @@
           }
         },
         {
-          "name": "pBad - I13453 (pBAD)_FB",
+          "name": "I13453 (pBAD)_FB - pBad",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -170,10 +173,13 @@
       "category_id": "RBS_BC",
       "title": "RBS",
       "description": null,
-      "image": "rbs.png",
+      "image": [
+        "rbs.png",
+        "60%"
+      ],
       "options": [
         {
-          "name": "Medium Weiss RBS - B0032m_BC",
+          "name": "B0032m_BC - Medium Weiss RBS",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -188,7 +194,7 @@
           }
         },
         {
-          "name": "Weak Weiss RBS - B0033m_BC",
+          "name": "B0033m_BC - Weak Weiss RBS",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -203,7 +209,7 @@
           }
         },
         {
-          "name": "Strong Weiss RBS - B0034m_BC",
+          "name": "B0034m_BC - Strong Weiss RBS",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -218,7 +224,7 @@
           }
         },
         {
-          "name": "Strongest BCD RBS - BCD12_BC",
+          "name": "BCD12_BC - Strongest BCD RBS",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -233,7 +239,7 @@
           }
         },
         {
-          "name": "Extremely weak BCD RBS - BCD2_BC",
+          "name": "BCD2_BC - Extremely weak BCD RBS",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -248,7 +254,7 @@
           }
         },
         {
-          "name": "Medium-strength BCD RBS - BCD8_BC",
+          "name": "BCD8_BC - Medium-strength BCD RBS",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -272,10 +278,13 @@
       "category_id": "CDS_CD",
       "title": "CDS",
       "description": null,
-      "image": "cds.png",
+      "image": [
+        "cds.png",
+        "60%"
+      ],
       "options": [
         {
-          "name": "LacI-ssrA - C0012m (lacI)_CD",
+          "name": "C0012m (lacI)_CD - LacI-ssrA",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -290,7 +299,7 @@
           }
         },
         {
-          "name": "TetR-ssrA - C0040 (tetR)_CD",
+          "name": "C0040 (tetR)_CD - TetR-ssrA",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -305,7 +314,7 @@
           }
         },
         {
-          "name": "LuxR - C0062 (luxR)_CD",
+          "name": "C0062 (luxR)_CD - LuxR",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -320,7 +329,7 @@
           }
         },
         {
-          "name": "AraC-ssrA - C0080 (araC)_CD",
+          "name": "C0080 (araC)_CD - AraC-ssrA",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -335,7 +344,7 @@
           }
         },
         {
-          "name": "Cre recombinase - cre_CD",
+          "name": "cre_CD - Cre recombinase",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -350,7 +359,7 @@
           }
         },
         {
-          "name": "YFP - E0030 (YFP)_CD",
+          "name": "E0030 (YFP)_CD - YFP",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -365,7 +374,7 @@
           }
         },
         {
-          "name": "GFP - E0040m (GFP)_CD",
+          "name": "E0040m (GFP)_CD - GFP",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -380,7 +389,7 @@
           }
         },
         {
-          "name": "RFP - E1010m (RFP)_CD",
+          "name": "E1010m (RFP)_CD - RFP",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -395,7 +404,7 @@
           }
         },
         {
-          "name": "eBFP2 - eBFP2 (eBFP2)_CD",
+          "name": "eBFP2 (eBFP2)_CD - eBFP2",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -419,10 +428,13 @@
       "category_id": "terminator_DG",
       "title": "Terminator",
       "description": "Right fusion site is G (TGCC)",
-      "image": "terminator.png",
+      "image": [
+        "terminator.png",
+        "60%"
+      ],
       "options": [
         {
-          "name": "Terminator - B0015_DG",
+          "name": "B0015_DG - Terminator",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -446,10 +458,13 @@
       "category_id": "backbone_FG",
       "title": "Backbone",
       "description": "Fusion sites F (CGCT) and G (TGCC)",
-      "image": "backbone.png",
+      "image": [
+        "backbone.png",
+        "60%"
+      ],
       "options": [
         {
-          "name": "Plasmid backbone (Kanamycin) - DVK_FG",
+          "name": "DVK_FG - Plasmid backbone (Kanamycin)",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",

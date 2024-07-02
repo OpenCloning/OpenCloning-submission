@@ -8,10 +8,13 @@
       "category_id": "1",
       "title": "Assembly connector",
       "description": null,
-      "image": "glyph_1.png",
+      "image": [
+        "glyph_1.png",
+        "40%"
+      ],
       "options": [
         {
-          "name": "ConLS - pYTK002",
+          "name": "pYTK002 - ConLS",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -26,7 +29,7 @@
           }
         },
         {
-          "name": "ConL1 - pYTK003",
+          "name": "pYTK003 - ConL1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -41,7 +44,7 @@
           }
         },
         {
-          "name": "ConL2 - pYTK004",
+          "name": "pYTK004 - ConL2",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -56,7 +59,7 @@
           }
         },
         {
-          "name": "ConL3 - pYTK005",
+          "name": "pYTK005 - ConL3",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -71,7 +74,7 @@
           }
         },
         {
-          "name": "ConL4 - pYTK006",
+          "name": "pYTK006 - ConL4",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -86,7 +89,7 @@
           }
         },
         {
-          "name": "ConL5 - pYTK007",
+          "name": "pYTK007 - ConL5",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -101,7 +104,7 @@
           }
         },
         {
-          "name": "ConLS' - pYTK008",
+          "name": "pYTK008 - ConLS'",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -125,10 +128,13 @@
       "category_id": "2",
       "title": "Promoter",
       "description": null,
-      "image": "glyph_2.png",
+      "image": [
+        "glyph_2.png",
+        "40%"
+      ],
       "options": [
         {
-          "name": "pTDH3 - pYTK009",
+          "name": "pYTK009 - pTDH3",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -143,7 +149,7 @@
           }
         },
         {
-          "name": "pCCW12 - pYTK010",
+          "name": "pYTK010 - pCCW12",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -158,7 +164,7 @@
           }
         },
         {
-          "name": "pPGK1 - pYTK011",
+          "name": "pYTK011 - pPGK1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -173,7 +179,7 @@
           }
         },
         {
-          "name": "pHHF2 - pYTK012",
+          "name": "pYTK012 - pHHF2",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -188,7 +194,7 @@
           }
         },
         {
-          "name": "pTEF1 - pYTK013",
+          "name": "pYTK013 - pTEF1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -203,7 +209,7 @@
           }
         },
         {
-          "name": "pTEF2 - pYTK014",
+          "name": "pYTK014 - pTEF2",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -218,7 +224,7 @@
           }
         },
         {
-          "name": "pHHF1 - pYTK015",
+          "name": "pYTK015 - pHHF1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -233,7 +239,7 @@
           }
         },
         {
-          "name": "pHTB2 - pYTK016",
+          "name": "pYTK016 - pHTB2",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -248,7 +254,7 @@
           }
         },
         {
-          "name": "pRPL18B - pYTK017",
+          "name": "pYTK017 - pRPL18B",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -263,7 +269,7 @@
           }
         },
         {
-          "name": "pALD6 - pYTK018",
+          "name": "pYTK018 - pALD6",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -278,7 +284,7 @@
           }
         },
         {
-          "name": "pPAB1 - pYTK019",
+          "name": "pYTK019 - pPAB1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -293,7 +299,7 @@
           }
         },
         {
-          "name": "pRET2 - pYTK020",
+          "name": "pYTK020 - pRET2",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -308,7 +314,7 @@
           }
         },
         {
-          "name": "pRNR1 - pYTK021",
+          "name": "pYTK021 - pRNR1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -323,7 +329,7 @@
           }
         },
         {
-          "name": "pSAC6 - pYTK022",
+          "name": "pYTK022 - pSAC6",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -338,7 +344,7 @@
           }
         },
         {
-          "name": "pRNR2 - pYTK023",
+          "name": "pYTK023 - pRNR2",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -353,7 +359,7 @@
           }
         },
         {
-          "name": "pPOP6 - pYTK024",
+          "name": "pYTK024 - pPOP6",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -368,7 +374,7 @@
           }
         },
         {
-          "name": "pRAD27 - pYTK025",
+          "name": "pYTK025 - pRAD27",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -383,7 +389,7 @@
           }
         },
         {
-          "name": "pPSP2 - pYTK026",
+          "name": "pYTK026 - pPSP2",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -398,7 +404,7 @@
           }
         },
         {
-          "name": "pREV1 - pYTK027",
+          "name": "pYTK027 - pREV1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -413,7 +419,7 @@
           }
         },
         {
-          "name": "pMFA1 - pYTK028",
+          "name": "pYTK028 - pMFA1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -428,7 +434,7 @@
           }
         },
         {
-          "name": "pMF\u03b12 - pYTK029",
+          "name": "pYTK029 - pMF\u03b12",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -443,7 +449,7 @@
           }
         },
         {
-          "name": "pGAL1 - pYTK030",
+          "name": "pYTK030 - pGAL1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -458,7 +464,7 @@
           }
         },
         {
-          "name": "pCUP1 - pYTK031",
+          "name": "pYTK031 - pCUP1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -482,10 +488,13 @@
       "category_id": "3a",
       "title": "N-term tag",
       "description": null,
-      "image": "glyph_3.png",
+      "image": [
+        "glyph_3.png",
+        "40%"
+      ],
       "options": [
         {
-          "name": "mTurquoise2 - pYTK037",
+          "name": "pYTK037 - mTurquoise2",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -500,7 +509,7 @@
           }
         },
         {
-          "name": "Venus - pYTK038",
+          "name": "pYTK038 - Venus",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -515,7 +524,7 @@
           }
         },
         {
-          "name": "mRuby2 - pYTK039",
+          "name": "pYTK039 - mRuby2",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -530,7 +539,7 @@
           }
         },
         {
-          "name": "3XFLAG-6XHis - pYTK040",
+          "name": "pYTK040 - 3XFLAG-6XHis",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -545,7 +554,7 @@
           }
         },
         {
-          "name": "Ubi-M - pYTK041",
+          "name": "pYTK041 - Ubi-M",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -560,7 +569,7 @@
           }
         },
         {
-          "name": "Ubi-Y - pYTK042",
+          "name": "pYTK042 - Ubi-Y",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -575,7 +584,7 @@
           }
         },
         {
-          "name": "Ubi-R - pYTK043",
+          "name": "pYTK043 - Ubi-R",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -604,10 +613,13 @@
       "category_id": "4",
       "title": "Terminator",
       "description": null,
-      "image": "glyph_4.png",
+      "image": [
+        "glyph_4.png",
+        "40%"
+      ],
       "options": [
         {
-          "name": "tENO1 - pYTK051",
+          "name": "pYTK051 - tENO1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -622,7 +634,7 @@
           }
         },
         {
-          "name": "tSSA1 - pYTK052",
+          "name": "pYTK052 - tSSA1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -637,7 +649,7 @@
           }
         },
         {
-          "name": "tADH1 - pYTK053",
+          "name": "pYTK053 - tADH1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -652,7 +664,7 @@
           }
         },
         {
-          "name": "tPGK1 - pYTK054",
+          "name": "pYTK054 - tPGK1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -667,7 +679,7 @@
           }
         },
         {
-          "name": "tENO2 - pYTK055",
+          "name": "pYTK055 - tENO2",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -682,7 +694,7 @@
           }
         },
         {
-          "name": "tTDH1 - pYTK056",
+          "name": "pYTK056 - tTDH1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -706,10 +718,13 @@
       "category_id": "5",
       "title": "Assembly connector",
       "description": null,
-      "image": "glyph_5.png",
+      "image": [
+        "glyph_5.png",
+        "40%"
+      ],
       "options": [
         {
-          "name": "ConR1 - pYTK067",
+          "name": "pYTK067 - ConR1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -724,7 +739,7 @@
           }
         },
         {
-          "name": "ConR2 - pYTK068",
+          "name": "pYTK068 - ConR2",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -739,7 +754,7 @@
           }
         },
         {
-          "name": "ConR3 - pYTK069",
+          "name": "pYTK069 - ConR3",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -754,7 +769,7 @@
           }
         },
         {
-          "name": "ConR4 - pYTK070",
+          "name": "pYTK070 - ConR4",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -769,7 +784,7 @@
           }
         },
         {
-          "name": "ConR5 - pYTK071",
+          "name": "pYTK071 - ConR5",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -784,7 +799,7 @@
           }
         },
         {
-          "name": "ConRE - pYTK072",
+          "name": "pYTK072 - ConRE",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -799,7 +814,7 @@
           }
         },
         {
-          "name": "ConRE' - pYTK073",
+          "name": "pYTK073 - ConRE'",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -823,10 +838,13 @@
       "category_id": "6",
       "title": "Yeast marker",
       "description": null,
-      "image": "glyph_6.png",
+      "image": [
+        "glyph_6.png",
+        "40%"
+      ],
       "options": [
         {
-          "name": "URA3 - pYTK074",
+          "name": "pYTK074 - URA3",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -841,7 +859,7 @@
           }
         },
         {
-          "name": "LEU2 - pYTK075",
+          "name": "pYTK075 - LEU2",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -856,7 +874,7 @@
           }
         },
         {
-          "name": "HIS3 - pYTK076",
+          "name": "pYTK076 - HIS3",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -871,7 +889,7 @@
           }
         },
         {
-          "name": "KanamycinR - pYTK077",
+          "name": "pYTK077 - KanamycinR",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -886,7 +904,7 @@
           }
         },
         {
-          "name": "NourseothricinR - pYTK078",
+          "name": "pYTK078 - NourseothricinR",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -901,7 +919,7 @@
           }
         },
         {
-          "name": "HygromycinR - pYTK079",
+          "name": "pYTK079 - HygromycinR",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -916,7 +934,7 @@
           }
         },
         {
-          "name": "ZeocinR - pYTK080",
+          "name": "pYTK080 - ZeocinR",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -940,10 +958,13 @@
       "category_id": "7",
       "title": "Yeast origin",
       "description": null,
-      "image": "glyph_7.png",
+      "image": [
+        "glyph_7.png",
+        "40%"
+      ],
       "options": [
         {
-          "name": "CEN6/ARS4 - pYTK081",
+          "name": "pYTK081 - CEN6/ARS4",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -958,7 +979,7 @@
           }
         },
         {
-          "name": "2micron - pYTK082",
+          "name": "pYTK082 - 2micron",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -973,7 +994,7 @@
           }
         },
         {
-          "name": "URA3 3' Homology - pYTK086",
+          "name": "pYTK086 - URA3 3' Homology",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -988,7 +1009,7 @@
           }
         },
         {
-          "name": "LEU2 3' Homology - pYTK087",
+          "name": "pYTK087 - LEU2 3' Homology",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1003,7 +1024,7 @@
           }
         },
         {
-          "name": "HO 3' Homology - pYTK088",
+          "name": "pYTK088 - HO 3' Homology",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1027,10 +1048,13 @@
       "category_id": "8",
       "title": "Bacterial marker and origin",
       "description": null,
-      "image": "glyph_8.png",
+      "image": [
+        "glyph_8.png",
+        "40%"
+      ],
       "options": [
         {
-          "name": "AmpR-ColE1 - pYTK083",
+          "name": "pYTK083 - AmpR-ColE1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1045,7 +1069,7 @@
           }
         },
         {
-          "name": "KanR-ColE1 - pYTK084",
+          "name": "pYTK084 - KanR-ColE1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
@@ -1060,7 +1084,7 @@
           }
         },
         {
-          "name": "SpecR-ColE1 - pYTK085",
+          "name": "pYTK085 - SpecR-ColE1",
           "source": {
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
