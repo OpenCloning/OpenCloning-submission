@@ -19,9 +19,10 @@
           },
           "info": {
             "name": "pYTK002",
+            "description": "ConLS",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "A / 2",
-            "description": "ConLS"
+            "well": "A / 2"
           }
         },
         {
@@ -33,9 +34,10 @@
           },
           "info": {
             "name": "pYTK003",
+            "description": "ConL1",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "A / 3",
-            "description": "ConL1"
+            "well": "A / 3"
           }
         },
         {
@@ -47,9 +49,10 @@
           },
           "info": {
             "name": "pYTK004",
+            "description": "ConL2",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "A / 4",
-            "description": "ConL2"
+            "well": "A / 4"
           }
         },
         {
@@ -61,9 +64,10 @@
           },
           "info": {
             "name": "pYTK005",
+            "description": "ConL3",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "A / 5",
-            "description": "ConL3"
+            "well": "A / 5"
           }
         },
         {
@@ -75,9 +79,10 @@
           },
           "info": {
             "name": "pYTK006",
+            "description": "ConL4",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "A / 6",
-            "description": "ConL4"
+            "well": "A / 6"
           }
         },
         {
@@ -89,9 +94,10 @@
           },
           "info": {
             "name": "pYTK007",
+            "description": "ConL5",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "A / 7",
-            "description": "ConL5"
+            "well": "A / 7"
           }
         },
         {
@@ -103,9 +109,10 @@
           },
           "info": {
             "name": "pYTK008",
+            "description": "ConLS'",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "A / 8",
-            "description": "ConLS'"
+            "well": "A / 8"
           }
         }
       ]
@@ -129,9 +136,10 @@
           },
           "info": {
             "name": "pYTK009",
+            "description": "pTDH3",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "A / 9",
-            "description": "pTDH3"
+            "well": "A / 9"
           }
         },
         {
@@ -143,9 +151,10 @@
           },
           "info": {
             "name": "pYTK010",
+            "description": "pCCW12",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "A / 10",
-            "description": "pCCW12"
+            "well": "A / 10"
           }
         },
         {
@@ -157,9 +166,10 @@
           },
           "info": {
             "name": "pYTK011",
+            "description": "pPGK1",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "A / 11",
-            "description": "pPGK1"
+            "well": "A / 11"
           }
         },
         {
@@ -171,9 +181,10 @@
           },
           "info": {
             "name": "pYTK012",
+            "description": "pHHF2",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "A / 12",
-            "description": "pHHF2"
+            "well": "A / 12"
           }
         },
         {
@@ -185,9 +196,10 @@
           },
           "info": {
             "name": "pYTK013",
+            "description": "pTEF1",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "B / 1",
-            "description": "pTEF1"
+            "well": "B / 1"
           }
         },
         {
@@ -199,9 +211,10 @@
           },
           "info": {
             "name": "pYTK014",
+            "description": "pTEF2",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "B / 2",
-            "description": "pTEF2"
+            "well": "B / 2"
           }
         },
         {
@@ -213,9 +226,10 @@
           },
           "info": {
             "name": "pYTK015",
+            "description": "pHHF1",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "B / 3",
-            "description": "pHHF1"
+            "well": "B / 3"
           }
         },
         {
@@ -227,9 +241,10 @@
           },
           "info": {
             "name": "pYTK016",
+            "description": "pHTB2",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "B / 4",
-            "description": "pHTB2"
+            "well": "B / 4"
           }
         },
         {
@@ -241,9 +256,10 @@
           },
           "info": {
             "name": "pYTK017",
+            "description": "pRPL18B",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "B / 5",
-            "description": "pRPL18B"
+            "well": "B / 5"
           }
         },
         {
@@ -255,9 +271,10 @@
           },
           "info": {
             "name": "pYTK018",
+            "description": "pALD6",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "B / 6",
-            "description": "pALD6"
+            "well": "B / 6"
           }
         },
         {
@@ -269,9 +286,10 @@
           },
           "info": {
             "name": "pYTK019",
+            "description": "pPAB1",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "B / 7",
-            "description": "pPAB1"
+            "well": "B / 7"
           }
         },
         {
@@ -283,9 +301,10 @@
           },
           "info": {
             "name": "pYTK020",
+            "description": "pRET2",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "B / 8",
-            "description": "pRET2"
+            "well": "B / 8"
           }
         },
         {
@@ -297,9 +316,10 @@
           },
           "info": {
             "name": "pYTK021",
+            "description": "pRNR1",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "B / 9",
-            "description": "pRNR1"
+            "well": "B / 9"
           }
         },
         {
@@ -311,9 +331,10 @@
           },
           "info": {
             "name": "pYTK022",
+            "description": "pSAC6",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "B / 10",
-            "description": "pSAC6"
+            "well": "B / 10"
           }
         },
         {
@@ -325,9 +346,10 @@
           },
           "info": {
             "name": "pYTK023",
+            "description": "pRNR2",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "B / 11",
-            "description": "pRNR2"
+            "well": "B / 11"
           }
         },
         {
@@ -339,9 +361,10 @@
           },
           "info": {
             "name": "pYTK024",
+            "description": "pPOP6",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "B / 12",
-            "description": "pPOP6"
+            "well": "B / 12"
           }
         },
         {
@@ -353,9 +376,10 @@
           },
           "info": {
             "name": "pYTK025",
+            "description": "pRAD27",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "C / 1",
-            "description": "pRAD27"
+            "well": "C / 1"
           }
         },
         {
@@ -367,9 +391,10 @@
           },
           "info": {
             "name": "pYTK026",
+            "description": "pPSP2",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "C / 2",
-            "description": "pPSP2"
+            "well": "C / 2"
           }
         },
         {
@@ -381,9 +406,10 @@
           },
           "info": {
             "name": "pYTK027",
+            "description": "pREV1",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "C / 3",
-            "description": "pREV1"
+            "well": "C / 3"
           }
         },
         {
@@ -395,9 +421,10 @@
           },
           "info": {
             "name": "pYTK028",
+            "description": "pMFA1",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "C / 4",
-            "description": "pMFA1"
+            "well": "C / 4"
           }
         },
         {
@@ -409,9 +436,10 @@
           },
           "info": {
             "name": "pYTK029",
+            "description": "pMF\u03b12",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "C / 5",
-            "description": "pMF\u03b12"
+            "well": "C / 5"
           }
         },
         {
@@ -423,9 +451,10 @@
           },
           "info": {
             "name": "pYTK030",
+            "description": "pGAL1",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "C / 6",
-            "description": "pGAL1"
+            "well": "C / 6"
           }
         },
         {
@@ -437,9 +466,10 @@
           },
           "info": {
             "name": "pYTK031",
+            "description": "pCUP1",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "C / 7",
-            "description": "pCUP1"
+            "well": "C / 7"
           }
         }
       ]
@@ -451,7 +481,7 @@
       "type": "CollectionSource",
       "category_id": "3a",
       "title": "N-term tag",
-      "description": "???",
+      "description": null,
       "image": "glyph_3.png",
       "options": [
         {
@@ -463,9 +493,10 @@
           },
           "info": {
             "name": "pYTK037",
+            "description": "mTurquoise2",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "D / 1",
-            "description": "mTurquoise2"
+            "well": "D / 1"
           }
         },
         {
@@ -477,9 +508,10 @@
           },
           "info": {
             "name": "pYTK038",
+            "description": "Venus",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "D / 2",
-            "description": "Venus"
+            "well": "D / 2"
           }
         },
         {
@@ -491,9 +523,10 @@
           },
           "info": {
             "name": "pYTK039",
+            "description": "mRuby2",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "D / 3",
-            "description": "mRuby2"
+            "well": "D / 3"
           }
         },
         {
@@ -505,9 +538,10 @@
           },
           "info": {
             "name": "pYTK040",
+            "description": "3XFLAG-6XHis",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "D / 4",
-            "description": "3XFLAG-6XHis"
+            "well": "D / 4"
           }
         },
         {
@@ -519,9 +553,10 @@
           },
           "info": {
             "name": "pYTK041",
+            "description": "Ubi-M",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "D / 5",
-            "description": "Ubi-M"
+            "well": "D / 5"
           }
         },
         {
@@ -533,9 +568,10 @@
           },
           "info": {
             "name": "pYTK042",
+            "description": "Ubi-Y",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "D / 6",
-            "description": "Ubi-Y"
+            "well": "D / 6"
           }
         },
         {
@@ -547,9 +583,10 @@
           },
           "info": {
             "name": "pYTK043",
+            "description": "Ubi-R",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "D / 7",
-            "description": "Ubi-R"
+            "well": "D / 7"
           }
         }
       ]
@@ -578,9 +615,10 @@
           },
           "info": {
             "name": "pYTK051",
+            "description": "tENO1",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "E / 3",
-            "description": "tENO1"
+            "well": "E / 3"
           }
         },
         {
@@ -592,9 +630,10 @@
           },
           "info": {
             "name": "pYTK052",
+            "description": "tSSA1",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "E / 4",
-            "description": "tSSA1"
+            "well": "E / 4"
           }
         },
         {
@@ -606,9 +645,10 @@
           },
           "info": {
             "name": "pYTK053",
+            "description": "tADH1",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "E / 5",
-            "description": "tADH1"
+            "well": "E / 5"
           }
         },
         {
@@ -620,9 +660,10 @@
           },
           "info": {
             "name": "pYTK054",
+            "description": "tPGK1",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "E / 6",
-            "description": "tPGK1"
+            "well": "E / 6"
           }
         },
         {
@@ -634,9 +675,10 @@
           },
           "info": {
             "name": "pYTK055",
+            "description": "tENO2",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "E / 7",
-            "description": "tENO2"
+            "well": "E / 7"
           }
         },
         {
@@ -648,9 +690,10 @@
           },
           "info": {
             "name": "pYTK056",
+            "description": "tTDH1",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "E / 8",
-            "description": "tTDH1"
+            "well": "E / 8"
           }
         }
       ]
@@ -674,9 +717,10 @@
           },
           "info": {
             "name": "pYTK067",
+            "description": "ConR1",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "F / 7",
-            "description": "ConR1"
+            "well": "F / 7"
           }
         },
         {
@@ -688,9 +732,10 @@
           },
           "info": {
             "name": "pYTK068",
+            "description": "ConR2",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "F / 8",
-            "description": "ConR2"
+            "well": "F / 8"
           }
         },
         {
@@ -702,9 +747,10 @@
           },
           "info": {
             "name": "pYTK069",
+            "description": "ConR3",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "F / 9",
-            "description": "ConR3"
+            "well": "F / 9"
           }
         },
         {
@@ -716,9 +762,10 @@
           },
           "info": {
             "name": "pYTK070",
+            "description": "ConR4",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "F / 10",
-            "description": "ConR4"
+            "well": "F / 10"
           }
         },
         {
@@ -730,9 +777,10 @@
           },
           "info": {
             "name": "pYTK071",
+            "description": "ConR5",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "F / 11",
-            "description": "ConR5"
+            "well": "F / 11"
           }
         },
         {
@@ -744,9 +792,10 @@
           },
           "info": {
             "name": "pYTK072",
+            "description": "ConRE",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "F / 12",
-            "description": "ConRE"
+            "well": "F / 12"
           }
         },
         {
@@ -758,9 +807,10 @@
           },
           "info": {
             "name": "pYTK073",
+            "description": "ConRE'",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "G / 1",
-            "description": "ConRE'"
+            "well": "G / 1"
           }
         }
       ]
@@ -784,9 +834,10 @@
           },
           "info": {
             "name": "pYTK074",
+            "description": "URA3",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "G / 2",
-            "description": "URA3"
+            "well": "G / 2"
           }
         },
         {
@@ -798,9 +849,10 @@
           },
           "info": {
             "name": "pYTK075",
+            "description": "LEU2",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "G / 3",
-            "description": "LEU2"
+            "well": "G / 3"
           }
         },
         {
@@ -812,9 +864,10 @@
           },
           "info": {
             "name": "pYTK076",
+            "description": "HIS3",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "G / 4",
-            "description": "HIS3"
+            "well": "G / 4"
           }
         },
         {
@@ -826,9 +879,10 @@
           },
           "info": {
             "name": "pYTK077",
+            "description": "KanamycinR",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "G / 5",
-            "description": "KanamycinR"
+            "well": "G / 5"
           }
         },
         {
@@ -840,9 +894,10 @@
           },
           "info": {
             "name": "pYTK078",
+            "description": "NourseothricinR",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "G / 6",
-            "description": "NourseothricinR"
+            "well": "G / 6"
           }
         },
         {
@@ -854,9 +909,10 @@
           },
           "info": {
             "name": "pYTK079",
+            "description": "HygromycinR",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "G / 7",
-            "description": "HygromycinR"
+            "well": "G / 7"
           }
         },
         {
@@ -868,9 +924,10 @@
           },
           "info": {
             "name": "pYTK080",
+            "description": "ZeocinR",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "G / 8",
-            "description": "ZeocinR"
+            "well": "G / 8"
           }
         }
       ]
@@ -894,9 +951,10 @@
           },
           "info": {
             "name": "pYTK081",
+            "description": "CEN6/ARS4",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "G / 9",
-            "description": "CEN6/ARS4"
+            "well": "G / 9"
           }
         },
         {
@@ -908,9 +966,10 @@
           },
           "info": {
             "name": "pYTK082",
+            "description": "2micron",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "G / 10",
-            "description": "2micron"
+            "well": "G / 10"
           }
         },
         {
@@ -922,9 +981,10 @@
           },
           "info": {
             "name": "pYTK086",
+            "description": "URA3 3' Homology",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "H / 2",
-            "description": "URA3 3' Homology"
+            "well": "H / 2"
           }
         },
         {
@@ -936,9 +996,10 @@
           },
           "info": {
             "name": "pYTK087",
+            "description": "LEU2 3' Homology",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "H / 3",
-            "description": "LEU2 3' Homology"
+            "well": "H / 3"
           }
         },
         {
@@ -950,9 +1011,10 @@
           },
           "info": {
             "name": "pYTK088",
+            "description": "HO 3' Homology",
+            "type": "AddGenePlasmid",
             "resistance": "Chloramphenicol",
-            "well": "H / 4",
-            "description": "HO 3' Homology"
+            "well": "H / 4"
           }
         }
       ]
@@ -976,9 +1038,10 @@
           },
           "info": {
             "name": "pYTK083",
+            "description": "AmpR-ColE1",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "G / 11",
-            "description": "AmpR-ColE1"
+            "well": "G / 11"
           }
         },
         {
@@ -990,9 +1053,10 @@
           },
           "info": {
             "name": "pYTK084",
+            "description": "KanR-ColE1",
+            "type": "AddGenePlasmid",
             "resistance": "Kanamycin",
-            "well": "G / 12",
-            "description": "KanR-ColE1"
+            "well": "G / 12"
           }
         },
         {
@@ -1004,9 +1068,10 @@
           },
           "info": {
             "name": "pYTK085",
+            "description": "SpecR-ColE1",
+            "type": "AddGenePlasmid",
             "resistance": "Spectinomycin",
-            "well": "H / 1",
-            "description": "SpecR-ColE1"
+            "well": "H / 1"
           }
         }
       ]
@@ -1070,5 +1135,6 @@
       "type": "TemplateSequence"
     }
   ],
-  "description": "N-term tag plasmid\n\nA plasmid with N-term tagged CDS"
+  "description": "N-term tag plasmid\n\nA plasmid with N-term tagged CDS",
+  "primers": []
 }

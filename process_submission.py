@@ -3,13 +3,8 @@ from submission_reader import load_submission_folder
 import json
 import os
 
-if __name__ == "__main__":
-    # Get first argument, else give error
-    if len(sys.argv) != 2:
-        print("Usage python process_submission.py <submission_folder>")
-        sys.exit(0)
 
-    submission_folder = sys.argv[1]
+def main(submission_folder):
     # Remove trailing slash if it exists
     if submission_folder.endswith("/"):
         submission_folder = submission_folder[:-1]
@@ -40,3 +35,13 @@ if __name__ == "__main__":
 
     with open(os.path.join(output_folder, "submission.json"), "w") as f:
         json.dump(submission.model_dump(), f, indent=2)
+
+
+if __name__ == "__main__":
+    # Get first argument, else give error
+    if len(sys.argv) != 2:
+        print("Usage python process_submission.py <submission_folder>")
+        sys.exit(0)
+
+    submission_folder = sys.argv[1]
+    main(submission_folder)

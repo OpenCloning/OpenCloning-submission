@@ -19,9 +19,10 @@
           },
           "info": {
             "name": "J23100_AB",
+            "description": "Strong constitutive promoter (2,547x J23112 strength)",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "A / 1",
-            "description": "Strong constitutive promoter (2,547x J23112 strength)"
+            "well": "A / 1"
           }
         },
         {
@@ -33,9 +34,10 @@
           },
           "info": {
             "name": "J23102_AB",
+            "description": "Strong constitutive promoter (2,179x J23112 strength)",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "A / 5",
-            "description": "Strong constitutive promoter (2,179x J23112 strength)"
+            "well": "A / 5"
           }
         },
         {
@@ -47,9 +49,10 @@
           },
           "info": {
             "name": "J23103_AB",
+            "description": "Weak constitutive promoter (17x J23112 strength)",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "A / 9",
-            "description": "Weak constitutive promoter (17x J23112 strength)"
+            "well": "A / 9"
           }
         },
         {
@@ -61,9 +64,10 @@
           },
           "info": {
             "name": "J23106_AB",
+            "description": "Medium-strength constitutive promoter (1,185x J23112 strength)",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "B / 1",
-            "description": "Medium-strength constitutive promoter (1,185x J23112 strength)"
+            "well": "B / 1"
           }
         },
         {
@@ -75,9 +79,10 @@
           },
           "info": {
             "name": "J23107_AB",
+            "description": "Medium-strength constitutive promoter (908x J23112 strength)",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "B / 5",
-            "description": "Medium-strength constitutive promoter (908x J23112 strength)"
+            "well": "B / 5"
           }
         },
         {
@@ -89,9 +94,10 @@
           },
           "info": {
             "name": "J23116_AB",
+            "description": "Weak-medium constitutive promoter (396x J23112 strength)",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "B / 9",
-            "description": "Weak-medium constitutive promoter (396x J23112 strength)"
+            "well": "B / 9"
           }
         },
         {
@@ -103,9 +109,10 @@
           },
           "info": {
             "name": "R0010 (pLacI)_AB",
+            "description": "pLacI",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "C / 1",
-            "description": "pLacI"
+            "well": "C / 1"
           }
         },
         {
@@ -117,9 +124,10 @@
           },
           "info": {
             "name": "R0040 (pTet)_AB",
+            "description": "pTet",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "C / 5",
-            "description": "pTet"
+            "well": "C / 5"
           }
         },
         {
@@ -131,9 +139,10 @@
           },
           "info": {
             "name": "R0063 (pLuxR-pR)_AB",
+            "description": "PLuxR-pL",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "C / 9",
-            "description": "PLuxR-pL"
+            "well": "C / 9"
           }
         },
         {
@@ -145,9 +154,10 @@
           },
           "info": {
             "name": "I13453 (pBAD)_AB",
+            "description": "pBad",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "D / 1",
-            "description": "pBad"
+            "well": "D / 1"
           }
         }
       ]
@@ -171,9 +181,10 @@
           },
           "info": {
             "name": "B0032m_BC",
+            "description": "Medium Weiss RBS",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "D / 5",
-            "description": "Medium Weiss RBS"
+            "well": "D / 5"
           }
         },
         {
@@ -185,9 +196,10 @@
           },
           "info": {
             "name": "B0033m_BC",
+            "description": "Weak Weiss RBS",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "D / 6",
-            "description": "Weak Weiss RBS"
+            "well": "D / 6"
           }
         },
         {
@@ -199,9 +211,10 @@
           },
           "info": {
             "name": "B0034m_BC",
+            "description": "Strong Weiss RBS",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "D / 7",
-            "description": "Strong Weiss RBS"
+            "well": "D / 7"
           }
         },
         {
@@ -213,9 +226,10 @@
           },
           "info": {
             "name": "BCD12_BC",
+            "description": "Strongest BCD RBS",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "D / 8",
-            "description": "Strongest BCD RBS"
+            "well": "D / 8"
           }
         },
         {
@@ -227,9 +241,10 @@
           },
           "info": {
             "name": "BCD2_BC",
+            "description": "Extremely weak BCD RBS",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "D / 9",
-            "description": "Extremely weak BCD RBS"
+            "well": "D / 9"
           }
         },
         {
@@ -241,9 +256,10 @@
           },
           "info": {
             "name": "BCD8_BC",
+            "description": "Medium-strength BCD RBS",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "D / 10",
-            "description": "Medium-strength BCD RBS"
+            "well": "D / 10"
           }
         }
       ]
@@ -267,9 +283,10 @@
           },
           "info": {
             "name": "C0012m (lacI)_CD",
+            "description": "LacI-ssrA",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "D / 11",
-            "description": "LacI-ssrA"
+            "well": "D / 11"
           }
         },
         {
@@ -281,9 +298,10 @@
           },
           "info": {
             "name": "C0040 (tetR)_CD",
+            "description": "TetR-ssrA",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "D / 12",
-            "description": "TetR-ssrA"
+            "well": "D / 12"
           }
         },
         {
@@ -295,9 +313,10 @@
           },
           "info": {
             "name": "C0062 (luxR)_CD",
+            "description": "LuxR",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "E / 1",
-            "description": "LuxR"
+            "well": "E / 1"
           }
         },
         {
@@ -309,9 +328,10 @@
           },
           "info": {
             "name": "C0080 (araC)_CD",
+            "description": "AraC-ssrA",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "E / 2",
-            "description": "AraC-ssrA"
+            "well": "E / 2"
           }
         },
         {
@@ -323,9 +343,10 @@
           },
           "info": {
             "name": "cre_CD",
+            "description": "Cre recombinase",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "E / 3",
-            "description": "Cre recombinase"
+            "well": "E / 3"
           }
         },
         {
@@ -337,9 +358,10 @@
           },
           "info": {
             "name": "E0030 (YFP)_CD",
+            "description": "YFP",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "E / 4",
-            "description": "YFP"
+            "well": "E / 4"
           }
         },
         {
@@ -351,9 +373,10 @@
           },
           "info": {
             "name": "E0040m (GFP)_CD",
+            "description": "GFP",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "E / 5",
-            "description": "GFP"
+            "well": "E / 5"
           }
         },
         {
@@ -365,9 +388,10 @@
           },
           "info": {
             "name": "E1010m (RFP)_CD",
+            "description": "RFP",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "E / 6",
-            "description": "RFP"
+            "well": "E / 6"
           }
         },
         {
@@ -379,9 +403,10 @@
           },
           "info": {
             "name": "eBFP2 (eBFP2)_CD",
+            "description": "eBFP2",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "E / 7",
-            "description": "eBFP2"
+            "well": "E / 7"
           }
         }
       ]
@@ -405,9 +430,10 @@
           },
           "info": {
             "name": "B0015_DE",
+            "description": "Terminator",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "E / 8",
-            "description": "Terminator"
+            "well": "E / 8"
           }
         }
       ]
@@ -431,9 +457,10 @@
           },
           "info": {
             "name": "DVA_AE",
+            "description": "Plasmid backbone (Amp)",
+            "type": "AddGenePlasmid",
             "resistance": "Ampicillin",
-            "well": "F / 1",
-            "description": "Plasmid backbone (Amp)"
+            "well": "F / 1"
           }
         }
       ]
@@ -477,5 +504,6 @@
       "type": "TemplateSequence"
     }
   ],
-  "description": "Transcriptional Unit AE\n\nPlasmid with a transcriptional unit starting and ending with fusion sites A (GGAG) and E (GCTT)"
+  "description": "Transcriptional Unit AE\n\nPlasmid with a transcriptional unit starting and ending with fusion sites A (GGAG) and E (GCTT)",
+  "primers": []
 }
