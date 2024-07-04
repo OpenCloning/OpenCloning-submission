@@ -528,7 +528,7 @@
       "type": "TemplateSequence"
     }
   ],
-  "description": "Pre-composed 5'UTR + promoter + CDS\n\nA level 0 plasmid contains a precomposed 5'UTR + promoter + CDS",
+  "description": "Pre-composed 5'UTR + promoter + CDS\n\nTranscriptional Unit that uses a level 0 plasmid containing joined 5'UTR + promoter + CDS",
   "primers": [
     {
       "name": "UNS1_A Top",

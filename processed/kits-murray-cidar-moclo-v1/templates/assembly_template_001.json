@@ -2308,7 +2308,7 @@
       "type": "TemplateSequence"
     }
   ],
-  "description": "Transcriptional unit\n\n5'UTR (with RBS) + promoter + CDS + terminator flanked by Golden Gate adapters",
+  "description": "Transcriptional Unit\n\n5'UTR (with RBS) + promoter + CDS + terminator flanked by Golden Gate adapters",
   "primers": [
     {
       "name": "UNS1_A Top",
