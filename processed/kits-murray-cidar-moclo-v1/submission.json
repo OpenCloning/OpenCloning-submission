@@ -10,7 +10,7 @@
     "pmid": null,
     "addgene_url": "https://www.addgene.org/kits/murray-cidar-moclo-v1/",
     "title": "CIDAR MoClo Extension ",
-    "description": "110 extra parts for CIDAR"
+    "description": "110 extra parts for CIDAR + the compatible original CIDAR parts"
   },
   "sequences": [
     {
@@ -1160,7 +1160,7 @@
   ],
   "assemblies": [
     {
-      "title": "Transcriptional unit",
+      "title": "Transcriptional Unit",
       "description": "5'UTR (with RBS) + promoter + CDS + terminator flanked by Golden Gate adapters",
       "fragment_order": [
         "upstream_adapter",
@@ -1174,7 +1174,7 @@
     },
     {
       "title": "Pre-composed 5'UTR + promoter + CDS",
-      "description": "A level 0 plasmid contains a precomposed 5'UTR + promoter + CDS",
+      "description": "Transcriptional Unit that uses a level 0 plasmid containing joined 5'UTR + promoter + CDS",
       "fragment_order": [
         "upstream_adapter",
         "five_utr_gRna",
