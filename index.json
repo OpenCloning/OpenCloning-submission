@@ -1,4 +1,113 @@
 {
+  "browse-article-28244182": {
+    "kit": {
+      "pmid": "PMID:37991801",
+      "addgene_url": "https://www.addgene.org/browse/article/28244182/",
+      "title": "POMBOX",
+      "description": "YTK-based Fission Yeast Cloning Toolkit for Molecular and Synthetic Biology"
+    },
+    "assemblies": [
+      {
+        "title": "CDS self-replicating plasmid",
+        "description": "A plasmid with a yeast ORI containing a CDS",
+        "fragment_order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "template_file": "assembly_template_001.json"
+      },
+      {
+        "title": "2xCDS fusion self-replicating plasmid",
+        "description": "A plasmid with a yeast ORI with two CDS fused together",
+        "fragment_order": [
+          "1",
+          "2",
+          "3a",
+          "3b",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "template_file": "assembly_template_002.json"
+      },
+      {
+        "title": "3xCDS fusion self-replicating plasmid",
+        "description": "A plasmid with a yeast ORI with three CDS fused together",
+        "fragment_order": [
+          "1",
+          "2",
+          "3a",
+          "3b",
+          "4a",
+          "4b",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "template_file": "assembly_template_003.json"
+      },
+      {
+        "title": "CDS integration plasmid",
+        "description": "A plasmid containing a CDS that can be integrated in the genome via recombination",
+        "fragment_order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7h",
+          "8a",
+          "8b"
+        ],
+        "template_file": "assembly_template_004.json"
+      },
+      {
+        "title": "2xCDS integration plasmid",
+        "description": "A plasmid containing a 2xCDS fusion protein that can be integrated in the genome via recombination",
+        "fragment_order": [
+          "1",
+          "2",
+          "3a",
+          "3b",
+          "4",
+          "5",
+          "6",
+          "7h",
+          "8a",
+          "8b"
+        ],
+        "template_file": "assembly_template_005.json"
+      },
+      {
+        "title": "3xCDS integration plasmid",
+        "description": "A plasmid containing a 3xCDS fusion protein that can be integrated in the genome via recombination",
+        "fragment_order": [
+          "1",
+          "2",
+          "3a",
+          "3b",
+          "4a",
+          "4b",
+          "5",
+          "6",
+          "7h",
+          "8a",
+          "8b"
+        ],
+        "template_file": "assembly_template_006.json"
+      }
+    ]
+  },
   "kits-densmore-cidar-moclo": {
     "kit": {
       "pmid": "PMID:26479688",
@@ -54,40 +163,6 @@
           "backbone_GH"
         ],
         "template_file": "assembly_template_004.json"
-      }
-    ]
-  },
-  "kits-murray-cidar-moclo-v1": {
-    "kit": {
-      "pmid": null,
-      "addgene_url": "https://www.addgene.org/kits/murray-cidar-moclo-v1/",
-      "title": "CIDAR MoClo Extension ",
-      "description": "110 extra parts for CIDAR + the compatible original CIDAR parts"
-    },
-    "assemblies": [
-      {
-        "title": "Transcriptional Unit",
-        "description": "5'UTR (with RBS) + promoter + CDS + terminator flanked by Golden Gate adapters",
-        "fragment_order": [
-          "upstream_adapter",
-          "promoter",
-          "five_utr",
-          "cds",
-          "terminator",
-          "downstream_adapter"
-        ],
-        "template_file": "assembly_template_001.json"
-      },
-      {
-        "title": "Pre-composed 5'UTR + promoter + CDS",
-        "description": "Transcriptional Unit that uses a level 0 plasmid containing joined 5'UTR + promoter + CDS",
-        "fragment_order": [
-          "upstream_adapter",
-          "five_utr_gRna",
-          "terminator",
-          "downstream_adapter"
-        ],
-        "template_file": "assembly_template_002.json"
       }
     ]
   },
@@ -210,6 +285,40 @@
           "8b"
         ],
         "template_file": "assembly_template_006.json"
+      }
+    ]
+  },
+  "kits-murray-cidar-moclo-v1": {
+    "kit": {
+      "pmid": null,
+      "addgene_url": "https://www.addgene.org/kits/murray-cidar-moclo-v1/",
+      "title": "CIDAR MoClo Extension ",
+      "description": "110 extra parts for CIDAR + the compatible original CIDAR parts"
+    },
+    "assemblies": [
+      {
+        "title": "Transcriptional Unit",
+        "description": "5'UTR (with RBS) + promoter + CDS + terminator flanked by Golden Gate adapters",
+        "fragment_order": [
+          "upstream_adapter",
+          "promoter",
+          "five_utr",
+          "cds",
+          "terminator",
+          "downstream_adapter"
+        ],
+        "template_file": "assembly_template_001.json"
+      },
+      {
+        "title": "Pre-composed 5'UTR + promoter + CDS",
+        "description": "Transcriptional Unit that uses a level 0 plasmid containing joined 5'UTR + promoter + CDS",
+        "fragment_order": [
+          "upstream_adapter",
+          "five_utr_gRna",
+          "terminator",
+          "downstream_adapter"
+        ],
+        "template_file": "assembly_template_002.json"
       }
     ]
   }
