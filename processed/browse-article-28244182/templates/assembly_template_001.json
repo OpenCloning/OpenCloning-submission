@@ -1,0 +1,655 @@
+{
+  "sources": [
+    {
+      "id": 1,
+      "input": [],
+      "output": 2,
+      "type": "CollectionSource",
+      "category_id": "1",
+      "title": "Assembly connector",
+      "description": null,
+      "image": [
+        "glyph_1.png",
+        "60%"
+      ],
+      "options": [
+        {
+          "name": "pPOM001_P1_ConL6 - Connector L6",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216426"
+          },
+          "info": {
+            "name": "pPOM001_P1_ConL6",
+            "description": "Connector L6",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM002_P1_ConL7 - Connector L7",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216427"
+          },
+          "info": {
+            "name": "pPOM002_P1_ConL7",
+            "description": "Connector L7",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM003_P1_ConL8 - Connector L8",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216428"
+          },
+          "info": {
+            "name": "pPOM003_P1_ConL8",
+            "description": "Connector L8",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM004_P1_ConL9 - Connector L9",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216429"
+          },
+          "info": {
+            "name": "pPOM004_P1_ConL9",
+            "description": "Connector L9",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM005_P1_ConL10 - Connector L10",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216430"
+          },
+          "info": {
+            "name": "pPOM005_P1_ConL10",
+            "description": "Connector L10",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM006_P1_ConL11 - Connector L11",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216431"
+          },
+          "info": {
+            "name": "pPOM006_P1_ConL11",
+            "description": "Connector L11",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "input": [],
+      "output": 4,
+      "type": "CollectionSource",
+      "category_id": "2",
+      "title": "Promoter",
+      "description": null,
+      "image": [
+        "glyph_2.png",
+        "60%"
+      ],
+      "options": [
+        {
+          "name": "pPOM013_P2_pENO101 - Promoter eno101",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216438"
+          },
+          "info": {
+            "name": "pPOM013_P2_pENO101",
+            "description": "Promoter eno101",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM014_P2_pGPM1 - Promoter gpm1",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216439"
+          },
+          "info": {
+            "name": "pPOM014_P2_pGPM1",
+            "description": "Promoter gpm1",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM015_P2_pADH1 - Promoter adh1",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216440"
+          },
+          "info": {
+            "name": "pPOM015_P2_pADH1",
+            "description": "Promoter adh1",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM016_P2_pRPL2501 - Promoter rpl2501",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216441"
+          },
+          "info": {
+            "name": "pPOM016_P2_pRPL2501",
+            "description": "Promoter rpl2501",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM017_P2_pTIF51 - Promoter tif51",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216442"
+          },
+          "info": {
+            "name": "pPOM017_P2_pTIF51",
+            "description": "Promoter tif51",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM018_P2_pRPL701 - Promoter rpl701",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216443"
+          },
+          "info": {
+            "name": "pPOM018_P2_pRPL701",
+            "description": "Promoter rpl701",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM019_P2_pRPL2102 - Promoter rpl2102",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216444"
+          },
+          "info": {
+            "name": "pPOM019_P2_pRPL2102",
+            "description": "Promoter rpl2102",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM020_P2_pTRS1 - Promoter trs1",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216445"
+          },
+          "info": {
+            "name": "pPOM020_P2_pTRS1",
+            "description": "Promoter trs1",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM021_P2_pTUB1 - Promoter tub1",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216446"
+          },
+          "info": {
+            "name": "pPOM021_P2_pTUB1",
+            "description": "Promoter tub1",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM022_P2_pRPS1002 - Promoter rps1002",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216447"
+          },
+          "info": {
+            "name": "pPOM022_P2_pRPS1002",
+            "description": "Promoter rps1002",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM023_P2_pAPL4 - Promoter apl4",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216448"
+          },
+          "info": {
+            "name": "pPOM023_P2_pAPL4",
+            "description": "Promoter apl4",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM024_P2_pMPA1 - Promoter mpa1",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216449"
+          },
+          "info": {
+            "name": "pPOM024_P2_pMPA1",
+            "description": "Promoter mpa1",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM025_P2_pTUP11 - Promoter tup11",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216450"
+          },
+          "info": {
+            "name": "pPOM025_P2_pTUP11",
+            "description": "Promoter tup11",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM026_P2_pNMT1 - Promoter nmt1",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216451"
+          },
+          "info": {
+            "name": "pPOM026_P2_pNMT1",
+            "description": "Promoter nmt1",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "input": [],
+      "output": 6,
+      "type": "CollectionSource",
+      "category_id": "3",
+      "title": "Coding sequence",
+      "description": "You can use the ATG from the fusion site as translation start. If possible omit STOP codon and make your protein in frame with the Ser.",
+      "image": [
+        "glyph_3.png",
+        "60%"
+      ],
+      "options": []
+    },
+    {
+      "id": 7,
+      "input": [],
+      "output": 8,
+      "type": "CollectionSource",
+      "category_id": "4",
+      "title": "Terminator",
+      "description": null,
+      "image": [
+        "glyph_4.png",
+        "60%"
+      ],
+      "options": [
+        {
+          "name": "pPOM027_P4_tSynthGuo - Terminator guo",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216452"
+          },
+          "info": {
+            "name": "pPOM027_P4_tSynthGuo",
+            "description": "Terminator guo",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM028_P4_tSynth3 - Terminator synth3",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216453"
+          },
+          "info": {
+            "name": "pPOM028_P4_tSynth3",
+            "description": "Terminator synth3",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM029_P4_tSynth25 - Terminator synth25",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216454"
+          },
+          "info": {
+            "name": "pPOM029_P4_tSynth25",
+            "description": "Terminator synth25",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM030_P4_tSynth27 - Terminator synth27",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216455"
+          },
+          "info": {
+            "name": "pPOM030_P4_tSynth27",
+            "description": "Terminator synth27",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM031_P4_tSynth29 - Terminator synth29",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216456"
+          },
+          "info": {
+            "name": "pPOM031_P4_tSynth29",
+            "description": "Terminator synth29",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM032_P4_tSynth30 - Terminator synth30",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216457"
+          },
+          "info": {
+            "name": "pPOM032_P4_tSynth30",
+            "description": "Terminator synth30",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "input": [],
+      "output": 10,
+      "type": "CollectionSource",
+      "category_id": "5",
+      "title": "Assembly connector",
+      "description": null,
+      "image": [
+        "glyph_5.png",
+        "60%"
+      ],
+      "options": [
+        {
+          "name": "pPOM007_P5_ConR6 - Connector R6",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216432"
+          },
+          "info": {
+            "name": "pPOM007_P5_ConR6",
+            "description": "Connector R6",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM008_P5_ConR7 - Connector R7",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216433"
+          },
+          "info": {
+            "name": "pPOM008_P5_ConR7",
+            "description": "Connector R7",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM009_P5_ConR8 - Connector R8",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216434"
+          },
+          "info": {
+            "name": "pPOM009_P5_ConR8",
+            "description": "Connector R8",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM010_P5_ConR9 - Connector R9",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216435"
+          },
+          "info": {
+            "name": "pPOM010_P5_ConR9",
+            "description": "Connector R9",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM011_P5_ConR10 - Connector R10",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216436"
+          },
+          "info": {
+            "name": "pPOM011_P5_ConR10",
+            "description": "Connector R10",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        },
+        {
+          "name": "pPOM012_P5_ConR11 - Connector R11",
+          "source": {
+            "type": "AddGeneIdSource",
+            "repository_name": "addgene",
+            "repository_id": "216437"
+          },
+          "info": {
+            "name": "pPOM012_P5_ConR11",
+            "description": "Connector R11",
+            "type": "AddGenePlasmid",
+            "resistance": null,
+            "well": null
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "input": [],
+      "output": 12,
+      "type": "CollectionSource",
+      "category_id": "6",
+      "title": "Yeast marker",
+      "description": null,
+      "image": [
+        "glyph_6.png",
+        "60%"
+      ],
+      "options": []
+    },
+    {
+      "id": 13,
+      "input": [],
+      "output": 14,
+      "type": "CollectionSource",
+      "category_id": "7",
+      "title": "Yeast plasmid origin of replication",
+      "description": null,
+      "image": [
+        "glyph_7.png",
+        "60%"
+      ],
+      "options": []
+    },
+    {
+      "id": 15,
+      "input": [],
+      "output": 16,
+      "type": "CollectionSource",
+      "category_id": "8",
+      "title": "Bacterial marker and origin",
+      "description": null,
+      "image": [
+        "glyph_8.png",
+        "60%"
+      ],
+      "options": []
+    },
+    {
+      "id": 17,
+      "input": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16
+      ],
+      "output": 18,
+      "type": "RestrictionAndLigationSource"
+    }
+  ],
+  "sequences": [
+    {
+      "id": 2,
+      "type": "TemplateSequence"
+    },
+    {
+      "id": 4,
+      "type": "TemplateSequence"
+    },
+    {
+      "id": 6,
+      "type": "TemplateSequence"
+    },
+    {
+      "id": 8,
+      "type": "TemplateSequence"
+    },
+    {
+      "id": 10,
+      "type": "TemplateSequence"
+    },
+    {
+      "id": 12,
+      "type": "TemplateSequence"
+    },
+    {
+      "id": 14,
+      "type": "TemplateSequence"
+    },
+    {
+      "id": 16,
+      "type": "TemplateSequence"
+    },
+    {
+      "id": 18,
+      "type": "TemplateSequence"
+    }
+  ],
+  "description": "CDS self-replicating plasmid\n\nA plasmid with a yeast ORI containing a CDS",
+  "primers": []
+}
