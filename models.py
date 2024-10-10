@@ -19,8 +19,8 @@ from pydantic import (
 )
 import requests
 import annotated_types
-from typing import Annotated, Union
-from github import Github, Auth
+from typing import Annotated
+from github import Github, Auth, GithubException
 import os
 from pydna.dseq import Dseq
 
@@ -53,9 +53,15 @@ class Submitter(_Submitter):
             g = Github(auth=auth)
             try:
                 g.get_user(v)
-            except Exception as e:
-                print(e)
-                raise ValueError(f"Github username {v} does not exist")
+            except GithubException as e:
+                if e.status == 404:
+                    raise ValueError(f"Github username {v} does not exist")
+                elif e.status == 401:
+                    raise ValueError(
+                        "Backend github authentication not working, contact admin"
+                    )
+                else:
+                    raise e
         return v
 
 
