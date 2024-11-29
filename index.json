@@ -1,10 +1,190 @@
 {
-  "browse-article-28244182": {
+  "kits-densmore-cidar-moclo": {
     "kit": {
-      "pmid": "PMID:37991801",
-      "addgene_url": "https://www.addgene.org/browse/article/28244182/",
-      "title": "POMBOX",
-      "description": "YTK-based Fission Yeast Cloning Toolkit for Molecular and Synthetic Biology"
+      "pmid": "PMID:26479688",
+      "addgene_url": "https://www.addgene.org/kits/densmore-cidar-moclo",
+      "title": "CIDAR MoClo Parts Kit",
+      "description": "Golden-gate based modular cloning kit for E. coli"
+    },
+    "assemblies": [
+      {
+        "title": "Transcriptional Unit AE",
+        "description": "Plasmid with a transcriptional unit starting and ending with fusion sites A (GGAG) and E (GCTT)",
+        "fragment_order": [
+          "promoter_AB",
+          "RBS_BC",
+          "CDS_CD",
+          "terminator_DE",
+          "backbone_AE"
+        ],
+        "template_file": "assembly_template_001.json"
+      },
+      {
+        "title": "Transcriptional Unit EF",
+        "description": "Plasmid with a transcriptional unit starting and ending with fusion sites E (GCTT) and F (CGCT)",
+        "fragment_order": [
+          "promoter_EB",
+          "RBS_BC",
+          "CDS_CD",
+          "terminator_DF",
+          "backbone_EF"
+        ],
+        "template_file": "assembly_template_002.json"
+      },
+      {
+        "title": "Transcriptional Unit FG",
+        "description": "Plasmid with a transcriptional unit starting and ending with fusion sites F (CGCT) and G (TGCC)",
+        "fragment_order": [
+          "promoter_FB",
+          "RBS_BC",
+          "CDS_CD",
+          "terminator_DG",
+          "backbone_FG"
+        ],
+        "template_file": "assembly_template_003.json"
+      },
+      {
+        "title": "Transcriptional Unit GH",
+        "description": "Plasmid with a transcriptional unit starting and ending with fusion sites G (TGCC) and H (ACTA)",
+        "fragment_order": [
+          "promoter_GB",
+          "RBS_BC",
+          "CDS_CD",
+          "terminator_DH",
+          "backbone_GH"
+        ],
+        "template_file": "assembly_template_004.json"
+      }
+    ]
+  },
+  "allele-engineering-templates": {
+    "kit": {
+      "title": "Allele engineering",
+      "description": "Templates to engineer alleles."
+    },
+    "assemblies": [
+      {
+        "title": "PCR-based targeting",
+        "description": "Amplify a plasmid fragment adding homology arms to replace a region in the genome.",
+        "template_file": "pcr_based_targeting.json"
+      }
+    ]
+  },
+  "kits-young-moclo-ysd": {
+    "kit": {
+      "pmid": "PMID:38483353",
+      "addgene_url": "https://www.addgene.org/kits/young-moclo-ysd",
+      "title": "MoClo Yeast Secretion and Display (YSD) ",
+      "description": "Extension to the MoClo YTK kit to optimize secretion and cell surface display of proteins of interest"
+    },
+    "assemblies": [
+      {
+        "title": "CDS self-replicating plasmid",
+        "description": "A plasmid with a yeast ORI containing a CDS",
+        "fragment_order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "template_file": "assembly_template_001.json"
+      },
+      {
+        "title": "2xCDS fusion self-replicating plasmid",
+        "description": "A plasmid with a yeast ORI with two CDS fused together",
+        "fragment_order": [
+          "1",
+          "2",
+          "3a'",
+          "3b'",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "template_file": "assembly_template_002.json"
+      },
+      {
+        "title": "3xCDS fusion self-replicating plasmid",
+        "description": "A plasmid with a yeast ORI with three CDS fused together",
+        "fragment_order": [
+          "1",
+          "2",
+          "3a'",
+          "3b'",
+          "4a",
+          "4b",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "template_file": "assembly_template_003.json"
+      },
+      {
+        "title": "CDS integration plasmid",
+        "description": "A plasmid containing a CDS that can be integrated in the genome via recombination",
+        "fragment_order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7h",
+          "8a",
+          "8b"
+        ],
+        "template_file": "assembly_template_004.json"
+      },
+      {
+        "title": "2xCDS integration plasmid",
+        "description": "A plasmid containing a 2xCDS fusion protein that can be integrated in the genome via recombination",
+        "fragment_order": [
+          "1",
+          "2",
+          "3a'",
+          "3b'",
+          "4",
+          "5",
+          "6",
+          "7h",
+          "8a",
+          "8b"
+        ],
+        "template_file": "assembly_template_005.json"
+      },
+      {
+        "title": "3xCDS integration plasmid",
+        "description": "A plasmid containing a 3xCDS fusion protein that can be integrated in the genome via recombination",
+        "fragment_order": [
+          "1",
+          "2",
+          "3a'",
+          "3b'",
+          "4a",
+          "4b",
+          "5",
+          "6",
+          "7h",
+          "8a",
+          "8b"
+        ],
+        "template_file": "assembly_template_006.json"
+      }
+    ]
+  },
+  "kits-moclo-ytk": {
+    "kit": {
+      "pmid": "PMID:25871405",
+      "addgene_url": "https://www.addgene.org/kits/moclo-ytk/",
+      "title": "MoClo YTK",
+      "description": "Golden-gate based modular cloning kit for yeast."
     },
     "assemblies": [
       {
@@ -108,83 +288,12 @@
       }
     ]
   },
-  "kits-densmore-cidar-moclo": {
+  "browse-article-28244182": {
     "kit": {
-      "pmid": "PMID:26479688",
-      "addgene_url": "https://www.addgene.org/kits/densmore-cidar-moclo",
-      "title": "CIDAR MoClo Parts Kit",
-      "description": "Golden-gate based modular cloning kit for E. coli"
-    },
-    "assemblies": [
-      {
-        "title": "Transcriptional Unit AE",
-        "description": "Plasmid with a transcriptional unit starting and ending with fusion sites A (GGAG) and E (GCTT)",
-        "fragment_order": [
-          "promoter_AB",
-          "RBS_BC",
-          "CDS_CD",
-          "terminator_DE",
-          "backbone_AE"
-        ],
-        "template_file": "assembly_template_001.json"
-      },
-      {
-        "title": "Transcriptional Unit EF",
-        "description": "Plasmid with a transcriptional unit starting and ending with fusion sites E (GCTT) and F (CGCT)",
-        "fragment_order": [
-          "promoter_EB",
-          "RBS_BC",
-          "CDS_CD",
-          "terminator_DF",
-          "backbone_EF"
-        ],
-        "template_file": "assembly_template_002.json"
-      },
-      {
-        "title": "Transcriptional Unit FG",
-        "description": "Plasmid with a transcriptional unit starting and ending with fusion sites F (CGCT) and G (TGCC)",
-        "fragment_order": [
-          "promoter_FB",
-          "RBS_BC",
-          "CDS_CD",
-          "terminator_DG",
-          "backbone_FG"
-        ],
-        "template_file": "assembly_template_003.json"
-      },
-      {
-        "title": "Transcriptional Unit GH",
-        "description": "Plasmid with a transcriptional unit starting and ending with fusion sites G (TGCC) and H (ACTA)",
-        "fragment_order": [
-          "promoter_GB",
-          "RBS_BC",
-          "CDS_CD",
-          "terminator_DH",
-          "backbone_GH"
-        ],
-        "template_file": "assembly_template_004.json"
-      }
-    ]
-  },
-  "allele-engineering-templates": {
-    "kit": {
-      "title": "Allele engineering",
-      "description": "Templates to engineer alleles."
-    },
-    "assemblies": [
-      {
-        "title": "PCR-based targeting",
-        "description": "Amplify a plasmid fragment adding homology arms to replace a region in the genome.",
-        "template_file": "pcr_based_targeting.json"
-      }
-    ]
-  },
-  "kits-moclo-ytk": {
-    "kit": {
-      "pmid": "PMID:25871405",
-      "addgene_url": "https://www.addgene.org/kits/moclo-ytk/",
-      "title": "MoClo YTK",
-      "description": "Golden-gate based modular cloning kit for yeast."
+      "pmid": "PMID:37991801",
+      "addgene_url": "https://www.addgene.org/browse/article/28244182/",
+      "title": "POMBOX",
+      "description": "YTK-based Fission Yeast Cloning Toolkit for Molecular and Synthetic Biology"
     },
     "assemblies": [
       {
