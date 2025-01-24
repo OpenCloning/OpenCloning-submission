@@ -999,7 +999,7 @@
       "title": "Yeast 5' homology arm",
       "description": null,
       "image": [
-        "glyph_7.png",
+        "glyph_7h.png",
         "60%"
       ],
       "options": [
@@ -1044,7 +1044,7 @@
       "title": "Bacterial marker and origin",
       "description": null,
       "image": [
-        "glyph_8.png",
+        "glyph_8a.png",
         "60%"
       ],
       "options": [
@@ -1104,7 +1104,7 @@
       "title": "Yeast 3' homology arm",
       "description": null,
       "image": [
-        "glyph_8.png",
+        "glyph_8b.png",
         "60%"
       ],
       "options": [
