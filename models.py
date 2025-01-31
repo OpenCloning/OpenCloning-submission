@@ -133,6 +133,7 @@ class AddGenePlasmid(_AddGenePlasmid, Sequence):
         return {
             "name": option_name,
             "source": {
+                "id": 0,
                 "type": "AddGeneIdSource",
                 "repository_name": "addgene",
                 "repository_id": self.addgene_id,

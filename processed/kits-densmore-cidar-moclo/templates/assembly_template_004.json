@@ -16,6 +16,7 @@
         {
           "name": "J23100_GB - Strong constitutive promoter (2,547x J23112 strength)",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65983"
@@ -31,6 +32,7 @@
         {
           "name": "J23102_GB - Strong constitutive promoter (2,179x J23112 strength)",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65987"
@@ -46,6 +48,7 @@
         {
           "name": "J23103_GB - Weak constitutive promoter (17x J23112 strength)",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65991"
@@ -61,6 +64,7 @@
         {
           "name": "J23106_GB - Medium-strength constitutive promoter (1,185x J23112 strength)",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65995"
@@ -76,6 +80,7 @@
         {
           "name": "J23107_GB - Medium-strength constitutive promoter (908x J23112 strength)",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65999"
@@ -91,6 +96,7 @@
         {
           "name": "J23116_GB - Weak-medium constitutive promoter (396x J23112 strength)",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66003"
@@ -106,6 +112,7 @@
         {
           "name": "R0010 (pLacI)_GB - pLacI",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66007"
@@ -121,6 +128,7 @@
         {
           "name": "R0040 (pTet)_GB - pTet",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66011"
@@ -136,6 +144,7 @@
         {
           "name": "R0063 (pLuxR-pR)_GB - PLuxR-pL",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66015"
@@ -151,6 +160,7 @@
         {
           "name": "I13453 (pBAD)_GB - pBad",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66019"
@@ -181,6 +191,7 @@
         {
           "name": "B0032m_BC - Medium Weiss RBS",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66020"
@@ -196,6 +207,7 @@
         {
           "name": "B0033m_BC - Weak Weiss RBS",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66021"
@@ -211,6 +223,7 @@
         {
           "name": "B0034m_BC - Strong Weiss RBS",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66022"
@@ -226,6 +239,7 @@
         {
           "name": "BCD12_BC - Strongest BCD RBS",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66023"
@@ -241,6 +255,7 @@
         {
           "name": "BCD2_BC - Extremely weak BCD RBS",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66024"
@@ -256,6 +271,7 @@
         {
           "name": "BCD8_BC - Medium-strength BCD RBS",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66025"
@@ -286,6 +302,7 @@
         {
           "name": "C0012m (lacI)_CD - LacI-ssrA",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66026"
@@ -301,6 +318,7 @@
         {
           "name": "C0040 (tetR)_CD - TetR-ssrA",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66027"
@@ -316,6 +334,7 @@
         {
           "name": "C0062 (luxR)_CD - LuxR",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66028"
@@ -331,6 +350,7 @@
         {
           "name": "C0080 (araC)_CD - AraC-ssrA",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66029"
@@ -346,6 +366,7 @@
         {
           "name": "cre_CD - Cre recombinase",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66030"
@@ -361,6 +382,7 @@
         {
           "name": "E0030 (YFP)_CD - YFP",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66031"
@@ -376,6 +398,7 @@
         {
           "name": "E0040m (GFP)_CD - GFP",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66032"
@@ -391,6 +414,7 @@
         {
           "name": "E1010m (RFP)_CD - RFP",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66033"
@@ -406,6 +430,7 @@
         {
           "name": "eBFP2 (eBFP2)_CD - eBFP2",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66034"
@@ -436,6 +461,7 @@
         {
           "name": "B0015_DH - Terminator",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66038"
@@ -466,6 +492,7 @@
         {
           "name": "DVK_GH - Plasmid backbone (Kanamycin)",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "66071"
