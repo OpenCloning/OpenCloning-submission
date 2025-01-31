@@ -196,6 +196,7 @@ class Assembly(_Assembly):
                 "input": final_assembly_inputs,
                 "output": source_id + 1,
                 "type": "RestrictionAndLigationSource",
+                "restriction_enzymes": ["BsaI"],
             }
         )
         dummy_sequences.append(

@@ -1349,7 +1349,10 @@
         22
       ],
       "output": 24,
-      "type": "RestrictionAndLigationSource"
+      "type": "RestrictionAndLigationSource",
+      "restriction_enzymes": [
+        "BsaI"
+      ]
     }
   ],
   "sequences": [
