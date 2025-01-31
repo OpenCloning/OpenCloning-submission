@@ -106,6 +106,7 @@ class OligoPair(_OligoPair, Sequence):
         return {
             "name": option_name,
             "source": {
+                "id": 0,
                 "type": "OligoHybridizationSource",
                 "forward_oligo": forward_oligo,
                 "reverse_oligo": reverse_oligo,
