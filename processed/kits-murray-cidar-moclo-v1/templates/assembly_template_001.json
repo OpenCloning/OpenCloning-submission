@@ -16,6 +16,7 @@
         {
           "name": "UNS1_left",
           "source": {
+            "id": 0,
             "type": "OligoHybridizationSource",
             "forward_oligo": 249,
             "reverse_oligo": 250,
@@ -30,6 +31,7 @@
         {
           "name": "UNS3_left",
           "source": {
+            "id": 0,
             "type": "OligoHybridizationSource",
             "forward_oligo": 251,
             "reverse_oligo": 252,
@@ -44,6 +46,7 @@
         {
           "name": "UNS4_left",
           "source": {
+            "id": 0,
             "type": "OligoHybridizationSource",
             "forward_oligo": 255,
             "reverse_oligo": 256,
@@ -58,6 +61,7 @@
         {
           "name": "UNS5_left",
           "source": {
+            "id": 0,
             "type": "OligoHybridizationSource",
             "forward_oligo": 259,
             "reverse_oligo": 260,
@@ -72,6 +76,7 @@
         {
           "name": "UNS6_left",
           "source": {
+            "id": 0,
             "type": "OligoHybridizationSource",
             "forward_oligo": 263,
             "reverse_oligo": 264,
@@ -86,6 +91,7 @@
         {
           "name": "UNS7_left",
           "source": {
+            "id": 0,
             "type": "OligoHybridizationSource",
             "forward_oligo": 267,
             "reverse_oligo": 268,
@@ -100,6 +106,7 @@
         {
           "name": "UNS8_left",
           "source": {
+            "id": 0,
             "type": "OligoHybridizationSource",
             "forward_oligo": 271,
             "reverse_oligo": 272,
@@ -114,6 +121,7 @@
         {
           "name": "UNS9_left",
           "source": {
+            "id": 0,
             "type": "OligoHybridizationSource",
             "forward_oligo": 275,
             "reverse_oligo": 276,
@@ -2283,6 +2291,7 @@
         {
           "name": "UNS3_right",
           "source": {
+            "id": 0,
             "type": "OligoHybridizationSource",
             "forward_oligo": 253,
             "reverse_oligo": 254,
@@ -2297,6 +2306,7 @@
         {
           "name": "UNS4_right",
           "source": {
+            "id": 0,
             "type": "OligoHybridizationSource",
             "forward_oligo": 257,
             "reverse_oligo": 258,
@@ -2311,6 +2321,7 @@
         {
           "name": "UNS5_right",
           "source": {
+            "id": 0,
             "type": "OligoHybridizationSource",
             "forward_oligo": 261,
             "reverse_oligo": 262,
@@ -2325,6 +2336,7 @@
         {
           "name": "UNS6_right",
           "source": {
+            "id": 0,
             "type": "OligoHybridizationSource",
             "forward_oligo": 265,
             "reverse_oligo": 266,
@@ -2339,6 +2351,7 @@
         {
           "name": "UNS7_right",
           "source": {
+            "id": 0,
             "type": "OligoHybridizationSource",
             "forward_oligo": 269,
             "reverse_oligo": 270,
@@ -2353,6 +2366,7 @@
         {
           "name": "UNS8_right",
           "source": {
+            "id": 0,
             "type": "OligoHybridizationSource",
             "forward_oligo": 273,
             "reverse_oligo": 274,
@@ -2367,6 +2381,7 @@
         {
           "name": "UNS9_right",
           "source": {
+            "id": 0,
             "type": "OligoHybridizationSource",
             "forward_oligo": 277,
             "reverse_oligo": 278,
@@ -2381,6 +2396,7 @@
         {
           "name": "UNS10_right",
           "source": {
+            "id": 0,
             "type": "OligoHybridizationSource",
             "forward_oligo": 279,
             "reverse_oligo": 280,
