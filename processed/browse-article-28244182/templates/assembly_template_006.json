@@ -16,6 +16,7 @@
         {
           "name": "pPOM001_P1_ConL6 - Connector L6",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216426"
@@ -31,6 +32,7 @@
         {
           "name": "pPOM002_P1_ConL7 - Connector L7",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216427"
@@ -46,6 +48,7 @@
         {
           "name": "pPOM003_P1_ConL8 - Connector L8",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216428"
@@ -61,6 +64,7 @@
         {
           "name": "pPOM004_P1_ConL9 - Connector L9",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216429"
@@ -76,6 +80,7 @@
         {
           "name": "pPOM005_P1_ConL10 - Connector L10",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216430"
@@ -91,6 +96,7 @@
         {
           "name": "pPOM006_P1_ConL11 - Connector L11",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216431"
@@ -106,6 +112,7 @@
         {
           "name": "pYTK002 - ConLS",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65109"
@@ -121,6 +128,7 @@
         {
           "name": "pYTK003 - ConL1",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65110"
@@ -136,6 +144,7 @@
         {
           "name": "pYTK004 - ConL2",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65111"
@@ -151,6 +160,7 @@
         {
           "name": "pYTK005 - ConL3",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65112"
@@ -166,6 +176,7 @@
         {
           "name": "pYTK006 - ConL4",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65113"
@@ -181,6 +192,7 @@
         {
           "name": "pYTK007 - ConL5",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65114"
@@ -196,6 +208,7 @@
         {
           "name": "pYTK008 - ConLS'",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65115"
@@ -226,6 +239,7 @@
         {
           "name": "pPOM013_P2_pENO101 - Promoter eno101",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216438"
@@ -241,6 +255,7 @@
         {
           "name": "pPOM014_P2_pGPM1 - Promoter gpm1",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216439"
@@ -256,6 +271,7 @@
         {
           "name": "pPOM015_P2_pADH1 - Promoter adh1",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216440"
@@ -271,6 +287,7 @@
         {
           "name": "pPOM016_P2_pRPL2501 - Promoter rpl2501",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216441"
@@ -286,6 +303,7 @@
         {
           "name": "pPOM017_P2_pTIF51 - Promoter tif51",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216442"
@@ -301,6 +319,7 @@
         {
           "name": "pPOM018_P2_pRPL701 - Promoter rpl701",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216443"
@@ -316,6 +335,7 @@
         {
           "name": "pPOM019_P2_pRPL2102 - Promoter rpl2102",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216444"
@@ -331,6 +351,7 @@
         {
           "name": "pPOM020_P2_pTRS1 - Promoter trs1",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216445"
@@ -346,6 +367,7 @@
         {
           "name": "pPOM021_P2_pTUB1 - Promoter tub1",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216446"
@@ -361,6 +383,7 @@
         {
           "name": "pPOM022_P2_pRPS1002 - Promoter rps1002",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216447"
@@ -376,6 +399,7 @@
         {
           "name": "pPOM023_P2_pAPL4 - Promoter apl4",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216448"
@@ -391,6 +415,7 @@
         {
           "name": "pPOM024_P2_pMPA1 - Promoter mpa1",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216449"
@@ -406,6 +431,7 @@
         {
           "name": "pPOM025_P2_pTUP11 - Promoter tup11",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216450"
@@ -421,6 +447,7 @@
         {
           "name": "pPOM026_P2_pNMT1 - Promoter nmt1",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216451"
@@ -451,6 +478,7 @@
         {
           "name": "pYTK037 - mTurquoise2",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65144"
@@ -466,6 +494,7 @@
         {
           "name": "pYTK038 - Venus",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65145"
@@ -481,6 +510,7 @@
         {
           "name": "pYTK039 - mRuby2",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65146"
@@ -496,6 +526,7 @@
         {
           "name": "pYTK040 - 3XFLAG-6XHis",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65147"
@@ -526,6 +557,7 @@
         {
           "name": "pYTK044 - mTurquoise2",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65151"
@@ -541,6 +573,7 @@
         {
           "name": "pYTK045 - Venus",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65152"
@@ -556,6 +589,7 @@
         {
           "name": "pYTK046 - mRuby2",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65153"
@@ -586,6 +620,7 @@
         {
           "name": "pYTK057 - mTurquoise2",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65164"
@@ -601,6 +636,7 @@
         {
           "name": "pYTK058 - Venus",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65165"
@@ -616,6 +652,7 @@
         {
           "name": "pYTK059 - mRuby2",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65166"
@@ -631,6 +668,7 @@
         {
           "name": "pYTK060 - 3XFLAG-6XHis",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65167"
@@ -661,6 +699,7 @@
         {
           "name": "pYTK061 - tENO1",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65168"
@@ -676,6 +715,7 @@
         {
           "name": "pYTK062 - tSSA1",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65169"
@@ -691,6 +731,7 @@
         {
           "name": "pYTK063 - tADH1",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65170"
@@ -706,6 +747,7 @@
         {
           "name": "pYTK064 - tPGK1",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65171"
@@ -721,6 +763,7 @@
         {
           "name": "pYTK065 - tENO2",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65172"
@@ -736,6 +779,7 @@
         {
           "name": "pYTK066 - tTDH1",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65173"
@@ -766,6 +810,7 @@
         {
           "name": "pPOM007_P5_ConR6 - Connector R6",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216432"
@@ -781,6 +826,7 @@
         {
           "name": "pPOM008_P5_ConR7 - Connector R7",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216433"
@@ -796,6 +842,7 @@
         {
           "name": "pPOM009_P5_ConR8 - Connector R8",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216434"
@@ -811,6 +858,7 @@
         {
           "name": "pPOM010_P5_ConR9 - Connector R9",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216435"
@@ -826,6 +874,7 @@
         {
           "name": "pPOM011_P5_ConR10 - Connector R10",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216436"
@@ -841,6 +890,7 @@
         {
           "name": "pPOM012_P5_ConR11 - Connector R11",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216437"
@@ -856,6 +906,7 @@
         {
           "name": "pYTK067 - ConR1",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65174"
@@ -871,6 +922,7 @@
         {
           "name": "pYTK068 - ConR2",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65175"
@@ -886,6 +938,7 @@
         {
           "name": "pYTK069 - ConR3",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65176"
@@ -901,6 +954,7 @@
         {
           "name": "pYTK070 - ConR4",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65177"
@@ -916,6 +970,7 @@
         {
           "name": "pYTK071 - ConR5",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65178"
@@ -931,6 +986,7 @@
         {
           "name": "pYTK072 - ConRE",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65179"
@@ -946,6 +1002,7 @@
         {
           "name": "pYTK073 - ConRE'",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65180"
@@ -976,6 +1033,7 @@
         {
           "name": "pYTK077 - KanamycinR",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65184"
@@ -991,6 +1049,7 @@
         {
           "name": "pYTK078 - NourseothricinR",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65185"
@@ -1006,6 +1065,7 @@
         {
           "name": "pYTK079 - HygromycinR",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65186"
@@ -1021,6 +1081,7 @@
         {
           "name": "pYTK080 - ZeocinR",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65187"
@@ -1051,6 +1112,7 @@
         {
           "name": "pPOM034_P7_3\"Lys3 - 3'Lys3",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216459"
@@ -1066,6 +1128,7 @@
         {
           "name": "pPOM036_P7_3\"Ura4 - 3'Ura4",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216465"
@@ -1096,6 +1159,7 @@
         {
           "name": "pYTK089 - AmpR-ColE1",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65196"
@@ -1111,6 +1175,7 @@
         {
           "name": "pYTK090 - KanR-ColE1",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65197"
@@ -1126,6 +1191,7 @@
         {
           "name": "pYTK091 - SpecR-ColE1",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "65198"
@@ -1156,6 +1222,7 @@
         {
           "name": "pPOM038_P8b_5'Lys3 - 5'Lys3",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216463"
@@ -1171,6 +1238,7 @@
         {
           "name": "pPOM040_P8b_5'Ura4 - 5'Ura4",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "216461"

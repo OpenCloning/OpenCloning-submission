@@ -143,6 +143,7 @@
         {
           "name": "UC16m - gQi Cas9 gRNA",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "121038"
@@ -158,6 +159,7 @@
         {
           "name": "UC17m - gV1 Cas9 gRNA",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "121039"
@@ -173,6 +175,7 @@
         {
           "name": "UC20m - gN2 gRNA",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "121040"
@@ -188,6 +191,7 @@
         {
           "name": "UCT1m - gQi gRNA",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "121041"
@@ -218,6 +222,7 @@
         {
           "name": "T1m - T500_noGap, short attachment (T11)",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "121028"
@@ -233,6 +238,7 @@
         {
           "name": "T2m - ECK120033736, modified",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "121029"
@@ -248,6 +254,7 @@
         {
           "name": "T7m - S. pyogenes tracrRNA terminator",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "121030"
@@ -263,6 +270,7 @@
         {
           "name": "T12m - ECK120029600",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "121031"
@@ -278,6 +286,7 @@
         {
           "name": "T13m - ECK120033737",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "121032"
@@ -293,6 +302,7 @@
         {
           "name": "T14m - L3S1P13",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "121033"
@@ -308,6 +318,7 @@
         {
           "name": "T15m - modified L3S3P11",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "121034"
@@ -323,6 +334,7 @@
         {
           "name": "T16m - L3S2P55",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "121035"
@@ -338,6 +350,7 @@
         {
           "name": "T17m - L3S2P11",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "121036"
@@ -353,6 +366,7 @@
         {
           "name": "T18m - modified L3S2P21",
           "source": {
+            "id": 0,
             "type": "AddGeneIdSource",
             "repository_name": "addgene",
             "repository_id": "121037"
