@@ -143,10 +143,7 @@
       "category_id": "five_utr_gRna",
       "title": "5' UTR + gRNA",
       "description": null,
-      "image": [
-        null,
-        "100%"
-      ],
+      "image": null,
       "options": [
         {
           "name": "UC16m - gQi Cas9 gRNA",
