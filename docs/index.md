@@ -2,11 +2,11 @@
 
 # How to submit 📝
 
-You can submit an AddGene kit to generate a series of templates in [ShareYourCloning](https://shareyourcloning.org/). Let's take as an example the [MoClo YTK kit](https://www.addgene.org/kits/moclo-ytk/). You can load one of the associated templates by going to [ShareYourCloning](https://shareyourcloning.org/) and clicking on `Examples` > `MoCloYTK` > `N-term tag plasmid`. This will load a template for a cloning strategy that will look more or less like this:
+You can submit an AddGene kit to generate a series of templates in [OpenCloning](https://opencloning.org/). Let's take as an example the [MoClo YTK kit](https://www.addgene.org/kits/moclo-ytk/). You can load one of the associated templates by going to [OpenCloning](https://opencloning.org/) and clicking on `Examples` > `MoCloYTK` > `N-term tag plasmid`. This will load a template for a cloning strategy that will look more or less like this:
 
 <img src="images/loaded_template.png" alt="loaded template" height="400">
 
-By submitting a simple spreadsheet and optionally some images, the submission pipeline 🤖 will generate equivalent [cloning templates](https://github.com/genestorian/ShareYourCloning-submission/tree/main/processed/kits-moclo-ytk/templates) for the submitted kit. 🧬
+By submitting a simple spreadsheet and optionally some images, the submission pipeline 🤖 will generate equivalent [cloning templates](https://github.com/genestorian/OpenCloning-submission/tree/main/processed/kits-moclo-ytk/templates) for the submitted kit. 🧬
 
 Submitting a kit is very easy 📦, you just need to fill a google sheet 📋 with the information of the kit 🧰, and upload through a form 🚀.
 
@@ -40,10 +40,10 @@ This is how these columns map to what you see in the cloning template:
 
 This table contains the info of the plasmids that are part of the kit (😮‍💨 don't worry, you won't have to type it yourself!). It looks like this:
 
-| name | addgene_id | category | resistance      | well  | description |
-| ------------ | ---------- | -------- | --------------- | ----- | ----------- |
-| pYTK002      | 65109      | 1        | Chloramphenicol | A / 2 | ConLS       |
-| pYTK003      | 65110      | 1        | Chloramphenicol | A / 3 | ConL1       |
+| name    | addgene_id | category | resistance      | well  | description |
+| ------- | ---------- | -------- | --------------- | ----- | ----------- |
+| pYTK002 | 65109      | 1        | Chloramphenicol | A / 2 | ConLS       |
+| pYTK003 | 65110      | 1        | Chloramphenicol | A / 3 | ConL1       |
 
 
 * `name`: The name of the plasmid in AddGene.
@@ -67,7 +67,7 @@ Each row in this table represents a possible type of assembly that can be perfor
 * `fragment_order`: The order in which the type of parts are assembled. Each part is separated by a `|`. The parts are the `id` of the categories in the `Category` sheet (😮‍💨 don't worry, you will not have to type this yourself!).
 
     In this example, we have a an assembly that starts with `1` (Assembly connector), followed by `2` (Promoter), `3a` (N-term tag), etc. Note that there is an empty `||` in the middle, that represents a part that is not defined in the kit and that the user will provide (see the 4th lane in the image below).
-* `title`: The title of the assembly. Will be shown in the `Description` tab of ShareYourCloning.
+* `title`: The title of the assembly. Will be shown in the `Description` tab of OpenCloning.
 * `description`: More details about this type of assembly.
 
 <img src="images/assembly_fields.png" alt="loaded template" height="300">
@@ -96,7 +96,7 @@ Contains info of the submitters of this spreadsheet (you!). You can add several 
 
 ## Preparing your submission 🛠️
 
-> **NOTE:** the submission site is hosted in a free service, so the first time you access it, it might take a while to load (around a minute 😴). Once it loads for the first time, it should be faster. You can start waking it up by [opening it already](https://shareyourcloning-submission.onrender.com/).
+> **NOTE:** the submission site is hosted in a free service, so the first time you access it, it might take a while to load (around a minute 😴). Once it loads for the first time, it should be faster. You can start waking it up by [opening it already](https://opencloning-submission.onrender.com/).
 
 Start by making a copy of the [submission template](https://docs.google.com/spreadsheets/d/1Oooxchf1NBEnNgzqXbsoeTGa1fzuU0AsPR56HB5zBEo/edit?usp=sharing)📋. You will fill up the info about your submission there.
 
@@ -105,13 +105,13 @@ Compulsory fields have bold headers. You won't be able to submit the form if you
 ### Getting the AddGene kit info 🧬
 
 1. Copy the url of the addgene kit you want to submit
-2. Paste it in [this form](https://shareyourcloning-submission.onrender.com/get_kit_info), submit and download the resulting tsv file. The file looks like the table below:
+2. Paste it in [this form](https://opencloning-submission.onrender.com/get_kit_info), submit and download the resulting tsv file. The file looks like the table below:
 
-    | name | addgene_id | category | resistance      | well  | description |
-    |--------------|------------|----------|-----------------|-------|-------------|
-    | pYTK001      |      65108 |          | Chloramphenicol | A / 1 |             |
-    | pYTK002      |      65109 |          | Chloramphenicol | A / 2 |             |
-    | pYTK003      |      65110 |          | Chloramphenicol | A / 3 |             |
+    | name    | addgene_id | category | resistance      | well  | description |
+    | ------- | ---------- | -------- | --------------- | ----- | ----------- |
+    | pYTK001 | 65108      |          | Chloramphenicol | A / 1 |             |
+    | pYTK002 | 65109      |          | Chloramphenicol | A / 2 |             |
+    | pYTK003 | 65110      |          | Chloramphenicol | A / 3 |             |
 
     > Note how the columns `category` (see above what category represents) and `description` (the name of the part that the plasmid contains) are empty. We cannot get this information from AddGene 😢, and you may have to fill those by hand, but we can sometimes get this information from the publication, see next section.
 
@@ -133,7 +133,7 @@ Compulsory fields have bold headers. You won't be able to submit the form if you
 You need a table from a publication in which either of the columns `name`, `addgene_id`, or `well` are present (even if the column name does not match). For the [MoClo YTK publication](https://pubs.acs.org/doi/10.1021/sb500366v), the supplementary material contains a spreadsheet with information of the plasmids, the table looks like this:
 
 | Plasmid | Part Type    | Part Description          | E. coli Antibiotic Marker | Plasmid Sequence |
-|---------|--------------|---------------------------|---------------------------|------------------|
+| ------- | ------------ | ------------------------- | ------------------------- | ---------------- |
 | pYTK001 | entry vector | Part Plasmid Entry Vector | Chloramphenicol           | ...              |
 | pYTK002 | 1            | ConLS                     | Chloramphenicol           | ...              |
 | pYTK003 | 1            | ConL1                     | Chloramphenicol           | ...              |
@@ -178,7 +178,7 @@ Fill the `Kit` and `Submitter` sheets with the information of the kit and the su
 
 ### Submitting the form 🚀
 
-🎉 You did it 🎉. Go to the [submission site](https://shareyourcloning-submission.onrender.com/) and upload your submission template.
+🎉 You did it 🎉. Go to the [submission site](https://opencloning-submission.onrender.com/) and upload your submission template.
 
 > **NOTE:** the submission site is hosted in a free service, so the first time you access it, it might take a while to load (around a minute 😴). Once it loads for the first time, it should be faster.
 

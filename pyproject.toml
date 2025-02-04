@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "shareyourcloning-submission"
+name = "opencloning-submission"
 version = "0.1.0"
 description = ""
 authors = ["Manuel Lera-Ramirez <manulera14@gmail.com>"]

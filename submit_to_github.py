@@ -13,7 +13,7 @@ def submit_to_github(submission: Submission, submission_folder: str):
     auth = Auth.Token(os.environ.get("GITHUB_TOKEN"))
     g = Github(auth=auth)
 
-    repo = g.get_repo("genestorian/ShareYourCloning-submission")
+    repo = g.get_repo("genestorian/OpenCloning-submission")
 
     kit_url = submission.kit.addgene_url
     kit_name = kit_url.replace("https://www.addgene.org/", "")
