@@ -6,7 +6,7 @@ You can submit an AddGene kit to generate a series of templates in [OpenCloning]
 
 <img src="images/loaded_template.png" alt="loaded template" height="400">
 
-By submitting a simple spreadsheet and optionally some images, the submission pipeline 🤖 will generate equivalent [cloning templates](https://github.com/genestorian/OpenCloning-submission/tree/main/processed/kits-moclo-ytk/templates) for the submitted kit. 🧬
+By submitting a simple spreadsheet and optionally some images, the submission pipeline 🤖 will generate equivalent [cloning templates](https://github.com/genestorian/shareyourcloning-submission/tree/main/processed/kits-moclo-ytk/templates) for the submitted kit. 🧬
 
 Submitting a kit is very easy 📦, you just need to fill a google sheet 📋 with the information of the kit 🧰, and upload through a form 🚀.
 
@@ -96,7 +96,7 @@ Contains info of the submitters of this spreadsheet (you!). You can add several 
 
 ## Preparing your submission 🛠️
 
-> **NOTE:** the submission site is hosted in a free service, so the first time you access it, it might take a while to load (around a minute 😴). Once it loads for the first time, it should be faster. You can start waking it up by [opening it already](https://opencloning-submission.onrender.com/).
+> **NOTE:** the submission site is hosted in a free service, so the first time you access it, it might take a while to load (around a minute 😴). Once it loads for the first time, it should be faster. You can start waking it up by [opening it already](https://shareyourcloning-submission.onrender.com/).
 
 Start by making a copy of the [submission template](https://docs.google.com/spreadsheets/d/1Oooxchf1NBEnNgzqXbsoeTGa1fzuU0AsPR56HB5zBEo/edit?usp=sharing)📋. You will fill up the info about your submission there.
 
@@ -105,7 +105,7 @@ Compulsory fields have bold headers. You won't be able to submit the form if you
 ### Getting the AddGene kit info 🧬
 
 1. Copy the url of the addgene kit you want to submit
-2. Paste it in [this form](https://opencloning-submission.onrender.com/get_kit_info), submit and download the resulting tsv file. The file looks like the table below:
+2. Paste it in [this form](https://shareyourcloning-submission.onrender.com/get_kit_info), submit and download the resulting tsv file. The file looks like the table below:
 
     | name    | addgene_id | category | resistance      | well  | description |
     | ------- | ---------- | -------- | --------------- | ----- | ----------- |
@@ -178,7 +178,7 @@ Fill the `Kit` and `Submitter` sheets with the information of the kit and the su
 
 ### Submitting the form 🚀
 
-🎉 You did it 🎉. Go to the [submission site](https://opencloning-submission.onrender.com/) and upload your submission template.
+🎉 You did it 🎉. Go to the [submission site](https://shareyourcloning-submission.onrender.com/) and upload your submission template.
 
 > **NOTE:** the submission site is hosted in a free service, so the first time you access it, it might take a while to load (around a minute 😴). Once it loads for the first time, it should be faster.
 
