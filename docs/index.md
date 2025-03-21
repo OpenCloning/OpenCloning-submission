@@ -2,7 +2,7 @@
 
 # How to submit 📝
 
-You can submit an AddGene kit to generate a series of templates in [OpenCloning](https://opencloning.org/). Let's take as an example the [MoClo YTK kit](https://www.addgene.org/kits/moclo-ytk/). You can load one of the associated templates by going to [OpenCloning](https://opencloning.org/) and clicking on `Examples` > `MoCloYTK` > `N-term tag plasmid`. This will load a template for a cloning strategy that will look more or less like this:
+You can submit an Addgene kit to generate a series of templates in [OpenCloning](https://opencloning.org/). Let's take as an example the [MoClo YTK kit](https://www.addgene.org/kits/moclo-ytk/). You can load one of the associated templates by going to [OpenCloning](https://opencloning.org/) and clicking on `Examples` > `MoCloYTK` > `N-term tag plasmid`. This will load a template for a cloning strategy that will look more or less like this:
 
 <img src="images/loaded_template.png" alt="loaded template" height="400">
 
@@ -46,8 +46,8 @@ This table contains the info of the plasmids that are part of the kit (😮‍�
 | pYTK003 | 65110      | 1        | Chloramphenicol | A / 3 | ConL1       |
 
 
-* `name`: The name of the plasmid in AddGene.
-* `addgene_id`: The AddGene ID of the plasmid (it's in the url of the addgene page, for instance 65109 for [pYTK002](https://www.addgene.org/65109/)).
+* `name`: The name of the plasmid in Addgene.
+* `addgene_id`: The Addgene ID of the plasmid (it's in the url of the addgene page, for instance 65109 for [pYTK002](https://www.addgene.org/65109/)).
 * `category`: The category of the plasmid. This matches an `id` from the `Category` sheet.
 * `description`: A description of what the plasmid contains.
 * Other categories: You can add more columns to this table to include more information about the plasmids. They will be displayed in the info table, like `well` in the example below.
@@ -81,7 +81,7 @@ Contains info of the kit.
 | PMID:25871405 | https://www.addgene.org/kits/moclo-ytk/ | MoClo YTK | Golden-gate based modular cloning kit for yeast. |
 
 * `pmid`: The PMID (PubMed unique identifier) of the publication associated with the kit. You can get this by searching the publication in PubMed and copying the number from the url. For example, https://pubmed.ncbi.nlm.nih.gov/25871405/ has a corresponding `PMID:25871405`.
-* `addgene_url`: The url of the kit in AddGene.
+* `addgene_url`: The url of the kit in Addgene.
 * `title`: The title of the kit.
 * `description`: A description of the kit.
 
@@ -102,7 +102,7 @@ Start by making a copy of the [submission template](https://docs.google.com/spre
 
 Compulsory fields have bold headers. You won't be able to submit the form if you don't fill them. The rest of the fields are optional, but the more information you provide, the better the templates will be!
 
-### Getting the AddGene kit info 🧬
+### Getting the Addgene kit info 🧬
 
 1. Copy the url of the addgene kit you want to submit
 2. Paste it in [this form](https://shareyourcloning-submission.onrender.com/get_kit_info), submit and download the resulting tsv file. The file looks like the table below:
@@ -113,7 +113,7 @@ Compulsory fields have bold headers. You won't be able to submit the form if you
     | pYTK002 | 65109      |          | Chloramphenicol | A / 2 |             |
     | pYTK003 | 65110      |          | Chloramphenicol | A / 3 |             |
 
-    > Note how the columns `category` (see above what category represents) and `description` (the name of the part that the plasmid contains) are empty. We cannot get this information from AddGene 😢, and you may have to fill those by hand, but we can sometimes get this information from the publication, see next section.
+    > Note how the columns `category` (see above what category represents) and `description` (the name of the part that the plasmid contains) are empty. We cannot get this information from Addgene 😢, and you may have to fill those by hand, but we can sometimes get this information from the publication, see next section.
 
 3. Load the tsv file you downloaded into the submission template:
    * Go to the `Sequence` sheet in the example submission, select the cell `A2`.
