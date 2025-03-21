@@ -6,7 +6,7 @@ from _models import (
     Submitter as _Submitter,
     Kit as _Kit,
     OligoPair as _OligoPair,
-    AddGenePlasmid as _AddGenePlasmid,
+    AddgenePlasmid as _AddgenePlasmid,
     Oligo as _Oligo,
 )
 from pydantic import (
@@ -116,7 +116,7 @@ class OligoPair(_OligoPair, Sequence):
         }
 
 
-class AddGenePlasmid(_AddGenePlasmid, Sequence):
+class AddgenePlasmid(_AddgenePlasmid, Sequence):
 
     def to_source_option(self, submission: "Submission"):
         info = dict()
@@ -135,7 +135,7 @@ class AddGenePlasmid(_AddGenePlasmid, Sequence):
             "name": option_name,
             "source": {
                 "id": 0,
-                "type": "AddGeneIdSource",
+                "type": "AddgeneIdSource",
                 "repository_name": "addgene",
                 "repository_id": self.addgene_id,
             },
@@ -253,7 +253,7 @@ class Submission(_Submission):
     )
     kit: Kit = Field(...)
     sequences: Annotated[
-        list[Sequence | AddGenePlasmid | OligoPair], annotated_types.Len(min_length=1)
+        list[Sequence | AddgenePlasmid | OligoPair], annotated_types.Len(min_length=1)
     ] = Field(default_factory=list)
     categories: Annotated[list[Category], annotated_types.Len(min_length=1)] = Field(
         default_factory=list

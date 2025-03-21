@@ -13,7 +13,7 @@ def sheet_reader(file, sheet_name):
 
 def read_submission(file) -> Submission:
     plasmids = sheet_reader(file, "Sequence")
-    plasmids["type"] = "AddGenePlasmid"
+    plasmids["type"] = "AddgenePlasmid"
     categories = sheet_reader(file, "Category")
     kits = sheet_reader(file, "Kit")
     oligos = sheet_reader(file, "Oligo")

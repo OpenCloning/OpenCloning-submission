@@ -101,7 +101,7 @@ class Sequence(ConfiguredBaseModel):
     )
 
 
-class AddGenePlasmid(Sequence):
+class AddgenePlasmid(Sequence):
     addgene_id: str = Field(..., description="""The Addgene ID for the plasmid""")
     resistance: Optional[str] = Field(None)
     well: Optional[str] = Field(
@@ -112,8 +112,8 @@ class AddGenePlasmid(Sequence):
     )
     name: str = Field(..., description="""The name of a thing""")
     category: str = Field(...)
-    type: Literal["AddGenePlasmid"] = Field(
-        "AddGenePlasmid", description="""The type of sequence"""
+    type: Literal["AddgenePlasmid"] = Field(
+        "AddgenePlasmid", description="""The type of sequence"""
     )
 
     @field_validator("addgene_id")
@@ -210,7 +210,7 @@ class Submission(ConfiguredBaseModel):
     submitters: conlist(min_length=1, item_type=Submitter) = Field(default_factory=list)
     kit: Kit = Field(...)
     sequences: conlist(
-        min_length=1, item_type=Union[Sequence, AddGenePlasmid, OligoPair]
+        min_length=1, item_type=Union[Sequence, AddgenePlasmid, OligoPair]
     ) = Field(default_factory=list)
     categories: conlist(min_length=1, item_type=Category) = Field(default_factory=list)
     assemblies: conlist(min_length=1, item_type=Assembly) = Field(default_factory=list)
@@ -222,7 +222,7 @@ class Submission(ConfiguredBaseModel):
 Category.model_rebuild()
 Kit.model_rebuild()
 Sequence.model_rebuild()
-AddGenePlasmid.model_rebuild()
+AddgenePlasmid.model_rebuild()
 Submitter.model_rebuild()
 Oligo.model_rebuild()
 OligoPair.model_rebuild()

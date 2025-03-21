@@ -12,7 +12,7 @@ async def scrape_addgene_kit(url: str) -> str:
         # Error if #kit-contents-link is not found
         if not await my_page.query_selector("#kit-contents-link"):
             raise Exception(
-                "Problem scraping AddGene website:'Kit contents' tab not found"
+                "Problem scraping Addgene website:'Kit contents' tab not found"
             )
 
         # Click on contents link
@@ -21,14 +21,14 @@ async def scrape_addgene_kit(url: str) -> str:
 
         # Error if the select element is not found
         if not await my_page.query_selector("label:has-text('Show ') >> select"):
-            raise Exception("Problem scraping AddGene website: plasmid table not found")
+            raise Exception("Problem scraping Addgene website: plasmid table not found")
 
         # Error if the option "All" is not found
         if not await my_page.query_selector(
             "label:has-text('Show ') >> select >> option[value='-1']"
         ):
             raise Exception(
-                "Problem scraping AddGene website: option 'All' not found in the table of plasmids"
+                "Problem scraping Addgene website: option 'All' not found in the table of plasmids"
             )
 
         # Click on a select element inside a label
