@@ -23,6 +23,13 @@ from typing import Annotated
 from github import Github, Auth, GithubException
 import os
 from pydna.dseq import Dseq
+from opencloning_linkml.datamodel import (
+    OligoHybridizationSource,
+    AddgeneIdSource,
+    CollectionSource,
+    RestrictionAndLigationSource,
+    CloningStrategy,
+)
 
 
 # TODO: validation of categories in sequences and assemblies
@@ -103,15 +110,18 @@ class OligoPair(_OligoPair, Sequence):
 
         ovhg = Dseq(forward_seq, reverse_seq).ovhg
 
-        return {
-            "name": option_name,
-            "source": {
+        source = OligoHybridizationSource.model_validate(
+            {
                 "id": 0,
                 "type": "OligoHybridizationSource",
-                "forward_oligo": forward_oligo,
-                "reverse_oligo": reverse_oligo,
+                "input": [{"sequence": forward_oligo}, {"sequence": reverse_oligo}],
                 "overhang_crick_3prime": ovhg,
-            },
+            }
+        )
+
+        return {
+            "name": option_name,
+            "source": source.model_dump(),
             "info": info,
         }
 
@@ -131,35 +141,44 @@ class AddgenePlasmid(_AddgenePlasmid, Sequence):
             option_name = f"{self.name} - {self.description}"
         else:
             option_name = self.name
-        return {
-            "name": option_name,
-            "source": {
+
+        source = AddgeneIdSource.model_validate(
+            {
                 "id": 0,
                 "type": "AddgeneIdSource",
+                "input": [],
                 "repository_name": "addgene",
                 "repository_id": self.addgene_id,
-            },
+            }
+        )
+        return {
+            "name": option_name,
+            "source": source.model_dump(),
             "info": info,
         }
 
 
 class Category(_Category):
     def to_source(self, source_id: int, submission: "Submission"):
-        return {
-            "id": source_id,
-            "input": [],
-            "output": source_id + 1,
-            "type": "CollectionSource",
-            "category_id": self.id,
-            "title": self.title,
-            "description": self.description,
-            "image": self.image,
-            "options": [
-                s.to_source_option(submission)
-                for s in submission.sequences
-                if s.category == self.id
-            ],
-        }
+        source = CollectionSource.model_validate(
+            {
+                "id": source_id,
+                "input": [],
+                "type": "CollectionSource",
+                "category_id": self.id,
+                "title": self.title,
+                "description": self.description,
+                "image": (
+                    None if self.image is None else [self.image, "60%"]
+                ),  # Default width
+                "options": [
+                    s.to_source_option(submission)
+                    for s in submission.sequences
+                    if s.category == self.id
+                ],
+            }
+        )
+        return source.model_dump()
 
 
 class Assembly(_Assembly):
@@ -184,35 +203,38 @@ class Assembly(_Assembly):
                     {
                         "id": source_id,
                         "input": [],
-                        "output": source_id + 1,
                     }
                 )
-            final_assembly_inputs.append(source_id + 1)
-            dummy_sequences.append({"id": source_id + 1, "type": "TemplateSequence"})
-            source_id += 2
+            final_assembly_inputs.append({"sequence": source_id})
+            dummy_sequences.append({"id": source_id, "type": "TemplateSequence"})
+            source_id += 1
 
-        sources.append(
+        restriction_and_ligation_source = RestrictionAndLigationSource.model_validate(
             {
                 "id": source_id,
                 "input": final_assembly_inputs,
-                "output": source_id + 1,
                 "type": "RestrictionAndLigationSource",
                 "restriction_enzymes": ["BsaI"],
             }
         )
+        sources.append(restriction_and_ligation_source.model_dump())
+
         dummy_sequences.append(
             {
-                "id": source_id + 1,
+                "id": source_id,
                 "type": "TemplateSequence",
             }
         )
+        cs = CloningStrategy.model_validate(
+            {
+                "sources": sources,
+                "sequences": dummy_sequences,
+                "description": f"{self.title}\n\n{self.description}",
+                "primers": [oligo.model_dump() for oligo in submission.oligos],
+            }
+        )
 
-        return {
-            "sources": sources,
-            "sequences": dummy_sequences,
-            "description": f"{self.title}\n\n{self.description}",
-            "primers": [oligo.model_dump() for oligo in submission.oligos],
-        }
+        return cs.model_dump()
 
 
 class Kit(_Kit):
