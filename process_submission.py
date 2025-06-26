@@ -36,7 +36,7 @@ def main(submission_folder):
     for i, template in enumerate(submission.to_template_list()):
         for source in template["sources"]:
             if "image" in source and source["image"] is not None:
-                source["image"] = [source["image"], settings["image_width"]]
+                source["image"][1] = settings["image_width"]
         # Format i as 001, etc.
         ii = str(i + 1).zfill(3)
         assembly_file_name = f"assembly_template_{ii}.json"
