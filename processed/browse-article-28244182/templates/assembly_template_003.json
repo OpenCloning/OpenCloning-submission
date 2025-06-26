@@ -78,10 +78,7 @@
       "title": "Assembly connector",
       "description": null,
       "image": [
-        [
-          "glyph_1.png",
-          "60%"
-        ],
+        "glyph_1.png",
         "60%"
       ],
       "options": [
@@ -370,10 +367,7 @@
       "title": "Promoter",
       "description": null,
       "image": [
-        [
-          "glyph_2.png",
-          "60%"
-        ],
+        "glyph_2.png",
         "60%"
       ],
       "options": [
@@ -683,10 +677,7 @@
       "title": "N-term part",
       "description": "You can use the ATG from the fusion site as translation start. Omit STOP codon and make your protein in frame with the Ser for fusion.",
       "image": [
-        [
-          "glyph_3a.png",
-          "60%"
-        ],
+        "glyph_3a.png",
         "60%"
       ],
       "options": [
@@ -786,10 +777,7 @@
       "title": "C-term part",
       "description": "Left Ser should be in frame with previous CDS. If possible omit STOP codon and make your protein in frame with the right Ser for fusion.",
       "image": [
-        [
-          "glyph_3b.png",
-          "60%"
-        ],
+        "glyph_3b.png",
         "60%"
       ],
       "options": [
@@ -868,10 +856,7 @@
       "title": "C-term (extra)",
       "description": "Left Ser should be in frame with previous CDS. Warning: You must include a STOP in your CDS!",
       "image": [
-        [
-          "glyph_4a.png",
-          "60%"
-        ],
+        "glyph_4a.png",
         "60%"
       ],
       "options": [
@@ -971,10 +956,7 @@
       "title": "Terminator",
       "description": null,
       "image": [
-        [
-          "glyph_4.png",
-          "60%"
-        ],
+        "glyph_4.png",
         "60%"
       ],
       "options": [
@@ -1116,10 +1098,7 @@
       "title": "Assembly connector",
       "description": null,
       "image": [
-        [
-          "glyph_5.png",
-          "60%"
-        ],
+        "glyph_5.png",
         "60%"
       ],
       "options": [
@@ -1408,10 +1387,7 @@
       "title": "Yeast marker",
       "description": null,
       "image": [
-        [
-          "glyph_6.png",
-          "60%"
-        ],
+        "glyph_6.png",
         "60%"
       ],
       "options": [
@@ -1511,10 +1487,7 @@
       "title": "Yeast plasmid origin of replication",
       "description": null,
       "image": [
-        [
-          "glyph_7.png",
-          "60%"
-        ],
+        "glyph_7.png",
         "60%"
       ],
       "options": []
@@ -1529,10 +1502,7 @@
       "title": "Bacterial marker and origin",
       "description": null,
       "image": [
-        [
-          "glyph_8.png",
-          "60%"
-        ],
+        "glyph_8.png",
         "60%"
       ],
       "options": [

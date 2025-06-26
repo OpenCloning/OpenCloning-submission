@@ -48,10 +48,7 @@
       "title": "Promoter",
       "description": "Left fusion site is E (GCTT)",
       "image": [
-        [
-          "promoter.png",
-          "60%"
-        ],
+        "promoter.png",
         "60%"
       ],
       "options": [
@@ -277,10 +274,7 @@
       "title": "RBS",
       "description": null,
       "image": [
-        [
-          "rbs.png",
-          "60%"
-        ],
+        "rbs.png",
         "60%"
       ],
       "options": [
@@ -422,10 +416,7 @@
       "title": "CDS",
       "description": null,
       "image": [
-        [
-          "cds.png",
-          "60%"
-        ],
+        "cds.png",
         "60%"
       ],
       "options": [
@@ -630,10 +621,7 @@
       "title": "Terminator",
       "description": "Right fusion site is F (CGCT)",
       "image": [
-        [
-          "terminator.png",
-          "60%"
-        ],
+        "terminator.png",
         "60%"
       ],
       "options": [
@@ -670,10 +658,7 @@
       "title": "Backbone",
       "description": null,
       "image": [
-        [
-          "backbone.png",
-          "60%"
-        ],
+        "backbone.png",
         "60%"
       ],
       "options": [

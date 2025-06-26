@@ -66,10 +66,7 @@
       "title": "Assembly connector",
       "description": null,
       "image": [
-        [
-          "glyph_1.png",
-          "60%"
-        ],
+        "glyph_1.png",
         "80%"
       ],
       "options": [
@@ -232,10 +229,7 @@
       "title": "Promoter",
       "description": null,
       "image": [
-        [
-          "glyph_2.png",
-          "60%"
-        ],
+        "glyph_2.png",
         "80%"
       ],
       "options": [
@@ -734,10 +728,7 @@
       "title": "Coding sequence",
       "description": "You can use the ATG from the fusion site as translation start. If possible omit STOP codon and make your protein in frame with the Ser.",
       "image": [
-        [
-          "glyph_3.png",
-          "60%"
-        ],
+        "glyph_3.png",
         "80%"
       ],
       "options": [
@@ -858,10 +849,7 @@
       "title": "Terminator",
       "description": null,
       "image": [
-        [
-          "glyph_4.png",
-          "60%"
-        ],
+        "glyph_4.png",
         "80%"
       ],
       "options": [
@@ -1003,10 +991,7 @@
       "title": "Assembly connector",
       "description": null,
       "image": [
-        [
-          "glyph_5.png",
-          "60%"
-        ],
+        "glyph_5.png",
         "80%"
       ],
       "options": [
@@ -1169,10 +1154,7 @@
       "title": "Yeast marker",
       "description": null,
       "image": [
-        [
-          "glyph_6.png",
-          "60%"
-        ],
+        "glyph_6.png",
         "80%"
       ],
       "options": [
@@ -1335,10 +1317,7 @@
       "title": "Yeast plasmid origin of replication",
       "description": null,
       "image": [
-        [
-          "glyph_7.png",
-          "60%"
-        ],
+        "glyph_7.png",
         "80%"
       ],
       "options": [
@@ -1396,10 +1375,7 @@
       "title": "Bacterial marker and origin",
       "description": null,
       "image": [
-        [
-          "glyph_8.png",
-          "60%"
-        ],
+        "glyph_8.png",
         "80%"
       ],
       "options": [

@@ -42,10 +42,7 @@
       "title": "Left adapter",
       "description": "Gibson adapter to be joined via an A fusion site (GGAG)",
       "image": [
-        [
-          "left_adapter.png",
-          "60%"
-        ],
+        "left_adapter.png",
         "100%"
       ],
       "options": [
@@ -374,10 +371,7 @@
       "title": "Terminator",
       "description": null,
       "image": [
-        [
-          "terminator.png",
-          "60%"
-        ],
+        "terminator.png",
         "100%"
       ],
       "options": [
@@ -603,10 +597,7 @@
       "title": "Right adapter",
       "description": "Gibson adapter to be joined via an E fusion site (GCTT)",
       "image": [
-        [
-          "right_adapter.png",
-          "60%"
-        ],
+        "right_adapter.png",
         "100%"
       ],
       "options": [
