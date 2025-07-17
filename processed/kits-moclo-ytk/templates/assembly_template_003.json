@@ -1733,7 +1733,7 @@
   "primers": [],
   "description": "3xCDS fusion self-replicating plasmid\n\nA plasmid with a yeast ORI with three CDS fused together",
   "files": null,
-  "schema_version": "0.3.0a0.post5.dev0+3cee09f",
+  "schema_version": "0.4.3",
   "backend_version": null,
   "frontend_version": null
 }

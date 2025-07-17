@@ -721,7 +721,7 @@
   "primers": [],
   "description": "Transcriptional Unit EF\n\nPlasmid with a transcriptional unit starting and ending with fusion sites E (GCTT) and F (CGCT)",
   "files": null,
-  "schema_version": "0.3.0a0.post5.dev0+3cee09f",
+  "schema_version": "0.4.3",
   "backend_version": null,
   "frontend_version": null
 }
