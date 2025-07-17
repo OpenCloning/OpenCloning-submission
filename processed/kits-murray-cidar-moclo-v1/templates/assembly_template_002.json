@@ -1188,7 +1188,7 @@
   ],
   "description": "Pre-composed 5'UTR + promoter + CDS\n\nTranscriptional Unit that uses a level 0 plasmid containing joined 5'UTR + promoter + CDS",
   "files": null,
-  "schema_version": "0.3.0a0.post5.dev0+3cee09f",
+  "schema_version": "0.4.3",
   "backend_version": null,
   "frontend_version": null
 }

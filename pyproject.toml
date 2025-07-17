@@ -15,7 +15,7 @@ pandas = "^2.2.2"
 openpyxl = "^3.1.3"
 jinja2 = "^3.1.4"
 pydna = "^5.2.0"
-opencloning-linkml = {git = "https://github.com/OpenCloning/OpenCloning_LinkML", rev = "change-linking-between-entities"}
+opencloning-linkml = "0.4.3"
 
 
 [tool.poetry.group.test.dependencies]

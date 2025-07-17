@@ -3679,7 +3679,7 @@
   ],
   "description": "Transcriptional Unit\n\n5'UTR (with RBS) + promoter + CDS + terminator flanked by Golden Gate adapters",
   "files": null,
-  "schema_version": "0.3.0a0.post5.dev0+3cee09f",
+  "schema_version": "0.4.3",
   "backend_version": null,
   "frontend_version": null
 }

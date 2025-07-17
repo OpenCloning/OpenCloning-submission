@@ -2137,7 +2137,7 @@
   "primers": [],
   "description": "3xCDS integration plasmid\n\nA plasmid containing a 3xCDS fusion protein that can be integrated in the genome via recombination",
   "files": null,
-  "schema_version": "0.3.0a0.post5.dev0+3cee09f",
+  "schema_version": "0.4.3",
   "backend_version": null,
   "frontend_version": null
 }
