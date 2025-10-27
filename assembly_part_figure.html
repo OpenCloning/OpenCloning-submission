@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .dna {
+            font-family: monospace;
+        }
+
+        .overhang div {
+            padding-left: 4px;
+            padding-right: 2px;
+        }
+
+        .dna div {
+
+            white-space: pre;
+            min-height: 1em;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: auto;
+        }
+
+        .box {
+            border: 3px solid black;
+            width: 5em;
+            height: 2em;
+            margin-left: .2em;
+            margin-right: .2em;
+            overflow: hidden;
+            border-radius: 6px;
+        }
+
+        .box .image-container {
+            text-align: center;
+            background-color: greenyellow;
+        }
+
+        .image-container img {
+            height: 2em;
+        }
+
+        .overhang div.watson {
+            border-left: 2px dotted red;
+            border-bottom: 2px dotted red;
+            padding-left: 2px;
+        }
+
+        .overhang div.crick {
+            border-right: 2px dotted red;
+        }
+
+        .inside.left {
+            margin-left: .2em;
+        }
+
+        .inside.right {
+            margin-right: .2em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class=" dna overhang left">
+
+            <div class="top"> Met</div>
+            <div class="watson">TATG</div>
+            <div class="crick">ATAC</div>
+            <div class="bottom"> </div>
+        </div>
+        <div class="dna inside left">
+            <div class="top">xxx</div>
+            <div class="watson">TAA</div>
+            <div class="crick">ATT</div>
+            <div class="bottom"> </div>
+        </div>
+        <div class="box">
+            <div class="image-container">
+                <img src="./sbol_glyphs/promoter.svg" alt="promoter.svg">
+            </div>
+        </div>
+        <div class="dna inside right">
+            <div class="top"> Met</div>
+            <div class="watson">TATG</div>
+            <div class="crick">ATAC</div>
+            <div class="bottom"> </div>
+        </div>
+        <div class="dna overhang right">
+            <div class="top"> </div>
+            <div class="watson">TGCT</div>
+            <div class="crick">ACGA</div>
+            <div class="bottom"> Ala</div>
+        </div>
+    </div>
+</body>
+
+</html>
